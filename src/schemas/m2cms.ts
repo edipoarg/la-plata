@@ -123,7 +123,21 @@ function parseNode(node : Node, ancestors: string[] = []): Collection {
 
 const dir : string = process.argv.pop() || './';
 const configFile = process.argv.pop() || './config.yaml';
-const config : Config = YAML.parse(fs.readFileSync(configFile).toString())
+let configData: string;
+try {
+    configData = fs.readFileSync(configFile).toString()
+} catch (e) {
+    console.error(e);
+    configData=`
+backend:
+  name: test-repo
+  branch: main
+media_folder: public/img
+public_folder: img
+collections: []
+`;
+}
+const config : Config = YAML.parse(configData)
 const collections : Record<string, Collection> = {}
 for (let c of config.collections) {
     collections[c.label] = c
