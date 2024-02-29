@@ -10,7 +10,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "config": "tsx ./src/schemas/m2cms.ts ./public/config.yml ./src/schemas/models"
   },
   "dependencies": {
     "maplibre-gl": "^3.5.2",
