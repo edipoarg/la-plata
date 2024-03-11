@@ -1,9 +1,9 @@
-//     caso{
-//     ubicacion, tipo_de_caso, descripcion, victima,{edad, nombre} victimario(persona), informacion, fecha}
-import {Persona} from 'src/models/Persona';
+import {Efectivo} from './Efectivo';
+import { Jurisdiccion } from './Jurisdiccion';
 
 export interface Caso {
     id: string;
+    jurisdiccion: Jurisdiccion;
     ubicacion: string;
     tipo_de_caso: string;
     descripcion: string;
@@ -11,7 +11,7 @@ export interface Caso {
         edad: number;
         nombre: string;
     };
-    victimario: Persona;
+    victimario: Efectivo;
     informacion: string;
     fecha: string;
 }
