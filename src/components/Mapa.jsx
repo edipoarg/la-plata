@@ -1,87 +1,53 @@
-
-//PROGRAM IMPORTS
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+// PROGRAM IMPORTS
+import { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 
-//COMPONENTS IMPORTS
+// STYLES IMPORTS
+import mystyle from "./mystyle.json";
+
+/*import { Link as ScrollLink } from "react-scroll";*/
+
+// COMPONENTS IMPORTS
 import LogoMapa from "./LogoMapa";
-import Navbar from "./Navbar";
 import Screen from "./Screen";
 import styles from "../styles/Mapa.module.css";
 
-
-//STYLES IMPORTS
-import mystyle from "../components/mystyle.json";
-
-
-//GEOJSON IMPORTS
+// GEOJSON IMPORTS
 import { departamentos, caba, barriosCaba } from "../data/index";
-import { DepsSource, CabaSource, BarriosCabaSource } from "../components/Sources";
+import { DepsSource, CabaSource, BarriosCabaSource } from "./Sources";
 
-//MARKERS INPORTS
+// MARKERS IMPORTS
+import  {Markers}  from "./Markers";
 
-import { violenciasFetch } from "../services/violenciasFetch";
-import {CabaMarker} from "./Markers";
+// Popup IMPORTS
+import Popup from "./Popup";
 
-/////////////////////////////////
+//Filtros Import
+import Filtros from "./filtros/Filtros"; // Cambia la ruta a tu formulario
 
-//MAPA CONST
 
-//Estilos del mapa
-const Mapstyle = {
-  country: {
-    fillColor: "#bacbff",
-    fillOpacity: 0.6,
-    color: "#9b1920",
-    weight: 0.2,
-  },
-};
-
-//////REGIONES//////
 const Mapa = () => {
-  const { setSelectedRegion } = useRegionContext();
-  const { region } = useParams();
+  const { urls } = useLoaderData();
+  const cases = urls.casos.cases.map((c) => ({ ...c, date: new Date(c.date) }));
 
-  // Usamos useEffect para actualizar la región solo si la ruta ha cambiado
-  useEffect(() => {
-    setSelectedRegion(region);
-  }, [region, setSelectedRegion]);
 
-  // COORDENADAS Y ZOOM POR REGION
-  const regionCoordinates = {
-    caba: {
-      longitude: -56.417100,
-      latitude: -36.731799,
-      zoom: 10.5,
-      maxBounds: [
-        [-58.65981, -34.71960], // Límite inferior izquierdo de CABA
-        [-58.28348, -34.50316], // Límite superior derecho de CABA
-      ],
-    },
-    laplata: {
+  
+
+  // PROPERTIES OF THE MAP
+  const mapProps = {
+    initialViewState: {
       longitude: -57.954444,
       latitude: -35.05,
-      zoom: 9.2,
-      maxBounds: [
-        [-58.41105, -35.28147], // Límite inferior izquierdo de La Plata
-        [-57.52902, -34.69485], // Límite superior derecho de La Plata
-      ],
-    },
-  };
-
-  //PROPIEDADES DEL MAPA
-  const mapProps = {
-    initialViewState: regionCoordinates[region] || {
-      longitude: -53.263653887413344,
-      latitude: -32.769424846630283,
-      zoom: 4,
+      zoom: 1.5,
       minZoom: 1,
-      maxZoom: 15,
-      maxZoom: regionCoordinates[region]?.zoom || 15,
-      maxBounds: regionCoordinates[region]?.maxBounds || undefined,
+      maxZoom: 18,
+      maxBounds: [
+        [-58.41105, -35.28147], // Lower-left limit
+        [-57.52902, -34.69485], // Upper-right limit
+      ],
     },
     style: {
       width: "100vw",
@@ -90,96 +56,121 @@ const Mapa = () => {
     mapStyle: mystyle,
   };
 
+  //FILTERS
 
-  //SCREEN INFO
-  
-  const [screenInfo, setScreenInfo] = useState(null);
+  const handleTipoFilter = () => {
+    const filteredDataByType = cases.filter(
+      (event) => tipoFilters[event.tipoId],
+    );
+    setFilteredData(filteredDataByType);
+  };
+
+  const [tipoFilters, setTipoFilters] = useState({
+    Dependencias: true,
+    Casos: true,
+    GatilloFacil: true,
+  });
+  const [filteredData, setFilteredData] = useState(cases);
+
+  //visibilidad Filtro
+  const [filtrosVisible, setFiltrosVisible] = useState(true);
+  const toggleFiltrosVisibility = () => {
+    setFiltrosVisible(!filtrosVisible);
+  };
+  const [isCloseButtonClicked, setIsCloseButtonClicked] = useState(false);
+  const handleClickCloseButton = () => {
+    // Toggle the state when the button is clicked
+    setIsCloseButtonClicked(!isCloseButtonClicked);
+
+    // Add any additional logic you want when the button is clicked
+  };
 
 
-  //HOVER
-  const [hoveredMarkerId, setHoveredMarkerId] = useState(null);
+  //SEleccion
+  const [setSelectedFeatureId] = useState(null);
+  const [selectedMarkerId, setSelectedMarkerId] = useState(null);
 
-  
+  // SCREEN INFO
+  const [popupInfo, setPopupInfo] = useState(null);
 
+  // HOVER
+  const handleHover = (event) => {
+    setSelectedFeatureId(event.features?.[0]?.id || null);
+  };
+  const handleLeave = () => setSelectedFeatureId(null);
 
 
   // VIOLENCIAS
-
-
   useEffect(() => {
-    const apiCall = async () => {
-      try {
-        const data = await violenciasFetch();
-        if (data) {
-          setViolenciasData(data);
-        
-        }
-      } catch (error) {
-        console.log(error);
-      }
-    };
-
-    apiCall();
-  }, []);
-
-  const [violenciasData, setViolenciasData] = useState(null);
-  const [filteredDataViolencias, setFilteredDataViolencias] = useState([]);
+    const newData = cases;
 
 
-  const handleTipoViolenciaFilters = () => {
-    const filteredViolenciasByType = violenciasData.filter(event => tipoViolenciaFilters[event.tipoViolencia]);
-    setFilteredDataViolencias(filteredViolenciasByType);
-  };
-  
-  const [tipoViolenciaFilters, setTipoViolenciaFilters] = useState({
-    t1: true,
-    t2: true,
-    t3: true,
+    const filteredDataByType = newData.filter(
+      (event) => tipoFilters[event.tipoId],
+    );
 
-  });
-
-  
+    setFilteredData(filteredDataByType);
+    }, [cases, tipoFilters]);
 
 
 
-
-
-
-  ///////////////////////////////////
 
   return (
     <>
       <section id="MapaDev" className={styles.MapaDev}>
-        <h2>{region}</h2>
+        {filtrosVisible && (
+        <Filtros
+          caseCount={filteredData.length}
+          handleTipoFilter={handleTipoFilter}
+          tipoFilters={tipoFilters}
+          setTipoFilters={setTipoFilters}
+        />
+      )}
+       <div className={styles.botonFiltrosMain}>
+        {/* FIXME: Why is this not a button? */}
+        {/* Render different button content based on the state */}
+        <a
+          aria-label="Hide"
+          onClick={() => {
+            handleClickCloseButton();
+            toggleFiltrosVisibility();
+          }}
+          href="#"
+          className={`${styles.closeButton} ${styles["simple-button"]} ${isCloseButtonClicked ? styles["transformed-button"] : ""}`}
+        >
+          {isCloseButtonClicked ? (
+            <div>
+              <h5 className={styles.botonFiltrosMap}>FILTROS</h5>
+            </div>
+          ) : (
+            <>X</>
+          )}
+        </a>
+      </div>
         <Screen />
+        <MapGL id="mapa" mapLib={maplibregl} {...mapProps}
+         onHover={handleHover} 
+         onLeave={handleLeave} >
 
-        <MapGL id="mapa" mapLib={maplibregl} {...mapProps}>
-       
-
-
-
-       {violenciasData && (<CabaMarker
-     violenciasData={violenciasData}
-     setScreenInfo={setScreenInfo}
-     setMarker= {setHoveredMarkerId}
-     selected={hoveredMarkerId}
-     tipoViolenciaFilters={tipoViolenciaFilters}
-     handleTipoFilter={handleTipoViolenciaFilters}
-     
-     />)}
-     
-       
-          
-
+           {!!(filteredData && filteredData.length) && (
+          <Markers
+            data={filteredData}
+            setPopupInfo={setPopupInfo}
+            setMarker={setSelectedMarkerId}
+            selected={selectedMarkerId}
+            tipoFilters={tipoFilters}
+            handleTipoFilter={handleTipoFilter}
+          />
+        )}
           <NavigationControl position="top-right" />
-          <DepsSource data={departamentos} style={Mapstyle} />
-          <BarriosCabaSource data={barriosCaba} style={Mapstyle} />
-          <CabaSource data={caba} style={Mapstyle} />
+          <DepsSource data={departamentos} />
+          <BarriosCabaSource data={barriosCaba} />
+          <CabaSource data={caba} />
         </MapGL>
-
-        <Navbar />
         <LogoMapa />
       </section>
+      {popupInfo && <Popup {...popupInfo} />}
+
     </>
   );
 };
