@@ -1,0 +1,41 @@
+.recursosContainer{
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.recursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+
+}
+
+.recursoContainer{
+    background-color: #9e5cdc;
+    border-radius: 14px;
+    color: white;
+    margin: 0.2vh 0.2vw;
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+
+
+}
+.recursoContainer:hover{
+    background-color: white;
+    color: #9e5cdc;
+}
+
+.icon{
+    padding: 0vh 2vw;
+    margin-top: 2vh;
+    
+}
+
+.iconName{
+    color: black;
+    font-size: 1.2rem;
+    padding: 0vh 2vw;    
+}

@@ -4,13 +4,13 @@ import styles from './Recursos.module.css';
 
 
 const recursosItems = [
-  { path: '/recursi', icon: 'intitucionales' },
+  { path: '/recursos-institucionales', icon: 'intitucionales' },
   { path: '/ante-detencion', icon: 'anteDetencion' },
   { path: '/guia-basica', icon: 'guia' },
-  { path: '/recursos-genero', icon: 'generoRecursos' },
+  { path: '/recursos-genero', icon: 'genero' },
   { path: '/recursos-ambulantes', icon: 'ambulantes' },
   { path: '/recursos-migrantes', icon: 'migrantes' },
-  { path: '/como-filmas', icon: 'filmar' }
+  { path: '/como-filmas', icon: 'filmar', }
 ];
 const Recursos = () => {
 
@@ -19,9 +19,9 @@ const Recursos = () => {
       <section className={styles.recursosContainer}>
         <section className={styles.recursos}>
           {recursosItems.map((recursosItem, index) => (
-            <Link key={index} to={recursosItem.path}>
+            <Link key={index} to={recursosItem.path} className={styles.recursoContainer}>
               <Icons icon={recursosItem.icon} className={styles.icon} iconSize="2.2rem" />
-              <h5 className={styles.iconName}>{recursosItem.icon }</h5>
+              <h5 className={styles.iconName}>{recursosItem.icon}</h5>
             </Link>
           ))}
 
