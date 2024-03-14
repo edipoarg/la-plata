@@ -1,0 +1,58 @@
+.todasContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:  0;
+    padding: 0;
+    gap: 1vh;
+    width: 80vw;
+}
+
+.dataContainer{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.tituloInvestigacion{
+  margin: 0;
+  margin-top: 1vh;
+}
+
+.fotoInvestigacion{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    object-fit: cover; 
+    width: 100%;
+    height: 25vh;
+}
+
+/* TodasInvestigaciones.module.css */
+
+.informeBackground {
+    background-color: white; /* Reemplaza #color-informe con el color que desees para informe */
+  }
+  
+  .expedienteBackground {
+    background-color: black; /* Reemplaza #color-expediente con el color que desees para expediente */
+  }
+  
+  .reporteBackground {
+    background-color: green; /* Reemplaza #color-reporte con el color que desees para reporte */
+  }
+  
+  .linkInvestigacion{
+    border-radius: 14px;
+  }
+ 
+
+/* Media query para tablet */
+@media (min-width: 768px) {
+
+    .todasContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 1vh 1vw;
+        width: 80vw;
+        
+    }
+
+}

@@ -9,7 +9,6 @@ import {
 import "./index.css";
 import App from "./App";
 
-import Mapa from "./components/Mapa.jsx";
 import Investigaciones from "./components/Investigaciones/Investigaciones.jsx";
 import Denuncia from "./components/denuncia/Denuncia.jsx";
 import Denuncias from "./components/denuncias/Denuncias.jsx";
@@ -21,8 +20,10 @@ import Menu from "./components/menu/Menu.jsx";
 import GatilloFacil from "./components/gatilloFacil/GatilloFacil.jsx";
 import Podcast from "./components/podcast/Podcast.jsx";
 import Recurso from "./components/recurso/Recurso.jsx";
-
+import Autorxs from "./components/Investigaciones/autorxs/Autorxs.jsx";
+import Investigacion from "./components/Investigaciones/investigacion/Investigacion.jsx";
 import Root from "./routes/Root.jsx";
+import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
 
 const loader = async () => ({
   urls: await getURLs({
@@ -50,10 +51,11 @@ const router = createHashRouter([
       { path:"/podcast", element:< Podcast/> },
       { path:"/gatillo-facil", element:< GatilloFacil/> },
       { path:"/denuncia", element:< Denuncia/> },
-      { path: "/recurso", element: <Recurso/>}
-
-
-
+      { path: "/recurso", element: <Recurso/>},
+      { path: "/autorxs", element: <Autorxs/>},
+      { path: "/investigacion/:dominio", element: <Investigacion/>},
+      { path: '/investigaciones/lista', element: <TodasInvestigaciones /> },
+      
     ]
   },
 ]);

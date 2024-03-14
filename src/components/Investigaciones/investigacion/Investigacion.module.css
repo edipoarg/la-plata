@@ -1,0 +1,31 @@
+.investigacionContainer{
+background-color: aliceblue;
+}
+
+.fotoInvestigacion{
+width: 90vw;
+border-top-right-radius: 12px;
+border-top-left-radius: 12px;
+
+}
+
+.basicInfo{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+.notaCompleta{
+    background-color: white;
+}
+
+
+@media (min-width: 768px) {
+
+    .fotoInvestigacion{
+        width: 45vw;
+        
+        }
+}

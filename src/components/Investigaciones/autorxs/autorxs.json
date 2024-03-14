@@ -1,0 +1,109 @@
+[
+    {
+      "nombre": "Gabriela Figueroa",
+      "imagen": "https://static.wixstatic.com/media/0f4ca0_6afde677d9dc43e1b49e30cc8e7d404b~mv2.jpeg/v1/crop/x_157,y_0,w_386,h_453/fill/w_243,h_285,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Gabriela_Figueroa1.jpeg",
+      "enlaceVer": "/ruta-mati-almeida"
+    },
+    {
+      "nombre": "Mario Santucho",
+      "imagen": "URL_DE_LA_IMAGEN_SINTIA",
+      "enlaceVer": "/ruta-sintia-ferrer"
+    },
+    {
+      "nombre": "Pancho PePe",
+      "imagen": "URL_DE_LA_IMAGEN_LAU",
+      "enlaceVer": "/ruta-laura-azcurra"
+    },
+    {
+        "nombre": "Bibiana Ruiz",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Juan Suárez",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Nicolás Daniluk",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Matias Ferrari",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Ludmila Ferrer",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Amanda Sandoval",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Nicolás Cardello",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Estefanía Santoro",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Elisa Corso",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Carlos Sainz",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Facundo Loduca",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Inés Hayes",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Paula Talento",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Gilda Izuriets",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Brenda Greco",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Facundo Cifelli",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Sofi",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      },
+      {
+        "nombre": "Pampa",
+        "imagen": "URL_DE_LA_IMAGEN_LAU",
+        "enlaceVer": "/ruta-laura-azcurra"
+      }
+
+  ]
+  

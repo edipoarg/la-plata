@@ -1,9 +1,20 @@
 body{
     max-width: 100vw;
     margin: 0;
-    
+    padding: 0;
+        
 }
 
+/*contenedor global*/
+.investContainer{
+    height: 90vh;
+    max-height: 90vh;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+/*Bloque novedades*/
 
 .investNovedades{
     display: flex; /* Utiliza flexbox para centrar los elementos */
@@ -12,89 +23,282 @@ body{
     justify-content: center; /* Centra los elementos horizontalmente */
     grid-template-columns: 1fr;
     width: 90vw;
-    max-width: 90vw;
-    height: 80vh;
-    max-height: 80vh;
+    height: 50vh;
+    max-height: 50vh;
     margin: auto;
-    padding: 2vh 1vw;
+    padding: 1vh 1vw;
     gap: 2vh 0vw;
+     
+  }
+  
+    .infoNotaPrincipal{
+    padding: 0vh 7vw;
+    }
+  
+  .tituloNotaPrincipal{
+    font-size: 1.1rem;
+  
+  }
+
+.icon{
+    color: #7b4baf;
+    
 }
 
 .notaPrincipal{
-    width: 100%;
-    max-width: 100%;
+    width: 90vw;
     height: 50vh;
     max-height: 50vh;
     padding: 0;
     border-radius: 14px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-
-}
-
+ }
+ 
 .fotoNotaPrincipal{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-height: 30vh;
+    object-fit: cover; 
+}
+ .infoBasica{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 8vh;
+    align-items: center;
+    align-content: center;
+ }
+ 
+ .autorxsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: left;
+    align-content: center; 
+ }
 
+ .autorxContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-self: left;
+
+ }
+
+ .ilusContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-self: left;    
+ }
+
+ .fechaContainer{
+    justify-self: right;
+    font-size: 0.8rem;
+ }
+ 
+ .bajadaContainer {
+     display: none;
+     
+ }
+ 
+/*bloque reportes*/
+
+.investCol2{
+ width: 100vw;
+ height: 38vh;
+ 
 }
 
-.infoNotaPrincipal{
-    
-}
-
-.tituloNotaPrincipal{
-
-}
 
 .ultimoReporteContainer{
-    width: 100%;
+    width: 90vw;
     max-width: 100%;
-    height: 30vh;
-    max-height: 30vh;
+    height: 17vh;
+    max-height: 17vh;
     padding: 0;
     border-radius: 14px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    
 }
 
-.fotoNotaPrincipal{
+.datosReporte{
+height: 17vh;
+padding-left: 2vw;
+}
 
+.fechaUltimoReporte{
+    margin-top: 2vh; /* Elimina el margen superior */
+    margin-bottom: 2vh;    
 }
 
 .tituloUltimoReporte{
-
+    font-size: 1.3rem;
+    margin-top: 0vh; /* Elimina el margen superior */
+    margin-bottom: 0vh;
+}
+.subtituloUltimoReporte{
+    font-size: 1rem;
+    margin-top: 0vh; 
 }
 
+/*bloque poscast y autorxs*/
 .investMore{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    width: 100%;
-    gap: 2vh;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ gap: 1vw;
+ width: 90vw;
+ margin: auto;
+ padding-top: 1vh;
+ height: 13vh;
+
 }
 
 .podcastContainer{
 border-radius: 14px;
+height: 13vh;
 
-
+}
+.podcast{
+  padding-left: 2vw;  
+border-radius: 150px;
 }
 
 .tituloPodcast{
-
 }
 
-.autorxsContainer{
+.autorxsSectionContainer{
     border-radius: 14px;
-
-
-}
-
-.tituloAutorxs{
-
-}
-
-.todasInvestLink{
-    height: 5vh;
     width: 100%;
-    border-radius: 14px;
+    height: 13vh;
 
-
+    
 }
+
+.autorxsSection{
+}
+
+.tituloAutorxsSection{
+    padding-left: 2vw;
+}
+
+/*bloque a mas invest*/
+.todasLinkContainer{
+    width: 90vw;
+}
+
+.todasLink{
+    border-radius: 14px;
+    width: 90vw;
+    margin: auto;
+    height: 5vh;
+    margin-top: 1vh;
+    
+}
+
+.flecha{
+margin: 0;}
+
+/**************************/
+
+/* Media query para tablet */
+@media (min-width: 768px) {
+
+    .investContainer{
+        max-width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        background-color: white;
+        }
+
+
+     
+           .notaPrincipal{
+            width: 30vw;
+            height: 75vh;
+            max-height: 75vh;
+            padding: 0;
+            border-radius: 14px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         }
+
+         .infoNotaPrincipal{
+            padding: 0vh 3vw;
+        }
+
+        .bajadaContainer {
+            display: block;
+        }
+
+        .investNovedades{
+  
+            width: 30vw;
+            max-width: 90vw;
+            height: 80vh;
+            max-height: 80vh;
+            margin: auto;
+            padding: 2vh 1vw;
+            gap: 2vh 0vw;
+
+        }
+
+        .investCol2{
+            width: 50vw;
+            height: 90vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+         
+           }
+        .investMore{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2vh;
+            max-width: 25vw;
+            margin: auto;
+            padding-top: 2vh;
+            background-color: red;
+           }
+
         
+.ultimoReporteContainer{
+    width: 20vw;
+    max-width: 100%;
+    height: 60vh;
+    max-height: 60vh;
+    padding: 0;
+    border-radius: 1px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+
+.todasLinkContainer{
+    width: 10vw;
+}
+
+.todasLink{
+    border-radius: 14px;
+    width: 10vw;
+    margin: auto;
+    height: 5vh;
+    margin-top: 1vh;
+    
+}
+
+    
+}
