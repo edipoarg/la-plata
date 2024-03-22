@@ -1,0 +1,41 @@
+
+.indexContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+
+}
+
+.reportData{
+    height: 50vh;
+    
+}
+
+.reportMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1vh 2vw;
+    margin: auto;
+    height: 40vh;
+    gap: 1vw;
+}
+
+.reportItem{
+    background-color: #b9ff39;
+    border-radius: 14px;
+}
+
+@media (min-width: 768px) {
+
+    .indexContainer{
+        width: 80vw;
+        margin-left: 8vw;
+        height: 100vh;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+
+}

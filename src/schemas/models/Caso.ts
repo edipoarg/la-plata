@@ -7,7 +7,7 @@ export interface Caso {
     ubicacion: string;
     tipo_de_caso: string;
     descripcion: string;
-    victima: {
+    victima?: {
         edad: number;
         nombre: string;
     };

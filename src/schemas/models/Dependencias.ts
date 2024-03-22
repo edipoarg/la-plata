@@ -6,7 +6,9 @@ import { Area, Divisiones, DepartamentosComisarias, Direcciones, Superintendenci
   export interface Dependencias {
     id: string;
     nivel: 'Area' | 'Division' | 'Departamento' | 'Direccion' | 'Superintendencia' | 'Jefatura';
-    nombre: Area['nombre'] | DepartamentosComisarias['nombre'] | Direcciones['nombre'] | Jefaturas['nombre'] | Superintendencias['nombre'] | Divisiones['nombre'] ;
+    nombre: DepartamentosComisarias['nombre'] | Direcciones['nombre'] | Jefaturas['nombre'] | Superintendencias['nombre'] | Divisiones['nombre'] ;
+    areas: [Area];
+    autoridad_superior: Dependencias;
     jurisdiccion: Jurisdiccion;
     contacto?: string;
     nombre_anterior?: string;

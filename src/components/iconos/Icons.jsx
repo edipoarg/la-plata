@@ -36,6 +36,9 @@ const iconComponents = {
   autorx: <SlPencil/>, 
   ilus: <HiOutlinePhoto/>,
 
+  /*Markers*/
+  
+
 };
 
 const Icons = ({ icon, className, iconSize }) => {

@@ -4,8 +4,6 @@ const GatilloFacil = () => {
 
     return(
         <>
-                <Navbar/>
-
                 <h4>Gatillo Fácil</h4>
 
         </>

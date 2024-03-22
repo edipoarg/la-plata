@@ -51,7 +51,7 @@ const router = createHashRouter([
       { path:"/podcast", element:< Podcast/> },
       { path:"/gatillo-facil", element:< GatilloFacil/> },
       { path:"/denuncia", element:< Denuncia/> },
-      { path: "/recurso", element: <Recurso/>},
+      { path: "/recursos/:dominio", element: <Recurso/>},
       { path: "/autorxs", element: <Autorxs/>},
       { path: "/investigacion/:dominio", element: <Investigacion/>},
       { path: '/investigaciones/lista', element: <TodasInvestigaciones /> },
