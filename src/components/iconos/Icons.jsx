@@ -9,6 +9,9 @@ import { SiMaildotru } from 'react-icons/si';
 import {GrDocumentExcel} from 'react-icons/gr';
 import {FaPersonMilitaryToPerson} from 'react-icons/fa6'
 import {SlPencil} from 'react-icons/sl';
+import { FaMapMarker } from "react-icons/fa";
+import { VscDebugBreakpointUnsupported } from "react-icons/vsc";
+
 
 const iconComponents = {
   mapa: <TbZoomExclamation />,
@@ -37,7 +40,10 @@ const iconComponents = {
   ilus: <HiOutlinePhoto/>,
 
   /*Markers*/
-  
+  dependencia: <FaMapMarker/>,
+  casosGatillo: <VscDebugBreakpointUnsupported/>,
+  casosViolencia: <TbAlertTriangle />,
+
 
 };
 
