@@ -3,8 +3,9 @@ import styles from './Reportes.module.css';
 
 const Reportes = () => {
   const numeroReporte = 4; // Definimos numeroReporte como una constante con el valor 4
-  const fecha = 'fecha';
-  const bajada = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies.';
+  const fecha = '8 de Mayo 2024';
+  const bajada = ['El 11 de julio se lanzó en la Legislatura porteña el Mapa de la Policía, herramienta digital que propone construir una RED DE CUIDADOS CONTRA LA VIOLENCIA POLICIAL.',
+  'El principal objetivo de la iniciativa es VISIBILIZAR EL ABUSO para evitar que se naturalice.'];
   const tituloSistematico = 'titulo SISTEMATICO';
   const tituloPolitico = 'titulo politico';
   const subtituloPolitico = 'subtitulo politico';
@@ -16,9 +17,12 @@ const Reportes = () => {
         <section className={styles.index}>
           <section className={styles.reportData}>
             <h2>{numeroReporte}° reporte de violencia policial</h2>
-            <h3>Fecha: {fecha}</h3>
-            <h5>Bajada: {bajada}</h5>
-            <button>Metodología</button>
+            <h3>{fecha}</h3>
+            <h5>{bajada}</h5>
+            <section className={styles.subMenu}>
+            <h5 className={styles.Button}>Metodología</h5>
+            <h5 className={styles.Button}>Reportes Anteriores</h5>
+            </section>
           </section>
           <section className={styles.reportMenu}>
             <div className={styles.reportItem}>
@@ -26,7 +30,7 @@ const Reportes = () => {
               <h5>de los casos de violencia recibidos por el Mapa.</h5>
             </div>
             <div className={styles.reportItem}>
-              <h3>ANÁLISIS DE UNA PRÁCTICA SISTEMÁTICA</h3>
+              <h3>Análisis de una práctica sistemática</h3>
               <h5>{tituloSistematico}</h5>
             </div>
             <div className={styles.reportItem}>
@@ -36,6 +40,7 @@ const Reportes = () => {
           </section>
         </section>
         <section className="reportCases">
+          <div className={styles.reportImage}></div>
           <CaseCounter />
         </section>
       </section>
