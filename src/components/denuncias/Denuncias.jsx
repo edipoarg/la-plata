@@ -8,32 +8,40 @@ const Denuncias = () => {
         <>
             <section className={styles.denuncias}>
 
-                <section style={Temas.denunciasTema} className={styles.hacerDenunciasContainer} >
+                <section style={Temas.denunciasTema} className={styles.titleContainer} >
                 <Link to="/denuncia">
-                    <h2 className={styles.title1}>QUIERO  <br />DENUNCIAR</h2>
+                    <h2 className={styles.title}>QUIERO  <br />DENUNCIAR</h2>
                     <h4 className={styles.subTitle}>Un hecho de violencia policial <br /> como víctima o testigo</h4>
                     </Link>
                 </section>
 
-                <section className={styles.denunciasMore}>
+                <section className={styles.menuContainer}>
 
-                    <section className={styles.hacerOtrasDenunciasContainer}>
-                        <section className={styles.otrasDenunciasContainer} style={Temas.denunciasTema}>
-                        <Link to="/genero">
-
-                            <h4 className={styles.subTitle}>Si no te toman <br /> la denuncia por</h4>
-                            <h3 className={styles.title2}>Violencia de género</h3>
+                    <section className={styles.menu}>
+                    <section className={styles.buttonContainer} >
+                        <Link to="/denuncia">
+                            <h3 className={styles.buttonText}> Invidivdual</h3>
                             </Link>
+
+                        </section>
+                        <section className={styles.buttonContainer} >
+                        <Link to="/colectiva">
+                            <h3 className={styles.buttonText}> Colectiva</h3>
+                            </Link>
+
+                        </section>
+                        <section className={styles.buttonContainer} >
+                        <Link to="/genero" className={styles.genderButton}>
+                            <div className={styles.genderContainer}>
+                            <h4 className={styles.genderTitle}>No te toman <br /> la denuncia por</h4>
+                            <h3 className={styles.buttonText}>Violencia de género</h3>
+                            </div>
+                        </Link>
 
                         </section>
             
 
-                        <section className={styles.otrasDenunciasContainer} style={Temas.denunciasTema}>
-                        <Link to="/colectiva">
-                            <h3 className={styles.title2}> Denunciá <br /> colectivamente</h3>
-                            </Link>
-
-                        </section>
+                        
                     </section>
 
                     <Link to="/ultimo-reporte">
