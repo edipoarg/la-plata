@@ -32,10 +32,7 @@ import Filtros from "./filtros/Filtros"; // Cambia la ruta a tu formulario
 const Mapa = () => {
   const { urls } = useLoaderData();
   const cases = urls.casos.cases.map((c) => ({ ...c, date: new Date(c.date) }));
-
-
   
-
   // PROPERTIES OF THE MAP
   const mapProps = {
     initialViewState: {

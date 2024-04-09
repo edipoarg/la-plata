@@ -1,12 +1,10 @@
-import React from 'react';
-import Navbar from '../navbar/Navbar';
 import Icons from '../iconos/Icons';
 import { Link } from 'react-router-dom';
 import styles from './Menu.module.css';
 
 
 const menuItems = [
-  { path: '/caba', icon: 'mapa' },
+  { path: '/', icon: 'mapa' },
   { path: '/denuncia', icon: 'denuncias' },
   { path: '/recursos', icon: 'recursos' },
   { path: '/investigaciones', icon: 'investigaciones' },
@@ -25,7 +23,7 @@ const Menu = () => {
           {menuItems.map((menuItem, index) => (
             <Link key={index} to={menuItem.path}>
               <Icons icon={menuItem.icon} className={styles.icon} iconSize="2.2rem" />
-              <h5 className={styles.iconName}>{menuItem.icon }</h5>
+              <h5 className={styles.iconName}>{menuItem.icon}</h5>
             </Link>
           ))}
 

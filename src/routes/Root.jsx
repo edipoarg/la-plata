@@ -9,6 +9,7 @@ export default function Root() {
 
 <section  className={styles.root}>
 <Navbar/> {/* Navbar siempre se muestra */}
+
 <Outlet/>
 </section>
 </>

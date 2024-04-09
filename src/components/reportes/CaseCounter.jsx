@@ -11,24 +11,26 @@ const CaseCounter = () => {
   return (
     <div className={styles.contadorCasos}>
       <div className="contador-item">
-        <h2>Hechos de Violencia Policial Decidimos Visualizar</h2>
-        <p>{numHechosVisualizados}</p>
+      <h3>{numHechosVisualizados}</h3>
+        <p>Hechos de Violencia Policial Decidimos Visualizar</p>
       </div>
       <div className="contador-item">
-        <h2>Sesiones</h2>
-        <p>{numSesiones}</p>
+      <h3>{numSesiones}</h3>
+        <p>Sesiones</p>
       </div>
       <div className="contador-item">
-        <h2>Personas</h2>
-        <p>{numPersonas}</p>
+      <h3>{numPersonas}</h3>
+        <p>Personas</p>
       </div>
       <div className="contador-item">
-        <h2>Denuncias recibidas a través del formulario</h2>
-        <p>{numDenuncias}</p>
+      <h3>{numDenuncias}</h3>
+
+        <p>Denuncias recibidas a través del formulario</p>
       </div>
       <div className="contador-item">
-        <h2>Hechos de Violencia Policial Verificados por el Mapa de la Policía</h2>
-        <p>{numHechosVerificados}</p>
+        <h3>{numHechosVerificados}</h3>
+        <p>Hechos de Violencia Policial Verificados por el Mapa de la Policía</p>
+
       </div>
     </div>
   );

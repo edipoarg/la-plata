@@ -6,6 +6,31 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Ronnia Thin Condensed', sans-serif;
+}
+
+@font-face {
+  font-family: 'Ronnia Heavy';
+  src: url('public/fonts/RonniaHeavy.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Ronnia Bold Condensed';
+  src: url('/fonts/Ronnia-Bold-Condensed.woff2') format('woff2'),
+       url('/fonts/Ronnia-Bold-Condensed.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Ronnia Thin Condensed';
+  src: url('public/fonts/RonniaCondLight.otf') format('otf');
+}
+
+h1 {
+  font-family: 'Ronnia Heavy', sans-serif;
+}
+
+h2 {
+  font-family: 'Ronnia Bold Condensed', sans-serif;
 }
 
 main{
