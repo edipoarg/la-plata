@@ -16,11 +16,15 @@ const recursosItems = [
 const Recursos = () => {
   return (
     <section className={styles.recursosContainer}>
+      <section className={styles.titleContainer}>
+        <h2 className={styles.title}>Recursos</h2>
+        <h4 className={styles.subTitle}>Recomendaciones <br /> para enfrentar <br />la violencia policial</h4>
+      </section>
       <section className={styles.recursos}>
         {recursosItems.map((recursosItem, index) => (
           <Link key={index} to={recursosItem.path} className={styles.recursoContainer}>
-            <Icons icon={recursosItem.icon} className={styles.icon} iconSize="2.2rem" />
             <h5 className={styles.iconName}>{recursosItem.nombre}</h5>
+            <Icons icon={recursosItem.icon} className={styles.icon} iconSize="2.2rem" />
           </Link>
         ))}
       </section>

@@ -11,18 +11,46 @@ body{
     max-height: 90vh;
     margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color: #e6e6e6;
+}
+
+.titleContainer{
+    width: 95%;
+    margin: auto;
+    max-width: 95%;
+    height: 35vh;
+    max-height: 60vh;
+    padding: 0;
+    border-radius: 14px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: #232128;
+    color: #b9ff39;
+}
+
+.title{
+    position: relative;
+    bottom: 10px;
+    padding-left: 2vw;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10vh;
+    padding-left: 5vh;
 }
 
 /*Bloque novedades*/
 
+.investigaciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 95%;
+    margin: auto;
+}
+
 .investNovedades{
-    display: flex; /* Utiliza flexbox para centrar los elementos */
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: center; /* Centra los elementos verticalmente */
     justify-content: center; /* Centra los elementos horizontalmente */
     grid-template-columns: 1fr;
-    width: 90vw;
     height: 50vh;
     max-height: 50vh;
     margin: auto;
@@ -32,26 +60,30 @@ body{
   }
   
     .infoNotaPrincipal{
-    padding: 0vh 7vw;
+    padding: 0vh 4vw;
     }
   
   .tituloNotaPrincipal{
-    font-size: 1.1rem;
+    padding-top: 1vh;
+    font-size: 1rem;
+    margin: 0;
   
   }
 
 .icon{
-    color: #7b4baf;
+    color: #b9ff39;
     
 }
 
 .notaPrincipal{
-    width: 90vw;
+    width: 50vw;
     height: 50vh;
     max-height: 50vh;
     padding: 0;
     border-radius: 14px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: #232128;
+    color: aliceblue;   
  }
  
 .fotoNotaPrincipal{
@@ -62,46 +94,58 @@ body{
     object-fit: cover; 
 }
  .infoBasica{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    height: 8vh;
     align-items: center;
     align-content: center;
+    color: aliceblue;
  }
  
  .autorxsContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-self: left;
     align-content: center; 
+    font-size: 0.8rem;
+    margin-top: 2vh;
  }
+
+ .autorx{margin: 0;}
+
+ .ilus{margin: 0; }
 
  .autorxContainer{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
     justify-self: center;
     justify-items: center;
     align-items: center;
     align-self: center;
     align-content: center;
     justify-self: left;
-
+    border: solid 1px #b9ff39;
+    border-radius: 14px;
+    padding: 0.5vh 2vw;
  }
 
  .ilusContainer{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
     justify-self: center;
     justify-items: center;
     align-items: center;
     align-self: center;
     align-content: center;
     justify-self: left;    
+    border: solid 1px #b9ff39;
+    border-radius: 14px;
+    padding: 0.5vh 2vw;
+    margin-top: 1vh;
  }
 
  .fechaContainer{
     justify-self: right;
     font-size: 0.8rem;
+    margin: 0;
+    padding-top: 2vh;
  }
  
  .bajadaContainer {
@@ -112,15 +156,13 @@ body{
 /*bloque reportes*/
 
 .investCol2{
- width: 100vw;
- height: 38vh;
+ height: 50vh;
+ margin-top: 1vh;
  
 }
 
 
 .ultimoReporteContainer{
-    width: 90vw;
-    max-width: 100%;
     height: 17vh;
     max-height: 17vh;
     padding: 0;
@@ -144,13 +186,13 @@ padding-left: 2vw;
 }
 
 .tituloUltimoReporte{
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-top: 0vh; /* Elimina el margen superior */
     margin-bottom: 0vh;
 }
 .subtituloUltimoReporte{
-    font-size: 1rem;
-    margin-top: 0vh; 
+    font-size: 0.8rem;
+    margin: 0vh; 
 }
 
 /*bloque poscast y autorxs*/
@@ -158,7 +200,6 @@ padding-left: 2vw;
  display: grid;
  grid-template-columns: 2fr 1fr;
  gap: 1vw;
- width: 90vw;
  margin: auto;
  padding-top: 1vh;
  height: 13vh;
@@ -169,13 +210,32 @@ padding-left: 2vw;
 border-radius: 14px;
 height: 13vh;
 
+
 }
 .podcast{
   padding-left: 2vw;  
-border-radius: 150px;
+border-radius: 14px;
+margin-top: 0.5vh;
 }
 
 .tituloPodcast{
+    padding: 2vh 1vw;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.play{
+    background-color: #b9ff39;
+    color: #232128;
+    border-radius: 14px;
+    height: 5vh;
+    width: 5vh;
+    align-content: center;
+    text-align: center;
+}
+.bajadaPodcast{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .autorxsSectionContainer{
@@ -195,12 +255,11 @@ border-radius: 150px;
 
 /*bloque a mas invest*/
 .todasLinkContainer{
-    width: 90vw;
+    width: 10vw;
 }
 
 .todasLink{
     border-radius: 14px;
-    width: 90vw;
     margin: auto;
     height: 5vh;
     margin-top: 1vh;

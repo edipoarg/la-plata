@@ -1,10 +1,53 @@
 .recursosContainer{
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    grid-template-columns: 1fr;
     width: 100vw;
-    height: 90vh;
+    max-width: 98vw;
+    height: 84vh;
+    max-height: 84vh;
+    margin: auto;
+    padding: 2vh 1vw;
+    gap: 2vh 0vw;
+    background-color: #9e5cdc;
 
 }
 
+.titleContainer{
+    width: 95%;
+    margin: auto;
+    max-width: 100%;
+    height: 35vh;
+    max-height: 60vh;
+    padding: 0;
+    border-radius: 14px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: #232128;
+    color: #9e5cdc;
+}
+
+.title{
+    position: relative;
+    bottom: 10px;
+    padding-left: 2vw;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10vh;
+    padding-left: 5vh;
+}
+.subTitle{
+padding-left: 2vw;
+color: white;
+font-size: 18px;
+position: relative;
+border-radius: 14px;
+margin: 0;
+padding-left: 5vh;
+}
 .recursos{
+    width: 94%;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.2vw;
@@ -14,17 +57,24 @@
     
 }
 .recursoContainer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 9vh;
     background-color: #9e5cdc;
     border-radius: 14px;
-    color: white;
-    margin: 0.1vh 0vw;
-    display: grid;
-    grid-template-columns: 1fr;
+    border: solid 2px #232128;
+    border-color: #232128;
+    color: #b9ff39;
+    margin: 0.6vh 1vw;
+    box-shadow: 5px 5px 0 3px #232128;
+
 }
 
 .recursoContainer:hover{
-    background-color: white;
+    background-color: #b9ff39;
     color: #9e5cdc;
+    box-shadow: 0px 0px 0px;
+
 }
 
 .icon{
@@ -37,7 +87,9 @@
 .iconName{
     color: black;
     font-size: 1.2rem;
-    padding: 0vh 2vw;   
+    padding: 0vh 3vw;   
+    margin: 0;
+    align-self: center;
 }
 
 
