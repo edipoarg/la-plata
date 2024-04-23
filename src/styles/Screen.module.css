@@ -18,8 +18,32 @@ border: solid 1px;
 z-index: 1000;
 backdrop-filter: blur(11.2px);
 -webkit-backdrop-filter: blur(11.2px);
+}
 
+.title{
+    margin: 0;
+    font-size: 1.3rem;
+}
 
+.level{
+    margin:0;
+    padding-top: 1vh;
+    font-size: 1rem;
+}
+
+.adress{
+    padding-top: 1vh;
+    margin: 0;
+    font-size: 0.9rem;}
+
+.phone{
+    margin: 0;
+    padding-bottom: 1vh;
+    font-size: 0.9rem;
+}
+
+.age{
+    margin: 0;
 }
 
 .AutoridadesScreen{
@@ -38,13 +62,15 @@ backdrop-filter: blur(11.2px);
         display:  grid;
         grid-template-columns: 1fr;
         width: 20vw;
+        max-width: 20vw;
         margin-left: 10vw;
-        
         }
 
 
         .ComisariaScreen{
-            margin-top: 30vh;
+            width: 6vw;
+            margin-top: 35vh;
+            max-width: 6vw;
 
         }
   }

@@ -9,6 +9,7 @@ import institucionalesData from './institucionales.json';
 import detencionData from './detencion.json';
 import guiaData from './guia.json';
 import styles from './RecursoPost.module.css';
+import SubMenuPost from './subMenuRecurso';
 
 const Recurso = () => {
   const { dominio } = useParams();
@@ -54,10 +55,24 @@ const Recurso = () => {
 
   return (
     <div className="recurso">
-      <h3>{dominio}</h3>
+      <h3 className={styles.title}>{dominio}</h3>
+      <div className={styles.menuContainer}>
+        {posts.map((post, index) => (
+          <SubMenuPost key={index} title={post.title} content={post.content} />
+        ))}
+      </div>
       <div className={styles.postContainer}>
         {posts.map((post, index) => (
-          <RecursoPost key={index} title={post.title} content={post.content} />
+          <RecursoPost
+            key={index}
+            title={post.title}
+            subtitle={post.subtitle}
+            Dirección={post.Dirección}
+            Teléfono={post.Teléfono}
+            Email={post.Email}
+            content={post.content}
+            link={post.link}
+          />
         ))}
       </div>
     </div>

@@ -7,14 +7,16 @@ body{
 
 /*contenedor global*/
 .investContainer{
-    height: 90vh;
-    max-height: 90vh;
     margin: 0;
     padding: 0;
     background-color: #e6e6e6;
+    height: auto;
 }
 
+
 .titleContainer{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
     width: 95%;
     margin: auto;
     max-width: 95%;
@@ -27,16 +29,50 @@ body{
     color: #b9ff39;
 }
 
+.headerIcon{
+    padding: 3vh 8vw;
+    }
+
 .title{
     position: relative;
     bottom: 10px;
     padding-left: 2vw;
-    font-size: 40px;
+    font-size: 35px;
     margin: 0;
     padding-top: 10vh;
     padding-left: 5vh;
 }
 
+.typeMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-self: left;
+    gap: 1vw;
+    align-content: center; 
+    font-size: 0.6rem;
+    margin-top: 0vh;
+    width: 50%;
+    padding-left: 5vw;  
+}
+
+.type{
+    color: #b9ff39;
+    margin: 0;
+    border: solid 1px #b9ff39;
+    border-radius: 14px;
+    padding: 0.5vh 2vw; 
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.type:hover{
+    color: #ba7aff;
+    border: solid 1px #ba7aff;
+
+}
 /*Bloque novedades*/
 
 .investigaciones{
@@ -56,7 +92,6 @@ body{
     margin: auto;
     padding: 1vh 1vw;
     gap: 2vh 0vw;
-     
   }
   
     .infoNotaPrincipal{
@@ -126,6 +161,11 @@ body{
     padding: 0.5vh 2vw;
  }
 
+ .autorxContainer:hover, .ilusContainer:hover{
+    color: #ba7aff;
+    border: solid 1px #ba7aff;
+}
+
  .ilusContainer{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -158,7 +198,7 @@ body{
 .investCol2{
  height: 50vh;
  margin-top: 1vh;
- 
+ width: 95%;
 }
 
 
@@ -167,12 +207,10 @@ body{
     max-height: 17vh;
     padding: 0;
     border-radius: 14px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
     justify-content: center;
-    
 }
 
 .datosReporte{
@@ -182,7 +220,8 @@ padding-left: 2vw;
 
 .fechaUltimoReporte{
     margin-top: 2vh; /* Elimina el margen superior */
-    margin-bottom: 2vh;    
+    margin-bottom: 2vh;
+    font-size: 0.8rem; 
 }
 
 .tituloUltimoReporte{
@@ -208,14 +247,13 @@ padding-left: 2vw;
 
 .podcastContainer{
 border-radius: 14px;
-height: 13vh;
-
-
 }
 .podcast{
   padding-left: 2vw;  
 border-radius: 14px;
-margin-top: 0.5vh;
+margin-top: 1vh;
+height: 15vh;
+
 }
 
 .tituloPodcast{
@@ -225,6 +263,7 @@ margin-top: 0.5vh;
 }
 
 .play{
+    margin: 0;
     background-color: #b9ff39;
     color: #232128;
     border-radius: 14px;
@@ -233,6 +272,10 @@ margin-top: 0.5vh;
     align-content: center;
     text-align: center;
 }
+.sectionPodcast{
+    margin: 0;
+}
+
 .bajadaPodcast{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -241,9 +284,7 @@ margin-top: 0.5vh;
 .autorxsSectionContainer{
     border-radius: 14px;
     width: 100%;
-    height: 13vh;
-
-    
+    height: 15vh;   
 }
 
 .autorxsSection{
@@ -255,19 +296,19 @@ margin-top: 0.5vh;
 
 /*bloque a mas invest*/
 .todasLinkContainer{
-    width: 10vw;
 }
 
 .todasLink{
     border-radius: 14px;
     margin: auto;
-    height: 5vh;
-    margin-top: 1vh;
-    
+    height: 15vh;    
 }
 
 .flecha{
-margin: 0;}
+margin: 0;
+padding: 3vh 0vw;
+text-align: center;
+}
 
 /**************************/
 
@@ -275,23 +316,139 @@ margin: 0;}
 @media (min-width: 768px) {
 
     .investContainer{
-        max-width: 80vw;
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        background-color: white;
+        grid-template-columns: 1fr 2fr;
+        background-color: rgba(0, 0, 0, 0.1);
+        z-index: 1500;
+        align-items: center;
+        justify-content: center;
+        max-width: 90vw;
+        height: 100vh;
+        margin: auto;
+        padding: 0vh 0vw;
+        gap: 0vh 0vw;
+        /* From https://css.glass */
+        border-radius: 0px;
+        backdrop-filter: blur(11.2px);
+        -webkit-backdrop-filter: blur(11.2px);
+
         }
 
+        .titleContainer {
+            position: absolute;
+            top: 10vh;
+            left: 8vw;
+            width: 28vw;
+            height: 80vh;
+            max-height: 80vh;
+            border-radius: 0px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.0);
+            background-color: white;
+        }
+
+        .title{
+            position: relative;
+            bottom: -15vh;
+            padding-left: 4vw;
+            font-size: 2rem;
+            color: #2a8842;
+        }
+
+        .typeMenu{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-self: left;
+            gap: 1vw;
+            align-content: center; 
+            font-size: 0.8rem;
+            margin-top: 0vh;
+            width: 70%;
+            padding-left: 4vw;  
+        }
+        
+        .type{
+            color: #232128;
+            margin: 0;
+            border: solid 2px #ba7aff;
+            border-radius: 14px;
+            padding: 0.5vh 1vw; 
+            justify-self: left;
+            justify-items: center;
+            align-items: center;
+            align-self: center;
+            align-content: center;
+        }
+
+        .investigaciones{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                max-width: 50vw;
+                margin: auto;
+        }
+
+        .investNovedades{
+            position: absolute;
+            top: 10vh;
+            left: 35vw;
+            background-color: white;
+            width: 30vw;
+            max-width: 90vw;
+            height: 90vh;
+            max-height: 80vh;
+            margin: auto;
+            padding: 0vh 0vw;
+            gap: 2vh 0vw;   
+        }
 
      
            .notaPrincipal{
-            width: 30vw;
-            height: 75vh;
+            width: 25vw;
+            height: 70vh;
             max-height: 75vh;
             padding: 0;
             border-radius: 14px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-         }
+            margin-top: 5vh;
+                }
 
+            .tituloNotaPrincipal{
+                padding-top: 3vh;
+                font-size: 1.6rem;
+                margin: 0;
+                color: #2a8842;
+              
+              }
+
+              .autorxsContainer{
+                grid-template-columns: 1fr 1fr;
+                font-size: 0.8rem;
+                margin-top: 6vh;
+             }
+
+             .autorxContainer{
+                justify-self: center;
+                justify-items: center;
+                align-items: center;
+                align-self: center;
+                align-content: center;
+                justify-self: left;
+                padding: 0.5vh 1vw;
+             }
+
+             .ilusContainer{
+                justify-self: center;
+                justify-items: center;
+                align-items: center;
+                align-self: center;
+                align-content: center;
+                justify-self: left;    
+                padding: 0.5vh 1vw;
+                margin-top: 1vh;
+             }
+            
+             .fechaContainer{
+                text-align: left;
+                padding-top: 4vh;
+             }
          .infoNotaPrincipal{
             padding: 0vh 3vw;
         }
@@ -300,25 +457,19 @@ margin: 0;}
             display: block;
         }
 
-        .investNovedades{
-  
-            width: 30vw;
-            max-width: 90vw;
+      
+        .investCol2{
+            background-color: white;
+            margin: 0;
+            position: absolute;
+            top: 10vh;
+            left: 62vw;
+            width: 25vw;
             height: 80vh;
-            max-height: 80vh;
-            margin: auto;
-            padding: 2vh 1vw;
-            gap: 2vh 0vw;
-
+            display: grid;
+            grid-template-columns: 1fr;
         }
 
-        .investCol2{
-            width: 50vw;
-            height: 90vh;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-         
-           }
         .investMore{
             display: grid;
             grid-template-columns: 1fr;
@@ -327,13 +478,13 @@ margin: 0;}
             margin: auto;
             padding-top: 2vh;
             background-color: red;
-           }
+        }
 
         
 .ultimoReporteContainer{
     width: 20vw;
     max-width: 100%;
-    height: 60vh;
+    height: 25vh;
     max-height: 60vh;
     padding: 0;
     border-radius: 1px;
@@ -342,7 +493,6 @@ margin: 0;}
     grid-template-columns: 1fr 1fr;
     margin: auto;
     justify-content: center;
-    
 }
 
 
@@ -356,7 +506,6 @@ margin: 0;}
     margin: auto;
     height: 5vh;
     margin-top: 1vh;
-    
 }
 
     

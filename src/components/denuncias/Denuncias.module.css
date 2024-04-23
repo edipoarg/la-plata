@@ -1,6 +1,7 @@
 body{
  max-width: 100vw;
  margin: 0;
+ background-color: #232128;
 }
 
 .denuncias {
@@ -10,8 +11,8 @@ body{
     grid-template-columns: 1fr;
     width: 100vw;
     max-width: 98vw;
-    height: 84vh;
-    max-height: 84vh;
+    height: 90vh;
+    max-height: 90vh;
     margin: auto;
     padding: 2vh 1vw;
     gap: 2vh 0vw;
@@ -19,6 +20,8 @@ body{
 }
 
 .titleContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
     width: 95%;
     margin: auto;
     max-width: 100%;
@@ -29,6 +32,11 @@ body{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     background-color: #232128;
     color: #2a8842;
+}
+
+.headerIcon{
+text-align: right;
+padding: 3vh 8vw;
 }
 
 .title{
@@ -70,8 +78,17 @@ body{
     margin-top: 1vh;
 
 }
+.buttonIcon{
+padding: 0vh 2vw;
+margin-top: 2vh;
+text-align: right; 
+
+
+}
 
 .buttonContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
     width: 98%;
     height: 100%;
     box-shadow: 5px 5px 0 3px ;
@@ -225,7 +242,6 @@ margin: 0;
         padding-left: 4vw;
         font-size: 40px;
         color: #232128;
-        
     }
 
     .buttonText{

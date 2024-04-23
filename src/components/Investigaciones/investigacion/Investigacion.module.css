@@ -1,5 +1,6 @@
 .investigacionContainer{
-background-color: aliceblue;
+background-color: #e6e6e6;
+height: 100vh;
 }
 
 .fotoInvestigacion{
@@ -9,12 +10,77 @@ border-top-left-radius: 12px;
 
 }
 
-.basicInfo{
-    background-color: black;
-    color: white;
-    
+
+.header{
+    background-color: #231c26;
+    width: 90vw;
+    margin: auto;
+    border-radius: 14px;
+    border-top-right-radius: 12px;
+     border-top-left-radius: 12px;
 }
 
+.basicInfo{
+    color: white;
+    padding: 1vh 2vw;
+}
+
+.title{padding: 1vh 03vw;
+font-size: 1.5rem;}
+
+.title, .autor, .date, .lead, .text{
+    margin: 0
+}
+
+.textContainer{
+    background-color: white;
+    border-radius: 14px;
+    margin: auto;
+    margin-top: 1vh;
+}
+
+.lead{
+    padding: 4vh 8vw;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+.autorxs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    justify-self: left;
+    padding-left: 2vw;
+    gap: 1vw;
+}
+
+.more{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+.date{
+    justify-self: right;
+    padding-right: 2vw;
+    padding-top: 4vh;    
+    font-size: 0.8rem;
+}
+
+.autor{
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-self: left;
+    border: solid 1px #b9ff39;
+    border-radius: 14px;
+    padding: 0.5vh 2vw;
+    font-size: 0.7rem;
+}
 
 
 .notaCompleta{
@@ -24,8 +90,52 @@ border-top-left-radius: 12px;
 
 @media (min-width: 768px) {
 
+
+    body{
+        width: 100vw;
+    }
     .fotoInvestigacion{
-        width: 45vw;
-        
+        width: 40vw;
         }
+
+        .investigacionContainer{
+            background-color: #e6e6e6;
+            height: auto;
+            margin-left: 10vw;
+            padding-top: 2vh;
+            padding-bottom: 5vh;
+
+            }
+            .header{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                width: 80vw;
+            }
+            
+            .notaCompleta{
+                background-color: white;
+                width: 70vw;
+            }
+
+            .textContainer{
+                background-color: white;
+                border-radius: 14px;
+                margin: auto;
+                margin-top: 1vh;
+                width: 80vw;
+                padding-bottom: 10vh;
+            }
+
+            .title{
+                padding-top: 10vh;
+                padding-bottom: 5vh;
+                font-size: 3rem;
+                color: #2a8842;
+
+            }
+            
+            .lead{
+                font-size: 1.5rem;
+            }
+            
 }

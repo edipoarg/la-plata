@@ -1,10 +1,19 @@
 .todasContainer{
+  position: fixed;
+  top: 100vh;
+  height: 250vh;
+  width: 100vw;
     display: grid;
-    grid-template-columns: 1fr;
-    margin:  0;
+    grid-template-columns: 1fr 1fr;
     padding: 0;
-    gap: 1vh;
-    width: 80vw;
+    gap: 0vh;
+    max-width: 95%;
+    padding-bottom: 10vh;
+}
+
+.investContainer{
+  width: 90vw;
+background-color: yellowgreen;
 }
 
 .dataContainer{
@@ -14,7 +23,7 @@
 
 .tituloInvestigacion{
   margin: 0;
-  margin-top: 1vh;
+  margin-top: 0vh;
 }
 
 .fotoInvestigacion{
@@ -23,6 +32,10 @@
     object-fit: cover; 
     width: 100%;
     height: 25vh;
+}
+
+.autorxFecha{
+  margin: 0;
 }
 
 /* TodasInvestigaciones.module.css */
@@ -41,6 +54,36 @@
   
   .linkInvestigacion{
     border-radius: 14px;
+    width: 90%;
+    justify-self: left;
+  margin:  auto;
+
+  }
+
+  .span{
+  color: blue;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 1vh 2vw;
+  border-left: solid 4px;
+  margin-top: 4vh;
+
+  }
+
+  subTitle{
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+    font-size: 1.6rem;
+    margin: 0
+  }  
+
+  p{
+    margin: 0;
+  padding: 1vh 0vw;  }
+  
+  .NotaContainer{
+    padding: 0vh 7vw;
+    text-align: justify;
   }
  
 

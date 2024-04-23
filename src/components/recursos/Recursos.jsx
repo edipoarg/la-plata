@@ -1,7 +1,7 @@
-import React from 'react';
 import Icons from '../iconos/Icons';
 import { Link } from 'react-router-dom';
 import styles from './Recursos.module.css';
+import Mapa from '../Mapa';
 
 const recursosItems = [
   { path: 'institucionales', icon: 'intitucionales', nombre: 'Recursos Institucionales' },
@@ -15,10 +15,15 @@ const recursosItems = [
 
 const Recursos = () => {
   return (
+    <>
+    <section className={styles.mapBlur}>
     <section className={styles.recursosContainer}>
       <section className={styles.titleContainer}>
-        <h2 className={styles.title}>Recursos</h2>
+        <div>
+        <h2 className={styles.title}>RECURSOS</h2>
         <h4 className={styles.subTitle}>Recomendaciones <br /> para enfrentar <br />la violencia policial</h4>
+        </div>
+        <Icons icon={"recursos"} className={styles.headerIcon} iconSize="4rem" />
       </section>
       <section className={styles.recursos}>
         {recursosItems.map((recursosItem, index) => (
@@ -28,7 +33,13 @@ const Recursos = () => {
           </Link>
         ))}
       </section>
+
     </section>
+    </section>
+
+    
+    <Mapa></Mapa>
+   </>
   );
 };
 

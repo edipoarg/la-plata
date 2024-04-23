@@ -32,8 +32,10 @@ h2 {
   font-family: 'Ronnia Bold Condensed', sans-serif;
 }
 
+p {  font-family: 'Ronnia Bold Condensed', sans-serif;
+}
+
 main{
-  width: calc(100%);
   background-color: #232128;
   color: white;
 }

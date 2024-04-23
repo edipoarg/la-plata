@@ -5,22 +5,15 @@
     right: 0;
   }
 
-
-.switch{
-  max-width: 0px;
-  max-height: 0px
-
-;}
-
   .botonFiltros {
     height: 7vh;
+    
   }
   
   .filtrosBox {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    
-    
+
   }
   
   .boxes {
@@ -31,6 +24,7 @@
     z-index: 1000;
     position: fixed;
     right: 0;
+    
   }
   
   .tipo2Ref,
@@ -41,10 +35,11 @@
     border: solid 1px;
     border-radius: 360px;
     padding: 6px 8px;
-
+    cursor: pointer;
+    width: 2.5vh;
   }
 
-  .tipo2Ref:hover{
+  .tipo2Ref:hover, .tipo1Ref:hover, .tipo3Ref:hover{
     background-color: green;
     color: black;
   }
@@ -58,7 +53,10 @@
     height: 11vh;
     width: 15vh;
   }
-  
+  .selected {
+    background-color: green; /* Cambia el color de fondo para el filtro seleccionado */
+    color: black;
+  }
   .cantCasos {
     font-size: 2rem;
     text-align: left;
@@ -76,10 +74,11 @@
     padding: 2px 2px;
     justify-content: center;
     text-align: center;
-    width: 15vw;
+    width: 9vw;
     border-radius: 14px;
     backdrop-filter: blur(11.2px);
 -webkit-backdrop-filter: blur(11.2px);
+gap: 3vh;
   }
   
   .tipoClass {
@@ -152,12 +151,7 @@
       padding-top: 1vh;
     }
   
-  .switch{
-    max-width: 100px;
-    max-height: 100px;
 
-  }  
-  
     .tipo2Ref,
     .tipo1Ref,
     .tipo3Ref {
@@ -170,6 +164,8 @@
     .filtroTipo {
       grid-template-columns: 1fr;
       width: 7vw;
+      height: 45vh;
+      align-content:center;
     }
   
     .boxes {
@@ -203,6 +199,35 @@
 z-index: 3000; 
 
 
+}
+
+.filtros {
+  height: 90vh;
+}
+.tipoClass {
+  font-size: 10px;
+  padding-top: 0%;
+}
+
+
+.tipo2Ref,
+  .tipo1Ref,
+  .tipo3Ref {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: solid 1px;
+    border-radius: 360px;
+    padding: 6px 8px;
+    cursor: pointer;
+    width: 8vh;
+    margin: auto;
+    padding-top: 8px;
+  }
+
+
+.filtroTipo {
+  grid-template-columns: 1fr;
+  width: 7vw;
 }
   }
   

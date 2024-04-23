@@ -7,8 +7,8 @@ export const DepsSource = ({data, style}) => (
         id="departamentos-layer"
         type="fill" // Capa de relleno para representar polígonos
         paint={{
-          'fill-color': "#2d2532",
-          'fill-opacity': 1,
+          'fill-color': "#232128",
+          'fill-opacity': 0.8,
           'fill-outline-color': "#9423ed",
         }}
       />
@@ -21,9 +21,10 @@ export const DepsSource = ({data, style}) => (
         id="barriosCaba-layer"
         type="fill" // Capa de relleno para representar polígonos
         paint={{
-          'fill-color': "#2d2532",
+          'fill-color': "#232128",
           'fill-opacity': 1,
           'fill-outline-color': "#2cb34c",
+        
         }}
       />
     </Source>
@@ -42,6 +43,34 @@ export const CabaSource = ({data, style}) => (
         }}
       />
     </Source>
-  )
+  );
+  export const LaPlataSource = ({data, style}) => (
+    <Source id="laplata-source" type="geojson" data={data}>
+      <Layer
+        id="laplata-layer" // Cambiado a "laplata-layer" para que sea único
+        type="fill"
+        paint={{
+          'fill-color': "rgba(255, 255, 255, 0)",
+          'fill-opacity': 1,
+          'fill-outline-color': "#9423ed",
+        }}
+      />
+    </Source>
+  );
+  
+  export const DepartamentosLaPlataSource = ({data, style}) => (
+    <Source id="departamentosLaPlata-source" type="geojson" data={data}>
+      <Layer
+        id="departamentosLaPlata-layer" // Cambiado a "departamentosLaPlata-layer" para que sea único
+        type="fill"
+        paint={{
+          'fill-color': "rgba(255, 255, 255, 0)",
+          'fill-opacity': 1,
+          'fill-outline-color': "#2a8842",
+        }}
+      />
+    </Source>
+  );
+  
 
   

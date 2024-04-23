@@ -4,10 +4,16 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import styles from './Investigacion.module.css';
 import Icons from '../../iconos/Icons';
+import Nota14 from '../todasInvest/Nota14';
+
+
 
 const Investigacion = () => {
   const { dominio } = useParams();
   const [investigacion, setInvestigacion] = useState(null);
+
+  const types= ['informes', 'detrás del expediente', 'reportes', "podcast" ];
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -37,19 +43,31 @@ const Investigacion = () => {
   return (
     <>
     <section className={styles.investigacionContainer}>
+      <section className={styles.header}>
       <img src={investigacion.imagen} alt={`Foto de la investigación: ${investigacion.titulo}`} className={styles.fotoInvestigacion} />
       <section className={styles.basicInfo}>
+      
+      
         <div className={styles.autorxsContainer}>
 
 
         </div>
-      <h1>{investigacion.titulo}</h1>
-      <p>Autorxs: {investigacion.autorxs}</p>
-      <p>Fecha: {investigacion.fecha}</p>
+      <h1 className={styles.title}>{investigacion.titulo}</h1>
+      <section className={styles.more}>
+      <section className={styles.autorxs}>
+      <h4 className={styles.autor}>{investigacion.autorxs}</h4>
+      <h4 className={styles.autor}>{investigacion.ilus}</h4>
       </section>
-      
-      <p>{investigacion.textoBajada}</p>
-      <p>{investigacion.textoCompleto}</p>
+      <h4 className={styles.date}>{investigacion.fecha}</h4>
+
+      </section>
+
+      </section>
+      </section>
+      <section className={styles.textContainer}>
+      <h4 className={styles.lead}>{investigacion.textoBajada}</h4>
+      <Nota14></Nota14>
+      </section>
     </section>
     </>
   );

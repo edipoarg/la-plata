@@ -1,7 +1,7 @@
 import { VscTools } from 'react-icons/vsc';
 import { BiBookReader, BiWorld, BiVideoRecording  } from 'react-icons/bi';
 import { TbAlertTriangle, TbZoomExclamation, TbShoppingBagX, TbHandStop  } from 'react-icons/tb';
-import { HiOutlineMusicalNote, HiOutlinePhoto } from 'react-icons/hi2';
+import { HiOutlineMusicalNote, HiOutlinePhoto, HiUserGroup } from 'react-icons/hi2';
 import { BsMegaphone, BsDiagram3 } from 'react-icons/bs';
 import { GiGunshot, GiNotebook } from 'react-icons/gi';
 import { IoAppsOutline } from 'react-icons/io5';
@@ -11,7 +11,7 @@ import {FaPersonMilitaryToPerson} from 'react-icons/fa6'
 import {SlPencil} from 'react-icons/sl';
 import { FaMapMarker } from "react-icons/fa";
 import { VscDebugBreakpointUnsupported } from "react-icons/vsc";
-
+import { GoPersonFill } from "react-icons/go";
 
 const iconComponents = {
   mapa: <TbZoomExclamation />,
@@ -25,6 +25,9 @@ const iconComponents = {
   gatillo: <GiGunshot />,
   menu: <IoAppsOutline />,
 
+  /*denuncias*/
+  indiv: <GoPersonFill />,
+  colective: <HiUserGroup />,
 
   /*recursos*/
   intitucionales: <GrDocumentExcel/>,

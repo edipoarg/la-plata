@@ -5,6 +5,7 @@ import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 
+
 // STYLES IMPORTS
 import mystyle from "./mystyle.json";
 
@@ -16,17 +17,24 @@ import Screen from "./Screen";
 import styles from "../styles/Mapa.module.css";
 
 // GEOJSON IMPORTS
-import { departamentos, caba, barriosCaba } from "../data/index";
-import { DepsSource, CabaSource, BarriosCabaSource } from "./Sources";
+import { departamentos, caba, barriosCaba, laPlata, departamentosLaPlata, gatillo } from "../data/index";
+import { DepsSource, CabaSource, BarriosCabaSource, LaPlataSource, DepartamentosLaPlataSource } from "./Sources";
 
 // MARKERS IMPORTS
 import  {Markers}  from "./Markers";
+import { dependenciasLaPlata } from "../data/index";
+import { dependenciasCaba } from "../data/index";
+import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
+import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
+/*import DependenciasCabaMarkers from "./dependenciasCabaMarkers/DependenciasCabaMarkers";*/
+
 
 // Popup IMPORTS
 import Popup from "./Popup";
 
 //Filtros Import
 import Filtros from "./filtros/Filtros"; // Cambia la ruta a tu formulario
+
 
 
 const Mapa = () => {
@@ -48,9 +56,9 @@ const Mapa = () => {
     },
     style: {
       width: "100vw",
-      height: "90vh",
+      height: "100vh",
     },
-    mapStyle: mystyle,
+    mapStyle:'https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json',
   };
 
   //FILTERS
@@ -109,6 +117,7 @@ const Mapa = () => {
     setFilteredData(filteredDataByType);
     }, [cases, tipoFilters]);
 
+ //markers
 
 
 
@@ -144,7 +153,13 @@ const Mapa = () => {
           )}
         </a>
       </div>
-        <Screen />
+      <Screen title={popupInfo ? popupInfo.title : 'Elegí una dependencia o un caso'} 
+      level={popupInfo ? popupInfo.level : null}
+      adress={popupInfo ? popupInfo.adress : null}
+      phone={popupInfo ? popupInfo.phone : null} 
+      age={popupInfo ? popupInfo.age : null}
+      circs={popupInfo ? popupInfo.circs : null}/>
+
         <MapGL id="mapa" mapLib={maplibregl} {...mapProps}
          onHover={handleHover} 
          onLeave={handleLeave} >
@@ -163,10 +178,31 @@ const Mapa = () => {
           <DepsSource data={departamentos} />
           <BarriosCabaSource data={barriosCaba} />
           <CabaSource data={caba} />
-        </MapGL>
+          <LaPlataSource data={laPlata}/>
+          <DepartamentosLaPlataSource data={departamentosLaPlata}/>
+          
+ {/* Renderiza los marcadores de las dependencias */}
+ <DependenciasMarkers
+            dependencias={dependenciasLaPlata}
+            setPopupInfo={setPopupInfo}
+            setMarker={setSelectedMarkerId}
+            selected={selectedMarkerId}
+          />
+
+           {/* Renderiza los marcadores de las dependencias */}
+
+
+<GatilloMarkers
+    gatillos={gatillo} // Asegúrate de pasar los datos de los gatillos aquí
+    setPopupInfo={setPopupInfo}
+    setMarker={setSelectedMarkerId}
+    selected={selectedMarkerId}
+  />
+
+         
+          </MapGL>
         <LogoMapa />
       </section>
-      {popupInfo && <Popup {...popupInfo} />}
 
     </>
   );

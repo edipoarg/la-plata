@@ -18,14 +18,14 @@
 /* Estilos base para la Navbar */
 .Navbar {
   z-index: 1000;
-  position: absolute;
+  position: fixed;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   bottom: 0;
   width: 100vw;
   max-width: 100vw;
   height: 10vh;
-  background-color: transparent;  /* Fondo transparente */
+  background-color: #231c26;
   align-items: center;
   align-self: center;
   align-content: center;

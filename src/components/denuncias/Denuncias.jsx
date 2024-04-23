@@ -11,10 +11,13 @@ const Denuncias = () => {
             <section className={styles.denuncias}>
 
                 <section className={styles.titleContainer} >
+
                 <Link to="/denuncia">
                     <h2 className={styles.title}>QUIERO  <br />DENUNCIAR</h2>
                     <h4 className={styles.subTitle}>Un hecho de violencia policial <br /> como víctima o testigo</h4>
                     </Link>
+                    <Icons icon={"denuncias"} className={styles.headerIcon} iconSize="4rem" />
+
                 </section>
 
                 <section className={styles.menuContainer}>
@@ -24,12 +27,15 @@ const Denuncias = () => {
                     <Link to="/denuncia">
                     <section className={styles.buttonContainer} >
                         <h3 className={styles.buttonText}> Invidivdual</h3>
+                        <Icons icon={'indiv'} className={styles.buttonIcon} iconSize="1.8rem"></Icons>
                     </section>
                     </Link>
 
                     <Link to="/colectiva">
                     <section className={styles.buttonContainer} >
                         <h3 className={styles.buttonText}> Colectiva</h3>
+                        <Icons icon={'colective'} className={styles.buttonIcon} iconSize="1.8rem"></Icons>
+
                     </section>
                     </Link>
                     

@@ -2,14 +2,18 @@ import styles from "./investigaciones.module.css";
 import Temas from '../Temas';
 import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
+import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
 
-const tituloNotaPrincipal = "La bonaerense en la mira: de una internación psiquiátrica a un doble femicidio";
-    const bajadaNotaPrincipal = "Bajada de la ultima nota que se haya hecho donde el texto puede durar solamente esta cantidad máxima de caracteres";
-    const fechaUltimoReporte = "xx/xx/xxxx";
+    const tituloNotaPrincipal = "La bonaerense en la mira: de una internación psiquiátrica a un doble femicidio";
+    const fechaUltimoReporte = "27/09/2023";
     const fotoNotaPrincipal = "../src/components/investigaciones/investigacion/Crisis_salud_Mental_Mapa3.jpg";
     const fechaNotaPrincipal = "08/05/2024";
     const autorxsNotaPrincipal = "Sofi y Pampa";
     const ilusNotaPrincipal = "Panchopepe";
+    const numeroReporte = "Tercer";
+
+
+
 
 
 const Investigaciones = () => {
@@ -20,14 +24,22 @@ const Investigaciones = () => {
         <section className={styles.investContainer}>
 
             <section className={styles.titleContainer}>
-            <h2 className={styles.title}>Investigaciones</h2>
+            <h2 className={styles.title}>INVESTIGACIONES</h2>
+            <Icons icon={"investigaciones"} className={styles.headerIcon} iconSize="4rem" />
+
+            <section className={styles.typeMenu}>
+                    <h3 className={styles.type}>Informes</h3>
+                    <h3 className={styles.type}>Detrás del expediente</h3>
+                    <h3 className={styles.type}>Reportes</h3>
+                    <h3 className={styles.type}>Podkast</h3>
+                </section>
             </section>
                 
             <section className={styles.investigaciones}>
 
-                <Link to="/investigacion/bonaerense-mira">
                 <section className={styles.investNovedades}>
-             
+                <Link to="/investigacion/bonaerense-mira">
+
                     <section  className={styles.notaPrincipal}>
                         <img src={fotoNotaPrincipal} alt="" className={styles.fotoNotaPrincipal} />
                         <section className={styles.infoNotaPrincipal}>
@@ -46,12 +58,12 @@ const Investigaciones = () => {
                             </section>
                             <h6 className={styles.fechaContainer}>{fechaNotaPrincipal}</h6>
 
-                            <h5 className={styles.bajadaContainer}>{bajadaNotaPrincipal}</h5>
 
                         </section>
                     </section>
+                    </Link>
+
                 </section>
-                </Link>
             
                 <section className={styles.investCol2}>
 
@@ -59,7 +71,7 @@ const Investigaciones = () => {
                         <img src="" alt="" className={styles.fotoUltimoReporte} />
                         <section className={styles.datosReporte}>
                             <h4 className={styles.fechaUltimoReporte}>{fechaUltimoReporte}</h4>
-                            <h2 className={styles.tituloUltimoReporte}>Ultimo Reporte</h2>
+                            <h2 className={styles.tituloUltimoReporte}>{numeroReporte} Reporte</h2>
                             <h4 className={styles.subtituloUltimoReporte}>de violencia policial</h4>
                         </section>
                     </section>
@@ -78,13 +90,14 @@ const Investigaciones = () => {
                         </Link>
                         <Link to="/investigaciones/lista" className={styles.todasLinkContainer}>
                         <section style= {Temas.investTema} className={styles.todasLink}>
-                            <h5 className={styles.flecha}>flecha</h5>
+                            <h5 className={styles.flecha}>Todas</h5>
                         </section>
                         </Link>
                     </section>
                     
                 </section>
             </section>
+
         </section>
             
     </>

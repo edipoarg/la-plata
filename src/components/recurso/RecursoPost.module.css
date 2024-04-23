@@ -1,23 +1,63 @@
-.postContainer{
+.menuContainer{
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+width: 95%;
+margin: auto;
 }
 
-.post{
+.postContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+    margin: auto;
+    background-color: grey;
+    gap: 2vh;
+    }
+
+
+.title{
+    background-color: #9e5cdc;
+    width: 90%;
+    margin: auto;
+    border-radius: 14px;
+    height: 7vh;
+    font-size: 2rem;
+    padding-top: 8vh;
+    padding-left: 5vw;
+}
+
+.buttonTitle{
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 1vh 1vw;
+}
+
+.postMenu:Hover{
     background-color: black;
-    color: violet;
-    width: 25vw;
+    color: #9e5cdc;
     padding: 1vh 3vw;
     margin: 1vh 1vw;
     border-radius: 14px;
-    border: violet;
+    border: #9e5cdc;
     border: solid;
     border-width: 1px;
-
 }
 
-.postTitle{
+.postMenu{
+    background-color: #9e5cdc;
+    color: black;
+    padding: 1vh 3vw;
+    margin: 1vh 1vw;
+    border-radius: 14px;
+    border: #9e5cdc;
+    border: solid;
+    border-width: 1px;
+}
 
+.detailType{margin: 0}
+.detail{margin: 0}
+
+.postTitle{
 }
 
 .PostContent{
