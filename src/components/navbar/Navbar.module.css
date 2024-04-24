@@ -17,7 +17,7 @@
 
 /* Estilos base para la Navbar */
 .Navbar {
-  z-index: 1000;
+  z-index: 6000;
   position: fixed;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

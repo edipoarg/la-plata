@@ -12,6 +12,10 @@
     gap: 2vh 0vw;
     background-color: #9e5cdc;
 
+    position: fixed;
+    z-index: 1500;
+
+
 }
 
 .titleContainer{
@@ -73,7 +77,6 @@ padding-left: 5vh;
     color: #b9ff39;
     margin: 0.6vh 1vw;
     box-shadow: 5px 5px 0 3px #232128;
-
 }
 
 .recursoContainer:hover{
@@ -122,18 +125,17 @@ padding-left: 5vh;
             gap: 2vh 0vw;
             left: 15vw;
             /* From https://css.glass */
-            border-radius: 0px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(11.2px);
             -webkit-backdrop-filter: blur(11.2px);
-    
-        
-
     }
+
+
     .titleContainer{
     position: absolute;
     left: -10px;
     width: 30vw;
+    padding-top: 3vh;
     height: 40vh;
     max-height: 60vh;
     border-radius: 0px;
@@ -169,4 +171,64 @@ padding-left: 5vh;
 
 
 }
+
+.recursos{
+    position: absolute;
+    width: 5vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0vw;
+    top: 40vh;
+    left: 0vw;
+}
+
+.iconName{
+    color: black;
+    font-size: 0rem;
+    padding: 0vh 0vw;   
+    margin: 0;
+    align-self: center;
+
+}
+
+.recursoContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 10vh;
+    background-color: #232128;
+    border-radius: 360px;
+    border: solid 2px #232128;
+    border-color: #232128;
+    color: #b9ff39;
+    margin: 0.6vh 1vw;
+    box-shadow: 0px 0px 0 0px #232128;
+    
+}
+
+.icon{
+    padding: 0vh 1.5vw;
+    margin-top: 2vh;
+    text-align: right; 
+
+}
+
+.recursoContainer:hover{
+    background-color: #b9ff39;
+    color: #232128;
+    box-shadow: 0px 0px 0px;
+    border-color: #b9ff39;
+    font-size: 1rem;
+}
+
+.headerIcon{
+    position: absolute;
+    padding: 0vh 0vw;
+    color: #232128;
+    left: 4vw;
+    top: 0vh;
+
+}
+
+
 }
