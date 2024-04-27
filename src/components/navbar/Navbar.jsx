@@ -7,10 +7,12 @@ const Navbar = () => {
 
   return (
     <section id="NavBar" className={styles.Navbar}>
-     <section> Logo </section>
+     <Link to='/'>
+          <Icons icon='mapa' className={styles.Button} iconSize="2rem" />
+        </Link>
       {iconList.map((icon, index) => (
         <Link to={`/${icon}`} key={index}>
-          <Icons icon={icon} className={styles.Boton} iconSize="2rem" />
+          <Icons icon={icon} className={styles.Button} iconSize="2rem" />
         </Link>
       ))}
     </section>
