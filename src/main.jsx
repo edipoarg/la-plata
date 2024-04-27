@@ -24,7 +24,7 @@ import Autorxs from "./components/Investigaciones/autorxs/Autorxs.jsx";
 import Investigacion from "./components/Investigaciones/investigacion/Investigacion.jsx";
 import Root from "./routes/Root.jsx";
 import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
-import FichaDependencias from "./components/fichas/FichaDependencias.jsx";
+import Ficha from "./components/fichas/Ficha.jsx";
 
 
 
@@ -64,7 +64,7 @@ const router = createHashRouter([
       { path: "/autorxs", element: <Autorxs/>},
       { path: "/investigacion/:dominio", element: <Investigacion/>},
       { path: '/investigaciones/lista', element: <TodasInvestigaciones /> },
-      { path: "/ficha/:Contador", element: <FichaDependencias /> 
+      { path: "/ficha/:Contador", element: <Ficha /> 
     }
     ]
   },
