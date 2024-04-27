@@ -1,0 +1,34 @@
+
+.data{
+    margin: auto;
+    margin-top: 10vh;
+    max-width: 60vw;
+    padding: 5vh 10vw;
+    border: solid 2px green;
+    background-color: #231c26;
+    color: white;
+    height: 60vh;
+}
+
+.policeData{
+    background-color: #231c26;
+    color: green;
+    width: 15vw;
+    position: absolute;
+    left: 70vw;
+    top: 15vh;
+    height: 50vh;    
+    padding: 5vh 5vw;
+}
+
+.name{
+    font-size: 1.5rem;
+    color: violet;
+}
+
+@media (min-width: 768px) {
+
+    .data{
+        width: 30vw;
+    }
+}
