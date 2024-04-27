@@ -8,7 +8,7 @@ import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
     const fechaUltimoReporte = "27/09/2023";
     const fotoNotaPrincipal = "../src/components/investigaciones/investigacion/Crisis_salud_Mental_Mapa3.jpg";
     const fechaNotaPrincipal = "08/05/2024";
-    const autorxsNotaPrincipal = "Sofi y Pampa";
+    const autorxsNotaPrincipal = " Julia Pascolini";
     const ilusNotaPrincipal = "Panchopepe";
     const numeroReporte = "Tercer";
 
