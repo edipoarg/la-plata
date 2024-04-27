@@ -15,13 +15,13 @@ body{
 
 @font-face {
   font-family: 'Ronnia Bold Condensed';
-  src: url('/fonts/Ronnia-Bold-Condensed.woff2') format('woff2'),
-       url('/fonts/Ronnia-Bold-Condensed.woff') format('woff');
+  src: url('../fonts/Ronnia-Bold-Condensed.woff2') format('woff2'),
+       url('../public/fonts/RonniaCondBold.otf') format('woff');
 }
 
 @font-face {
   font-family: 'Ronnia Thin Condensed';
-  src: url('public/fonts/RonniaCondLight.otf') format('otf');
+  src: url('../public/fonts/RonniaCondLight.otf') format('woff2');
 }
 
 h1 {
