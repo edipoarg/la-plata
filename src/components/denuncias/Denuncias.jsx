@@ -15,6 +15,8 @@ const Denuncias = () => {
                 <Link to="/denuncia">
                     <h2 className={styles.title}>QUIERO  <br />DENUNCIAR</h2>
                     <h4 className={styles.subTitle}>Un hecho de violencia policial <br /> como víctima o testigo</h4>
+
+                    
                     </Link>
                     <Icons icon={"denuncias"} className={styles.headerIcon} iconSize="4rem" />
 
@@ -23,32 +25,8 @@ const Denuncias = () => {
                 <section className={styles.menuContainer}>
 
                  <section className={styles.menu}>
-
-                    <Link to="/denuncia">
-                    <section className={styles.buttonContainer} >
-                        <h3 className={styles.buttonText}> Invidivdual</h3>
-                        <Icons icon={'indiv'} className={styles.buttonIcon} iconSize="1.8rem"></Icons>
-                    </section>
-                    </Link>
-
-                    <Link to="/colectiva">
-                    <section className={styles.buttonContainer} >
-                        <h3 className={styles.buttonText}> Colectiva</h3>
-                        <Icons icon={'colective'} className={styles.buttonIcon} iconSize="1.8rem"></Icons>
-
-                    </section>
-                    </Link>
-                    
-                    <Link to="/genero" className={styles.genderButton}>
-                    <section className={styles.buttonContainer} >
-                        <div className={styles.genderContainer}>
-                         <h4 className={styles.genderSubTitle}>No te toman <br /> la denuncia por</h4>
-                         <h3 className={styles.genderTitle}>Violencia de género</h3>
-                        </div>
-                    </section>
-                    </Link>         
-                        
-                 </section>
+                 <h4 className={styles.buttonContainer}>El objetivo de este registro es visibilizar el abuso policial, para fortalecer las redes de cuidado ciudadano. Pero no implica automáticamente ninguna presentación institucional. <br /> En el caso de que quieras hacer una denuncia legal luego de llenar este formulario, podemos recomendarte cómo proceder. <br /> <br />Te pedimos información de contacto, para verificar los hechos. Por eso nos vamos a comunicar con vos, por el canal que elijas. Si querés, podés mantener el anonimato. Y solo publicaremos la fuente, en el caso de que vos nos autorices.</h4>
+               </section>
 
                     <Link to="/reportes">
                     <section className={styles.reportesDenunciasContainer}>

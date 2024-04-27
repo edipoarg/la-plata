@@ -87,22 +87,18 @@ text-align: right;
 }
 
 .buttonContainer {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    width: 98%;
     height: 100%;
-    box-shadow: 5px 5px 0 3px ;
     background-color: #2a8842;
     border-radius: 14px;
     color: #232128;
     border: solid 1px;
     border-color: #232128;
+    text-align: justify;
+    margin: auto;
+    padding: 3vh 5vw 0vh 5vw;
+    font-size: 0.9rem;
 }
-.buttonContainer:hover {
-background-color: #232128;
-border-color: #2a8842;
-color: #2a8842;
-}
+
 
 .buttonText{
     padding-top: 2vh;
@@ -207,7 +203,7 @@ margin: 0;
     .titleContainer {
         position: absolute;
         left: -10px;
-        width: 30vw;
+        width: 26vw;
         height: 40vh;
         max-height: 60vh;
         border-radius: 0px;
@@ -221,20 +217,26 @@ margin: 0;
     }
 
     .buttonContainer{
-        max-height: 18vh;
+        max-height: 32vh;
         border-radius: 2px;
         background-color: #232128;
         color:#2a8842;
         border-color: #2a8842;
         box-shadow: 0px 0px 0  ;
+        padding: 3vh 2vw 0vh 2vw;
+        margin-top: 0;
+        margin-bottom: 0;
         width: 21vw;
     }
+    .menu{
+        background-color:rgba(0, 0, 0, 0.0);
+        border-radius: 0px;
+        position: absolute;
+        max-height: 35vh;
+        left: 26vw;
+        top: 10px;
+    }
 
-    .buttonContainer:hover {
-        background-color: #2a8842;
-        border-color: #232128;
-        color: #232128;
-        }
 
     .title{
         position: relative;
@@ -265,15 +267,7 @@ margin: 0;
     }
 
 
-    .menu{
-        background-color:rgba(0, 0, 0, 0.0);
-        border-radius: 0px;
-        position: absolute;
-        max-height: 35vh;
-        left: 30vw;
-        top: 20px;
-
-    }
+   
     .button{
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.0);
         width: 20vw;
