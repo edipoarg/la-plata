@@ -63,7 +63,7 @@
   }
   
   .filtroTipo {
-    z-index: 3000;
+    z-index: 2000;
     position: fixed;
     right: 5px;
     top:110px;
@@ -193,12 +193,12 @@ gap: 3vh;
     .filtrosBox {
       display: grid;
       grid-template-columns: 1fr 10fr;
+
     }
   
     .filtroTipo {
 z-index: 1000; 
-
-
+margin-top: 12vh;
 }
 
 .filtros {
