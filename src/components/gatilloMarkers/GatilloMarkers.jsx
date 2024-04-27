@@ -6,21 +6,21 @@ import Icons from "../iconos/Icons";
 const GatilloMarkers = ({ gatillos, setPopupInfo, setMarker, selected }) => {
   const renderMarker = (gatillo) => {
     const { properties, geometry } = gatillo;
-    const { NumCaso, Nombre, Ciudad, Edad, Circunstancias } = properties;
+    const { Contador, Nombre, Ciudad, Edad, Circunstancias } = properties;
     const { coordinates } = geometry;
     const [longitude, latitude] = coordinates;
 
-    const gatilloStyle = `${styles.gatillo} ${selected === NumCaso ? styles.selected : ""}`;
+    const gatilloStyle = `${styles.gatillo} ${selected === Contador ? styles.selected : ""}`;
 
     return (
       <Marker
-        key={NumCaso}
+        key={Contador}
         longitude={longitude}
         latitude={latitude}
-        onMouseEnter={() => setMarker(NumCaso)}
+        onMouseEnter={() => setMarker(Contador)}
         onMouseLeave={() => setMarker(null)}
         onClick={() => {
-          setMarker(NumCaso);
+          setMarker(Contador);
           setPopupInfo({
             coords: {
               lat: latitude,
@@ -30,6 +30,7 @@ const GatilloMarkers = ({ gatillos, setPopupInfo, setMarker, selected }) => {
             age: `${Edad}`,
             circs: `${Circunstancias}`,
             description: `Nombre: ${Nombre}, Ciudad: ${Ciudad}`,
+            caseId: `${Contador}`,
           });
         }}
       >
