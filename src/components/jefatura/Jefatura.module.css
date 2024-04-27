@@ -1,0 +1,13 @@
+.jefaturaGobierno{
+    width: 20vw;
+background-color: #131313;
+color: white;
+padding: 3vh 3vw;
+border: solid 1px green;
+border-radius: 14px;
+}
+
+.institution, .autoridad{
+    margin: 0;
+
+}
