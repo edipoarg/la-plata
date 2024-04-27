@@ -11,11 +11,8 @@
     padding: 2vh 1vw;
     gap: 2vh 0vw;
     background-color: #9e5cdc;
-
     position: fixed;
-    z-index: 1500;
-
-
+    z-index: 3000;
 }
 
 .titleContainer{
@@ -110,7 +107,7 @@ padding-left: 5vh;
             border-color: #9e5cdc;
             position: fixed;
             z-index: 1500;
-            top: 12vh;
+            top: 20vh;
             display: flex; 
             flex-direction: column;
             align-items: center;
