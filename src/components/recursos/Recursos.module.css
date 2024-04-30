@@ -52,6 +52,21 @@ border-radius: 14px;
 margin: 0;
 padding-left: 5vh;
 }
+
+.organizate{
+    width: 16vw;
+    height: 3vh;
+    border-radius: 14px;
+    background-color: #232128;
+    border: solid 1px #9e5cdc;  
+    position: absolute;
+    right: 10vw;
+    top: 23vh;  
+    box-shadow: 3px 3px 0 1px #9e5cdc;
+    padding: 1vh 1vw;
+    text-align: center;   
+}
+
 .recursos{
     width: 94%;
     margin: auto;
@@ -154,6 +169,23 @@ padding-left: 5vh;
         padding-top: 2vh;
     }
 
+    .organizate{
+        position: absolute;
+        top: 1vh;
+        left: 31.2vw;
+        max-height: 32vh;
+        border-radius: 2px;
+        background-color: #232128;
+        color: #b9ff39;
+        border-color: #9e5cdc;
+        box-shadow: 0px 0px 0  ;
+        padding: 10vh 2vw 0vh 2vw;
+        width: 16vw;
+        height: 23vh;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
 .mapBlur{
     position: absolute;
     z-index: 2000;
@@ -165,8 +197,6 @@ padding-left: 5vh;
      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
      backdrop-filter: blur(10px);
      -webkit-backdrop-filter: blur(11.2px);
-
-
 }
 
 .recursos{
@@ -181,36 +211,45 @@ padding-left: 5vh;
 }
 
 .iconName{
-    color: black;
-    font-size: 0rem;
+    position: absolute;
+    top: 12vh;
+    width: 6vw;
+    color: white;
+    font-size: 1rem;
     padding: 0vh 0vw;   
     margin: 0;
     align-self: center;
-
+    text-align: center;
 }
 
 .recursoContainer{
     display: grid;
-    grid-template-columns: 1fr;
-    height: 10vh;
-    background-color: #232128;
-    border-radius: 360px;
-    border: solid 2px #232128;
-    border-color: #232128;
-    color: #b9ff39;
-    margin: 0.6vh 1vw;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;  
     box-shadow: 0px 0px 0 0px #232128;
-    
-}
-
-.icon{
-    padding: 0vh 1.5vw;
-    margin-top: 2vh;
-    text-align: right; 
-
 }
 
 .recursoContainer:hover{
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;  
+    box-shadow: 0px 0px 0 0px #232128;}
+
+.icon{
+    height: 8vh;
+    padding: 0vh 1.5vw;
+    margin-top: 2vh;
+    text-align: right; 
+    border: solid 2px #232128;
+    border-color: #232128;
+    color: #b9ff39;
+    background-color: #232128;
+    border-radius: 360px;
+    margin: 0.1vh 0vw;
+    padding-top: 2vh;
+}
+
+.icon:hover{
     background-color: #b9ff39;
     color: #232128;
     box-shadow: 0px 0px 0px;
@@ -224,7 +263,6 @@ padding-left: 5vh;
     color: #232128;
     left: 4vw;
     top: 0vh;
-
 }
 
 

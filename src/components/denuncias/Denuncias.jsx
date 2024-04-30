@@ -5,9 +5,14 @@ import Temas from '../Temas';
 import Icons from '../iconos/Icons';
 import Reportes from '../reportes/Reportes';
 
+import Mapa from '../Mapa';
+
 const Denuncias = () => {
     return (
         <>
+
+        <section className={styles.denunciasContainer}>
+
             <section className={styles.denuncias}>
 
                 <section className={styles.titleContainer} >
@@ -19,6 +24,10 @@ const Denuncias = () => {
                     
                     </Link>
                     <Icons icon={"denuncias"} className={styles.headerIcon} iconSize="4rem" />
+
+                    <Link to="/denuncia">
+                    <h4 className={styles.button}>Ir</h4>
+                    </Link>
 
                 </section>
 
@@ -43,6 +52,9 @@ const Denuncias = () => {
 
                 </section>
             </section>
+            </section>
+            <Mapa/>
+
             
         </>
     );

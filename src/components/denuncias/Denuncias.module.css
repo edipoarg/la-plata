@@ -59,6 +59,33 @@ padding: 3vh 8vw;
     padding-left: 5vh;
 }
 
+.button{
+    width: 13vw;
+    height: 3vh;
+    border-radius: 14px;
+    background-color: #232128;
+    border: solid 1px #2a8842;  
+    position: absolute;
+    right: 10vw;
+    top: 23vh;  
+    box-shadow: 3px 3px 0 1px #2a8842;
+    padding: 1vh 1vw;
+    text-align: center;
+}
+
+
+.button:hover{
+    width: 13vw;
+    height: 3vh;
+    border-radius: 14px;
+    background-color: #2a8842;
+    border: solid 1px #232128;  
+    position: absolute;
+    box-shadow: 0px 0px 0 0px #2a8842;
+    color: #232128;
+}
+
+
 .menuContainer {
     width: 95%;
     margin: auto;
@@ -76,7 +103,6 @@ padding: 3vh 8vw;
     border-radius: 14px;
     gap: 2vh;
     margin-top: 1vh;
-
 }
 .buttonIcon{
 padding: 0vh 2vw;
@@ -169,6 +195,20 @@ margin: 0;
 /*  PC SCREEN */
 
 @media (min-width: 1080px) {
+    .denunciasContainer {
+        position: absolute;
+        z-index: 2000;
+    
+        width: 100vw;
+        height: 100vh;
+         /* From https://css.glass */
+         border-radius: 0px;
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(10px);
+         -webkit-backdrop-filter: blur(11.2px);
+    }
+
+
 
       .denuncias {
         border: solid 6vh;
@@ -176,8 +216,8 @@ margin: 0;
         background-color:  rgba(0, 0, 0, 0.0);
         border-color: #2a8842;
         position: fixed;
-        z-index: 1500;
-        top: 12vh;
+        z-index: 3000;
+        top: 20vh;
         display: flex; 
         flex-direction: column;
         align-items: center;
@@ -266,18 +306,6 @@ margin: 0;
         font-size: 1rem;   
     }
 
-
-   
-    .button{
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.0);
-        width: 20vw;
-        height: 7vh;
-        border-radius: 14px;
-        margin: 1vh 1vw;
-        background-color: black;      
-    }
-   
-
     .reportesDenunciasContainer {
         width: 15vw;
         height: 50vh;
@@ -285,12 +313,14 @@ margin: 0;
         grid-template-columns: 1fr;
         border-radius: 0px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        background-color: rgba(185, 255, 57, 0.1) !important;
+        background-color: rgba(185, 255, 57, 0.2) !important;
         border: solid 1px;
         border-color: #b9ff39;
         margin-left: 55vw;
     margin-top: 0vh;
     color:#b9ff39 !important;
+    backdrop-filter: blur(25.2px);
+    -webkit-backdrop-filter: blur(15.2px);
 
 }
     .reportesDenunciasContainer:hover {
@@ -298,6 +328,14 @@ margin: 0;
         color:#232128 !important;
 
        }
+
+       .imagenUltimoReporte {
+        border-radius: 14px;
+        justify-self: right;
+        padding-top: 2vh;
+        height: 2vh;
+    
+    }
 
 
         .title3{
@@ -309,6 +347,48 @@ margin: 0;
             padding-left: 2vw;
             font-size: 18px;
 
+        }
+        
+
+        .headerIcon{
+            position: absolute;
+            padding: 0vh 0vw;
+            color: #232128;
+            left: 4vw;
+            top: 0vh;
+        }
+
+        .button{
+            width: 6vw;
+            height: 3vh;
+            background-color: #b9ff39;
+            border: solid 1px #232128;  
+            right: 14vw;
+            top: 32vh;  
+            box-shadow: 3px 3px 0 1px #232128;
+            padding: 1vh 1vw;
+            text-align: center;
+            color: #232128;
+
+        }
+        
+        
+        .button:hover{
+            width: 6vw;
+            height: 3vh;
+            background-color: #232128;
+            border: solid 1px #232128;  
+            box-shadow: 0px 0px 0 0px #2a8842;
+            color: #2a8842;
+        }
+
+        .icon{
+            right: 3vw;
+            top: 10vh;
+            position: absolute;
+            color:#b9ff39;
+            width: 10vw;
+            z-index: 5000; 
         }
         
     }

@@ -57,8 +57,6 @@ const Investigaciones = () => {
                                 </section>
                             </section>
                             <h6 className={styles.fechaContainer}>{fechaNotaPrincipal}</h6>
-
-
                         </section>
                     </section>
                     </Link>

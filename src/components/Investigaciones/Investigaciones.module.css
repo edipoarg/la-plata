@@ -471,13 +471,10 @@ text-align: center;
         }
 
         .investMore{
-            display: grid;
-            grid-template-columns: 1fr;
             gap: 2vh;
             max-width: 25vw;
             margin: auto;
             padding-top: 2vh;
-            background-color: red;
         }
 
         
@@ -504,7 +501,7 @@ text-align: center;
     border-radius: 14px;
     width: 10vw;
     margin: auto;
-    height: 5vh;
+    height: 14vh;
     margin-top: 1vh;
 }
 

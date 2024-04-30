@@ -22,6 +22,10 @@ const Recursos = () => {
         <div>
         <h2 className={styles.title}>RECURSOS</h2>
         <h4 className={styles.subTitle}>Recomendaciones <br /> para enfrentar <br />la violencia policial</h4>
+                    <Link to="/denuncia">
+                    <h4 className={styles.organizate}>ORGANIZATE</h4>
+                    </Link>
+        
         </div>
         <Icons icon={"recursos"} className={styles.headerIcon} iconSize="4rem" />
       </section>
