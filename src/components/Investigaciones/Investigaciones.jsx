@@ -1,4 +1,4 @@
-import styles from "./investigaciones.module.css";
+import styles from "./Investigaciones.module.css";
 import Temas from "../Temas";
 import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
