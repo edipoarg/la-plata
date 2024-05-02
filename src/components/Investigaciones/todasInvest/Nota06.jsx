@@ -1,11 +1,7 @@
-import styles from './TodasInvestigaciones.module.css';
+import styles from "./TodasInvestigaciones.module.css";
 
 const Nota06 = () => {
-return(
-<>
-
-</>
-)
+  return <></>;
 };
 
-export default Nota06
+export default Nota06;

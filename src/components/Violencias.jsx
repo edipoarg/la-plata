@@ -1,6 +1,6 @@
 import { Marker } from "react-map-gl/maplibre";
 import React from "react";
-import { FaLocationPin } from 'react-icons/fa6';
+import { FaLocationPin } from "react-icons/fa6";
 import styles from "../styles/Violencias.module.css";
 
 export const Violencias = ({ data, setPopupData, setMarker, selected }) => {
@@ -12,7 +12,20 @@ export const Violencias = ({ data, setPopupData, setMarker, selected }) => {
   return (
     <>
       {data.map((event) => {
-        const { id, coords, fecha, hora, direccion, barrio, titulo, tipo, fuerza, cronica, link, video } = event;
+        const {
+          id,
+          coords,
+          fecha,
+          hora,
+          direccion,
+          barrio,
+          titulo,
+          tipo,
+          fuerza,
+          cronica,
+          link,
+          video,
+        } = event;
         const markerStyle = `marker ${id === selected ? "hovered" : ""} ${tipoIdStyles[tipoId]}`;
 
         return (

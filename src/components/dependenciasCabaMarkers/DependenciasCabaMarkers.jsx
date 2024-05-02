@@ -3,7 +3,12 @@ import PropTypes from "prop-types";
 import styles from "./DependenciasCabaMarkers.module.css";
 import Icons from "../iconos/Icons";
 
-const DependenciasMarkers = ({ dependencias, setPopupInfo, setMarker, selected }) => {
+const DependenciasMarkers = ({
+  dependencias,
+  setPopupInfo,
+  setMarker,
+  selected,
+}) => {
   const renderMarker = (dependenciasCaba) => {
     const { properties, geometry } = dependenciasCaba;
     const { Nombre, Dirección, Teléfono } = properties;
@@ -31,14 +36,20 @@ const DependenciasMarkers = ({ dependencias, setPopupInfo, setMarker, selected }
           });
         }}
       >
-        <Icons icon={'dependencia'} className={dependenciasStyle} iconSize={'1.2rem'} />
+        <Icons
+          icon={"dependencia"}
+          className={dependenciasStyle}
+          iconSize={"1.2rem"}
+        />
       </Marker>
     );
   };
 
   return (
     <>
-      {dependencias.features.map((dependenciasCaba) => renderMarker(dependenciasCaba))}
+      {dependencias.features.map((dependenciasCaba) =>
+        renderMarker(dependenciasCaba),
+      )}
     </>
   );
 };

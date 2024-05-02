@@ -1,12 +1,5 @@
 const MapFilters = () => {
-    return(
-    <>
-    
-    
-    
-    
-    </>
-    )
-}
+  return <></>;
+};
 
-export default MapFilters
+export default MapFilters;

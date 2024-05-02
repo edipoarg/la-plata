@@ -1,13 +1,5 @@
 const Investigacion = () => {
-    return(
+  return <></>;
+};
 
-        <>
-        
-        
-        </>
-
-
-    )
-}
-
-export default Investigacion
+export default Investigacion;

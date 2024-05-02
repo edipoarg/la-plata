@@ -4,7 +4,7 @@ import { useLoaderData } from "react-router-dom";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 /*import { Link as ScrollLink } from "react-scroll";*/
 
 // STYLES IMPORTS
@@ -16,11 +16,24 @@ import Screen from "./Screen";
 import styles from "../styles/Mapa.module.css";
 
 // GEOJSON IMPORTS
-import { departamentos, caba, barriosCaba, laPlata, departamentosLaPlata, gatillo } from "../data/index";
-import { DepsSource, CabaSource, BarriosCabaSource, LaPlataSource, DepartamentosLaPlataSource } from "./Sources";
+import {
+  departamentos,
+  caba,
+  barriosCaba,
+  laPlata,
+  departamentosLaPlata,
+  gatillo,
+} from "../data/index";
+import {
+  DepsSource,
+  CabaSource,
+  BarriosCabaSource,
+  LaPlataSource,
+  DepartamentosLaPlataSource,
+} from "./Sources";
 
 // MARKERS IMPORTS
-import  {Markers}  from "./Markers";
+import { Markers } from "./Markers";
 import { dependenciasLaPlata } from "../data/index";
 import { dependenciasCaba } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
@@ -33,16 +46,16 @@ import Filtros from "./filtros/Filtros";
 const Mapa = () => {
   const { urls } = useLoaderData();
   const cases = urls.casos.cases.map((c) => ({ ...c, date: new Date(c.date) }));
-  
+
   // PROPERTIES OF THE MAP
   const mapProps = {
     initialViewState: {
-    longitude: -57.954444,
-    latitude: -35.05,
-    zoom: 1.5,
-    minZoom: 1,
-    maxZoom: 18,
-    maxBounds: [
+      longitude: -57.954444,
+      latitude: -35.05,
+      zoom: 1.5,
+      minZoom: 1,
+      maxZoom: 18,
+      maxBounds: [
         [-58.41105, -35.28147], // Lower-left limit
         [-57.52902, -34.69485], // Upper-right limit
       ],
@@ -51,9 +64,9 @@ const Mapa = () => {
       width: "100vw",
       height: "100vh",
     },
-    
+
     //New Style (Full map data)
-    mapStyle:'https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json', 
+    mapStyle: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
   };
 
   //FILTERS
@@ -73,7 +86,7 @@ const Mapa = () => {
   });
   const [filteredData, setFilteredData] = useState(cases);
 
-  //visibilidad Filtro 
+  //visibilidad Filtro
   //TODO: Remove this
   const [filtrosVisible, setFiltrosVisible] = useState(true);
   const toggleFiltrosVisibility = () => {
@@ -84,7 +97,6 @@ const Mapa = () => {
     // Toggle the state when the button is clicked
     setIsCloseButtonClicked(!isCloseButtonClicked);
   };
-
 
   //Seleccion
   const [setSelectedFeatureId] = useState(null);
@@ -99,7 +111,6 @@ const Mapa = () => {
   };
   const handleLeave = () => setSelectedFeatureId(null);
 
-
   // VIOLENCIAS
   useEffect(() => {
     const newData = cases;
@@ -109,97 +120,99 @@ const Mapa = () => {
     );
 
     setFilteredData(filteredDataByType);
-    }, [cases, tipoFilters]);
-
+  }, [cases, tipoFilters]);
 
   return (
     <>
       <section id="MapaDev" className={styles.MapaDev}>
-        
         <Link>
-        <div className={styles.emergButton}>
-          <h4 className={styles.emerg}>DENUNCIÁ</h4>
-        </div>
+          <div className={styles.emergButton}>
+            <h4 className={styles.emerg}>DENUNCIÁ</h4>
+          </div>
         </Link>
-        
+
         {filtrosVisible && (
-        <Filtros
-          caseCount={filteredData.length}
-          handleTipoFilter={handleTipoFilter}
-          tipoFilters={tipoFilters}
-          setTipoFilters={setTipoFilters}
-        />
-      )}
-       <div className={styles.botonFiltrosMain}>
-        {/* FIXME: Why is this not a button? */}
-        {/* Render different button content based on the state */}
-        <a
-          aria-label="Hide"
-          onClick={() => {
-            handleClickCloseButton();
-            toggleFiltrosVisibility();
-          }}
-          href="#"
-          className={`${styles.closeButton} ${styles["simple-button"]} ${isCloseButtonClicked ? styles["transformed-button"] : ""}`}
-        >
-          {isCloseButtonClicked ? (
-            <div>
-              <h5 className={styles.botonFiltrosMap}>FILTROS</h5>
-            </div>
-          ) : (
-            <>X</>
-          )}
-        </a>
-      </div>
-      <Screen title={popupInfo ? popupInfo.title : 'Elegí una dependencia o un caso'} 
-      level={popupInfo ? popupInfo.level : null}
-      adress={popupInfo ? popupInfo.adress : null}
-      phone={popupInfo ? popupInfo.phone : null} 
-      age={popupInfo ? popupInfo.age : null}
-      circs={popupInfo ? popupInfo.circs : null}
-      caseId={popupInfo ? popupInfo.caseId : null}/>
-
-        <MapGL id="mapa" mapLib={maplibregl} {...mapProps}
-         onHover={handleHover} 
-         onLeave={handleLeave} >
-
-           {!!(filteredData && filteredData.length) && (
-          <Markers
-            data={filteredData}
-            setPopupInfo={setPopupInfo}
-            setMarker={setSelectedMarkerId}
-            selected={selectedMarkerId}
-            tipoFilters={tipoFilters}
+          <Filtros
+            caseCount={filteredData.length}
             handleTipoFilter={handleTipoFilter}
+            tipoFilters={tipoFilters}
+            setTipoFilters={setTipoFilters}
           />
         )}
+        <div className={styles.botonFiltrosMain}>
+          {/* FIXME: Why is this not a button? */}
+          {/* Render different button content based on the state */}
+          <a
+            aria-label="Hide"
+            onClick={() => {
+              handleClickCloseButton();
+              toggleFiltrosVisibility();
+            }}
+            href="#"
+            className={`${styles.closeButton} ${styles["simple-button"]} ${isCloseButtonClicked ? styles["transformed-button"] : ""}`}
+          >
+            {isCloseButtonClicked ? (
+              <div>
+                <h5 className={styles.botonFiltrosMap}>FILTROS</h5>
+              </div>
+            ) : (
+              <>X</>
+            )}
+          </a>
+        </div>
+        <Screen
+          title={
+            popupInfo ? popupInfo.title : "Elegí una dependencia o un caso"
+          }
+          level={popupInfo ? popupInfo.level : null}
+          adress={popupInfo ? popupInfo.adress : null}
+          phone={popupInfo ? popupInfo.phone : null}
+          age={popupInfo ? popupInfo.age : null}
+          circs={popupInfo ? popupInfo.circs : null}
+          caseId={popupInfo ? popupInfo.caseId : null}
+        />
+
+        <MapGL
+          id="mapa"
+          mapLib={maplibregl}
+          {...mapProps}
+          onHover={handleHover}
+          onLeave={handleLeave}
+        >
+          {!!(filteredData && filteredData.length) && (
+            <Markers
+              data={filteredData}
+              setPopupInfo={setPopupInfo}
+              setMarker={setSelectedMarkerId}
+              selected={selectedMarkerId}
+              tipoFilters={tipoFilters}
+              handleTipoFilter={handleTipoFilter}
+            />
+          )}
           <NavigationControl position="top-right" />
           <DepsSource data={departamentos} />
           <BarriosCabaSource data={barriosCaba} />
           <CabaSource data={caba} />
-          <LaPlataSource data={laPlata}/>
-          <DepartamentosLaPlataSource data={departamentosLaPlata}/>
-          
- {/* Renderiza los marcadores de las dependencias */}
-        <DependenciasMarkers
+          <LaPlataSource data={laPlata} />
+          <DepartamentosLaPlataSource data={departamentosLaPlata} />
+
+          {/* Renderiza los marcadores de las dependencias */}
+          <DependenciasMarkers
             dependencias={dependenciasLaPlata}
             setPopupInfo={setPopupInfo}
             setMarker={setSelectedMarkerId}
             selected={selectedMarkerId}
           />
 
-        <GatilloMarkers
+          <GatilloMarkers
             gatillos={gatillo} // Asegúrate de pasar los datos de los gatillos aquí
             setPopupInfo={setPopupInfo}
             setMarker={setSelectedMarkerId}
             selected={selectedMarkerId}
-            />
-
-         
-          </MapGL>
+          />
+        </MapGL>
         <LogoMapa />
       </section>
-
     </>
   );
 };

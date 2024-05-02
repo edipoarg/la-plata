@@ -3,7 +3,12 @@ import PropTypes from "prop-types";
 import styles from "./DependenciasMarkers.module.css";
 import Icons from "../iconos/Icons";
 
-const DependenciasMarkers = ({ dependencias, setPopupInfo, setMarker, selected }) => {
+const DependenciasMarkers = ({
+  dependencias,
+  setPopupInfo,
+  setMarker,
+  selected,
+}) => {
   const renderMarker = (dependencia) => {
     const { properties, geometry } = dependencia;
     const { Nombre, Dirección, Teléfono, Dependencia } = properties;
@@ -33,15 +38,17 @@ const DependenciasMarkers = ({ dependencias, setPopupInfo, setMarker, selected }
           });
         }}
       >
-        <Icons icon={'dependencia'} className={dependenciasStyle} iconSize={'1.2rem'} />
+        <Icons
+          icon={"dependencia"}
+          className={dependenciasStyle}
+          iconSize={"1.2rem"}
+        />
       </Marker>
     );
   };
 
   return (
-    <>
-      {dependencias.features.map((dependencia) => renderMarker(dependencia))}
-    </>
+    <>{dependencias.features.map((dependencia) => renderMarker(dependencia))}</>
   );
 };
 

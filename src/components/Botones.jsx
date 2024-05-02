@@ -1,7 +1,6 @@
 /*Botones Home*/
 export const BotonRegion = () => <button>ENTRAR</button>;
 
-
 /*botones NavBar*/
 export const MapaBoton = () => <button>mapa</button>;
 export const DenunciasBoton = () => <button>denuncias</button>;

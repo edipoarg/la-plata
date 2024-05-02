@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/Popup.module.css';
+import React from "react";
+import "../styles/Popup.module.css";
 
 const Popup = ({ coords, title, level, adress, phone, tipo, date, source }) => {
   return (
@@ -8,7 +8,6 @@ const Popup = ({ coords, title, level, adress, phone, tipo, date, source }) => {
       <h3>{title}</h3>
       <h4>{adress}</h4>
       <h4>{phone}</h4>
-
 
       <p>{`Tipo: ${tipo}`}</p>
       <p>{`Fecha: ${date}`}</p>

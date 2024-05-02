@@ -1,14 +1,16 @@
 import CaseCounter from "./CaseCounter";
-import styles from './Reportes.module.css';
+import styles from "./Reportes.module.css";
 
 const Reportes = () => {
   const numeroReporte = 4; // Definimos numeroReporte como una constante con el valor 4
-  const fecha = '8 de Mayo 2024';
-  const bajada = ['El 11 de julio se lanzó en la Legislatura porteña el Mapa de la Policía, herramienta digital que propone construir una RED DE CUIDADOS CONTRA LA VIOLENCIA POLICIAL.',
-  'El principal objetivo de la iniciativa es VISIBILIZAR EL ABUSO para evitar que se naturalice.'];
-  const tituloSistematico = 'titulo SISTEMATICO';
-  const tituloPolitico = 'titulo politico';
-  const subtituloPolitico = 'subtitulo politico';
+  const fecha = "8 de Mayo 2024";
+  const bajada = [
+    "El 11 de julio se lanzó en la Legislatura porteña el Mapa de la Policía, herramienta digital que propone construir una RED DE CUIDADOS CONTRA LA VIOLENCIA POLICIAL.",
+    "El principal objetivo de la iniciativa es VISIBILIZAR EL ABUSO para evitar que se naturalice.",
+  ];
+  const tituloSistematico = "titulo SISTEMATICO";
+  const tituloPolitico = "titulo politico";
+  const subtituloPolitico = "subtitulo politico";
 
   return (
     <div className={styles.reportContainer}>
@@ -20,8 +22,8 @@ const Reportes = () => {
             <h3>{fecha}</h3>
             <h5>{bajada}</h5>
             <section className={styles.subMenu}>
-            <h5 className={styles.Button}>Metodología</h5>
-            <h5 className={styles.Button}>Reportes Anteriores</h5>
+              <h5 className={styles.Button}>Metodología</h5>
+              <h5 className={styles.Button}>Reportes Anteriores</h5>
             </section>
           </section>
           <section className={styles.reportMenu}>
@@ -61,7 +63,6 @@ const Reportes = () => {
       </div>
 
       {/* Contador de Casos */}
-
     </div>
   );
 };

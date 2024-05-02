@@ -34,16 +34,12 @@ const GatilloMarkers = ({ gatillos, setPopupInfo, setMarker, selected }) => {
           });
         }}
       >
-        <Icons icon={'reportes'} className={gatilloStyle} iconSize={'1rem'}/>
+        <Icons icon={"reportes"} className={gatilloStyle} iconSize={"1rem"} />
       </Marker>
     );
   };
 
-  return (
-    <>
-      {gatillos.features.map((gatillo) => renderMarker(gatillo))}
-    </>
-  );
+  return <>{gatillos.features.map((gatillo) => renderMarker(gatillo))}</>;
 };
 
 GatilloMarkers.propTypes = {

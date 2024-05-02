@@ -1,4 +1,4 @@
-import { GeoJsonSource } from 'react-map-gl';
+import { GeoJsonSource } from "react-map-gl";
 
 const ArgentinaSource = () => {
   return (

@@ -1,6 +1,6 @@
 // Podcast.jsx
 
-import React from 'react';
+import React from "react";
 
 const Podcast = () => {
   return (
