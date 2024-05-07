@@ -13,7 +13,7 @@ const Denuncias = () => {
       <section className={styles.denunciasContainer}>
         <section className={styles.denuncias}>
           <section className={styles.titleContainer}>
-            <Link to="/denuncia">
+            <div>
               <h2 className={styles.title}>
                 QUIERO <br />
                 DENUNCIAR
@@ -21,7 +21,7 @@ const Denuncias = () => {
               <h4 className={styles.subTitle}>
                 Un hecho de violencia policial <br /> como víctima o testigo
               </h4>
-            </Link>
+            </div>
             <Icons
               icon={"denuncias"}
               className={styles.headerIcon}

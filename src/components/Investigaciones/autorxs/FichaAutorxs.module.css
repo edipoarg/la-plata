@@ -1,0 +1,25 @@
+.postDate, .postTitle, .postInfo, .title, .data, .line{
+margin: 0;
+}
+
+.fichaAutorxs{
+    height: 90vh;
+padding: 5vh 8vw;
+text-align: justify;
+}
+
+.header{
+    background-color: black;
+    border-radius: 14px;
+    padding: 5vh 8vw;
+    color: aliceblue;
+}
+
+.line{color: blueviolet;
+text-align: center;}
+
+.post{
+    padding: 4vh 8vw;
+    background-color: black;
+    color: azure;
+}

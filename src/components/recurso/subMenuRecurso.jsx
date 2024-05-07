@@ -1,11 +1,11 @@
 import styles from "./RecursoPost.module.css";
 
-const SubMenuPost = ({ title, link }) => {
+const SubMenuPost = ({ title, onClick }) => {
   return (
     <>
-      <div className={styles.postMenu}>
+      <a className={styles.postMenu} onClick ={onClick }>
         <h4 className={styles.buttonTitle}>{title}</h4>
-      </div>
+      </a>
     </>
   );
 };
