@@ -2,12 +2,12 @@
 /* eslint-disable react/prop-types */
 import styles from "./RecursoPost.module.css";
 
-const SubMenuPost = ({ title }) => {
+const SubMenuPost = ({ title, onClick }) => {
   return (
     <>
-      <div className={styles.postMenu}>
+      <a className={styles.postMenu} onClick={onClick}>
         <h4 className={styles.buttonTitle}>{title}</h4>
-      </div>
+      </a>
     </>
   );
 };
