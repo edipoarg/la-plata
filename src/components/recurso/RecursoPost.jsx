@@ -1,3 +1,5 @@
+// TODO Ale tiene que arreglar todo este archivo
+/* eslint-disable react/prop-types */
 import styles from "./RecursoPost.module.css";
 
 const RecursoPost = ({

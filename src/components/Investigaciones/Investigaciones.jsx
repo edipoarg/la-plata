@@ -2,8 +2,6 @@ import styles from "./Investigaciones.module.css";
 import Temas from "../Temas";
 import { Link } from "react-router-dom";
 import Icons from "../iconos/Icons";
-import TodasInvestigaciones from "./todasInvest/TodasInvestigaciones";
-
 const tituloNotaPrincipal =
   "La bonaerense en la mira: de una internación psiquiátrica a un doble femicidio";
 const fechaUltimoReporte = "27/09/2023";

@@ -35,7 +35,6 @@ import {
 // MARKERS IMPORTS
 import { Markers } from "./Markers";
 import { dependenciasLaPlata } from "../data/index";
-import { dependenciasCaba } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
 /*import DependenciasCabaMarkers from "./dependenciasCabaMarkers/DependenciasCabaMarkers";*/
@@ -165,7 +164,7 @@ const Mapa = () => {
             popupInfo ? popupInfo.title : "Elegí una dependencia o un caso"
           }
           level={popupInfo ? popupInfo.level : null}
-          adress={popupInfo ? popupInfo.adress : null}
+          address={popupInfo ? popupInfo.address : null}
           phone={popupInfo ? popupInfo.phone : null}
           age={popupInfo ? popupInfo.age : null}
           circs={popupInfo ? popupInfo.circs : null}

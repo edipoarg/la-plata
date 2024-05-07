@@ -21,6 +21,7 @@ import { SlPencil } from "react-icons/sl";
 import { FaMapMarker } from "react-icons/fa";
 import { VscDebugBreakpointUnsupported } from "react-icons/vsc";
 import { GoPersonFill } from "react-icons/go";
+import PropTypes from "prop-types";
 
 const iconComponents = {
   mapa: <TbZoomExclamation />,
@@ -65,6 +66,12 @@ const Icons = ({ icon, className, iconSize }) => {
       {iconComponent}
     </div>
   );
+};
+
+Icons.propTypes = {
+  icon: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+  iconSize: PropTypes.string.isRequired,
 };
 
 export default Icons;

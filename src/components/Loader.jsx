@@ -3,7 +3,7 @@ import DEBUG from "debug";
 const debug = DEBUG("Loader");
 
 export default function Loader({ urls, children }) {
-  const [data, setData] = useState(urls);
+  const [data] = useState(urls);
   const [loaded, setLoaded] = useState(0);
   const count = Object.keys(urls).length;
 
