@@ -58,13 +58,13 @@ const Nota07 = () => {
         vamos a dialogar con los que anulan el diálogo”, aseguraba el 30 de
         septiembre. “Con los que mantengan las tomas vamos a ser inflexibles, no
         hay diálogo ante la extorsión. No vamos a permitir que pequeños grupos
-        marquen el ritmo de la educación en la Ciudad de Buenos Aires".
+        marquen el ritmo de la educación en la Ciudad de Buenos Aires&quot;.
       </p>
       <p>
         En esa línea, unos días antes, a través del Ministerio de Educación
         comandado por Soledad Acuña, se libró un comunicado que aseguraba que la
         Ciudad “decidió denunciar penalmente a los adultos responsables de los
-        estudiantes que hubieran participado de las tomas". Asimismo, se
+        estudiantes que hubieran participado de las tomas&quot;. Asimismo, se
         informaba que la Procuración General ya había realizado “25 denuncias
         penales a 366 adultos responsables”. La comunicación indicaba que
         “además, se está preparando una demanda civil para transferirles el

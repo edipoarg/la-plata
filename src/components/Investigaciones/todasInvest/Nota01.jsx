@@ -318,8 +318,8 @@ const Nota01 = () => {
       <h3 className={styles.subTile}>Gabriel Oscar Berard</h3>
 
       <p>
-        Durante los meses siguientes, D'Alessandro volvería a estar a cargo de
-        la dirección operativa de la fuerza. Recién el 27 de mayo de 2019,
+        Durante los meses siguientes, D&apos;Alessandro volvería a estar a cargo
+        de la dirección operativa de la fuerza. Recién el 27 de mayo de 2019,
         Berard sería nombrado nuevo jefe de la PC. Si algo no puede negarse es
         que se trata de un hombre de la familia policial.
       </p>

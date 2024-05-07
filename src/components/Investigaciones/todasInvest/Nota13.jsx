@@ -1,6 +1,6 @@
 import styles from "./TodasInvestigaciones.module.css";
 
-const Nota14 = () => {
+const Nota13 = () => {
   return (
     <>
       <div className={styles.NotaContainer}>
@@ -464,4 +464,4 @@ const Nota14 = () => {
   );
 };
 
-export default Nota14;
+export default Nota13;
