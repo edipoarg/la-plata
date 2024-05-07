@@ -30,6 +30,63 @@
     {
       "type": "Feature",
       "properties": {
+        "Dependencia": "Superintendencia",
+        "Organismo": "",
+        "Nombre": "SEGURIDAD REGIONAL CAPITAL",
+        "Dirección": "",
+        "Partido": "La Plata",
+        "Teléfono": "",
+        "autoridad": "REY ALEJANDRO NICOLAS",
+        "grado": "COMISARIO GENERAL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Dependencia": "",
+        "Organismo": "",
+        "Nombre": "P.D.S.LA PLATA",
+        "Dirección": "",
+        "Partido": "La Plata",
+        "Teléfono": "",
+        "autoridad": "GOMEZ SERGIO ARIEL",
+        "grado": "COMISARIO MAYOR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Dependencia": "",
+        "Organismo": "",
+        "Nombre": "CDO.PAT.LA PLATA",
+        "Dirección": "39 E/4 Y 5",
+        "Partido": "La Plata",
+        "Teléfono": "",
+        "autoridad": "PERERA MAXIMILIANO JAVIER",
+        "grado": "COMISARIO INSPECTOR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.958248, -34.90386 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Dependencia": "Comisaría",
         "Organismo": "Ministerio de Seguridad",
         "Nombre": "5TA",
