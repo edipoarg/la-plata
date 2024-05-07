@@ -1,6 +1,7 @@
 import { Source, Layer } from "react-map-gl/maplibre";
+import PropTypes from "prop-types";
 
-export const DepsSource = ({ data, style }) => (
+export const DepsSource = ({ data }) => (
   <Source id="departamentos-source" type="geojson" data={data}>
     <Layer
       id="departamentos-layer"
@@ -14,7 +15,7 @@ export const DepsSource = ({ data, style }) => (
   </Source>
 );
 
-export const BarriosCabaSource = ({ data, style }) => (
+export const BarriosCabaSource = ({ data }) => (
   <Source id="barriosCaba-source" type="geojson" data={data}>
     <Layer
       id="barriosCaba-layer"
@@ -28,7 +29,7 @@ export const BarriosCabaSource = ({ data, style }) => (
   </Source>
 );
 
-export const CabaSource = ({ data, style }) => (
+export const CabaSource = ({ data }) => (
   <Source id="caba-source" type="geojson" data={data}>
     <Layer
       id="caba-layer"
@@ -41,7 +42,7 @@ export const CabaSource = ({ data, style }) => (
     />
   </Source>
 );
-export const LaPlataSource = ({ data, style }) => (
+export const LaPlataSource = ({ data }) => (
   <Source id="laplata-source" type="geojson" data={data}>
     <Layer
       id="laplata-layer" // Cambiado a "laplata-layer" para que sea único
@@ -55,7 +56,7 @@ export const LaPlataSource = ({ data, style }) => (
   </Source>
 );
 
-export const DepartamentosLaPlataSource = ({ data, style }) => (
+export const DepartamentosLaPlataSource = ({ data }) => (
   <Source id="departamentosLaPlata-source" type="geojson" data={data}>
     <Layer
       id="departamentosLaPlata-layer" // Cambiado a "departamentosLaPlata-layer" para que sea único
@@ -68,3 +69,13 @@ export const DepartamentosLaPlataSource = ({ data, style }) => (
     />
   </Source>
 );
+
+const SourcePropTypes = {
+  data: PropTypes.any,
+};
+
+DepsSource.propTypes = SourcePropTypes;
+BarriosCabaSource.propTypes = SourcePropTypes;
+CabaSource.propTypes = SourcePropTypes;
+LaPlataSource.propTypes = SourcePropTypes;
+DepartamentosLaPlataSource.propTypes = SourcePropTypes;

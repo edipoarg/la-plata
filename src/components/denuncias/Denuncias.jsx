@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
-
 import styles from "./Denuncias.module.css";
-import Temas from "../Temas";
 import Icons from "../iconos/Icons";
-import Reportes from "../reportes/Reportes";
-
 import Mapa from "../Mapa";
 
 const Denuncias = () => {

@@ -1,5 +1,3 @@
-import Navbar from "../navbar/Navbar";
-
 const GatilloFacil = () => {
   return (
     <>

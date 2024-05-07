@@ -209,8 +209,9 @@ const Nota04 = () => {
           de la Policía de la Ciudad. Y continúa: “Entonces vienen y me hacen la
           detención arbitraria, me desnudan en la calle, me quitan lo poquito
           que tengo. Porque para ellos no podemos tener más de veinte mil pesos
-          en la cartera. Entonces nos dicen: "¿de dónde sacó esa plata?", y
-          tenemos que ir a la comisaría a rendir de dónde sacamos esa plata”.
+          en la cartera. Entonces nos dicen: &quot;¿de dónde sacó esa
+          plata?&quot;, y tenemos que ir a la comisaría a rendir de dónde
+          sacamos esa plata”.
         </p>
 
         <p>

@@ -1,6 +1,8 @@
+// TODO Ale tiene que arreglar este archivo
+/* eslint-disable react/prop-types */
 import styles from "./RecursoPost.module.css";
 
-const SubMenuPost = ({ title, link }) => {
+const SubMenuPost = ({ title }) => {
   return (
     <>
       <div className={styles.postMenu}>

@@ -1,5 +1,6 @@
 import styles from "../styles/Screen.module.css";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 // Función para recortar texto si supera el límite de caracteres
 const truncateText = (text, maxLength) => {
@@ -11,14 +12,14 @@ const truncateText = (text, maxLength) => {
   return safeText;
 };
 
-const Screen = ({ title, level, adress, phone, age, circs, caseId }) => {
+const Screen = ({ title, level, address, phone, age, circs, caseId }) => {
   return (
     <section className={styles.Screen}>
       <section className={styles.ComisariaScreen}>
         <section className={styles.ComisariaData}>
           <h3 className={styles.level}>{level}</h3>
           <h2 className={styles.title}>{title}</h2>
-          <h4 className={styles.adress}>{adress}</h4>
+          <h4 className={styles.address}>{address}</h4>
           <h4 className={styles.phone}>{phone}</h4>
           <h4 className={styles.age}>{age}</h4>
           <h4 className={styles.circs}>{truncateText(circs, 120)}</h4>
@@ -30,6 +31,16 @@ const Screen = ({ title, level, adress, phone, age, circs, caseId }) => {
       </section>
     </section>
   );
+};
+
+Screen.propTypes = {
+  title: PropTypes.string,
+  level: PropTypes.string,
+  address: PropTypes.string,
+  phone: PropTypes.string,
+  age: PropTypes.string,
+  circs: PropTypes.string,
+  caseId: PropTypes.string,
 };
 
 export default Screen;

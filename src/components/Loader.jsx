@@ -3,13 +3,14 @@ import DEBUG from "debug";
 const debug = DEBUG("Loader");
 
 export default function Loader({ urls, children }) {
-  const [data, setData] = useState(urls);
+  const [data] = useState(urls);
   const [loaded, setLoaded] = useState(0);
   const count = Object.keys(urls).length;
+  const urlValues = JSON.stringify(Object.values(urls));
 
   useEffect(() => {
     setLoaded(0);
-  }, Object.values(urls));
+  }, [urlValues]);
 
   debug(`${loaded}/${count}`);
   if (loaded >= count) {
@@ -19,6 +20,7 @@ export default function Loader({ urls, children }) {
   return `Loading... ${loaded}/${count}`;
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export async function loader(urls) {
   const data = {};
   for (let [k, u] of Object.entries(urls)) {

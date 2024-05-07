@@ -33,7 +33,7 @@ const DependenciasMarkers = ({
             },
             title: Nombre,
             level: Dependencia,
-            adress: Dirección,
+            address: Dirección,
             phone: Teléfono,
           });
         }}
