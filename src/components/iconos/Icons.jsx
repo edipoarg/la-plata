@@ -40,9 +40,9 @@ const iconComponents = {
   colective: <HiUserGroup />,
 
   /*recursos*/
-  intitucionales: <GrDocumentExcel />,
+  institucionales: <GrDocumentExcel />,
   genero: <TbHandStop />,
-  anteDetencion: <FaPersonMilitaryToPerson />,
+  detencion: <FaPersonMilitaryToPerson />,
   guia: <GiNotebook />,
   ambulantes: <TbShoppingBagX />,
   migrantes: <BiWorld />,

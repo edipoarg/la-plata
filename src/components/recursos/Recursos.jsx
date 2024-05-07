@@ -6,10 +6,10 @@ import Mapa from "../Mapa";
 const recursosItems = [
   {
     path: "institucionales",
-    icon: "intitucionales",
+    icon: "institucionales",
     nombre: "Recursos Institucionales",
   },
-  { path: "detencion", icon: "anteDetencion", nombre: "Ante Detención" },
+  { path: "detencion", icon: "detencion", nombre: "Ante Detención" },
   { path: "guia", icon: "guia", nombre: "Guía Básica" },
   { path: "genero", icon: "genero", nombre: "Recursos de Género" },
   { path: "ambulantes", icon: "ambulantes", nombre: "Recursos Ambulantes" },
@@ -29,7 +29,7 @@ const Recursos = () => {
                 Recomendaciones <br /> para enfrentar <br />
                 la violencia policial
               </h4>
-              <Link to="/denuncia">
+              <Link to="/organizate">
                 <h4 className={styles.organizate}>ORGANIZATE</h4>
               </Link>
             </div>
