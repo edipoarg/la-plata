@@ -1,16 +1,13 @@
 // Investigacion.jsx
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./Investigacion.module.css";
-import Icons from "../../iconos/Icons";
 import Nota14 from "../todasInvest/Nota14";
 
 const Investigacion = () => {
   const { dominio } = useParams();
   const [investigacion, setInvestigacion] = useState(null);
-
-  const types = ["informes", "detrás del expediente", "reportes", "podcast"];
 
   useEffect(() => {
     const fetchData = async () => {

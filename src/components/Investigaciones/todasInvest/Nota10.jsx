@@ -297,10 +297,11 @@ const Nota10 = () => {
         El 29 de octubre de 2008, bajo la administración de Mauricio Macri, se
         creó a través del decreto 1232/2008, el organismo fuera de nivel Unidad
         de Control del Espacio Público (Ucep) dependiente de la Subsecretaría de
-        Espacio Público del gobierno de la Ciudad. Su objetivo era "Establecer,
-        promover y programar políticas en lo referente a la ocupación del
-        Espacio Público por elementos no autorizados, coordinando acciones con
-        el área correspondiente al Ministerio de Justicia y Seguridad".{" "}
+        Espacio Público del gobierno de la Ciudad. Su objetivo era
+        &quot;Establecer, promover y programar políticas en lo referente a la
+        ocupación del Espacio Público por elementos no autorizados, coordinando
+        acciones con el área correspondiente al Ministerio de Justicia y
+        Seguridad&quot;.{" "}
       </p>
 
       <p>

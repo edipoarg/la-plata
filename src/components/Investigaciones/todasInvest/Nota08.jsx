@@ -90,7 +90,7 @@ const Nota08 = () => {
         género porque no tienen cómo atender esa parte”, asegura. Una vez que se
         hace la denuncia, desde el refugio llaman al juzgado para agilizar el
         trámite y acompañan como pueden a las denunciantes que, en general,
-        están decaídas y tienen miedo".{" "}
+        están decaídas y tienen miedo&quot;.{" "}
       </p>
 
       <p>
@@ -249,11 +249,11 @@ const Nota08 = () => {
       </p>
 
       <h6 className={styles.span}>
-        "El operador policial de género tiene que estar capacitado. No es lo
-        mismo tomar la denuncia de una víctima de violencia de género que a una
-        señora que le robaron la cartera. La toma de la declaración es de dos
-        horas. Esto no quiere decir que no haya gente que no está a la altura de
-        las circunstancias"
+        &quot;El operador policial de género tiene que estar capacitado. No es
+        lo mismo tomar la denuncia de una víctima de violencia de género que a
+        una señora que le robaron la cartera. La toma de la declaración es de
+        dos horas. Esto no quiere decir que no haya gente que no está a la
+        altura de las circunstancias&quot;
       </h6>
 
       <h3 className={styles.subTitle}>

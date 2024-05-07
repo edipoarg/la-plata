@@ -191,9 +191,9 @@ const Nota02 = () => {
         robo común y corriente, pero luego de meses de investigación la justicia
         pudo determinar que Soloaga era la artífice del hecho. En la causa
         judicial también estuvo involucrado otro policía, Diego Pachilla, de
-        "encubrimiento doblemente agravado", ante la sospecha de que ayudó a
-        Soloaga a deshacerse del arma o acomodar su declaración en la falsa
-        denuncia.
+        &quot;encubrimiento doblemente agravado&quot;, ante la sospecha de que
+        ayudó a Soloaga a deshacerse del arma o acomodar su declaración en la
+        falsa denuncia.
       </p>
 
       <p>
