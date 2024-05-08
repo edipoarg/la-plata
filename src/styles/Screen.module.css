@@ -18,12 +18,26 @@ margin-left: 10vw;
  z-index: 1000;
  backdrop-filter: blur(11.2px);
  -webkit-backdrop-filter: blur(11.2px);
+ margin: 0vh 2vw;
+}
+
+.autoridadData{
+    padding: 2vh 4vw;
+    backdrop-filter: blur(11.2px);
+    -webkit-backdrop-filter: blur(11.2px);
 }
 
 .title{
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Ronnia Bold Condensed'
+}
+
+
+.grade{
+    margin:0;
+    padding-top: 1vh;
+    font-size: 1rem;
 }
 
 .level{
@@ -37,6 +51,14 @@ margin-left: 10vw;
     margin: 0;
     font-size: 0.9rem;
     font-family: 'Ronnia Thin Condensed';
+}
+
+.autority{
+    padding-top: 1vh;
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: 'Ronnia Bold Condensed';
+    max-width: 30vw;
 }
 
 .phone{
@@ -64,6 +86,7 @@ margin-left: 10vw;
     border: solid 1px #2cb54d;
     text-align: center;
     width: 10vw;
+    margin-bottom: 2vh;
 }
 .moreButton:hover{
     color: #232128;
@@ -98,6 +121,10 @@ margin-left: 10vw;
             margin-top: 35vh;
             max-width: 12vw;
             padding: 0vh 1vw;
+
+        }
+        .autoridadData{
+            padding: 2vh 3vw;
 
         }
 

@@ -11,7 +11,8 @@ const DependenciasMarkers = ({
 }) => {
   const renderMarker = (dependencia) => {
     const { properties, geometry } = dependencia;
-    const { Nombre, Dirección, Teléfono, Dependencia } = properties;
+    const { Nombre, Dirección, Teléfono, Dependencia, autoridad, grado } =
+      properties;
     const { coordinates } = geometry;
     const [longitude, latitude] = coordinates;
 
@@ -35,6 +36,9 @@ const DependenciasMarkers = ({
             level: Dependencia,
             address: Dirección,
             phone: Teléfono,
+            autority: autoridad,
+            grade: grado,
+            caseId: `${Nombre}`, // Este será el ID para el enlace
           });
         }}
       >
