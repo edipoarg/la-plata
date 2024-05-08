@@ -1,41 +1,43 @@
-body{
+body {
   width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   justify-content: center;
   align-items: center;
-  font-family: 'Ronnia Thin Condensed', sans-serif;
+  font-family: "Ronnia Thin Condensed", sans-serif;
 }
 
 @font-face {
-  font-family: 'Ronnia Heavy';
-  src: url('public/fonts/RonniaHeavy.otf') format('otf');
+  font-family: "Ronnia Heavy";
+  src: url("/RonniaHeavy.otf") format("otf");
 }
 
 @font-face {
-  font-family: 'Ronnia Bold Condensed';
-  src: url('../fonts/Ronnia-Bold-Condensed.woff2') format('woff2'),
-       url('../public/fonts/RonniaCondBold.otf') format('woff');
+  font-family: "Ronnia Bold Condensed";
+  src:
+    url("/Ronnia-Bold-Condensed.woff2") format("woff2"),
+    url("/RonniaCondBold.otf") format("woff");
 }
 
 @font-face {
-  font-family: 'Ronnia Thin Condensed';
-  src: url('../public/fonts/RonniaCondLight.otf') format('woff2');
+  font-family: "Ronnia Thin Condensed";
+  src: url("/RonniaCondLight.otf") format("woff2");
 }
 
 h1 {
-  font-family: 'Ronnia Heavy', sans-serif;
+  font-family: "Ronnia Heavy", sans-serif;
 }
 
 h2 {
-  font-family: 'Ronnia Bold Condensed', sans-serif;
+  font-family: "Ronnia Bold Condensed", sans-serif;
 }
 
-p {  font-family: 'Ronnia Bold Condensed', sans-serif;
+p {
+  font-family: "Ronnia Bold Condensed", sans-serif;
 }
 
-main{
+main {
   background-color: #232128;
   color: white;
 }
