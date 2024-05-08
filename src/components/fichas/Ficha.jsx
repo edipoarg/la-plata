@@ -44,7 +44,7 @@ const Ficha = () => {
           <li className={styles.age}>Edad: {caso.properties.Edad}</li>
           <li className={styles.number}>Ciudad: {caso.properties.Ciudad}</li>
           <li className={styles.number}>
-            Circunstancias: {caso.properties.Circunstancias}
+            Circunstancias: {caso.properties.cronica}
           </li>
 
           {/* Agrega más detalles del caso aquí */}

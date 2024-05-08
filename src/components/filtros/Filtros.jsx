@@ -34,14 +34,6 @@ export default function Filtros({ handleTipoFilter, setTipoFilters }) {
           </div>
 
           <div
-            className={`${styles.tipo2Ref} ${selectedFilter === "Reportes" ? styles.selected : ""}`}
-            onClick={handleTipoFilterChange("Reportes")}
-          >
-            <Icons icon="reportes" />
-            <h4 className={styles.tipoClass}> Reportes</h4>
-          </div>
-
-          <div
             className={`${styles.tipo3Ref} ${selectedFilter === "GatilloFacil" ? styles.selected : ""}`}
             onClick={handleTipoFilterChange("GatilloFacil")}
           >
