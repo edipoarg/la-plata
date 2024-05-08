@@ -11,23 +11,44 @@ const truncateText = (text, maxLength) => {
   return safeText;
 };
 
-const Screen = ({ title, level, adress, phone, age, circs, caseId }) => {
+const Screen = ({
+  title,
+  level,
+  address,
+  phone,
+  age,
+  circs,
+  caseId,
+  autority,
+  grade,
+}) => {
   return (
     <section className={styles.Screen}>
       <section className={styles.ComisariaScreen}>
         <section className={styles.ComisariaData}>
           <h3 className={styles.level}>{level}</h3>
           <h2 className={styles.title}>{title}</h2>
-          <h4 className={styles.adress}>{adress}</h4>
+          <h4 className={styles.address}>{address}</h4>
           <h4 className={styles.phone}>{phone}</h4>
           <h4 className={styles.age}>{age}</h4>
-          <h4 className={styles.circs}>{truncateText(circs, 120)}</h4>
+          <h4 className={styles.circs}>{truncateText(circs, 100)}</h4>
 
-          <Link to={`/ficha/${caseId}`}>
-            <h3 className={styles.moreButton}>Ver +</h3>
-          </Link>
+          {/* Renderizar solo si 'caseId' tiene datos */}
+          {caseId && (
+            <Link to={`/ficha/${caseId}`}>
+              <h3 className={styles.moreButton}>Ver +</h3>
+            </Link>
+          )}
         </section>
       </section>
+
+      {/* Renderizar solo si 'grade' y 'autority' tienen datos */}
+      {(grade || autority) && (
+        <section className={styles.autoridadData}>
+          {grade && <h3 className={styles.grade}>{grade}</h3>}
+          {autority && <h2 className={styles.autority}>{autority}</h2>}
+        </section>
+      )}
     </section>
   );
 };
