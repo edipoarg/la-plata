@@ -164,6 +164,8 @@ const Mapa = () => {
             popupInfo ? popupInfo.title : "Elegí una dependencia o un caso"
           }
           level={popupInfo ? popupInfo.level : null}
+          autority={popupInfo ? popupInfo.autority : null}
+          grade={popupInfo ? popupInfo.grade : null}
           address={popupInfo ? popupInfo.address : null}
           phone={popupInfo ? popupInfo.phone : null}
           age={popupInfo ? popupInfo.age : null}
