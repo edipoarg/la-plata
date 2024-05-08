@@ -31,9 +31,9 @@ const loader = async () => ({
     caba: "data/caba.json",
     laPlata: "data/laPlata.json",
     departamentosLaPlata: "data/departamentosLaPlata.json",
-    dependenciasLaPlata: "../data/dependenciasLaPlata.json",
-    dependenciasCaba: "../data/dependenciasCaba.json",
-    gatillo: "../data/gatilloLaPlata.json",
+    dependenciasLaPlata: "data/dependenciasLaPlata.json",
+    dependenciasCaba: "data/dependenciasCaba.json",
+    gatillo: "data/gatilloLaPlata.json",
   }),
 });
 
