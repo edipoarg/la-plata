@@ -23,7 +23,7 @@ import Investigacion from "./components/Investigaciones/investigacion/Investigac
 import Root from "./routes/Root.jsx";
 import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
 import Ficha from "./components/fichas/Ficha.jsx";
-import Organizate from "./components/recurso/Organizate.jsx"
+import Organizate from "./components/recurso/Organizate.jsx";
 
 const loader = async () => ({
   urls: await getURLs({

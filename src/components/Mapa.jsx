@@ -33,7 +33,6 @@ import {
 } from "./Sources";
 
 // MARKERS IMPORTS
-import { Markers } from "./Markers";
 import { dependenciasLaPlata } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
@@ -180,16 +179,6 @@ const Mapa = () => {
           onHover={handleHover}
           onLeave={handleLeave}
         >
-          {!!(filteredData && filteredData.length) && (
-            <Markers
-              data={filteredData}
-              setPopupInfo={setPopupInfo}
-              setMarker={setSelectedMarkerId}
-              selected={selectedMarkerId}
-              tipoFilters={tipoFilters}
-              handleTipoFilter={handleTipoFilter}
-            />
-          )}
           <NavigationControl position="top-right" />
           <DepsSource data={departamentos} />
           <BarriosCabaSource data={barriosCaba} />

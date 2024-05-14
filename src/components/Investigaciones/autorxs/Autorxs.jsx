@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import styles from './Autorxs.module.css';
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import styles from "./Autorxs.module.css";
 
 const Autorxs = () => {
   const [autorxsData, setAutorxsData] = useState([]);
@@ -8,11 +8,13 @@ const Autorxs = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('../src/components/investigaciones/autorxs/autorxs.json');
+        const response = await fetch(
+          "../src/components/investigaciones/autorxs/autorxs.json",
+        );
         const data = await response.json();
         setAutorxsData(data);
       } catch (error) {
-        console.error('Error al cargar datos:', error);
+        console.error("Error al cargar datos:", error);
       }
     };
 
