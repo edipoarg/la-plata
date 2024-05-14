@@ -179,25 +179,26 @@ const Nota04 = () => {
         <p>
           Cuando llegó al país no encontró el paraíso. Dice que a pesar de la
           Ley de Cupo Laboral travesti trans, la falta de documentación y de
-          estudios, hacen que la única salida sea la calle. “Nos ven riendo y
-          pensarán ‘qué fácil es esa vida’. Pero no es fácil. Tenemos que vivir,
-          primero que nada, el insulto de la gente. Porque pasan y nos gritan
-          ‘zorra’, nos escupen, nos tiran huevos, piedras; me han pegado, me han
-          robado, me han cortado”, describe Natalí. Pero además, el
-          hostigamiento policial. “Es todos los días lo mismo. Lo primero que
-          hago es maquillarme pensando en qué policía me voy a encontrar, porque
-          todos los días tienen turnos distintos. Ayer me peleé con una
-          femenina. Le dije: ‘No venga a ser tan prepotente, si usted me habla
-          educadamente yo me voy‘”.
+          estudios, hacen que la única salida sea la calle. &quot;Nos ven riendo
+          y pensarán &apos;qué fácil es esa vida&apos;. Pero no es fácil.
+          Tenemos que vivir, primero que nada, el insulto de la gente. Porque
+          pasan y nos gritan &apos;zorra&apos;, nos escupen, nos tiran huevos,
+          piedras; me han pegado, me han robado, me han cortado&quot;, describe
+          Natalí. Pero además, el hostigamiento policial. &quot;Es todos los
+          días lo mismo. Lo primero que hago es maquillarme pensando en qué
+          policía me voy a encontrar, porque todos los días tienen turnos
+          distintos. Ayer me peleé con una femenina. Le dije: &apos;No venga a
+          ser tan prepotente, si usted me habla educadamente yo me
+          voy&apos;&quot;.
         </p>
 
         <p>
-          Otras veces, los encara “aunque sé que no lo debo hacer, pero me saca
-          la rabia. Porque yo sé que la chica no está haciendo nada. Le digo al
-          policía, ‘¿le encontró algo que la comprometa?‘, y me dicen ‘no, pero
-          lo vimos en la cámara’. Y le digo, ‘la cámara no ha visto ni mierda,
-          ustedes por joder, por tocarla, por llamar la atención, para que la
-          gente diga: Ah, cómo trabaja‘”.
+          Otras veces, los encara &quot;aunque sé que no lo debo hacer, pero me
+          saca la rabia. Porque yo sé que la chica no está digo al digo al
+          policía, &apos;¿le encontró algo que la comprometa?&apos;, y me dicen
+          &apos;no, pero lo vimos en la cámara&apos;. Y le digo, &apos;la cámara
+          no ha visto ni mierda, ustedes por joder, por tocarla, por llamar la
+          atención, para que la gente diga: Ah, cómo trabaja&apos;&quot;.
         </p>
 
         <p>
@@ -237,9 +238,9 @@ const Nota04 = () => {
         <h6 className={styles.span}>
           “Entonces vienen y me hacen la detención arbitraria, me desnudan en la
           calle, me quitan lo poquito que tengo. Porque para ellos no podemos
-          tener más de veinte mil pesos en la cartera. Entonces nos dicen: ‘¿de
-          dónde sacó esa plata?’, y tenemos que ir a la comisaría a rendir de
-          dónde sacamos”
+          tener más de veinte mil pesos en la cartera. Entonces nos dicen:
+          &apos;¿de &apos;¿de dónde sacó esa plata?&apos;, y tenemos que ir a la
+          comisaría a rendir de dónde sacamos”
         </h6>
 
         <h3 className={styles.subTile}>monitoreo y armado de causas penales</h3>
