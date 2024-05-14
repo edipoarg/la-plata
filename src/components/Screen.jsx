@@ -62,6 +62,8 @@ Screen.propTypes = {
   age: PropTypes.string,
   circs: PropTypes.string,
   caseId: PropTypes.string,
+  autority: PropTypes.string,
+  grade: PropTypes.string,
 };
 
 export default Screen;
