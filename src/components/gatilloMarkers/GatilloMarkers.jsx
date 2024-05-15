@@ -6,7 +6,8 @@ import Icons from "../iconos/Icons";
 const GatilloMarkers = ({ gatillos, setPopupInfo, setMarker, selected }) => {
   const renderMarker = (gatillo) => {
     const { properties, geometry } = gatillo;
-    const { Contador, Nombre, Ciudad, Edad, cronica, policia_involucrado} = properties;
+    const { Contador, Nombre, Ciudad, Edad, cronica, policia_involucrado } =
+      properties;
     const { coordinates } = geometry;
     const [longitude, latitude] = coordinates;
 
