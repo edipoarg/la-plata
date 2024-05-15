@@ -1,6 +1,4 @@
 body {
-  width: 100vw;
-  height: 100vh;
   margin: 0;
   padding: 0;
   justify-content: center;
@@ -57,6 +55,8 @@ li {
 
 /* Eliminar los estilos por defecto de a (enlaces) */
 a {
-  text-decoration: none; /* Elimina la subrayado de los enlaces */
-  color: inherit; /* Heredar el color del texto por defecto */
+  text-decoration: none;
+  /* Elimina la subrayado de los enlaces */
+  color: inherit;
+  /* Heredar el color del texto por defecto */
 }

@@ -11,15 +11,23 @@ const DependenciasMarkers = ({
 }) => {
   const renderMarker = (dependencia) => {
     const { properties, geometry } = dependencia;
-    const { Nombre, Dirección, Teléfono, Dependencia } = properties;
+    const {
+      Contador,
+      Nombre,
+      Dirección,
+      Teléfono,
+      Dependencia,
+      autoridad,
+      grado,
+    } = properties;
     const { coordinates } = geometry;
     const [longitude, latitude] = coordinates;
 
-    const dependenciasStyle = `${styles.dependencias} ${selected === Nombre ? styles.selected : ""}`;
+    const dependenciasStyle = `${styles.dependencias} ${selected === Contador ? styles.selected : ""}`;
 
     return (
       <Marker
-        key={Nombre}
+        key={Contador}
         longitude={longitude}
         latitude={latitude}
         onMouseEnter={() => setMarker(Nombre)}
@@ -35,6 +43,9 @@ const DependenciasMarkers = ({
             level: Dependencia,
             address: Dirección,
             phone: Teléfono,
+            autority: autoridad,
+            grade: grado,
+            caseId: `${Contador}`, // Este será el ID para el enlace
           });
         }}
       >

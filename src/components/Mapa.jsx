@@ -33,7 +33,6 @@ import {
 } from "./Sources";
 
 // MARKERS IMPORTS
-import { Markers } from "./Markers";
 import { dependenciasLaPlata } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
@@ -164,6 +163,8 @@ const Mapa = () => {
             popupInfo ? popupInfo.title : "Elegí una dependencia o un caso"
           }
           level={popupInfo ? popupInfo.level : null}
+          autority={popupInfo ? popupInfo.autority : null}
+          grade={popupInfo ? popupInfo.grade : null}
           address={popupInfo ? popupInfo.address : null}
           phone={popupInfo ? popupInfo.phone : null}
           age={popupInfo ? popupInfo.age : null}
@@ -178,16 +179,6 @@ const Mapa = () => {
           onHover={handleHover}
           onLeave={handleLeave}
         >
-          {!!(filteredData && filteredData.length) && (
-            <Markers
-              data={filteredData}
-              setPopupInfo={setPopupInfo}
-              setMarker={setSelectedMarkerId}
-              selected={selectedMarkerId}
-              tipoFilters={tipoFilters}
-              handleTipoFilter={handleTipoFilter}
-            />
-          )}
           <NavigationControl position="top-right" />
           <DepsSource data={departamentos} />
           <BarriosCabaSource data={barriosCaba} />
@@ -196,19 +187,23 @@ const Mapa = () => {
           <DepartamentosLaPlataSource data={departamentosLaPlata} />
 
           {/* Renderiza los marcadores de las dependencias */}
-          <DependenciasMarkers
-            dependencias={dependenciasLaPlata}
-            setPopupInfo={setPopupInfo}
-            setMarker={setSelectedMarkerId}
-            selected={selectedMarkerId}
-          />
+          {tipoFilters.Dependencias && (
+            <DependenciasMarkers
+              dependencias={dependenciasLaPlata}
+              setPopupInfo={setPopupInfo}
+              setMarker={setSelectedMarkerId}
+              selected={selectedMarkerId}
+            />
+          )}
 
-          <GatilloMarkers
-            gatillos={gatillo} // Asegúrate de pasar los datos de los gatillos aquí
-            setPopupInfo={setPopupInfo}
-            setMarker={setSelectedMarkerId}
-            selected={selectedMarkerId}
-          />
+          {tipoFilters.GatilloFacil && (
+            <GatilloMarkers
+              gatillos={gatillo}
+              setPopupInfo={setPopupInfo}
+              setMarker={setSelectedMarkerId}
+              selected={selectedMarkerId}
+            />
+          )}
         </MapGL>
         <LogoMapa />
       </section>

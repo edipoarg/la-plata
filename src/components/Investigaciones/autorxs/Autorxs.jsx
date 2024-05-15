@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import styles from "./Autorxs.module.css";
 
 const Autorxs = () => {
@@ -10,7 +10,7 @@ const Autorxs = () => {
       try {
         const response = await fetch(
           "../src/components/investigaciones/autorxs/autorxs.json",
-        ); // Ajusta la ruta según tu estructura
+        );
         const data = await response.json();
         setAutorxsData(data);
       } catch (error) {
@@ -22,20 +22,25 @@ const Autorxs = () => {
   }, []);
 
   return (
-    <section className={styles.autorxsContainer}>
-      {autorxsData.map((autorx, index) => (
-        <div className={styles.autorContainer} key={index}>
-          <img
-            src={autorx.imagen}
-            alt={`Foto de ${autorx.nombre}`}
-            className={styles.autorImagen}
-          />
-          <h2 className={styles.autorNombre}>{autorx.nombre}</h2>
-          <Link to={autorx.enlaceVer} className={styles.verEnlace}>
-            Ver
-          </Link>
-        </div>
-      ))}
+    <section className={styles.container}>
+      <section className={styles.titleContainer}>
+        <h2 className={styles.title}>Autorxs</h2>
+      </section>
+      <section className={styles.autorxsContainer}>
+        {autorxsData.map((autorx, index) => (
+          <div className={styles.autorContainer} key={index}>
+            <img
+              src={autorx.imagen}
+              alt={`Foto de ${autorx.nombre}`}
+              className={styles.autorImagen}
+            />
+            <h2 className={styles.autorNombre}>{autorx.nombre}</h2>
+            <Link to={autorx.enlaceVer} className={styles.verEnlace}>
+              Ver
+            </Link>
+          </div>
+        ))}
+      </section>
     </section>
   );
 };

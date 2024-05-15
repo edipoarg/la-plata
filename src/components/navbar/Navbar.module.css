@@ -33,12 +33,14 @@
   text-justify: center;
   justify-items: center;
   justify-self: center;
+  color:  #2a8842;
+
 }
 
 /* Media query para tablet */
 @media (min-width: 768px) {
   .Navbar {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 10vw;
     height: 100vh;
@@ -51,10 +53,11 @@
     text-justify: center;
     justify-items: center;
     justify-self: center;
+    
   }
 
   .Button{
-    color: #2a8842;
+    color:  #2a8842;
     padding-top: 5vh;
   }
 

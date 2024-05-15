@@ -13,19 +13,21 @@ const RecursoPost = ({
 }) => {
   return (
     <div className={styles.post}>
-      <h4 className={styles.postTitle}>{title}</h4>
-      {subtitle && <h5 className={styles.subtitle}>{subtitle}</h5>}
+      <div className={styles.titleContainer}>
+        <h4 className={styles.postTitle}>{title}</h4>
+        {subtitle && <h5 className={styles.subtitle}>{subtitle}</h5>}
+      </div>
       <div className={styles.submenu}>
-        <p className={styles.detail}>
-          <span className={styles.detailType}>Dirección:</span> {Dirección}
-        </p>
-        <p className={styles.detail}>
-          <span className={styles.detailType}>Teléfono:</span> {Teléfono}
-        </p>
-        <p className={styles.detail}>
-          <span className={styles.detailType}>Email:</span> {Email}
-        </p>
-        {content && <p className={styles.content}>{content.toUpperCase()}</p>}
+        <div className={styles.detail}>
+          <h3 className={styles.detailType}>Dirección:</h3> {Dirección}
+        </div>
+        <div className={styles.detail}>
+          <h3 className={styles.detailType}>Teléfono:</h3> {Teléfono}
+        </div>
+        <div className={styles.detail}>
+          <h3 className={styles.detailType}>Email:</h3> {Email}
+        </div>
+        {content && <p className={styles.content}>{content}</p>}
         {link && (
           <a
             className={styles.link}
@@ -33,7 +35,7 @@ const RecursoPost = ({
             target="_blank"
             rel="noopener noreferrer"
           >
-            Más información
+            Link
           </a>
         )}
       </div>

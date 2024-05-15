@@ -11,21 +11,21 @@ const DependenciasMarkers = ({
 }) => {
   const renderMarker = (dependenciasCaba) => {
     const { properties, geometry } = dependenciasCaba;
-    const { Nombre, Dirección, Teléfono } = properties;
+    const { Contador, Nombre, Dirección, Teléfono } = properties;
     const { D_Coordenadas } = geometry;
     const [longitude, latitude] = D_Coordenadas;
 
-    const dependenciasStyle = `${styles.dependencias} ${selected === Nombre ? styles.selected : ""}`;
+    const dependenciasStyle = `${styles.dependencias} ${selected === Contador ? styles.selected : ""}`;
 
     return (
       <Marker
-        key={Nombre}
+        key={Contador}
         longitude={longitude}
         latitude={latitude}
-        onMouseEnter={() => setMarker(Nombre)}
+        onMouseEnter={() => setMarker(Contador)}
         onMouseLeave={() => setMarker(null)}
         onClick={() => {
-          setMarker(Nombre);
+          setMarker(Contador);
           setPopupInfo({
             coords: {
               lat: latitude,

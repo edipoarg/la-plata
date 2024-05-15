@@ -1,16 +1,24 @@
 {
     "posts": [
       {
-        "title": "Violencia de género",
-        "content": "La violencia de género es un problema que afecta a..."
+        "title": "CENTRO DE ATENCIÓN A VÍCTIMAS DE VIOLENCIA DE GÉNERO",
+        "subtitle": "FACULTAD DE DERECHO UNLP",
+        "Teléfono": " 2216442070 interno 156",
+        "Email": "violenciadegenero@jursoc.unlp.edu.ar",
+        "content": "Dia y hora de atención: martes de 14 a 18hs. Desde el Centro nos proponemos brindar asesoramiento gratuito, acompañamiento y realizar intervenciones administrativas y judiciales a aquellas mujeres, niñas o niños y colectivos de la diversidad sexual, que sufran violencia sexista. Se procurará garantizar el ejercicio efectivo de sus derechos y promoviendo una mayor autonomía de las/os afectadas/os, como así también analizar críticamente las políticas públicas de Derechos Humanos relacionadas con la problemática de género y de violencia hacia las mujeres, niñas/os y de la diversidad sexual.",
+        "link": "https://cavjursoc.wordpress.com/"
       },
       {
-        "title": "Recursos para víctimas de violencia de género",
-        "content": "Existen organizaciones y programas gubernamentales que brindan asistencia a las víctimas de violencia de género, tales como..."
+        "title": "Línea  144",
+        "subtitle": "para llamadas telefónicas en situacion de violencia de género.",
+        "Teléfono": "144 / SI NO PODES HABLAR Comunicate por mensajería de texto a través de WhatsApp o Telegram   221 5085988  |  221 3530500",
+        "content": "Te orientarán, te asesorarán y te darán contención. Las personas que te atienden en la línea nacional 144 son profesionales capacitados. La llamada al 144 no es una denuncia policial. Las 24 horas todos los días."
       },
       {
-        "title": "Legislación sobre género",
-        "content": "Se han implementado diversas leyes para combatir la violencia de género, como..."
+        "title": "Línea 137",
+        "subtitle": "para llamadas telefónicas",
+        "Teléfono": "137 / SI NO PODES HABLAR Comunicate por mensajería de texto a través de WhatsApp o Telegram   221 5085988  |  221 3530500",
+        "content": "Asistencia y acompañamiento para víctimas de violencia familiar y/o sexual y asesoramiento para el acceso a la justicia. Las 24 horas todos los días."
       }
     ]
   }
