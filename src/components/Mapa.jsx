@@ -188,22 +188,22 @@ const Mapa = () => {
 
           {/* Renderiza los marcadores de las dependencias */}
           {tipoFilters.Dependencias && (
-  <DependenciasMarkers
-    dependencias={dependenciasLaPlata}
-    setPopupInfo={setPopupInfo}
-    setMarker={setSelectedMarkerId}
-    selected={selectedMarkerId}
-  />
-)}
+            <DependenciasMarkers
+              dependencias={dependenciasLaPlata}
+              setPopupInfo={setPopupInfo}
+              setMarker={setSelectedMarkerId}
+              selected={selectedMarkerId}
+            />
+          )}
 
-{tipoFilters.GatilloFacil && (
-  <GatilloMarkers
-    gatillos={gatillo}
-    setPopupInfo={setPopupInfo}
-    setMarker={setSelectedMarkerId}
-    selected={selectedMarkerId}
-  />
-)}
+          {tipoFilters.GatilloFacil && (
+            <GatilloMarkers
+              gatillos={gatillo}
+              setPopupInfo={setPopupInfo}
+              setMarker={setSelectedMarkerId}
+              selected={selectedMarkerId}
+            />
+          )}
         </MapGL>
         <LogoMapa />
       </section>
