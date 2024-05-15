@@ -6,671 +6,699 @@
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
     }
   },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "",
-        "Organismo": "",
-        "Nombre": "CDO.PAT.LA PLATA",
-        "Dirección": "39 E/4 Y 5",
-        "Partido": "La Plata",
-        "Teléfono": "",
-        "autoridad": "PERERA MAXIMILIANO JAVIER",
-        "grado": "COMISARIO INSPECTOR"
+  "features":
+    [
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d01",
+          "Dependencia": "",
+          "Organismo": "",
+          "Nombre": "CDO.PAT.LA PLATA",
+          "Dirección": "39 E/4 Y 5",
+          "Partido": "La Plata",
+          "Teléfono": "",
+          "autoridad": "PERERA MAXIMILIANO JAVIER",
+          "grado": "COMISARIO INSPECTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.958248,
+            -34.90386
+          ]
+        }
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.958248, -34.90386 
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d02",
+          "Dependencia": "",
+          "Organismo": "",
+          "Nombre": "U.P.P.L.LA PLATA",
+          "Dirección": "calle 2 y 58",
+          "Partido": "La Plata",
+          "Teléfono": "",
+          "autoridad": "LOPEZ AVERO CHRISTIAN FEDERICO",
+          "grado": "COMISARIO INSPECTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.938898619034894,
+            -34.91411700850362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d03",
+          "Dependencia": "",
+          "Organismo": "",
+          "Nombre": "CDO.PREV.RURAL LA PLATA",
+          "Dirección": "Autovía 2 entre 515 y 520",
+          "Partido": "La Plata",
+          "Teléfono": "",
+          "autoridad": "",
+          "grado": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.118511650848774,
+            -35.005600044712224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d04",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "1RA",
+          "Dirección": "AV. 53 e/ 10 y 9",
+          "Partido": "La Plata",
+          "Teléfono": "0221-423-1945/6",
+          "autoridad": "TOLABA ALBERTO DANIEL",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.95055002,
+            -34.91894484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d05",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "2DA",
+          "Dirección": "38 E/ 7 Y 8",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4231947/48/4230649",
+          "autoridad": "BENITEZ FRANCISCO JAVIER",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.963126,
+            -34.906217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d06",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "4TA",
+          "Dirección": "DIAG. 73 E/ 21 Y 22",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4231949/50",
+          "autoridad": "MEDINA WALTER JONATAN",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.972949,
+            -34.921877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d07",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "5TA",
+          "Dirección": "DIAG. 74 E/ 24 Y 23",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4577122/21",
+          "autoridad": "DONADIO SERGIO WALTER",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.95373,
+            -34.940075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d08",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "6TA",
+          "Dirección": "1 E/ 527 Y 528",
+          "Partido": "La Plata",
+          "Teléfono": "2214258063/4231952/4231951",
+          "autoridad": "PAZ CARLOS ARMANDO",
+          "grado": "SUBCOMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.966389,
+            -34.892078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d09",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "7MA",
+          "Dirección": "520 E/ 213 Y 212",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4913300/3500/6300",
+          "autoridad": "MARTINEZ CRISTIAN ADRIAN",
+          "grado": "SUBCOMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.091457,
+            -34.989132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d10",
+          "Dependencia": "Departamento",
+          "Organismo": "",
+          "Nombre": "COLONIA URQUIZA",
+          "Dirección": "483 y 186",
+          "Partido": "La Plata",
+          "Teléfono": "",
+          "autoridad": "FONTANA CLAUDIO JAVIER",
+          "grado": "OFICIAL AYUDANTE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.09421144689796,
+            -34.94130419158682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d11",
+          "Dependencia": "",
+          "Organismo": "",
+          "Nombre": "PTO.VIG.AVANZ.EL PELIGRO",
+          "Dirección": "423 e colectora Ruta 2 y Diag. 424",
+          "Partido": "La Plata",
+          "Teléfono": "",
+          "autoridad": "PALAVECINO MICAELA AYELEN",
+          "grado": "OFICIAL SUBINSPECTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.16989062693312,
+            -34.94000312178573
+          ]
+        }
+      },    
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d12",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "9NA",
+          "Dirección": "5 E/ 59 Y 60",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4231953/54/4213978",
+          "autoridad": "NAVATTA JUAN IGNACIO",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.940087,
+            -34.91812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d13",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "10MA",
+          "Dirección": "2 E/ 12 Y 13",
+          "Partido": "La Plata",
+          "Teléfono": "2214721366/4722928/4722909",
+          "autoridad": "BERNHARDT CRISTIAN OSCAR",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.048434,
+            -34.871829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d14",
+          "Dependencia": "Departamento",
+          "Organismo": "",
+          "Nombre": "SAVOIA",
+          "Dirección": "Calle 12 e 472 y 474 ",
+          "Partido": "La Plata",
+          "Teléfono": "2214721366/4722928/4722909",
+          "autoridad": "",
+          "grado": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.04162927116435,
+            -34.8647701741296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d15",
+          "Dependencia": "Subcomisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "GORINA",
+          "Dirección": "140 BIS ENTRE 492 Y 501",
+          "Partido": "La Plata",
+          "Teléfono": "2214848037",
+          "autoridad": "ROBLEDO JULIA ALEJANDRA",
+          "grado": "OFICIAL PRINCIPAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.0365926,
+            -34.90889071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d16",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "12DA",
+          "Dirección": "12 E/ 48 Y 49",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4731328/1599/0075",
+          "autoridad": "MAURI MARCELO DAVID",
+          "grado": "SUBCOMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.08774,
+            -34.857187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d17",
+          "Dependencia": "Departamento",
+          "Organismo": "",
+          "Nombre": "ARTURO SEGUI",
+          "Dirección": "Diag. 145 e 414 bis y 147",
+          "Partido": "La Plata",
+          "Teléfono": "2214740301",
+          "autoridad": "BAEZ MARIO ALBERTO",
+          "grado": "OFICIAL PRINCIPAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.12698720457246,
+            -34.8884405608026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d18",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "13RA",
+          "Dirección": "502 E/ 14 Y 15",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4713500/5434/4847147",
+          "autoridad": "SANCHEZ DEBORA BEATRIZ",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.010395,
+            -34.882484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d19",
+          "Dependencia": "Departamento",
+          "Organismo": "",
+          "Nombre": "VILLA CASTELLS",
+          "Dirección": "Calle 13 y 493",
+          "Partido": "La Plata",
+          "Teléfono": "",
+          "autoridad": "",
+          "grado": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.01793858744727,
+            -34.87627500763314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d20",
+          "Dependencia": "Subcomisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "HERNANDEZ",
+          "Dirección": "511 ENTRE 29 Y 30",
+          "Partido": "La Plata",
+          "Teléfono": "2214715492",
+          "autoridad": "BOLO JULIAN",
+          "grado": "OFICIAL PRINCIPAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.01565249,
+            -34.90354186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d21",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "14TA",
+          "Dirección": "173 E/ 517 BIS Y 517",
+          "Partido": "La Plata",
+          "Teléfono": "0221-478-1684/ 1154",
+          "autoridad": "ALZAMENDI EDUARDO JAVIER",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.054677,
+            -34.95027
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d22",
+          "Dependencia": "Subcomisaría",
+          "Organismo": "",
+          "Nombre": "LA UNION",
+          "Dirección": "137 e 524 y 525",
+          "Partido": "La Plata",
+          "Teléfono": "2214707676",
+          "autoridad": "AYALA CARLOS DANIEL",
+          "grado": "SUBCOMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.008334933951964,
+            -34.92094746946648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d23",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "11RA",
+          "Dirección": "530 E/ 14 Y 15",
+          "Partido": "La Plata",
+          "Teléfono": "2214270544/4231955",
+          "autoridad": "SANABRIA LEONARDO PATRICIO",
+          "grado": "SUBCOMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.978855,
+            -34.905771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d24",
+          "Dependencia": "Comisaría",
+          "Organismo": "",
+          "Nombre": "MUJER Y FLIA",
+          "Dirección": "Calle 1 e 42 y 43",
+          "Partido": "La Plata",
+          "Teléfono": "2214231826",
+          "autoridad": "AGUILERA VANESA",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.95100261164728,
+            -34.90346584008434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d25",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "3RA",
+          "Dirección": "137 E/ 61 Y 62",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4507890/ 4560934",
+          "autoridad": "GONZALEZ MIGUEL DEL VALLE",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.971453,
+            -34.950697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d26",
+          "Dependencia": "Subcomisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "ARANA",
+          "Dirección": "640 Y 141",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4910316",
+          "autoridad": "ZERDA JAVIER ANDRES",
+          "grado": "OFICIAL PRINCIPAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.90536168,
+            -35.00482637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d27",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "8VA",
+          "Dirección": "7 E/ 75 Y 74",
+          "Partido": "La Plata",
+          "Teléfono": "0221-4577124/ 5/ 4524322",
+          "autoridad": "VALBRUNI ERIC GUSTAVO",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.92513,
+            -34.932709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d28",
+          "Dependencia": "Departamento",
+          "Organismo": "",
+          "Nombre": "AEROPUERTO",
+          "Dirección": "Av. Fuerza Aerea Argentina 3950",
+          "Partido": "La Plata",
+          "Teléfono": "2214867131",
+          "autoridad": "ROJAS SERGIO DANIEL",
+          "grado": "OFICIAL PRINCIPAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.89546185683339,
+            -34.96476568516724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d29",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "16TA",
+          "Dirección": "121 E/ 81 Y 82",
+          "Partido": "La Plata",
+          "Teléfono": "2214574553",
+          "autoridad": "TAPIERO GASTON ARIEL",
+          "grado": "COMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.90464,
+            -34.926172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d30",
+          "Dependencia": "Comisaría",
+          "Organismo": "Ministerio de Seguridad",
+          "Nombre": "15TA",
+          "Dirección": "AVE 44 NRO. 5350",
+          "Partido": "La Plata",
+          "Teléfono": "022-4963036",
+          "autoridad": "PEREZ SOMMER SERGIO MARTIN",
+          "grado": "SUBCOMISARIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.053611,
+            -35.000519
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d31",
+          "Dependencia": "DIRECCION",
+          "Organismo": "",
+          "Nombre": "INFANTERIA",
+          "Dirección": "calle 1 e 59 y 60",
+          "Partido": "La Plata",
+          "Teléfono": "2214231893",
+          "autoridad": "CIRACO GUSTAVO FERNANDO",
+          "grado": "COMISARIO INSPECTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.93428243663944,
+            -34.91417235412259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d32",
+          "Dependencia": "",
+          "Organismo": "",
+          "Nombre": "D.D.I.-F.J.LA PLATA",
+          "Dirección": "calle 61 e 12 y 13",
+          "Partido": "La Plata",
+          "Teléfono": "2214231825",
+          "autoridad": "ROMANO DIEGO NICOLAS",
+          "grado": "COMISARIO INSPECTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.94378524459292,
+            -34.9264015285784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "d33",
+          "Dependencia": "DIRECCION",
+          "Organismo": "",
+          "Nombre": "BOMBEROS",
+          "Dirección": "Av. 52 e 120 y 53",
+          "Partido": "La Plata",
+          "Teléfono": "2214231736",
+          "autoridad": "NARBAEZ DAVID ADRIAN",
+          "grado": "COMISARIO MAYOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -57.938425172091804,
+            -34.90644523478915
+          ]
+          }}
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "",
-        "Organismo": "",
-        "Nombre": "U.P.P.L.LA PLATA",
-        "Dirección": "calle 2 y 58",
-        "Partido": "La Plata",
-        "Teléfono": "",
-        "autoridad": "LOPEZ AVERO CHRISTIAN FEDERICO",
-        "grado": "COMISARIO INSPECTOR"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.938898619034894, -34.91411700850362 
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "",
-        "Organismo": "",
-        "Nombre": "CDO.PREV.RURAL LA PLATA",
-        "Dirección": "Autovía 2 entre 515 y 520",
-        "Partido": "La Plata",
-        "Teléfono": "",
-        "autoridad": "",
-        "grado": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.118511650848774, -35.005600044712224 
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "1RA",
-        "Dirección": "AV. 53 e/ 10 y 9",
-        "Partido": "La Plata",
-        "Teléfono": "0221-423-1945/6",
-        "autoridad": "TOLABA ALBERTO DANIEL",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.95055002,
-          -34.91894484
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "2DA",
-        "Dirección": "38 E/ 7 Y 8",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4231947/48/4230649",
-        "autoridad": "BENITEZ FRANCISCO JAVIER",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.963126,
-          -34.906217
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "4TA",
-        "Dirección": "DIAG. 73 E/ 21 Y 22",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4231949/50",
-        "autoridad": "MEDINA WALTER JONATAN",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.972949,
-          -34.921877
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "5TA",
-        "Dirección": "DIAG. 74 E/ 24 Y 23",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4577122/21",
-        "autoridad": "DONADIO SERGIO WALTER",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.95373,
-          -34.940075
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "6TA",
-        "Dirección": "1 E/ 527 Y 528",
-        "Partido": "La Plata",
-        "Teléfono": "2214258063/4231952/4231951",
-        "autoridad": "PAZ CARLOS ARMANDO",
-        "grado": "SUBCOMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.966389,
-          -34.892078
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "7MA",
-        "Dirección": "520 E/ 213 Y 212",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4913300/3500/6300",
-        "autoridad": "MARTINEZ CRISTIAN ADRIAN",
-        "grado": "SUBCOMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.091457,
-          -34.989132
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Departamento",
-        "Organismo": "",
-        "Nombre": "COLONIA URQUIZA",
-        "Dirección": "483 y 186",
-        "Partido": "La Plata",
-        "Teléfono": "",
-        "autoridad": "FONTANA CLAUDIO JAVIER",
-        "grado": "OFICIAL AYUDANTE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.09421144689796, -34.94130419158682 
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "",
-        "Organismo": "",
-        "Nombre": "PTO.VIG.AVANZ.EL PELIGRO",
-        "Dirección": "423 e colectora Ruta 2 y Diag. 424",
-        "Partido": "La Plata",
-        "Teléfono": "",
-        "autoridad": "PALAVECINO MICAELA AYELEN",
-        "grado": "OFICIAL SUBINSPECTOR"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.16989062693312, -34.94000312178573
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "9NA",
-        "Dirección": "5 E/ 59 Y 60",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4231953/54/4213978",
-        "autoridad": "NAVATTA JUAN IGNACIO",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.940087,
-          -34.91812
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "10MA",
-        "Dirección": "2 E/ 12 Y 13",
-        "Partido": "La Plata",
-        "Teléfono": "2214721366/4722928/4722909",
-        "autoridad": "BERNHARDT CRISTIAN OSCAR",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.048434,
-          -34.871829
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Departamento",
-        "Organismo": "",
-        "Nombre": "SAVOIA",
-        "Dirección": "Calle 12 e 472 y 474 ",
-        "Partido": "La Plata",
-        "Teléfono": "2214721366/4722928/4722909",
-        "autoridad": "",
-        "grado": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.04162927116435,
-          -34.8647701741296
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Subcomisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "GORINA",
-        "Dirección": "140 BIS ENTRE 492 Y 501",
-        "Partido": "La Plata",
-        "Teléfono": "2214848037",
-        "autoridad": "ROBLEDO JULIA ALEJANDRA",
-        "grado": "OFICIAL PRINCIPAL"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.0365926,
-          -34.90889071
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "12DA",
-        "Dirección": "12 E/ 48 Y 49",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4731328/1599/0075",
-        "autoridad": "MAURI MARCELO DAVID",
-        "grado": "SUBCOMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.08774,
-          -34.857187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Departamento",
-        "Organismo": "",
-        "Nombre": "ARTURO SEGUI",
-        "Dirección": "Diag. 145 e 414 bis y 147",
-        "Partido": "La Plata",
-        "Teléfono": "2214740301",
-        "autoridad": "BAEZ MARIO ALBERTO",
-        "grado": "OFICIAL PRINCIPAL"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.12698720457246,
-          -34.8884405608026
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "13RA",
-        "Dirección": "502 E/ 14 Y 15",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4713500/5434/4847147",
-        "autoridad": "SANCHEZ DEBORA BEATRIZ",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.010395,
-          -34.882484
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Departamento",
-        "Organismo": "",
-        "Nombre": "VILLA CASTELLS",
-        "Dirección": "Calle 13 y 493",
-        "Partido": "La Plata",
-        "Teléfono": "",
-        "autoridad": "",
-        "grado": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.01793858744727,
-          -34.87627500763314
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Subcomisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "HERNANDEZ",
-        "Dirección": "511 ENTRE 29 Y 30",
-        "Partido": "La Plata",
-        "Teléfono": "2214715492",
-        "autoridad": "BOLO JULIAN",
-        "grado": "OFICIAL PRINCIPAL"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.01565249,
-          -34.90354186
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "14TA",
-        "Dirección": "173 E/ 517 BIS Y 517",
-        "Partido": "La Plata",
-        "Teléfono": "0221-478-1684/ 1154",
-        "autoridad": "ALZAMENDI EDUARDO JAVIER",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.054677,
-          -34.95027
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Subcomisaría",
-        "Organismo": "",
-        "Nombre": "LA UNION",
-        "Dirección": "137 e 524 y 525",
-        "Partido": "La Plata",
-        "Teléfono": "2214707676",
-        "autoridad": "AYALA CARLOS DANIEL",
-        "grado": "SUBCOMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.008334933951964,
-          -34.92094746946648
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "11RA",
-        "Dirección": "530 E/ 14 Y 15",
-        "Partido": "La Plata",
-        "Teléfono": "2214270544/4231955",
-        "autoridad": "SANABRIA LEONARDO PATRICIO",
-        "grado": "SUBCOMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.978855,
-          -34.905771
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "",
-        "Nombre": "MUJER Y FLIA",
-        "Dirección": "Calle 1 e 42 y 43",
-        "Partido": "La Plata",
-        "Teléfono": "2214231826",
-        "autoridad": "AGUILERA VANESA",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.95100261164728,
-          -34.90346584008434
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "3RA",
-        "Dirección": "137 E/ 61 Y 62",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4507890/ 4560934",
-        "autoridad": "GONZALEZ MIGUEL DEL VALLE",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.971453,
-          -34.950697
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Subcomisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "ARANA",
-        "Dirección": "640 Y 141",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4910316",
-        "autoridad": "ZERDA JAVIER ANDRES",
-        "grado": "OFICIAL PRINCIPAL"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.90536168,
-          -35.00482637
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "8VA",
-        "Dirección": "7 E/ 75 Y 74",
-        "Partido": "La Plata",
-        "Teléfono": "0221-4577124/ 5/ 4524322",
-        "autoridad": "VALBRUNI ERIC GUSTAVO",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.92513,
-          -34.932709
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Departamento",
-        "Organismo": "",
-        "Nombre": "AEROPUERTO",
-        "Dirección": "Av. Fuerza Aerea Argentina 3950",
-        "Partido": "La Plata",
-        "Teléfono": "2214867131",
-        "autoridad": "ROJAS SERGIO DANIEL",
-        "grado": "OFICIAL PRINCIPAL"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.89546185683339,
-          -34.96476568516724
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "16TA",
-        "Dirección": "121 E/ 81 Y 82",
-        "Partido": "La Plata",
-        "Teléfono": "2214574553",
-        "autoridad": "TAPIERO GASTON ARIEL",
-        "grado": "COMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.90464,
-          -34.926172
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "Comisaría",
-        "Organismo": "Ministerio de Seguridad",
-        "Nombre": "15TA",
-        "Dirección": "AVE 44 NRO. 5350",
-        "Partido": "La Plata",
-        "Teléfono": "022-4963036",
-        "autoridad": "PEREZ SOMMER SERGIO MARTIN",
-        "grado": "SUBCOMISARIO"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.053611,
-          -35.000519
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "DIRECCION",
-        "Organismo": "",
-        "Nombre": "INFANTERIA",
-        "Dirección": "calle 1 e 59 y 60",
-        "Partido": "La Plata",
-        "Teléfono": "2214231893",
-        "autoridad": "CIRACO GUSTAVO FERNANDO",
-        "grado": "COMISARIO INSPECTOR"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.93428243663944,
-          -34.91417235412259
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "",
-        "Organismo": "",
-        "Nombre": "D.D.I.-F.J.LA PLATA",
-        "Dirección": "calle 61 e 12 y 13",
-        "Partido": "La Plata",
-        "Teléfono": "2214231825",
-        "autoridad": "ROMANO DIEGO NICOLAS",
-        "grado": "COMISARIO INSPECTOR"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.94378524459292,
-          -34.9264015285784
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Dependencia": "DIRECCION",
-        "Organismo": "",
-        "Nombre": "BOMBEROS",
-        "Dirección": "Av. 52 e 120 y 53",
-        "Partido": "La Plata",
-        "Teléfono": "2214231736",
-        "autoridad": "NARBAEZ DAVID ADRIAN",
-        "grado": "COMISARIO MAYOR"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.938425172091804,
-          -34.90644523478915
-        ]
-      }
-    }
-    
-    
-    
-
-    
-    
-    
-   
-    
-    
-  ]
-}
