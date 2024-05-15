@@ -187,19 +187,23 @@ const Mapa = () => {
           <DepartamentosLaPlataSource data={departamentosLaPlata} />
 
           {/* Renderiza los marcadores de las dependencias */}
-          <DependenciasMarkers
-            dependencias={dependenciasLaPlata}
-            setPopupInfo={setPopupInfo}
-            setMarker={setSelectedMarkerId}
-            selected={selectedMarkerId}
-          />
+          {tipoFilters.Dependencias && (
+  <DependenciasMarkers
+    dependencias={dependenciasLaPlata}
+    setPopupInfo={setPopupInfo}
+    setMarker={setSelectedMarkerId}
+    selected={selectedMarkerId}
+  />
+)}
 
-          <GatilloMarkers
-            gatillos={gatillo} // Asegúrate de pasar los datos de los gatillos aquí
-            setPopupInfo={setPopupInfo}
-            setMarker={setSelectedMarkerId}
-            selected={selectedMarkerId}
-          />
+{tipoFilters.GatilloFacil && (
+  <GatilloMarkers
+    gatillos={gatillo}
+    setPopupInfo={setPopupInfo}
+    setMarker={setSelectedMarkerId}
+    selected={selectedMarkerId}
+  />
+)}
         </MapGL>
         <LogoMapa />
       </section>
