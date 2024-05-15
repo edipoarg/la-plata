@@ -9,10 +9,10 @@ export default function Filtros({ handleTipoFilter, setTipoFilters }) {
   const handleTipoFilterChange = (tipoId) => () => {
     if (selectedFilter === tipoId) {
       setSelectedFilter(null);
-      setTipoFilters((prevFilters) => ({ ...prevFilters, [tipoId]: false }));
+      setTipoFilters((prevFilters) => ({ ...prevFilters, [tipoId]: true }));
     } else {
       setSelectedFilter(tipoId);
-      setTipoFilters((prevFilters) => ({ ...prevFilters, [tipoId]: true }));
+      setTipoFilters((prevFilters) => ({ ...prevFilters, [tipoId]: false }));
       handleTipoFilter();
     }
   };
@@ -26,8 +26,8 @@ export default function Filtros({ handleTipoFilter, setTipoFilters }) {
       <div>
         <div className={styles.filtroTipo}>
           <div
-            className={`${styles.tipo1Ref} ${selectedFilter === "Comisarias" ? styles.selected : ""}`}
-            onClick={handleTipoFilterChange("Comisarias")}
+            className={`${styles.tipo1Ref} ${selectedFilter === "Dependencias" ? styles.selected : ""}`}
+            onClick={handleTipoFilterChange("Dependencias")}
           >
             <Icons icon="mapa" />
             <h4 className={styles.tipoClass}>Comisarias </h4>
@@ -49,7 +49,7 @@ export default function Filtros({ handleTipoFilter, setTipoFilters }) {
 Filtros.propTypes = {
   handleTipoFilter: PropTypes.func.isRequired,
   tipoFilters: PropTypes.shape({
-    Comisarias: PropTypes.bool.isRequired,
+    Dependencias: PropTypes.bool.isRequired,
     Reportes: PropTypes.bool.isRequired,
     GatilloFacil: PropTypes.bool.isRequired,
   }).isRequired,
