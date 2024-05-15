@@ -10,7 +10,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 1,
+        "Contador": "g1",
         "NumCaso": 1209,
         "Nombre": "VALLE, Rubén Dardo",
         "Género": "",
@@ -38,7 +38,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 2,
+        "Contador": "g2",
         "NumCaso": 457,
         "Nombre": "FLORES, Vicente",
         "Género": "",
@@ -66,7 +66,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 3,
+        "Contador": "g3",
         "NumCaso": 8,
         "Nombre": "ALBANESE, Maximiliano M.",
         "Género": "",
@@ -94,7 +94,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 4,
+        "Contador": "g4",
         "NumCaso": 843,
         "Nombre": "NÚÑEZ, Andrés",
         "Género": "",
@@ -122,7 +122,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 5,
+        "Contador": "g5",
         "NumCaso": 188,
         "Nombre": "BRU, Miguel",
         "Género": "",
@@ -150,7 +150,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 6,
+        "Contador": "g6",
         "NumCaso": 499,
         "Nombre": "GARRIADOR, Silvia",
         "Género": "F",
@@ -178,7 +178,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 7,
+        "Contador": "g7",
         "NumCaso": 72,
         "Nombre": "ARAYA, Oscar Maximiliano",
         "Género": "",
@@ -206,7 +206,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 8,
+        "Contador": "g8",
         "NumCaso": 1445,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -234,7 +234,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 9,
+        "Contador": "g9",
         "NumCaso": 1441,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -262,7 +262,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 10,
+        "Contador": "g10",
         "NumCaso": 440,
         "Nombre": "FERREYRA, Ricardo",
         "Género": "",
@@ -290,7 +290,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 11,
+        "Contador": "g11",
         "NumCaso": 743,
         "Nombre": "MARIN Dasandro, Carlos",
         "Género": "",
@@ -318,7 +318,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 12,
+        "Contador": "g12",
         "NumCaso": 1314,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -346,7 +346,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 13,
+        "Contador": "g13",
         "NumCaso": 563,
         "Nombre": "GONZÁLEZ, Marcelo",
         "Género": "",
@@ -374,7 +374,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 14,
+        "Contador": "g14",
         "NumCaso": 639,
         "Nombre": "JUAREZ, Juan",
         "Género": "",
@@ -402,7 +402,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 15,
+        "Contador": "g15",
         "NumCaso": 831,
         "Nombre": "NAVARRO, Ramón",
         "Género": "",
@@ -430,7 +430,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 16,
+        "Contador": "g16",
         "NumCaso": 123,
         "Nombre": "BARRIENTOS, Marcelo",
         "Género": "",
@@ -458,7 +458,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 17,
+        "Contador": "g17",
         "NumCaso": 1486,
         "Nombre": "SANTANDER, Silvia",
         "Género": "F",
@@ -486,7 +486,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 18,
+        "Contador": "g18",
         "NumCaso": 872,
         "Nombre": "OYARBIDE, Mónica",
         "Género": "F",
@@ -514,7 +514,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 19,
+        "Contador": "g19",
         "NumCaso": 1448,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -542,7 +542,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 20,
+        "Contador": "g20",
         "NumCaso": 4939,
         "Nombre": "CASTROCIN, Germán Ariel \"Fofi",
         "Género": "",
@@ -570,7 +570,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 21,
+        "Contador": "g21",
         "NumCaso": 740,
         "Nombre": "MANZO, Eduardo",
         "Género": "",
@@ -598,7 +598,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 22,
+        "Contador": "g22",
         "NumCaso": 3216,
         "Nombre": "GONZÁLEZ, Valeria",
         "Género": "F",
@@ -626,7 +626,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 23,
+        "Contador": "g23",
         "NumCaso": 344,
         "Nombre": "CUELLO, Gustavo",
         "Género": "",
@@ -654,7 +654,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 24,
+        "Contador": "g24",
         "NumCaso": 1313,
         "Nombre": "AZCONA, Julio",
         "Género": "",
@@ -682,7 +682,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 25,
+        "Contador": "g25",
         "NumCaso": 579,
         "Nombre": "GRASSANO, Daniel",
         "Género": "",
@@ -710,7 +710,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 26,
+        "Contador": "g26",
         "NumCaso": 1581,
         "Nombre": "DÍAZ, Leonardo",
         "Género": "",
@@ -738,7 +738,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 27,
+        "Contador": "g27",
         "NumCaso": 907,
         "Nombre": "PENNA, Marcelo Horacio",
         "Género": "",
@@ -766,7 +766,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 28,
+        "Contador": "g28",
         "NumCaso": 1167,
         "Nombre": "SPOTTI, Gabriela Adriana",
         "Género": "F",
@@ -794,7 +794,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 29,
+        "Contador": "g29",
         "NumCaso": 2796,
         "Nombre": "PÉREZ, Cristian \"El Rusito",
         "Género": "",
@@ -822,7 +822,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 30,
+        "Contador": "g30",
         "NumCaso": 1571,
         "Nombre": "SORIA, Emilio",
         "Género": "",
@@ -850,7 +850,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 31,
+        "Contador": "g31",
         "NumCaso": 1575,
         "Nombre": "SOTO, Alejandra",
         "Género": "F",
@@ -878,7 +878,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 32,
+        "Contador": "g32",
         "NumCaso": 2284,
         "Nombre": "LÓPEZ, Felipe",
         "Género": "",
@@ -906,7 +906,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 33,
+        "Contador": "g33",
         "NumCaso": 1518,
         "Nombre": "ALANIS, Mario Díaz",
         "Género": "",
@@ -934,7 +934,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 34,
+        "Contador": "g34",
         "NumCaso": 1577,
         "Nombre": "DIEZ, Damián",
         "Género": "",
@@ -962,7 +962,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 35,
+        "Contador": "g35",
         "NumCaso": 1590,
         "Nombre": "YAPURA, LILIANA",
         "Género": "F",
@@ -990,7 +990,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 36,
+        "Contador": "g36",
         "NumCaso": 1665,
         "Nombre": "RESPRESS, Liliana Cristina",
         "Género": "F",
@@ -1018,7 +1018,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 37,
+        "Contador": "g37",
         "NumCaso": 1862,
         "Nombre": "MIGONE, Oscar Daniel",
         "Género": "",
@@ -1046,7 +1046,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 38,
+        "Contador": "g38",
         "NumCaso": 1926,
         "Nombre": "LE BELLOT, Roberto",
         "Género": "",
@@ -1074,7 +1074,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 39,
+        "Contador": "g39",
         "NumCaso": 1704,
         "Nombre": "LÓPEZ, Jorge Julio",
         "Género": "",
@@ -1102,7 +1102,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 40,
+        "Contador": "g40",
         "NumCaso": 2160,
         "Nombre": "BARZÁBAL, Darián",
         "Género": "",
@@ -1130,7 +1130,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 41,
+        "Contador": "g41",
         "NumCaso": 2138,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -1158,7 +1158,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 42,
+        "Contador": "g42",
         "NumCaso": 2243,
         "Nombre": "VATALARO, Alejandro Rubén",
         "Género": "",
@@ -1186,7 +1186,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 43,
+        "Contador": "g43",
         "NumCaso": 2244,
         "Nombre": "TORRES Barbosa, Ricardo",
         "Género": "",
@@ -1214,7 +1214,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 44,
+        "Contador": "g44",
         "NumCaso": 2242,
         "Nombre": "DÍAZ, Pedro",
         "Género": "",
@@ -1242,7 +1242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 45,
+        "Contador": "g45",
         "NumCaso": 2381,
         "Nombre": "DESMELIK, Sebastián Mauro",
         "Género": "",
@@ -1270,7 +1270,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 46,
+        "Contador": "g46",
         "NumCaso": 2353,
         "Nombre": "LEDESMA, N. N.",
         "Género": "",
@@ -1298,7 +1298,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 47,
+        "Contador": "g47",
         "NumCaso": 2372,
         "Nombre": "ARAMAYO, Nelson",
         "Género": "",
@@ -1326,7 +1326,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 48,
+        "Contador": "g48",
         "NumCaso": 2396,
         "Nombre": "VALDIVIA, Marcelo Orlando",
         "Género": "",
@@ -1354,7 +1354,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 49,
+        "Contador": "g49",
         "NumCaso": 2397,
         "Nombre": "LOREA,  Hugo Isidoro",
         "Género": "",
@@ -1382,7 +1382,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 50,
+        "Contador": "g50",
         "NumCaso": 2438,
         "Nombre": "SERRANO, Miguel Angel",
         "Género": "",
@@ -1410,7 +1410,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 51,
+        "Contador": "g51",
         "NumCaso": 2435,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -1438,7 +1438,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 52,
+        "Contador": "g52",
         "NumCaso": 2521,
         "Nombre": "PORTAL, Germán",
         "Género": "",
@@ -1466,7 +1466,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 53,
+        "Contador": "g53",
         "NumCaso": 2690,
         "Nombre": "OLIVA, Emanuel",
         "Género": "",
@@ -1494,7 +1494,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 54,
+        "Contador": "g54",
         "NumCaso": 2699,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -1522,7 +1522,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 55,
+        "Contador": "g55",
         "NumCaso": 2846,
         "Nombre": "HEREDIA, Ezequiel",
         "Género": "",
@@ -1550,7 +1550,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 56,
+        "Contador": "g56",
         "NumCaso": 6403,
         "Nombre": "TELLECHEA, Alejandro Fabián",
         "Género": "",
@@ -1578,7 +1578,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 57,
+        "Contador": "g57",
         "NumCaso": 3141,
         "Nombre": "JUÁREZ Caro, Hugo",
         "Género": "",
@@ -1606,7 +1606,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 58,
+        "Contador": "g58",
         "NumCaso": 3746,
         "Nombre": "MIRIÑAY, Román Gualberto",
         "Género": "",
@@ -1634,7 +1634,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 59,
+        "Contador": "g59",
         "NumCaso": 6989,
         "Nombre": "CANIZZO, Ariel",
         "Género": "",
@@ -1662,7 +1662,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 60,
+        "Contador": "g60",
         "NumCaso": 4479,
         "Nombre": "SIMONETTI, Rodrigo",
         "Género": "",
@@ -1690,7 +1690,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 61,
+        "Contador": "g61",
         "NumCaso": 3455,
         "Nombre": "DE LEÓN, Maximiliano \"Juguito",
         "Género": "",
@@ -1718,7 +1718,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 62,
+        "Contador": "g62",
         "NumCaso": 4213,
         "Nombre": "NICORA, Sebastián",
         "Género": "",
@@ -1746,7 +1746,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 63,
+        "Contador": "g63",
         "NumCaso": 1509,
         "Nombre": "CIGARÁN, Rubén Omar",
         "Género": "",
@@ -1774,7 +1774,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 64,
+        "Contador": "g64",
         "NumCaso": 1795,
         "Nombre": "LUCERO, Axel",
         "Género": "",
@@ -1802,7 +1802,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 65,
+        "Contador": "g65",
         "NumCaso": 4478,
         "Nombre": "GARAY, Bladimir Matías",
         "Género": "",
@@ -1830,7 +1830,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 66,
+        "Contador": "g66",
         "NumCaso": 3785,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -1858,7 +1858,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 67,
+        "Contador": "g67",
         "NumCaso": 3790,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -1886,7 +1886,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 68,
+        "Contador": "g68",
         "NumCaso": 4002,
         "Nombre": "ARGÜELLO Canavesio, Franco Emiliano",
         "Género": "",
@@ -1914,7 +1914,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 69,
+        "Contador": "g69",
         "NumCaso": 3794,
         "Nombre": "CABELLO, Laura",
         "Género": "F",
@@ -1942,7 +1942,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 70,
+        "Contador": "g70",
         "NumCaso": 3793,
         "Nombre": "JEREZ, Martín",
         "Género": "",
@@ -1970,7 +1970,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 71,
+        "Contador": "g71",
         "NumCaso": 3797,
         "Nombre": "SALAS, Fabián Alberto",
         "Género": "",
@@ -1998,7 +1998,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 72,
+        "Contador": "g72",
         "NumCaso": 3853,
         "Nombre": "BOWERS, Nélida Soledad",
         "Género": "F",
@@ -2026,7 +2026,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 73,
+        "Contador": "g73",
         "NumCaso": 3883,
         "Nombre": "AYALA, Adrián Miguel",
         "Género": "",
@@ -2054,7 +2054,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 74,
+        "Contador": "g74",
         "NumCaso": 3845,
         "Nombre": "PERALTA, Luciano",
         "Género": "",
@@ -2082,7 +2082,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 75,
+        "Contador": "g75",
         "NumCaso": 4018,
         "Nombre": "MOGICA, Brian \"Toty",
         "Género": "",
@@ -2110,7 +2110,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 76,
+        "Contador": "g76",
         "NumCaso": 3995,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -2138,7 +2138,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 77,
+        "Contador": "g77",
         "NumCaso": 4032,
         "Nombre": "PERUSSATTO, Ismael \"Beibi",
         "Género": "",
@@ -2166,7 +2166,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 78,
+        "Contador": "g78",
         "NumCaso": 4033,
         "Nombre": "ANDRADA, Mauricio",
         "Género": "",
@@ -2194,7 +2194,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 79,
+        "Contador": "g79",
         "NumCaso": 5056,
         "Nombre": "JARA, Martín",
         "Género": "",
@@ -2222,7 +2222,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 80,
+        "Contador": "g80",
         "NumCaso": 4035,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -2250,7 +2250,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 81,
+        "Contador": "g81",
         "NumCaso": 4167,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -2278,7 +2278,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 82,
+        "Contador": "g82",
         "NumCaso": 4292,
         "Nombre": "N.N. Masculino",
         "Género": "",
@@ -2306,7 +2306,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 83,
+        "Contador": "g83",
         "NumCaso": 4366,
         "Nombre": "DUARTE, Pablo",
         "Género": "",
@@ -2334,7 +2334,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 84,
+        "Contador": "g84",
         "NumCaso": 4495,
         "Nombre": "N.N. JP",
         "Género": "",
@@ -2362,7 +2362,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 85,
+        "Contador": "g85",
         "NumCaso": 4372,
         "Nombre": "BARGAS, Cristian",
         "Género": "",
@@ -2390,7 +2390,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 86,
+        "Contador": "g86",
         "NumCaso": 4353,
         "Nombre": "P., J.",
         "Género": "",
@@ -2418,7 +2418,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 87,
+        "Contador": "g87",
         "NumCaso": 4561,
         "Nombre": "YALET, Juan Martín",
         "Género": "",
@@ -2446,7 +2446,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 88,
+        "Contador": "g88",
         "NumCaso": 4658,
         "Nombre": "N.N. Masculino Menor",
         "Género": "",
@@ -2474,7 +2474,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 89,
+        "Contador": "g89",
         "NumCaso": "",
         "Nombre": "IBARRA, Walter Oscar",
         "Género": "",
@@ -2502,7 +2502,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 90,
+        "Contador": "g90",
         "NumCaso": 4808,
         "Nombre": "ÁLVAREZ, Ezequiel \"Tata\" Alberto",
         "Género": "",
@@ -2530,7 +2530,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 91,
+        "Contador": "g91",
         "NumCaso": 4668,
         "Nombre": "RAMÍREZ, Giselle Astrid",
         "Género": "F",
@@ -2558,7 +2558,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 92,
+        "Contador": "g92",
         "NumCaso": 4725,
         "Nombre": "N.N. Santiago (puede ser Mengarelli, Santiago Andrés)",
         "Género": "",
@@ -2586,7 +2586,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 93,
+        "Contador": "g93",
         "NumCaso": "",
         "Nombre": "AYBAR, Elvio German",
         "Género": "",
@@ -2614,7 +2614,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 94,
+        "Contador": "g94",
         "NumCaso": 4809,
         "Nombre": "PIMENTEL, Marcos",
         "Género": "",
@@ -2642,7 +2642,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 95,
+        "Contador": "g95",
         "NumCaso": "",
         "Nombre": "CAMPOS, Hilda Emilia",
         "Género": "F",
@@ -2670,7 +2670,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 96,
+        "Contador": "g96",
         "NumCaso": 4745,
         "Nombre": "LUNA, Guillermo",
         "Género": "",
@@ -2698,7 +2698,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 97,
+        "Contador": "g97",
         "NumCaso": 4744,
         "Nombre": "FAVRE, Laura Silvana",
         "Género": "F",
@@ -2726,7 +2726,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 98,
+        "Contador": "g98",
         "NumCaso": "",
         "Nombre": "BOTIAS CHÁVEZ, Horacio Alberto",
         "Género": "",
@@ -2754,7 +2754,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 99,
+        "Contador": "g99",
         "NumCaso": 4750,
         "Nombre": "GONZÁLEZ, Víctor Emanuel",
         "Género": "",
@@ -2782,7 +2782,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 100,
+        "Contador": "g100",
         "NumCaso": 4771,
         "Nombre": "VELÁZQUEZ, Jorge Maximiliano",
         "Género": "",
@@ -2810,7 +2810,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 101,
+        "Contador": "g101",
         "NumCaso": 5076,
         "Nombre": "ROJO, Gerónimo",
         "Género": "",
@@ -2838,7 +2838,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 102,
+        "Contador": "g102",
         "NumCaso": 5075,
         "Nombre": "BARBOZA, Iván Rodrigo",
         "Género": "",
@@ -2866,7 +2866,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 103,
+        "Contador": "g103",
         "NumCaso": 5096,
         "Nombre": "VARGAS, Nicolás",
         "Género": "",
@@ -2894,7 +2894,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 104,
+        "Contador": "g104",
         "NumCaso": 5284,
         "Nombre": "CAMPOS, Maximiliano Ariel",
         "Género": "",
@@ -2922,7 +2922,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 105,
+        "Contador": "g105",
         "NumCaso": 5202,
         "Nombre": "BARDALES Sangama, Brandy",
         "Género": "FT",
@@ -2950,7 +2950,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 106,
+        "Contador": "g106",
         "NumCaso": "",
         "Nombre": "HERRERA, Carlos",
         "Género": "",
@@ -2978,7 +2978,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 107,
+        "Contador": "g107",
         "NumCaso": "",
         "Nombre": "MARCHAN, Eduardo",
         "Género": "",
@@ -3006,7 +3006,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 108,
+        "Contador": "g108",
         "NumCaso": 5953,
         "Nombre": "PEÑALBA, Ciro",
         "Género": "",
@@ -3034,7 +3034,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 109,
+        "Contador": "g109",
         "NumCaso": 5904,
         "Nombre": "GONZÁLEZ, Mario \"El Chino",
         "Género": "",
@@ -3062,7 +3062,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 110,
+        "Contador": "g110",
         "NumCaso": "",
         "Nombre": "MARINCOVICH, Matias Jesús",
         "Género": "",
@@ -3090,7 +3090,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 111,
+        "Contador": "g111",
         "NumCaso": "",
         "Nombre": "GUTIÉRREZ, Laura Romina",
         "Género": "F",
@@ -3118,7 +3118,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 112,
+        "Contador": "g112",
         "NumCaso": 6975,
         "Nombre": "ACOSTA, Jonatan Ezequiel \"Pajarito",
         "Género": "",
@@ -3146,7 +3146,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 113,
+        "Contador": "g113",
         "NumCaso": 7330,
         "Nombre": "DÍAS, Pedro Fernando",
         "Género": "",
@@ -3174,7 +3174,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 114,
+        "Contador": "g114",
         "NumCaso": "",
         "Nombre": "COLMAN, Ian Isaac",
         "Género": "",
@@ -3202,7 +3202,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 115,
+        "Contador": "g115",
         "NumCaso": "",
         "Nombre": "NUÑEZ GAUTO, Epifanio",
         "Género": "",
@@ -3230,7 +3230,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 116,
+        "Contador": "g116",
         "NumCaso": 7246,
         "Nombre": "FERNÁNDEZ, Lucas Matias",
         "Género": "",
@@ -3243,7 +3243,7 @@
         "Ciudad": "ARTURO SEGUÍ",
         "Imputados": "Camila Pérez, oficial de la policía de la Ciudad y su marido, Fernando Ramírez, policía bonaerense de Berazategui.",
         "Cod_Fuerza": "PC",
-        "Situación Procesal": "La mujer policía fue detenida por homicidio agravado y lesiones agravadas. El bonaerense se profugó.",
+        "Situación Procesal": "",
         "Circunstancias": "La mujer policía de la Ciudad, su marido de la Bonaerense y un hermano de ella llegaron en auto a la casa de Fernández, porque acusaban a un amigo de él de haber robado la bicicleta al hermano de la policía. Cuando los varones se trenzaron a golpes con va",
         "Cod_Circunstancia": 1,
         "Desaparecidos": "",
@@ -3258,7 +3258,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 117,
+        "Contador": "g117",
         "NumCaso": "",
         "Nombre": "MILEI, Damián",
         "Género": "",
@@ -3286,7 +3286,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 118,
+        "Contador": "g118",
         "NumCaso": "",
         "Nombre": "SEGOVIA, Francisco",
         "Género": "",
@@ -3314,7 +3314,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 119,
+        "Contador": "g119",
         "NumCaso": "",
         "Nombre": "OBREGÓN, José Rodolfo",
         "Género": "",
@@ -3342,7 +3342,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 120,
+        "Contador": "g120",
         "NumCaso": 7492,
         "Nombre": "MANAVELLA, Pablo",
         "Género": "",
@@ -3370,7 +3370,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 121,
+        "Contador": "g121",
         "NumCaso": "",
         "Nombre": "RÍOS, Matias Ezequiel",
         "Género": "",
@@ -3398,7 +3398,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 122,
+        "Contador": "g122",
         "NumCaso": 7563,
         "Nombre": "COSTILLA, Néstor Ramón \"Lito",
         "Género": "",
@@ -3426,7 +3426,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 123,
+        "Contador": "g123",
         "NumCaso": 7352,
         "Nombre": "SAUCEDO, Nazareno",
         "Género": "",
@@ -3454,7 +3454,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 124,
+        "Contador": "g124",
         "NumCaso": 7594,
         "Nombre": "STIRZ, Santiago",
         "Género": "",
@@ -3482,7 +3482,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 125,
+        "Contador": "g125",
         "NumCaso": "",
         "Nombre": "N.N",
         "Género": "",
@@ -3510,7 +3510,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 126,
+        "Contador": "g126",
         "NumCaso": 7801,
         "Nombre": "N.N. Masculino - Cañedo, Maximiliano Javier",
         "Género": "",
@@ -3538,7 +3538,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 127,
+        "Contador": "g127",
         "NumCaso": 7666,
         "Nombre": "DE LUCCA, Cielo (MT)",
         "Género": "FT",
@@ -3566,7 +3566,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 128,
+        "Contador": "g128",
         "NumCaso": 7665,
         "Nombre": "SANDOVAL, Florencia",
         "Género": "F",
@@ -3594,7 +3594,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 129,
+        "Contador": "g129",
         "NumCaso": 8257,
         "Nombre": "N.N. Masculino - Antonio Silvio (o Cirilo)",
         "Género": "",
@@ -3622,7 +3622,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 130,
+        "Contador": "g130",
         "NumCaso": 7744,
         "Nombre": "GUTIÉRREZ, Marta Susana",
         "Género": "F",
@@ -3650,7 +3650,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 131,
+        "Contador": "g131",
         "NumCaso": 8215,
         "Nombre": "GARCÍA, Nicolás Natanael",
         "Género": "",
@@ -3678,7 +3678,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 132,
+        "Contador": "g132",
         "NumCaso": 8431,
         "Nombre": "ROJAS, Cristian Eleno",
         "Género": "",
@@ -3706,7 +3706,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 133,
+        "Contador": "g133",
         "NumCaso": 8437,
         "Nombre": "SILVA, Lilia Mabel",
         "Género": "F",
@@ -3734,7 +3734,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 134,
+        "Contador": "g134",
         "NumCaso": 8451,
         "Nombre": "SALINAS, Cristian Alejandro",
         "Género": "",
@@ -3762,7 +3762,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 135,
+        "Contador": "g135",
         "NumCaso": 8229,
         "Nombre": "SALAS, Carolina Eugenia",
         "Género": "F",
@@ -3790,7 +3790,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Contador": 136,
+        "Contador": "g136",
         "NumCaso": "",
         "Nombre": "PERALTA GUARDIA, Néstor Domingo",
         "Género": "",
