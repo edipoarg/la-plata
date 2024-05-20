@@ -28,7 +28,7 @@ const Screen = ({
       <section className={styles.ComisariaScreen}>
         <section className={styles.ComisariaData}>
           <h3 className={styles.level}>{level}</h3>
-          <h2 className={styles.title}>{title}</h2>
+          <h2 className={styles.title}>{truncateText(title, 32)}</h2>
           <h4 className={styles.address}>{address}</h4>
           <h4 className={styles.phone}>{phone}</h4>
           <h4 className={styles.age}>{age}</h4>
@@ -47,7 +47,7 @@ const Screen = ({
       {(grade || autority) && (
         <section className={styles.autoridadData}>
           {grade && <h3 className={styles.grade}>{grade}</h3>}
-          {autority && <h2 className={styles.autority}>{autority}</h2>}
+          {autority && <h2 className={styles.autority}>{truncateText(autority, 35)}</h2>}
         </section>
       )}
     </section>
