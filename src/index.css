@@ -8,19 +8,19 @@ body {
 
 @font-face {
   font-family: "Ronnia Heavy";
-  src: url("/RonniaHeavy.otf") format("otf");
+  src: url("fonts/RonniaHeavy.otf") format("otf");
 }
 
 @font-face {
   font-family: "Ronnia Bold Condensed";
   src:
-    url("/Ronnia-Bold-Condensed.woff2") format("woff2"),
-    url("/RonniaCondBold.otf") format("woff");
+    url("fonts/Ronnia-Bold-Condensed.woff2") format("woff2"),
+    url("fonts/RonniaCondBold.otf") format("woff");
 }
 
 @font-face {
   font-family: "Ronnia Thin Condensed";
-  src: url("/RonniaCondLight.otf") format("woff2");
+  src: url("fonts/RonniaCondLight.otf") format("woff2");
 }
 
 h1 {
