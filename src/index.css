@@ -13,9 +13,7 @@ body {
 
 @font-face {
   font-family: "Ronnia Bold Condensed";
-  src:
-    url("fonts/Ronnia-Bold-Condensed.woff2") format("woff2"),
-    url("fonts/RonniaCondBold.otf") format("woff");
+  src: url("fonts/RonniaCondBold.otf") format("woff");
 }
 
 @font-face {
