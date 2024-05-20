@@ -129,62 +129,18 @@ gap: 3vh;
   }
   
   /*== Responsive==*/
+  /*height*/
   
   /*== tablet==*/
   
   @media (min-width: 768px) {
-    .display {
-      width: 18vw;
-      height: 13vh;
-    }
-  
-    .filtrosBox {
-      display: grid;
-      grid-template-columns: 1fr 5fr;
-    }
-  
-    .filtros {
-      height: 90vh;
-    }
-    .tipoClass {
-      font-size: 10px;
-      padding-top: 1vh;
-    }
-  
 
-    .tipo2Ref,
-    .tipo1Ref,
-    .tipo3Ref {
-      grid-template-columns: 1fr;
-      justify-items: center;
-      padding-top: 5px;
- 
+
+
+    .filtroTipo{
+      width: 5vw;
     }
-  
-    .filtroTipo {
-      grid-template-columns: 1fr;
-      width: 7vw;
-      height: 45vh;
-      align-content:center;
-    }
-  
-    .boxes {
-      padding: 5px;
-      height: 50vh;
-      padding-left: 15px;
-    }
-  
-    .filtroTipo {
-      position: fixed;
-      right: 14px;
-      display: grid;
-      grid-template-columns: 1fr;
-      border-radius: 20px;
-      padding: 0;
-      justify-content: center;
-      text-align: center;
-      border: solid 1px;
-    }
+
   }
   
   /*  PC  */
@@ -197,8 +153,20 @@ gap: 3vh;
     }
   
     .filtroTipo {
-z-index: 1000; 
-margin-top: 12vh;
+      width: 7vw;
+      height: 35vh;
+      align-content:center;
+      position: fixed;
+      right: 14px;
+      display: grid;
+      grid-template-columns: 1fr;
+      border-radius: 20px;
+      padding: 0;
+      justify-content: center;
+      text-align: center;
+      border: solid 1px;
+      z-index: 1000; 
+      margin-top: 12vh;
 }
 
 .filtros {

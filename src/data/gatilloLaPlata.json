@@ -2198,9 +2198,9 @@
 {
 "type": "Feature",
 "properties": {
-"Contador": 121,
+"Contador": "g121",
 "Nombre": "COSTILLA, Néstor Ramón \"Lito",
-"Edad": "g28",
+"Edad": 28,
 "Fecha": "7/10/2020",
 "Barrio": "LA PLATA - TOLOSA",
 "Direccion": "Tolosa",
@@ -2409,7 +2409,7 @@
 },
 "geometry": {
 "type": "Point",
-"coordinates": [-34.93714423226079, -57.91863360643518]
+"coordinates": [-57.91863360643518, -34.93714423226079]
 }},
 {
 "type": "Feature",
