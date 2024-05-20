@@ -66,7 +66,7 @@ const Denuncias = () => {
           </section>
         </section>
       </section>
-      <Mapa />
+      <Mapa className={styles.mapa} />
     </>
   );
 };
