@@ -1,12 +1,11 @@
 import { useState } from "react";
 import styles from "./Denuncia.module.css";
-import Airtable, { Base } from "airtable";
+import Airtable from "airtable";
 
-const airtable = new Airtable({
-  apiKey: 'patt41zr1yEZqXAU7.9f944e3865db78d249cb996d8c8d9508110e67f48811bbabc5b2791b56e42bdd',
-  baseId: 'appIqmka0T7ybS004',
-  tableName: 'tblfETI1obwfYQg7N',
-});
+const base = new Airtable({
+  apiKey:
+    "patt41zr1yEZqXAU7.9f944e3865db78d249cb996d8c8d9508110e67f48811bbabc5b2791b56e42bdd",
+}).base("appIqmka0T7ybS004");
 
 const Denuncia = () => {
   const [fecha, setFecha] = useState("");
@@ -26,64 +25,81 @@ const Denuncia = () => {
   const [denunciarLegalmente, setDenunciarLegalmente] = useState(false);
   const [aceptoTerminos, setAceptoTerminos] = useState(false);
 
-  const handleFileChange = (event) => {
-    const file = event.target.files[0];
-    setArchivos(file);
+  const handleSubmit = async () => {
+    // Verificar campos obligatorios
+    if (
+      !fecha ||
+      !hora ||
+      !lugar ||
+      !descripcion ||
+      !nombre ||
+      !telefono ||
+      !email
+    ) {
+      alert("Por favor completa todos los campos obligatorios.");
+      return;
+    }
+
+    // Validar formato de correo electrónico
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert("Por favor ingresa un correo electrónico válido.");
+      return;
+    }
+
+    // Verificar términos y condiciones
+    if (!aceptoTerminos) {
+      alert("Por favor acepta los términos y condiciones.");
+      return;
+    }
+
+    // Crear el objeto de datos del registro
+    const recordData = {
+      Fecha: fecha,
+      Hora: hora,
+      Lugar: lugar,
+      Descripcion: descripcion,
+      Agresor: agresor,
+      Identificación: identificacion,
+      Patente: patente,
+      Archivos: archivos,
+      Nombre: nombre,
+      Teléfono: telefono,
+      Email: email,
+      Visibilizar: visibilizar,
+      Denunciar_legalmente: denunciarLegalmente,
+    };
+
+    // Intentar crear el registro usando la API de Airtable
+    try {
+      const response = await base("tblfETI1obwfYQg7N").create(recordData); // Utiliza 'create' en lugar de 'createRecords'
+      console.log("Record created successfully:", response);
+      alert("Denuncia enviada con éxito");
+      // Limpiar los campos del formulario
+      setFecha("");
+      setHora("");
+      setLugar("");
+      setDescripcion("");
+      setAgresor("");
+      setIdentificacion("");
+      setPatente("");
+      setArchivos(null);
+      setNombre("");
+      setTelefono("");
+      setEmail("");
+      setVisibilizar(false);
+      setDenunciarLegalmente(false);
+      setAceptoTerminos(false);
+    } catch (error) {
+      console.error("Error al crear el registro:", error);
+      // Mostrar mensaje de error
+      alert(
+        "Hubo un error al enviar la denuncia. Por favor intenta nuevamente más tarde.",
+      );
+    }
   };
-const handleSubmit = async () => {
-  // Check if the user has accepted the terms and conditions
-  if (!aceptoTerminos) { // Access state variable directly
-    alert('Please accept the terms and conditions');
-    return;
-  }
 
-  // Create the record data object
-  const recordData = {
-    Fecha: fecha,
-    Hora: hora,
-    Lugar: lugar,
-    Descripción: descripcion,
-    Agresor: agresor,
-    Identificación: identificacion,
-    Patente: patente,
-    Archivos: archivos,
-    Nombre: nombre,
-    Teléfono: telefono,
-    Email: email,
-    Visibilizar: visibilizar,
-    Denunciar_legalmente: denunciarLegalmente,
-  };
-
-  // Create the record using the Airtable API
-  try {
-    const response = await airtable.createRecords([recordData]);
-    console.log('Record created successfully:', response);
-    alert('Denuncia enviada con éxito');
-
-    // Clear the form fields
-    setFecha('');
-    setHora('');
-    setLugar('Cuentanos dónde fue');
-    setDescripcion('Describe el hecho');
-    setAgresor('');
-    setIdentificacion('Especifícanos cuál fue');
-    setPatente('Puedes anotarlo aquí');
-    setArchivos(null);
-    setNombre('');
-    setTelefono('');
-    setEmail('');
-    setVisibilizar(false);
-    setDenunciarLegalmente(false);
-    setAceptoTerminos(false);
-  } catch (error) {
-    console.error('Error creating record:', error);
-    alert('Hubo un error al enviar la denuncia. Intenta nuevamente.');
-  }
-};
-
-
-
-//  const handleSubmit = () => {};
+  //  const handleSubmit = () => {};
 
   return (
     <>
