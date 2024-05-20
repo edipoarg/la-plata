@@ -129,7 +129,7 @@ const Investigaciones = () => {
           </section>
         </section>
       </div>
-      <Mapa></Mapa>
+      <Mapa className={styles.mapa}></Mapa>
     </>
   );
 };
