@@ -32,7 +32,7 @@ const Screen = ({
           <h4 className={styles.address}>{address}</h4>
           <h4 className={styles.phone}>{phone}</h4>
           <h4 className={styles.age}>{age}</h4>
-          <h4 className={styles.circs}>{truncateText(circs, 100)}</h4>
+          <h4 className={styles.circs}>{truncateText(circs, 95)}</h4>
 
           {/* Renderizar solo si 'caseId' tiene datos */}
           {caseId && (
