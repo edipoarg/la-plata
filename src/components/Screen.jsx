@@ -47,7 +47,9 @@ const Screen = ({
       {(grade || autority) && (
         <section className={styles.autoridadData}>
           {grade && <h3 className={styles.grade}>{grade}</h3>}
-          {autority && <h2 className={styles.autority}>{truncateText(autority, 35)}</h2>}
+          {autority && (
+            <h2 className={styles.autority}>{truncateText(autority, 35)}</h2>
+          )}
         </section>
       )}
     </section>
