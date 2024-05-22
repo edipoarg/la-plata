@@ -10,13 +10,11 @@ const base = new Airtable({
 const Denuncia = () => {
   const [fecha, setFecha] = useState("");
   const [hora, setHora] = useState("");
-  const [lugar, setLugar] = useState("Cuentanos dónde fue");
-  const [descripcion, setDescripcion] = useState("Describe el hecho");
+  const [lugar, setLugar] = useState("");
+  const [descripcion, setDescripcion] = useState("");
   const [agresor, setAgresor] = useState("");
-  const [identificacion, setIdentificacion] = useState(
-    "Especifícanos cuál fue",
-  );
-  const [patente, setPatente] = useState("Puedes anotarlo aquí");
+  const [identificacion, setIdentificacion] = useState("");
+  const [patente, setPatente] = useState("");
   const [archivos, setArchivos] = useState(null);
   const [nombre, setNombre] = useState("");
   const [telefono, setTelefono] = useState("");
@@ -115,6 +113,7 @@ const Denuncia = () => {
           <input
             type="date"
             value={fecha}
+            placeholder="Contanos cuándo fue"
             onChange={(e) => setFecha(e.target.value)}
           />
           <input
@@ -126,12 +125,14 @@ const Denuncia = () => {
           <input
             type="text"
             value={lugar}
+            placeholder="Especificá el lugar"
             onChange={(e) => setLugar(e.target.value)}
           />
 
           <h3>II. DESCRIPCIÓN DEL HECHO</h3>
           <textarea
             value={descripcion}
+            placeholder="Describí el hecho"
             onChange={(e) => setDescripcion(e.target.value)}
           />
 
@@ -177,7 +178,7 @@ const Denuncia = () => {
             type="text"
             value={patente}
             onChange={(e) => setPatente(e.target.value)}
-            placeholder="Podés anotarlo aquí"
+            placeholder="Podés anotarla aquí"
           />
           <h3>IV. INFORMACIÓN DE CONTACTO</h3>
           <input
