@@ -48,33 +48,35 @@ const Ficha = () => {
 
   return (
     <>
-    <section className={styles.ficha}>
-      <div className={styles.data}>
-        <h2 className={styles.title}>
-          {tipoCaso === "gatillo"
-            ? "Caso de gatillo fácil"
-            : tipoCaso === "dependencias"
-              ? "dependencia policial"
-              : tipoCaso === "reporte"
-                ? "Reporte de violencia policial"
-                : "Tipo Desconocido"}
-        </h2>
-        <ul>
-          <li className={styles.name}>{caso.properties.Nombre}</li>
-          <li className={styles.gender}>Fecha: {caso.properties.Fecha}</li>
-          <li className={styles.age}>Edad: {caso.properties.Edad}</li>
-          <li className={styles.number}>Ciudad: {caso.properties.Barrio}</li>
+      <section className={styles.ficha}>
+        <div className={styles.data}>
+          <h2 className={styles.title}>
+            {tipoCaso === "gatillo"
+              ? "Caso de gatillo fácil"
+              : tipoCaso === "dependencias"
+                ? "dependencia policial"
+                : tipoCaso === "reporte"
+                  ? "Reporte de violencia policial"
+                  : "Tipo Desconocido"}
+          </h2>
+          <ul>
+            <li className={styles.name}>{caso.properties.Nombre}</li>
+            <li className={styles.gender}>Fecha: {caso.properties.Fecha}</li>
+            <li className={styles.age}>Edad: {caso.properties.Edad}</li>
+            <li className={styles.number}>Ciudad: {caso.properties.Barrio}</li>
+            <li className={styles.number}>
+              Circunstancias: {caso.properties.cronica}
+            </li>
+          </ul>
+        </div>
+        <div className={styles.policeData}>
           <li className={styles.number}>
-            Circunstancias: {caso.properties.cronica}
+            Fuerza: {caso.properties.fuerza_involucrada}
           </li>
-        </ul>
-      </div>
-      <div className={styles.policeData}>
-      <li className={styles.number}>Fuerza: {caso.properties.fuerza_involucrada}</li>
-        <li className={styles.number}>
-          Imputados: {caso.properties.policia_involucrado}
-        </li>
-      </div>
+          <li className={styles.number}>
+            Imputados: {caso.properties.policia_involucrado}
+          </li>
+        </div>
       </section>
     </>
   );
