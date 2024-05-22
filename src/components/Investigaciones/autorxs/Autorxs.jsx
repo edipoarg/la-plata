@@ -9,7 +9,7 @@ const Autorxs = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "../src/components/investigaciones/autorxs/autorxs.json",
+          "../src/data/autorxs.json",
         );
         const data = await response.json();
         setAutorxsData(data);
