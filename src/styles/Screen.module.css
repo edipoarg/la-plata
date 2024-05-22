@@ -84,9 +84,12 @@ margin-left: 5vw;
 .moreButton{
     margin: 0;
     border: solid 1px #2cb54d;
+    border-radius: 14px;
+    padding: 0.5vh 2vw;
     text-align: center;
     width: 10vw;
     margin-bottom: 2vh;
+    box-shadow: 1px 1px 0 1px ;
 }
 .moreButton:hover{
     color: #232128;
@@ -115,6 +118,8 @@ margin-left: 5vw;
 
         .moreButton{
             width: 5vw;
+            padding: 0.3vh 0.5vw;
+
         }
         .ComisariaScreen{
             width: 12vw;
