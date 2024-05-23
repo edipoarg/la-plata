@@ -1,216 +1,179 @@
 .filtros {
-    width: 100vw;
-    height: 90vh;
-    position: fixed;
-    right: 0;
-  }
-
-  .botonFiltros {
-    height: 7vh;
-    
-  }
-  
-  .filtrosBox {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-
-  }
-  
-  .boxes {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 3px;
-    padding-left: 5px;
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    
-  }
-  
-  .tipo2Ref,
-  .tipo1Ref,
-  .tipo3Ref {
-    display: grid;
-    grid-template-columns: 1fr;
-    border: solid 1px;
-    border-radius: 360px;
-    padding: 6px 8px;
-    cursor: pointer;
-    width: 2.5vh;
-  }
-
-  .tipo2Ref:hover, .tipo1Ref:hover, .tipo3Ref:hover{
-    background-color: green;
-    color: black;
-  }
-  
-  .display {
-    color: black;
-    border-radius: 20px;
-  
-    text-align: left;
-    padding-left: 5vw;
-    height: 11vh;
-    width: 15vh;
-  }
-  .selected {
-    background-color: green; /* Cambia el color de fondo para el filtro seleccionado */
-    color: black;
-  }
-  .cantCasos {
-    font-size: 2rem;
-    text-align: left;
-  }
-  
-  .filtroTipo {
-    z-index: 2000;
-    position: fixed;
-    right: 5px;
-    top:110px;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 5px;
-    border-radius: 20px;
-    padding: 2px 2px;
-    justify-content: center;
-    text-align: center;
-    width: 9vw;
-    border-radius: 14px;
-    backdrop-filter: blur(11.2px);
--webkit-backdrop-filter: blur(11.2px);
-gap: 3vh;
-  }
-  
-  .tipoClass {
-    font-size: 0px;
-  }
-  
-  .gap2 {
-    height: 25vh;
-  }
-  
-  .tipos {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 7px 5px;
-    justify-items: center;
-  }
-  
-  .tipo1Icon {
-    background-color: rgb(252, 252, 114);
-    width: 23px;
-    height: 23px;
-    border-radius: 5px;
-    padding-left: 4px;
-  }
-  .tipo2Icon {
-    background-color: rgb(255, 166, 0);
-    width: 23px;
-    height: 23px;
-    border-radius: 5px;
-    padding-left: 4px;
-  }
-  .tipo3Icon {
-    background-color: rgb(251, 55, 25);
-    width: 23px;
-    height: 23px;
-    border-radius: 5px;
-    padding-left: 4px;
-  }
-  
-  .componente {
-    color: black;
-    border-radius: 20px;
-    padding: 10px;
-    box-shadow:
-      -2px -2px 16px WHITE,
-      2px 2px 16px #c9c9c9;
-    margin-top: 15px;
-  }
-  
-  /*== Responsive==*/
-  
-  /*== tablet==*/
-  
-  @media (min-width: 768px) {
-    .display {
-      width: 18vw;
-      height: 13vh;
-    }
-  
-    .filtrosBox {
-      display: grid;
-      grid-template-columns: 1fr 5fr;
-    }
-  
-    .filtros {
-      height: 90vh;
-    }
-    .tipoClass {
-      font-size: 10px;
-      padding-top: 1vh;
-    }
-  
-
-    .tipo2Ref,
-    .tipo1Ref,
-    .tipo3Ref {
-      grid-template-columns: 1fr;
-      justify-items: center;
-      padding-top: 5px;
- 
-    }
-  
-    .filtroTipo {
-      grid-template-columns: 1fr;
-      width: 7vw;
-      height: 45vh;
-      align-content:center;
-    }
-  
-    .boxes {
-      padding: 5px;
-      height: 50vh;
-      padding-left: 15px;
-    }
-  
-    .filtroTipo {
-      position: fixed;
-      right: 14px;
-      display: grid;
-      grid-template-columns: 1fr;
-      border-radius: 20px;
-      padding: 0;
-      justify-content: center;
-      text-align: center;
-      border: solid 1px;
-    }
-  }
-  
-  /*  PC  */
-  
-  @media (min-width: 1200px) {
-    .filtrosBox {
-      display: grid;
-      grid-template-columns: 1fr 10fr;
-
-    }
-  
-    .filtroTipo {
-z-index: 1000; 
-margin-top: 12vh;
-}
-
-.filtros {
+  width: 100vw;
   height: 90vh;
-}
-.tipoClass {
-  font-size: 10px;
-  padding-top: 0%;
+  position: fixed;
+  right: 0;
 }
 
+.botonFiltros {
+  height: 7vh;
+}
+
+.filtrosBox {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 3px;
+  padding-left: 5px;
+  z-index: 1000;
+  position: fixed;
+  right: 0;
+}
 
 .tipo2Ref,
+.tipo1Ref,
+.tipo3Ref {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: solid 1px;
+  border-radius: 360px;
+  padding: 6px 8px;
+  cursor: pointer;
+  width: 2.5vh;
+}
+
+.tipo2Ref:hover,
+.tipo1Ref:hover,
+.tipo3Ref:hover {
+  background-color: green;
+  color: black;
+}
+
+.display {
+  color: black;
+  border-radius: 20px;
+  text-align: left;
+  padding-left: 5vw;
+  height: 11vh;
+  width: 15vh;
+}
+
+.selected {
+  background-color: green;
+  /* Cambia el color de fondo para el filtro seleccionado */
+  color: black;
+}
+
+.cantCasos {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.filtroTipo {
+  z-index: 2000;
+  position: fixed;
+  right: 5px;
+  top: 110px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 5px;
+  border-radius: 20px;
+  padding: 2px 2px;
+  justify-content: center;
+  text-align: center;
+  width: 9vw;
+  border-radius: 14px;
+  backdrop-filter: blur(11.2px);
+  -webkit-backdrop-filter: blur(11.2px);
+  gap: 3vh;
+}
+
+.tipoClass {
+  font-size: 0px;
+}
+
+.gap2 {
+  height: 25vh;
+}
+
+.tipos {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 7px 5px;
+  justify-items: center;
+}
+
+.tipo1Icon {
+  background-color: rgb(252, 252, 114);
+  width: 23px;
+  height: 23px;
+  border-radius: 5px;
+  padding-left: 4px;
+}
+
+.tipo2Icon {
+  background-color: rgb(255, 166, 0);
+  width: 23px;
+  height: 23px;
+  border-radius: 5px;
+  padding-left: 4px;
+}
+
+.tipo3Icon {
+  background-color: rgb(251, 55, 25);
+  width: 23px;
+  height: 23px;
+  border-radius: 5px;
+  padding-left: 4px;
+}
+
+.componente {
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow:
+    -2px -2px 16px WHITE,
+    2px 2px 16px #c9c9c9;
+  margin-top: 15px;
+}
+
+/*== Responsive==*/
+/*height*/
+/*== tablet==*/
+@media (min-width: 768px) {
+  .filtroTipo {
+    width: 5vw;
+  }
+}
+
+/*  PC  */
+@media (min-width: 1200px) {
+  .filtrosBox {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+  }
+
+  .filtroTipo {
+    width: 7vw;
+    height: 35vh;
+    align-content: center;
+    position: fixed;
+    right: 14px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px;
+    z-index: 1000;
+    margin-top: 12vh;
+  }
+
+  .filtros {
+    height: 90vh;
+  }
+
+  .tipoClass {
+    font-size: 10px;
+    padding-top: 0%;
+  }
+
+  .tipo2Ref,
   .tipo1Ref,
   .tipo3Ref {
     display: grid;
@@ -224,10 +187,8 @@ margin-top: 12vh;
     padding-top: 8px;
   }
 
-
-.filtroTipo {
-  grid-template-columns: 1fr;
-  width: 7vw;
-}
+  .filtroTipo {
+    grid-template-columns: 1fr;
+    width: 7vw;
   }
-  
+}

@@ -7,9 +7,7 @@
 display:  grid;
 grid-template-columns: 1fr 1fr;
 width: 100vw;
-margin-left: 10vw;
-
-
+margin-left: 5vw;
 }
 
 .ComisariaScreen{
@@ -25,11 +23,13 @@ margin-left: 10vw;
     padding: 2vh 4vw;
     backdrop-filter: blur(11.2px);
     -webkit-backdrop-filter: blur(11.2px);
+    max-width: 30vw;
+
 }
 
 .title{
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Ronnia Bold Condensed'
 }
 
@@ -37,13 +37,13 @@ margin-left: 10vw;
 .grade{
     margin:0;
     padding-top: 1vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .level{
     margin:0;
     padding-top: 1vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .address{
@@ -56,7 +56,7 @@ margin-left: 10vw;
 .autority{
     padding-top: 1vh;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Ronnia Bold Condensed';
     max-width: 30vw;
 }
@@ -84,9 +84,12 @@ margin-left: 10vw;
 .moreButton{
     margin: 0;
     border: solid 1px #2cb54d;
+    border-radius: 14px;
+    padding: 0.5vh 2vw;
     text-align: center;
     width: 10vw;
     margin-bottom: 2vh;
+    box-shadow: 1px 1px 0 1px ;
 }
 .moreButton:hover{
     color: #232128;
@@ -115,6 +118,8 @@ margin-left: 10vw;
 
         .moreButton{
             width: 5vw;
+            padding: 0.3vh 0.5vw;
+
         }
         .ComisariaScreen{
             width: 12vw;

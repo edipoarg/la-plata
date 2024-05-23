@@ -1,8 +1,11 @@
+.mapa {
+    display: none;
+}
 
 .denuncias {
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: 1fr;
     width: 100vw;
     max-width: 98vw;
@@ -34,12 +37,12 @@
     color: #2a8842;
 }
 
-.headerIcon{
-text-align: right;
-padding: 3vh 8vw;
+.headerIcon {
+    text-align: right;
+    padding: 3vh 5vw 0vh 0vh;
 }
 
-.title{
+.title {
     position: relative;
     bottom: 10px;
     padding-left: 2vw;
@@ -49,7 +52,7 @@ padding: 3vh 8vw;
     padding-left: 5vh;
 }
 
-.subTitle{
+.subTitle {
     padding-left: 2vw;
     color: white;
     font-size: 18px;
@@ -59,38 +62,37 @@ padding: 3vh 8vw;
     padding-left: 5vh;
 }
 
-.button{
+.button {
     width: 13vw;
     height: 3vh;
     border-radius: 14px;
     background-color: #232128;
-    border: solid 1px #2a8842;  
+    border: solid 1px #2a8842;
     position: absolute;
     right: 10vw;
-    top: 23vh;  
+    top: 23vh;
     box-shadow: 3px 3px 0 1px #2a8842;
     padding: 1vh 1vw;
     text-align: center;
 }
 
-
-.button:hover{
+.button:hover {
     width: 13vw;
     height: 3vh;
     border-radius: 14px;
     background-color: #2a8842;
-    border: solid 1px #232128;  
+    border: solid 1px #232128;
     position: absolute;
     box-shadow: 0px 0px 0 0px #2a8842;
     color: #232128;
 }
 
-
 .menuContainer {
     width: 95%;
     margin: auto;
     height: 40vh;
-    display: grid; /* Añadir esta línea */
+    display: grid;
+    /* Añadir esta línea */
     grid-template-columns: 4fr 3fr;
     border-radius: 14px;
     gap: 2vh;
@@ -104,16 +106,15 @@ padding: 3vh 8vw;
     gap: 2vh;
     margin-top: 1vh;
 }
-.buttonIcon{
-padding: 0vh 2vw;
-margin-top: 2vh;
-text-align: right; 
 
-
+.buttonIcon {
+    padding: 0vh 2vw;
+    margin-top: 2vh;
+    text-align: right;
 }
 
 .buttonContainer {
-    height: 100%;
+    height: 45vh;
     background-color: #2a8842;
     border-radius: 14px;
     color: #232128;
@@ -122,34 +123,32 @@ text-align: right;
     text-align: justify;
     margin: auto;
     padding: 3vh 5vw 0vh 5vw;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
-
-.buttonText{
+.buttonText {
     padding-top: 2vh;
     padding-left: 4vw;
     font-size: 22px;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    
 }
 
-.genderContainer{
-    padding-top: 6vh;    
+.genderContainer {
+    padding-top: 6vh;
 }
 
-.genderTitle{
+.genderTitle {
     padding-left: 4vw;
     font-size: 22px;
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
 
-.genderSubTitle{
-padding-left: 4vw;
-font-size: 0.8rem;
-margin: 0;
+.genderSubTitle {
+    padding-left: 4vw;
+    font-size: 0.8rem;
+    margin: 0;
 }
 
 .reportesDenunciasContainer {
@@ -163,62 +162,59 @@ margin: 0;
     margin-top: 1.5vh;
 }
 
-.icon{
-    color:#232128;
+.icon {
+    color: #232128;
     width: 10vw;
-    z-index: 5000; 
+    z-index: 5000;
     padding-left: 2vw;
 }
+
 .imagenUltimoReporte {
     border-radius: 14px;
     justify-self: right;
     padding-top: 2vh;
     height: 10vh;
-
 }
 
-
-
-.title3{
+.title3 {
     padding-left: 4vw;
-    font-size: 32px;   
+    font-size: 32px;
     margin: 0;
 }
 
-
-.subTitle2{
+.subTitle2 {
     padding-left: 4vw;
     font-size: 18px;
     margin: 0;
 }
 
 /*  PC SCREEN */
-
 @media (min-width: 1080px) {
+    .mapa {
+        display: absolute;
+    }
+
     .denunciasContainer {
         position: absolute;
         z-index: 2000;
-    
         width: 100vw;
         height: 100vh;
-         /* From https://css.glass */
-         border-radius: 0px;
-         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-         backdrop-filter: blur(10px);
-         -webkit-backdrop-filter: blur(11.2px);
+        /* From https://css.glass */
+        border-radius: 0px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(11.2px);
     }
 
-
-
-      .denuncias {
+    .denuncias {
         border: solid 6vh;
         border-right: solid 17vw;
-        background-color:  rgba(0, 0, 0, 0.0);
+        background-color: rgba(0, 0, 0, 0.0);
         border-color: #2a8842;
         position: fixed;
         z-index: 3000;
         top: 20vh;
-        display: flex; 
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -236,10 +232,8 @@ margin: 0;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(11.2px);
         -webkit-backdrop-filter: blur(11.2px);
-
-    
     }
-    
+
     .titleContainer {
         position: absolute;
         left: -10px;
@@ -251,25 +245,26 @@ margin: 0;
         background-color: #2a8842;
     }
 
-    .genderContainer{
+    .genderContainer {
         height: 25vh;
         padding-top: 4vh;
     }
 
-    .buttonContainer{
+    .buttonContainer {
         max-height: 32vh;
         border-radius: 2px;
         background-color: #232128;
-        color:#2a8842;
+        color: #2a8842;
         border-color: #2a8842;
-        box-shadow: 0px 0px 0  ;
+        box-shadow: 0px 0px 0;
         padding: 3vh 2vw 0vh 2vw;
         margin-top: 0;
         margin-bottom: 0;
         width: 21vw;
     }
-    .menu{
-        background-color:rgba(0, 0, 0, 0.0);
+
+    .menu {
+        background-color: rgba(0, 0, 0, 0.0);
         border-radius: 0px;
         position: absolute;
         max-height: 35vh;
@@ -277,8 +272,7 @@ margin: 0;
         top: 10px;
     }
 
-
-    .title{
+    .title {
         position: relative;
         bottom: 0vh;
         padding-left: 4vw;
@@ -286,24 +280,25 @@ margin: 0;
         color: #232128;
     }
 
-    .buttonText{
+    .buttonText {
         padding-left: 3vw;
         padding-top: 1vh;
     }
 
-    .subTitle{
+    .subTitle {
         padding-left: 4vw;
         padding-top: 2vh;
     }
 
-    .genderTitle{
+    .genderTitle {
         padding-left: 3vw;
         position: relative;
     }
-    .genderSubTitle{
+
+    .genderSubTitle {
         padding-left: 3vw;
         position: relative;
-        font-size: 1rem;   
+        font-size: 1rem;
     }
 
     .reportesDenunciasContainer {
@@ -317,78 +312,70 @@ margin: 0;
         border: solid 1px;
         border-color: #b9ff39;
         margin-left: 55vw;
-    margin-top: 0vh;
-    color:#b9ff39 !important;
-    backdrop-filter: blur(25.2px);
-    -webkit-backdrop-filter: blur(15.2px);
+        margin-top: 0vh;
+        color: #b9ff39 !important;
+        backdrop-filter: blur(25.2px);
+        -webkit-backdrop-filter: blur(15.2px);
+    }
 
-}
     .reportesDenunciasContainer:hover {
-        background-color:#b9ff39 !important;
-        color:#232128 !important;
+        background-color: #b9ff39 !important;
+        color: #232128 !important;
+    }
 
-       }
-
-       .imagenUltimoReporte {
+    .imagenUltimoReporte {
         border-radius: 14px;
         justify-self: right;
         padding-top: 2vh;
         height: 2vh;
-    
     }
 
-
-        .title3{
-            padding-left: 2vw;
-            font-size: 32px;
-        }
-        
-        .subTitle2{
-            padding-left: 2vw;
-            font-size: 18px;
-
-        }
-        
-
-        .headerIcon{
-            position: absolute;
-            padding: 0vh 0vw;
-            color: #232128;
-            left: 4vw;
-            top: 0vh;
-        }
-
-        .button{
-            width: 6vw;
-            height: 3vh;
-            background-color: #b9ff39;
-            border: solid 1px #232128;  
-            right: 14vw;
-            top: 32vh;  
-            box-shadow: 3px 3px 0 1px #232128;
-            padding: 1vh 1vw;
-            text-align: center;
-            color: #232128;
-
-        }
-        
-        
-        .button:hover{
-            width: 6vw;
-            height: 3vh;
-            background-color: #232128;
-            border: solid 1px #232128;  
-            box-shadow: 0px 0px 0 0px #2a8842;
-            color: #2a8842;
-        }
-
-        .icon{
-            right: 3vw;
-            top: 10vh;
-            position: absolute;
-            color:#b9ff39;
-            width: 10vw;
-            z-index: 5000; 
-        }
-        
+    .title3 {
+        padding-left: 2vw;
+        font-size: 32px;
     }
+
+    .subTitle2 {
+        padding-left: 2vw;
+        font-size: 18px;
+    }
+
+    .headerIcon {
+        position: absolute;
+        padding: 0vh 0vw;
+        color: #232128;
+        left: 4vw;
+        top: 0vh;
+    }
+
+    .button {
+        width: 6vw;
+        height: 3vh;
+        background-color: #b9ff39;
+        border: solid 1px #232128;
+        right: 14vw;
+        top: 32vh;
+        box-shadow: 3px 3px 0 1px #232128;
+        padding: 1vh 1vw;
+        text-align: center;
+        color: #232128;
+    }
+
+    .button:hover {
+        width: 6vw;
+        height: 3vh;
+        background-color: #232128;
+        border: solid 1px #232128;
+        box-shadow: 0px 0px 0 0px #2a8842;
+        color: #2a8842;
+    }
+
+    .icon {
+        right: 3vw;
+        top: 10vh;
+        position: absolute;
+        color: #b9ff39;
+        width: 10vw;
+        z-index: 5000;
+    }
+}

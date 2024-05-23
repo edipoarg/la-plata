@@ -5,6 +5,9 @@ width: 90%;
 margin: auto;
 }
 
+.header{
+    margin-top: 2vh;
+}
 .postContainer{
     display: grid;
     grid-template-columns: 1fr;
