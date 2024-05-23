@@ -22,7 +22,7 @@ export const BarriosCabaSource = ({ data }) => (
       type="fill" // Capa de relleno para representar polígonos
       paint={{
         "fill-color": "#232128",
-        "fill-opacity": 1,
+        "fill-opacity": 0.5,
         "fill-outline-color": "#2cb34c",
       }}
     />
