@@ -8,9 +8,7 @@ const Autorxs = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          "../src/data/autorxs.json",
-        );
+        const response = await fetch("../src/data/autorxs.json");
         const data = await response.json();
         setAutorxsData(data);
       } catch (error) {
