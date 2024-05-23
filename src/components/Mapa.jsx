@@ -33,10 +33,9 @@ import {
 } from "./Sources";
 
 // MARKERS IMPORTS
-import { dependenciasLaPlata } from "../data/index";
+import { dependenciasCaba } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
-/*import DependenciasCabaMarkers from "./dependenciasCabaMarkers/DependenciasCabaMarkers";*/
 
 //Filtros Import
 import Filtros from "./filtros/Filtros";
@@ -189,7 +188,7 @@ const Mapa = () => {
           {/* Renderiza los marcadores de las dependencias */}
           {tipoFilters.Dependencias && (
             <DependenciasMarkers
-              dependencias={dependenciasLaPlata}
+              dependencias={dependenciasCaba}
               setPopupInfo={setPopupInfo}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
