@@ -48,14 +48,14 @@ const Mapa = () => {
   // PROPERTIES OF THE MAP
   const mapProps = {
     initialViewState: {
-      longitude: -57.954444,
-      latitude: -35.05,
+      longitude: 58.3816,
+      latitude: -34.6037,
       zoom: 1.5,
       minZoom: 1,
-      maxZoom: 18,
+      maxZoom: 25,
       maxBounds: [
-        [-58.41105, -35.28147], // Lower-left limit
-        [-57.52902, -34.69485], // Upper-right limit
+        [-58.59, -34.8], // Lower-left limit
+        [-58.31, -34.478], // Upper-right limit
       ],
     },
     style: {
