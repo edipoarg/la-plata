@@ -1,22 +1,22 @@
 .menuContainer {
     width: 100vw;
-    height: 97vh;
+    height: 90vh;
     /* From https://css.glass */
     backdrop-filter: blur(7.6px);
     -webkit-backdrop-filter: blur(7.6px);
-    padding-top: 3vh;
+    padding-top: 8vh;
   }
   
   .menu {
-    width: 80vw;
-    height: 80vh;
+    width: 85vw;
+    height: 75vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #231c26;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    margin-left: 10vw;
+    margin-left: 7vw;
   }
   
   .icon {

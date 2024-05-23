@@ -10,8 +10,8 @@
 
 .emergButton{
     position: absolute;
-    right: 12vw;
-    top: 1vh;
+    right: 15vw;
+    top: 4vh;
     z-index: 1000;
     border: solid 1px #2cb54d;
     padding: 1vh 2vw;

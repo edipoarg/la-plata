@@ -1,0 +1,2469 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g1",
+          "Nombre": "VALLE, Rubén Dardo",
+          "Edad": "Sin datos",
+          "Fecha": "",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 4ª - Diagonal 73 2651",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Personal de la comisaría 4ª de La Plata.",
+          "cronica": "Sin datos.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.97168190895091, -34.921465789395526]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g2",
+          "Nombre": "FLORES, Vicente",
+          "Edad": 19,
+          "Fecha": "",
+          "Barrio": "RINGUELET - LA PLATA",
+          "Direccion": "Ringuelet",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Subcomisario de La Plata Rubén Caraoli",
+          "cronica": "Sin datos.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.99160568675672, -34.88302442985963]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g3",
+          "Nombre": "ALBANESE, Maximiliano M.",
+          "Edad": 17,
+          "Fecha": "03/06/1990",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Héctor Oscar Ferrero, Fabián Guillermo Nievas y Carlos José Navarro.",
+          "cronica": "Fusilado por Ferrero, quien alegó \"que se le cayó el arma al suelo y se disparó sola\". Maximiliano estaba arrodillado cuando recibió el disparo en la nuca, a 80 cm de distancia.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.9586646933315, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g4",
+          "Nombre": "NÚÑEZ, Andrés",
+          "Edad": 32,
+          "Fecha": "27/9/1990",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Brigada de investigaciones de La Plata: Ernesto Zavala, Héctor Lascano, Roberto Martiré, Héctor Ferrero, Gerónimo Carrizo, Oscar Silva, Alejandro Dezeo, Pedro Costilla, Juan Kaldlugowsky, Gustavo Veiga, Víctor Dos Santos, Daniel Ramos, Luis Raúl Ponce.",
+          "cronica": "Secuestrado y torturado hasta morir en la \"Brigada de investigaciones de La Plata\". En 1995 se encontró el cuerpo enterrado en el campo de un primo de uno de los policías. En 2011, la familia recibió los restos.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.9586646933320, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g5",
+          "Nombre": "BRU, Miguel",
+          "Edad": 23,
+          "Fecha": "17/8/1993",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 9º - Calle 5 E/ 59 y 60",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Subcomisario Walter Abrigo, sargento Justo López, Comisario Juan Domingo Ojeda, oficial Jorge Gorosito.",
+          "cronica": "Detenido ilegalmente y torturado en la comisaría 9º de La Plata. Su cuerpo nunca fue hallado.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.93791460997353, -34.917986358584876]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g6",
+          "Nombre": "GARRIADOR, Silvia",
+          "Edad": 29,
+          "Fecha": "28/7/1995",
+          "Barrio": "RINGUELET - LA PLATA",
+          "Direccion": "Ringuelet",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Luis Pratto, policía bonaerense.",
+          "cronica": "Pratto, policía de Bahía Blanca en la década del 70, siguió en su auto y mató con cinco tiros a Silvia, conviviente del padre de su novia. Luis y su cómplice homicida fueron condenados por los hechos.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.99160568675672, -34.88302442985963]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g7",
+          "Nombre": "ARAYA, Oscar Maximiliano",
+          "Edad": 17,
+          "Fecha": "19/2/1999",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Eduardo González, sargento en el Cuerpo de Infantería.",
+          "cronica": "González, además de ser policía, trabajaba en una remisería. Dos pasajeros le robaron el dinero de la recaudación y huyeron corriendo. Segundos después, en plena fuga de los presuntos delincuentes, el conductor se bajó del rodado y comenzó a tirar con su pistola reglamentaria Browning 9 mm. Efectuó 9 disparos y uno de ellos mató al joven identificado como Oscar Maximiliano Araya.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g8",
+          "Nombre": "N.N. Masculino",
+          "Edad": 17,
+          "Fecha": "20/2/1999",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía Eduardo González",
+          "cronica": "Le disparó argumentando que el menor lo había querido asaltar en el Barrio Las Quintas, lo que se probó falso.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g9",
+          "Nombre": "N.N. Masculino",
+          "Edad": 17,
+          "Fecha": "20/2/1999",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía Eduardo González",
+          "cronica": "El policía alega que lo quisieron robar, pero está probado que el menor recibió el tiro en la espalda.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g10",
+          "Nombre": "MARIN Dasandro, Carlos",
+          "Edad": "Mayor",
+          "Fecha": "14/3/1999",
+          "Barrio": "OLMOS - LA PLATA",
+          "Direccion": "Lisandro Olmos",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Personal del Servicio Penitenciario Bonaerense",
+          "cronica": "Se produjo un incendio en el pabellón de buena conducta y cuatro internos murieron asfixiados.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.047634793785264, -34.99816797630623]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g11",
+          "Nombre": "N.N. Masculino",
+          "Edad": "Sin datos",
+          "Fecha": "2/1/2000",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía provincial",
+          "cronica": "Durante un asalto a un bar hubo un funcionario de la policía quien, según testigos presenciales, comenzó a disparar indiscriminadamente. Dos asaltantes resultaron muertos como también Daniel Grassano, copropietario del bar. Dos personas resultaron heridas.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+    
+          "Contador": "g12",
+          "Nombre": "GONZÁLEZ, Marcelo",
+          "Edad": 27,
+          "Fecha": "29/1/2000",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 5ª - Diagonal 74 N°2873 E/ 23 y 24",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía bonaerense",
+          "cronica": "Durante un motín por las condiciones de hacinamiento en la comisaría 5ª, varios presos encendieron colchones. La policía no sacó a los restantes internos del lugar, dejando que cuatro de ellos murieran asfixiados.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95379784860577, -34.94014109945363]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g13",
+          "Nombre": "JUAREZ, Juan",
+          "Edad": 25,
+          "Fecha": "29/1/2000",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 5ª - Diagonal 74 N°2873 E/ 23 y 24",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía Bonaerense",
+          "cronica": "Durante un motín por las condiciones de hacinamiento en la comisaría 5ª, varios presos encendieron colchones. La policía no sacó a los restantes internos del lugar, dejando que cuatro de ellos murieran asfixiados.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95379784860577, -34.94014109945363]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g14",
+          "Nombre": "NAVARRO, Ramón",
+          "Edad": 31,
+          "Fecha": "29/1/2000",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 5ª - Diagonal 74 N°2873 E/ 23 y 24",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía Bonaerense, subcomisario José Iturbe y otros.",
+          "cronica": "Durante un motín por las condiciones de hacinamiento en la comisaría 5ª, varios presos encendieron colchones. La policía no sacó a los restantes internos del lugar, dejando que cuatro de ellos murieran asfixiados.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95379784860577, -34.94014109945363]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g15",
+          "Nombre": "BARRIENTOS, Marcelo",
+          "Edad": 20,
+          "Fecha": "29/1/2000",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 5ª - Diagonal 74 N°2873 E/ 23 y 24",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía Bonaerense",
+          "cronica": "Durante un motín por las condiciones de hacinamiento en la comisaría 5ª, varios presos encendieron colchones. La policía no sacó a los restantes internos del lugar, dejando que cuatro de ellos murieran asfixiados.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95379784860577, -34.94014109945363]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g16",
+          "Nombre": "SANTANDER, Silvia",
+          "Edad": 26,
+          "Fecha": "3/2/2000",
+          "Barrio": "LA PLATA",
+          "Direccion": "Calle 21, E/34 y 35",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía bonaerense Juan José García.",
+          "cronica": "Cuando García se retiraba de la casa de su novia en calle 21, entre 34 y 35, al intentar colocar su arma de fuego que portaba en su mano derecha, sin el correspondiente seguro, debajo del brazo izquierdo y hallándose de perfil a Santander, se disparó la pistola, impactando el proyectil en el cuerpo de la joven, quien murió horas después.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.98022795841315, -34.91536031964274]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g17",
+          "Nombre": "OYARBIDE, Mónica",
+          "Edad": 30,
+          "Fecha": "17/6/2000",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Subcomisario Jorge Carreras",
+          "cronica": "Le dispararon junto a su pareja por una deuda de éste con el policía por negocios de distribución de droga. La víctima era la ex mujer de uno de los \"Horneros\", contratados por la bonaerense para asesinar al fotógrafo José Luis Cabezas.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g18",
+          "Nombre": "N.N. Masculino",
+          "Edad": "Mayor",
+          "Fecha": "24/7/2000",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Subcomisario Carlos Cuello",
+          "cronica": "El subcomisario oyó ruidos en el techo de su casa, por lo que disparó contra tres personas, dándole muerte a una de ellas.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g19",
+          "Nombre": "CASTROCIN, Germán Ariel \"Fofi\"",
+          "Edad": 22,
+          "Fecha": "17/6/2001",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 7ª - Abasto 520 E/ 212 y 213",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Personal policial de la comisaría 7ª (Abasto).",
+          "cronica": "Detenido en la comisaría 7ª, tenía asma. No le permitieron recibir el broncodilatador que llevó su compañera ni le dieron atención médica. Murió asfixiado durante la noche.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.09125481880402, -34.98900800164777]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g20",
+          "Nombre": "MANZO, Eduardo",
+          "Edad": "Mayor",
+          "Fecha": "30/7/2001",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Agente del Servicio penitenciario provincial Marcelo Hermida",
+          "cronica": "El cadáver de la víctima (prefecto de la cárcel de Olmos) apareció en el baúl de un auto con la cabeza envuelta en una bolsa. Hermida, también penitenciario, de servicio en la cárcel de F. Varela- fue encontrado por la policía casualmente en la casa de la ex mujer de Manzo, donde se encontraron ropas con sangre de la víctima.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g21",
+          "Nombre": "GONZÁLEZ, Valeria",
+          "Edad": 23,
+          "Fecha": "25/9/2001",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Juan Carlos Veck y Débora Vizcarra, policías provinciales.",
+          "cronica": "La víctima, también policía, tenía un violento noviazgo con Veck, era amiga de Vizcarra. La encontraron en la calle con un disparo en la sien, simulando un suicidio. Diez años después, se probó que la mató el novio, con ayuda de su amiga.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g22",
+          "Nombre": "CUELLO, Gustavo",
+          "Edad": 35,
+          "Fecha": "28/10/2001",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 9º - Calle 5 E/ 59 y 60",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía bonaerense de la 9ª de La Plata",
+          "cronica": "Desapareció de su casa el 27 de octubre. Su familia no supo más de él hasta el 1° de noviembre, cuando lo encontraron muerto dentro de una casaquinta de las afueras de La Plata (su dueño nada tiene que ver con Cuello), con un balazo. Esa noche estuvo preso en la comisaría 9ª, la misma del caso de Miguel Bru. La autopsia reveló que antes de morir Cuello sufrió dificultad respiratoria, indicio de que aplicaron torturas como el \"submarino seco\".",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.93791460997353, -34.917986358584876]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g23",
+          "Nombre": "AZCONA, Julio",
+          "Edad": "Sin datos",
+          "Fecha": "17/1/2002",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Rubén Osmar Jara, policía del cuerpo de bomberos.",
+          "cronica": "Durante un asalto a un bar, el policía comenzó a disparar indiscriminadamente. Mató a un cliente, al que quisieron presentar como uno de los ladrones, a uno de los copropietarios del bar y a uno de los asaltantes. Otras dos personas resultaron heridas de bala.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g24",
+          "Nombre": "GRASSANO, Daniel",
+          "Edad": 41,
+          "Fecha": "17/1/2002",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Rubén Osmar Jara, del cuerpo de bomberos.",
+          "cronica": "Durante un asalto a un bar, el policía comenzó a disparar indiscriminadamente. Mató a un cliente, al que quisieron presentar como uno de los ladrones, a uno de los copropietarios del bar y a uno de los asaltantes. Otras dos personas resultaron heridas de bala.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g25",
+          "Nombre": "DÍAZ, Leonardo",
+          "Edad": "Menor",
+          "Fecha": "17/1/2002",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Rubén Osmar Jara, del cuerpo de bomberos.",
+          "cronica": "Durante un asalto a un bar, el policía comenzó a disparar indiscriminadamente. Mató a un cliente, al que quisieron presentar como uno de los ladrones, a uno de los copropietarios del bar y a uno de los asaltantes. Otras dos personas resultaron heridas de bala.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g26",
+          "Nombre": "PENNA, Marcelo Horacio",
+          "Edad": 45,
+          "Fecha": "10/7/2002",
+          "Barrio": "LA PLATA",
+          "Direccion": "Parque Pereyra Iraola",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Tres policías: Jorge Lescano y Sebastián Sandoval, de la Departamental de Quilmes, y Ramón Lescano, en disponibilidad preventiva.",
+          "cronica": "Era abogado. Apareció esposado a un árbol del Parque Pereyra Iraola y con dos tiros en la espalda. Intentaron presentar el hecho como obra de delincuentes comunes, pero pronto se descubrió que lo ejecutó una organización en la que participan policías que se dedica a los secuestros extorsivos. La hipótesis es que podrían haber matado a Penna porque reveló algunos datos de la banda, para silenciarlo, y para robarle 50.000 dólares que tenía en su casa.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.121819331751674, -34.812945492213906]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g27",
+          "Nombre": "SPOTTI, Gabriela Adriana",
+          "Edad": 30,
+          "Fecha": "26/9/2002",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Otras Fuerzas",
+          "policia_involucrado": "Pablo Christian Pais, suboficial de la Aeronáutica",
+          "cronica": "Ella era cabo de la policía, y su esposo suboficial de la Aeronáutica. La mató de un tiro en el pecho con su arma reglamentaria delante de sus hijos de 7, 4 y 2 años.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g28",
+          "Nombre": "PÉREZ, Cristian \"El Rusito\"",
+          "Edad": 18,
+          "Fecha": "1/10/2002",
+          "Barrio": "LA PLATA",
+          "Direccion": "Vías del tren en City Bell",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Alejandro Koenig, Miguel Ángel Álvarez, Jorge Alberto Luna, Pedro Oscar Djurasek, Ariel David Perich y Selva Beatriz Sosa.",
+          "cronica": "Fue detenido por atropellar dos ciclistas, uno de ellos familiar de un policía de la misma comisaría. En los libros figuraba que fue dejado en libertad. Pocas horas después apareció muerto en las vías del tren en City Bell. La familia siempre tuvo la certeza de que fue asesinado por la policía. Después de la intervención de la CIDH, se probó que fue colocado sobre las vías inconsciente.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.04200658940024, -34.86545978406431]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g29",
+          "Nombre": "SORIA, Emilio",
+          "Edad": 22,
+          "Fecha": "6/5/2003",
+          "Barrio": "VILLA ELISA - LA PLATA",
+          "Direccion": "Villa Elisa",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Cabo Sebastián Federico Adinolfi",
+          "cronica": "Recibió un balazo en la cabeza y fue encontrado a metros de las vías del ferrocarril. Adinolfi actuó como asesino contratado por el marido de la amante de Soria. Como no le pagó, después mató a su contratante y a su esposa, que estaba embarazada.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.07517713745138, -34.853788529416114]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g30",
+          "Nombre": "SOTO, Alejandra",
+          "Edad": 19,
+          "Fecha": "6/5/2003",
+          "Barrio": "VILLA ELISA - LA PLATA",
+          "Direccion": "Villa Elisa",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Cabo Sebastián Federico Adinolfi",
+          "cronica": "Damián Diez había contratado a Adinolfi como asesino porque acusaba a Soria de mantener un romance con su esposa Alejandra Soto. Pero como Diez no cumplió con el pago, Adinolfi se tomó venganza y asesinó a Diez y a su esposa, que estaba embarazada.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.07517713745138, -34.853788529416114]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g31",
+          "Nombre": "LÓPEZ, Felipe",
+          "Edad": "Mayor",
+          "Fecha": "4/4/2004",
+          "Barrio": "MELCHOR ROMERO - LA PLATA",
+          "Direccion": "Melchor Romero",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Personal policial.",
+          "cronica": "Lo encontraron ahorcado en su celda.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.03158344111805, -34.93439887899686]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g32",
+          "Nombre": "ALANIS, Mario Díaz",
+          "Edad": "Sin datos",
+          "Fecha": "1/5/2004",
+          "Barrio": "LOS HORNOS - LA PLATA",
+          "Direccion": "Los Hornos",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía bonaerense.",
+          "cronica": "Supuesto enfrentamiento entre policías y delincuentes. Mario recibió un disparo que le atravesó el tórax. La autopsia mostró que tenía tres impactos de bala: dos en las piernas con orificio de entrada y salida, y uno en el hombro.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.97232135006606, -34.9603860750414]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g33",
+          "Nombre": "DIEZ, Damián",
+          "Edad": 28,
+          "Fecha": "6/5/2004",
+          "Barrio": "VILLA ELISA - LA PLATA",
+          "Direccion": "Villa Elisa",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Cabo Sebastián Federico Adinolfi.",
+          "cronica": "Recibió un balazo en la cabeza, fue encontrado a metros de las vías del ferrocarril. Adinolfi actuó como asesino contratado por el marido de la amante de Soria. Como no le pagó, después mató a su contratante y a la esposa que estaba embarazada.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.07517713745138, -34.853788529416114]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g34",
+          "Nombre": "YAPURA, Liliana",
+          "Edad": 35,
+          "Fecha": "23/9/2004",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Cabo Moisés Ricardo Barboza.",
+          "cronica": "Un policía mató a su esposa y luego se pegó un balazo en la boca.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g35",
+          "Nombre": "RESPRESS, Liliana Cristina",
+          "Edad": 46,
+          "Fecha": "2/12/2004",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Sargento primero Osvaldo Orlando Sprang, mecánico de la Dirección Aérea.",
+          "cronica": "La pareja protagonizó una violenta discusión. Ante la amenaza de la mujer con denunciarlo, Sprang le puso la pistola 9 mm en la cabeza y disparó.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g36",
+          "Nombre": "MIGONE, Oscar Daniel",
+          "Edad": 38,
+          "Fecha": "9/11/2005",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Capitán Marcelo Fabián Falcón y oficiales Luís Díaz Zapata, Daniel Guillermo Espósito, Ariel Carlos Tolosa y Maria Valeria Maciel, todos de la Cria. 9ª.",
+          "cronica": "Fue detenido acusado de haber protagonizado un robo y horas más tarde apareció ahorcado, tirado en el piso del calabozo de esa seccional, con una campera de jean enrollada en el cuello.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g37",
+          "Nombre": "LE BELLOT, Roberto",
+          "Edad": 55,
+          "Fecha": "6/3/2006",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 8ª - Av. 7 2054",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Sin datos",
+          "cronica": "Estaba preso, apareció ahorcado en una celda de la comisaría 8ª.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.92544577775914, -34.932548865760175]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g38",
+          "Nombre": "LÓPEZ, Jorge Julio",
+          "Edad": 74,
+          "Fecha": "18/9/2006",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia involucrado": "Personal policial y de otras fuerzas.",
+          "cronica": "Querellante y testigo en la causa contra el genocida Miguel Etchecolatz, desapareció de su casa el día de los alegatos. Casi tres meses después, su llavero fue arrojado al jardín de su casa. Julio nunca se llevaba el llavero consigo al salir.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g39",
+          "Nombre": "BARZÁBAL, Darián",
+          "Edad": 17,
+          "Fecha": "10/1/2007",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza involucrada": "Policía Provincial",
+          "policía involucrado": "Sargento Santiago Regalía, sargento Cristian Aníbal Gutiérrez, capitán Eduardo Zaffino, capitán Carlos Daniel Morales, teniente Primero Iván Adrián Martínez, teniente Lucas Antonio Oyarzábal y subteniente Luis Manuel Dorato.",
+          "cronica": "Detenido por una tentativa de robo, el policía le disparó en la cabeza dentro del patrullero. Primero intentaron fraguar un forcejeo y plantaron un arma, pero los testimonios y la prueba de que estaba esposado a la espalda destruyeron esa hipótesis.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g40",
+          "Nombre": "N.N. Masculino",
+          "Edad": "Menor",
+          "Fecha": "5/4/2007",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía bonaerense.",
+          "cronica": "Dos jóvenes intentaron robar en la municipalidad de La Plata. El policía les disparó, mató a uno y el otro fue detenido.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g41",
+          "Nombre": "VATALARO, Alejandro Rubén",
+          "Edad": 27,
+          "Fecha": "19/10/2007",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Marcos Casetti, policía compañero de los asesinados, y Mariano Ezequiel Filippi Medina, hijo de un ex agente del servicio penitenciario, y otros policías.",
+          "cronica": "Tres policías que estaban de guardia en una planta transmisora del Ministerio de Seguridad fueron asesinados en la madrugada en un supuesto robo. Hubo particular saña con los dos policías más jóvenes, que recibieron más de 30 puñaladas y tiros de remate en la cabeza. El tercero, el único de más edad y que atinó a defenderse, recibió cuatro disparos. La investigación se dirige hacia un policía en actividad y un policía retirado.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g42",
+          "Nombre": "TORRES Barbosa, Ricardo",
+          "Edad": 26,
+          "Fecha": "19/10/2007",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Ex policía Fabián Gianotta, los barrabravas y militantes peronistas y sindicalistas Leandro Fabián Colucci, Gustavo Mastrovitto y Javier Uriarte, y un segundo policía, recibido en enero de 2007 y en actividad.",
+          "cronica": "Tres policías que estaban de guardia en una planta transmisora del Ministerio de Seguridad fueron asesinados en la madrugada en un supuesto robo. Hubo particular saña con los dos policías más jóvenes, que recibieron más de 30 puñaladas y tiros de remate en la cabeza. El tercero, el único de más edad y que atinó a defenderse, recibió cuatro disparos. La investigación se dirige hacia un policía en actividad y un policía retirado.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g43",
+          "Nombre": "DÍAZ, Pedro",
+          "Edad": 45,
+          "Fecha": "19/10/2007",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Ex policía Fabián Gianotta, los barrabravas y militantes peronistas y sindicalistas Leandro Fabián Colucci, Gustavo Mastrovitto y Javier Uriarte, y un segundo policía, recibido en enero de 2007 y en actividad.",
+          "cronica": "Tres policías que estaban de guardia en una planta transmisora del Ministerio de Seguridad fueron asesinados en la madrugada en un supuesto robo. Hubo particular saña con los dos policías más jóvenes, que recibieron más de 30 puñaladas y tiros de remate en la cabeza. El tercero, el único de más edad y que atinó a defenderse, recibió cuatro disparos. La investigación se dirige hacia un policía en actividad y un policía retirado.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g44",
+          "Nombre": "DESMELIK, Sebastián Mauro",
+          "Edad": 34,
+          "Fecha": "20/12/2007",
+          "Barrio": "ARANA - LA PLATA",
+          "Direccion": "637 entre 131 y 131 bis",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policías del destacamento de Arana.",
+          "cronica": "Desmelik, policía de la comisaría 4° de Quilmes, fue detenido por el delito de coacción agravada y daños tres días antes de ser encontrado ahorcado en su celda del destacamento policial.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.892834274046535, -34.996555372440476]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g45",
+          "Nombre": "LEDESMA, N. N.",
+          "Edad": 2,
+          "Fecha": "13/1/2008",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía de la 1ª de San Isidro Damián Ledesma.",
+          "cronica": "Después de una discusión con su mujer, el policía baleó en la cabeza a su beba de 2 años y se mató.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g46",
+          "Nombre": "ARAMAYO, Nelson",
+          "Edad": 16,
+          "Fecha": "24/3/2008",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Federal Argentina",
+          "policia_involucrado": "Luis Javier Ojeda, subinspector de la cría. 25ª.",
+          "cronica": "Asesinan a un menor que presuntamente estaba subiendo techos para robar. Ojeda le disparó a la cabeza con su arma reglamentaria. El resultado de la autopsia determinó que el disparo mortal ingresó por la nuca y salió por la frente. El arma que dijeron portaba el menor, estaba descargada.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g47",
+          "Nombre": "VALDIVIA, Marcelo Orlando",
+          "Edad": 19,
+          "Fecha": "27/4/2008",
+          "Barrio": "TOLOSA - LA PLATA",
+          "Direccion": "Tolosa",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Jefe de operaciones de la departamental Azul, inspector Francisco Ferencz.",
+          "cronica": "Según la versión del policía, dos hombres habrían llegado en moto para robarle ingresando a su casa. Al entrar Ferencz le disparó tres balazos con el arma reglamentaria a Lorea y a continuación mató a Valdivia que habría permanecido de campana.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.977526502751054, -34.895751585312986]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g48",
+          "Nombre": "LOREA, Hugo Isidoro",
+          "Edad": 28,
+          "Fecha": "27/4/2008",
+          "Barrio": "TOLOSA - LA PLATA",
+          "Direccion": "Tolosa",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Jefe de operaciones de la departamental Azul, inspector Francisco Ferencz.",
+          "cronica": "Según la versión del policía, Lorea habría llegado en ciclomotor con otro joven y lo abordó con fines de robo al ingresar con su camioneta al garage de su casa. Ingresó al hogar y cuando estaría en la habitación de su hija, Ferencz le disparó tres balazos.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.977526502751054, -34.895751585312986]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g49",
+          "Nombre": "SERRANO, Miguel Angel",
+          "Edad": 19,
+          "Fecha": "3/6/2008",
+          "Barrio": "LOS HORNOS - LA PLATA",
+          "Direccion": "Calles 155 y 56",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Teniente primero Marcelo Palomo de la cría. 3ª de La Plata.",
+          "cronica": "Circulaba en bicicleta con un amigo por las calles 155 y 56 de Los Hornos cuando el policía de la comisaría 3ª, los atropella intencionalmente. Al ver en el piso a Miguel, corre la bicicleta, vuelve a embestir al adolescente y se da a la fuga.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.99512148883494, -34.96262537204955]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g50",
+          "Nombre": "N.N. Masculino",
+          "Edad": 15,
+          "Fecha": "19/6/2008",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía Miguel Angel Chocobar (23) de la cría. 1ª de Florencio Varela.",
+          "cronica": "Dos jóvenes de 15 años habrían ingresado a un ciber en 10 y 64, según la versión policial para robar. Chocobar les disparó, impactando una bala en el pecho de uno provocándole la muerte y al otro hirióndolo en la mano.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g51",
+          "Nombre": "PORTAL, Germán",
+          "Edad": 21,
+          "Fecha": "12/11/2008",
+          "Barrio": "VILLA ELISA - LA PLATA",
+          "Direccion": "Villa Elisa",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Comisaría 12°.",
+          "cronica": "Detenido en el barrio Abasto dos días antes, un privado de la libertad lo encontró ahorcado en el único baño de la comisaría con un cordón de zapatilla.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.07517713745138, -34.853788529416114]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g52",
+          "Nombre": "OLIVA, Emanuel",
+          "Edad": 27,
+          "Fecha": "13/6/2009",
+          "Barrio": "MELCHOR ROMERO - LA PLATA",
+          "Direccion": "Melchor Romero",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Superintendente de la policía (RE) Osvaldo Oliva.",
+          "cronica": "Oliva padre habría intentado golpear a su ex pareja. Emanuel, también policía, se interpuso y entonces el hombre lo atacó con un cuchillo de cocina. En ese momento el hijo habría querido sacar su pistola, pero Oliva tomó el arma de su ex mujer y lo mató.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.03158344111805, -34.93439887899686]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g53",
+          "Nombre": "N.N. Masculino",
+          "Edad": 29,
+          "Fecha": "22/7/2009",
+          "Barrio": "LOS HORNOS - LA PLATA",
+          "Direccion": "Comisaría 3ª - Av. 137 1423",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Comisaría 3ª de Los Hornos.",
+          "cronica": "El hombre estaba acusado de violar a su hija. El jefe de la distrital de Villa Elvira, Agustín Vidal, dijo que el custodio del detenido lo dejó unos minutos esposado con las manos adelante y cuando regresó lo encontró ahorcado con su cinturón.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.96686235413581, -34.949807695300926]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g54",
+          "Nombre": "HEREDIA, Ezequiel",
+          "Edad": 18,
+          "Fecha": "5/12/2009",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía bonaerense Sergio Mariano Leonel Aguirre.",
+          "cronica": "Dos policías acudieron a separar a dos grupos de jóvenes que discutían y peleaban. Uno de los policías disparó ocho veces. Una bala impactó en la cara de Ezequiel, matándolo. Otro chico fue herido en la pierna.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g55",
+          "Nombre": "TELLECHEA, Alejandro Fabián",
+          "Edad": "Sin datos",
+          "Fecha": "5/8/2010",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 8ª - Av. 7 2054",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía provincial.",
+          "cronica": "Estaba detenido desde enero en la comisaría 8ª de La Plata, con graves problemas de salud por los cuales el juzgado de garantías había ordenado varias veces su internación. Cuando finalmente lo trasladaron al hospital en agosto, ya era tarde.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.92544577775914, -34.932548865760175]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g56",
+          "Nombre": "JUÁREZ Caro, Hugo",
+          "Edad": 27,
+          "Fecha": "10/2/2011",
+          "Barrio": "LA PLATA",
+          "Direccion": "Unidad Nº 9 - Calle 76 9",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Servicio penitenciario bonaerense.",
+          "cronica": "Fue asesinado dentro de la Unidad nº 9. Informada por Comisión Provincial por la Memoria.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.9267932587051, -34.936788842960155]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g57",
+          "Nombre": "MIRIÑAY, Román Gualberto",
+          "Edad": "Mayor",
+          "Fecha": "13/4/2011",
+          "Barrio": "OLMOS - LA PLATA",
+          "Direccion": "Lisandro Olmos",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policías de la comisaría de Saladillo, teniente primero Miguel Ángel Caminos, sargento Rubén Darío Rojas y oficial Héctor Jorge Lanza.",
+          "cronica": "Fue estrangulado por los policías de la comisaría de Saladillo cuando lo trasladaban, esposado, en patrullero a la Unidad Penal 10 de Lisandro Olmos, La Plata. Caso listado por la Comisión Provincial por la Memoria en su Informe 2012.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.047634793785264, -34.99816797630623]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g58",
+          "Nombre": "CANIZZO, Ariel",
+          "Edad": 33,
+          "Fecha": "21/10/2011",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Capitán Ricardo de la Canal, tenientes Ernesto Conti y Roberto Percuoco y oficial principal José Antonio Cáceres.",
+          "cronica": "Fue detenido y sacado a los golpes de su casa por efectivos policiales de la Comisaría 3ª de Berisso que lo trasladaron a otra dependencia, donde falleció al día siguiente por las torturas sufridas.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g59",
+          "Nombre": "SIMONETTI, Rodrigo",
+          "Edad": 11,
+          "Fecha": "5/6/2012",
+          "Barrio": "TOLOSA - LA PLATA",
+          "Direccion": "Tolosa",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía provincial.",
+          "cronica": "Apareció muerto a golpes en un descampado. Caso incluido por el defensor de menores Julián Axat en su denuncia ante la Suprema Corte por una seguidilla de homicidios policiales contra menores vulnerables. Es uno de los casos denunciados como parte del accionar del \"Escuadrón de la muerte\" denunciado por el mismo defensor de menores.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.977526502751054, -34.895751585312986]
+        }
+      },  
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g60",
+          "Nombre": "DE LEÓN, Maximiliano \"Juguito\"",
+          "Edad": 14,
+          "Fecha": "1/8/2012",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía Daniel Alberto Mannarino.",
+          "cronica": "El policía lo asesinó de un tiro en la espalda desde la ventana de su casa. El adolescente vivía en la calle y estaba \"marcado\" por los policías, quienes constantemente lo asediaban, detenían y golpeaban. Es uno de los casos denunciados como parte del accionar del \"Escuadrón de la muerte\" denunciado por el defensor de menores Julián Axat.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g61",
+          "Nombre": "NICORA, Sebastián",
+          "Edad": 16,
+          "Fecha": "14/2/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "Playa de Punta Indio",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Efectivos de la Policía Comunal de Verónica y Punta Indio.",
+          "cronica": "Sebastián apareció muerto en una playa de Punta Indio. Primero se habló de un golpe en la cabeza, pero una autopsia realizada más de un año después probó que recibió un balazo que atravesó la cabeza, con señales de proximidad del disparo.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.22322507485603, -35.275854139824894]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g62",
+          "Nombre": "CIGARÁN, Rubén Omar",
+          "Edad": 17,
+          "Fecha": "15/2/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Sargento Diego Walter Flores.",
+          "cronica": "El policía, que uniformado iba en su auto, dijo que vio una escena entre un motociclista y otro conductor que interpretó como intento de robo. Bajó del auto arma en mano. Ante la fuga de la moto, disparó y mató a Omar. El chico había denunciado varias veces que sufría hostigamiento policial. El caso fue denunciado por el defensor de menores Julián Axat como parte del accionar del \"escuadrón de la muerte\".",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g63",
+          "Nombre": "LUCERO, Axel",
+          "Edad": 16,
+          "Fecha": "27/2/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Oficial de la policía Buenos Aires 2 Jorge Osvaldo Caballero.",
+          "cronica": "En el barrio de Villa Elvira, el policía dijo que persiguió a dos chicos porque quisieron robarle la moto. Axel murió de un disparo en la cabeza. El defensor de menores Julián Axat incluyó este caso en su denuncia sobre el \"Escuadrón de la muerte\" en La Plata.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g64",
+          "Nombre": "GARAY, Bladimir Matías",
+          "Edad": 16,
+          "Fecha": "19/3/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía provincial.",
+          "cronica": "Fusilado por la policía durante una persecución. El caso fue denunciado por el defensor de menores Julián Axat como parte del accionar de un \"Escuadrón de la muerte\".",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g65",
+          "Nombre": "N.N. Masculino",
+          "Edad": "Sin datos",
+          "Fecha": "27/4/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía provincial.",
+          "cronica": "Tres muchachos huían de la policía en un auto. Un patrullero los perseguía a los tiros. El auto de los ladrones chocó, un policía se bajó y mató a uno de ellos de un disparo en la frente.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g66",
+          "Nombre": "N.N. Masculino",
+          "Edad": "Sin datos",
+          "Fecha": "4/6/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Federal Argentina",
+          "policia_involucrado": "Policía federal.",
+          "cronica": "Un joven quiso robarle la moto a un policía de civil. Éste lo mató de un disparo.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g67",
+          "Nombre": "ARGÜELLO Canavesio, Franco Emiliano",
+          "Edad": 26,
+          "Fecha": "5/6/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Federal Argentina",
+          "policia_involucrado": "Cabo de la policía federal del que se reservó identidad.",
+          "cronica": "El policía dijo que tres hombres le quisieron robar la moto. Sacó el arma y se identificó, y mató a uno con un disparo que entró por la axila cuando huía.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g68",
+          "Nombre": "CABELLO, Laura",
+          "Edad": 23,
+          "Fecha": "10/6/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Sargento Santiago López.",
+          "cronica": "Tras una pelea con su esposa, que también era policía, el sargento la mató con su arma reglamentaria y luego se suicidó.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g69",
+          "Nombre": "JEREZ, Martín",
+          "Edad": 42,
+          "Fecha": "10/6/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Capitán Roberto Lezcano; capitán Víctor Bacuco y teniente 1º Jorge López.",
+          "cronica": "El policía Bacuco mató de un escopetazo a un hincha de Lanús durante un partido de fútbol en el que reprimieron a los hinchas.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g70",
+          "Nombre": "SALAS, Fabián Alberto",
+          "Edad": 46,
+          "Fecha": "21/6/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Oficial femenina de la bonaerense.",
+          "cronica": "El hombre quiso acosar a una sargento de la policía bonaerense que se encontraba de civil, en la entrada de su casa, y ella lo mató.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g71",
+          "Nombre": "BOWERS, Nélida Soledad",
+          "Edad": 18,
+          "Fecha": "29/8/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Sargento Mauricio Aguilera.",
+          "cronica": "El policía estaba en un restaurante al que entraron a robar unas personas. Se identificó y todos fugaron. No conforme, los persiguió a los tiros y mató a una transeúnte.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g72",
+          "Nombre": "AYALA, Adrián Miguel",
+          "Edad": 21,
+          "Fecha": "11/9/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía provincial.",
+          "cronica": "Un policía del Grupo de Apoyo Departamental de La Plata, hirió a Adrián de diez disparos, uno de ellos en el tórax, tras un supuesto intento de robo. El joven estuvo internado seis días en el hospital San Martín, hasta que falleció.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g73",
+          "Nombre": "PERALTA, Luciano",
+          "Edad": 34,
+          "Fecha": "28/10/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía provincial.",
+          "cronica": "Fue a la casa de su ex mujer, a pedido de ella, a cuidar a los chicos. Un vecino pensó que era un ladrón y llamó a la policía. Lo detuvieron a pesar de sus explicaciones y lo encerraron en una celda de la comisaría de Ringuelet. Al día siguiente lo llevaron al hospital, pero ya era tarde.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g74",
+          "Nombre": "MOGICA, Brian \"Toty\"",
+          "Edad": 16,
+          "Fecha": "19/11/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Oficial de la policía Carlos Benjamín Yuget, de la custodia del gobernador Scioli.",
+          "cronica": "Brian y su amigo Raúl Villalba, de un barrio periférico de La Plata, iban en moto cuando se cruzaron con el policía, también en moto. Discutieron por una maniobra. El policía sacó su arma reglamentaria, hirió a Raúl y mató a Brian, ambos por la espalda.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g75",
+          "Nombre": "N.N. Masculino",
+          "Edad": 16,
+          "Fecha": "19/11/2013",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Subteniente Gabriel Benjamín Yuguet, custodio del gobernador Scioli.",
+          "cronica": "Según la versión oficial, cuatro jóvenes rodearon al policía para robarle la moto. El policía sacó su arma, mató a uno e hirió a otro. No se encontraron otras armas.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },  
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g76",
+          "Nombre": "PERUSSATTO, Ismael \"Beibi\"",
+          "Edad": 20,
+          "Fecha": "12/2/2014",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Oficial del Grupo Halcón, Cristian Daniel Duarte.",
+          "cronica": "Tras un supuesto intento de robo, el policía, de franco, disparó por la espalda a dos pibes. Uno murió en el acto, mientras que el segundo fue trasladado al Hospital San Juan de Dios, donde falleció después de 40 días de agonía.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g77",
+          "Nombre": "ANDRADA, Mauricio",
+          "Edad": 17,
+          "Fecha": "12/2/2014",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Oficial del Grupo Halcón, Cristian Daniel Duarte.",
+          "cronica": "Tras un supuesto intento de robo, el policía, de franco, disparó por la espalda a dos pibes. El otro murió en el acto, mientras que Mauricio, con un tiro en el pulmón y la médula, fue trasladado al Hospital San Juan de Dios, donde falleció después de 40 días.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g78",
+          "Nombre": "JARA, Martín",
+          "Edad": 20,
+          "Fecha": "30/3/2014",
+          "Barrio": "LOS HORNOS - LA PLATA",
+          "Direccion": "Comisaría 3ª - Av. 137 1423",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Personal de la comisaría 3ª de Los Hornos.",
+          "cronica": "Fue detenido porque hubo un llamado al 911 denunciando que había una persona sentada y gritando en el fondo de una casa. Le tuvieron que inmovilizar un brazo con un vendaje por las lesiones que tenía. Horas después, apareció ahorcado en una celda.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.96686235413581, -34.949807695300926]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g79",
+          "Nombre": "N.N. Masculino",
+          "Edad": 25,
+          "Fecha": "31/3/2014",
+          "Barrio": "LA PLATA",
+          "Direccion": "Comisaría 3ª - Av. 137 1423",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía de la comisaría 3ª de La Plata (Los Hornos).",
+          "cronica": "El joven estaba detenido por un delito menor en la comisaría de Los Hornos. Según la versión oficial, se ahorcó con una venda que le habían puesto en el brazo.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.96686235413581, -34.949807695300926]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g80",
+          "Nombre": "N.N. Masculino",
+          "Edad": 16,
+          "Fecha": "31/7/2014",
+          "Barrio": "LOS HORNOS - LA PLATA",
+          "Direccion": "Los Hornos",
+          "fuerza_involucrada": "Otras Fuerzas",
+          "policia_involucrado": "Miembro del ejército de 27 años.",
+          "cronica": "El militar dijo que tres chicos quisieron entrar a su casa. Mató a uno de ellos.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.97232135006606, -34.9603860750414]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g81",
+          "Nombre": "N.N. Masculino",
+          "Edad": 16,
+          "Fecha": "11/12/2014",
+          "Barrio": "LOS HORNOS - LA PLATA",
+          "Direccion": "Los Hornos",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Oficial del CPC.",
+          "cronica": "El policía le pegó un tiro en la cabeza porque el pibe lo quiso robar.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.97232135006606, -34.9603860750414]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g82",
+          "Nombre": "DUARTE, Pablo",
+          "Edad": 30,
+          "Fecha": "23/5/2015",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Oficial subayudante Rodrigo Molina, de la comisaría de Lanús, y su hermanastro, policía de Quilmes.",
+          "cronica": "Duarte estaba en un bar celebrando algo con su familia. Descorcharon una botella de champán y salpicaron sin querer a la mesa de al lado, donde estaban los policías, que iniciaron una pelea. Ya fuera del bar, el policía le disparó a Duarte en el pecho con su arma reglamentaria.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g83",
+          "Nombre": "N.N. JP",
+          "Edad": 17,
+          "Fecha": "16/6/2015",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Otras Fuerzas",
+          "policia_involucrado": "Personal del Instituto Almafuerte.",
+          "cronica": "Estaba encerrado en su celda por un altercado que tuvo el día anterior con otro chico. Lo encontraron ahorcado.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g84",
+          "Nombre": "BARGAS, Cristian",
+          "Edad": 20,
+          "Fecha": "7/6/2015",
+          "Barrio": "TOLOSA - LA PLATA",
+          "Direccion": "Tolosa",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía de Tolosa.",
+          "cronica": "Después de robar un auto, escapaba, pero fue interceptado por la policía. Un patrullero lo chocó de atrás, por lo que impactó contra un portón. Se bajó y alcanzó a correr unos 20 metros, pero le dispararon en la cabeza. Murió después de unas horas.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.977526502751054, -34.895751585312986]
+        }
+      },  
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g86",
+          "Nombre": "YALET, Juan Martín",
+          "Edad": 35,
+          "Fecha": "26/8/2015",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policías Cristian Caffa, Mónica Arias, Walter Fernando Rodríguez Muller, Daniela Aprea, Michael López González, Luciano Díaz, Patricia del Carmen Paris y Laura Gutiérrez.",
+          "cronica": "Había sido reducido tras intentar una entradera en un domicilio de la ciudad de La Plata. Fue cacheado, esposado a la espalda e ingresado un patrullero del CPC (Comando de Prevención Comunitaria). Dentro del vehículo, una bala 9 mm atravesó su cabeza. Se acreditó pericialmente la falsedad de la versión urdida por los policías.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g87",
+          "Nombre": "N.N. Masculino Menor",
+          "Edad": "Sin datos",
+          "Fecha": "18/1/2016",
+          "Barrio": "LOS HORNOS - LA PLATA",
+          "Direccion": "Los Hornos",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Policía provincial.",
+          "cronica": "Dos pibes trataron de robar a un policía que viajaba en moto. El efectivo, de civil, simuló que iba a entregarles el vehículo, y cuando se iban, les disparó: mató a uno y detuvo al otro.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.97232135006606, -34.9603860750414]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g88",
+          "Nombre": "IBARRA, Walter Oscar",
+          "Edad": 49,
+          "Fecha": "18/1/2016",
+          "Barrio": "LA PLATA - VILLA ARGÜELLO",
+          "Direccion": "Villa Argüello",
+          "fuerza_involucrada": "",
+          "policia_involucrado": "Leandro José (victimario, no sabemos si está imputado)",
+          "cronica": "Femicidio vinculado.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.91993261851195, -34.90575210628623]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g89",
+          "Nombre": "ÁLVAREZ, Ezequiel \"Tata\" Alberto",
+          "Edad": 17,
+          "Fecha": "19/1/2016",
+          "Barrio": "LA PLATA",
+          "Direccion": "LA PLATA",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Sargento Cristian Vicenti, del CPC Berisso. Comando de patrulla.",
+          "cronica": "El pibe fue llevado por un cadete del servicio penitenciario a robar una moto. El dueño de la moto, policía, se bajó y simuló entregarla, pero luego sacó su arma reglamentaria y efectuó tres disparos contra el muchacho. El pibe era familiar de Víctor Eman.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Contador": "g90",
+          "Nombre": "RAMÍREZ, Giselle Astrid",
+          "Edad": 24,
+          "Fecha": "28/2/2016",
+          "Barrio": "CITY BELL - LA PLATA",
+          "Direccion": "City Bell",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Walter José Tappa, teniente de la comisaría 10ª.",
+          "cronica": "El policía asesinó dentro de su auto a su pareja y luego se suicidó.",
+          "link": ""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.062204275073995, -34.8808463132599]
+        }
+      },  
+      {
+        "type": "Feature",
+        "properties": {
+            "Contador": "g91",
+            "Nombre": "N.N. Santiago (puede ser Mengarelli, Santiago Andrés)",
+            "Edad": 16,
+            "Fecha": "5/3/2016",
+            "Barrio": "VILLA ELISA - LA PLATA",
+            "Direccion": "Villa Elisa",
+            "fuerza_involucrada": "Policía Provincial",
+            "policia_involucrado": "Mariano Sebastián Marano, oficial del GAD de Florencia Varela. (CPM marca como victimario a Lavat Gaston)",
+            "cronica": "Santiago y otros tres chicos intentaron robar una moto. El policía, que iba de civil en su auto particular, los vio y le disparó en la cara. Los otros tres escaparon.",
+            "link": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-58.07517713745138, -34.853788529416114] 
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Contador": "g92",
+            "Nombre": "AYBAR, Elvio German",
+            "Edad": 44,
+            "Fecha": "11/7/2016",
+            "Barrio": "LA PLATA",
+            "Direccion": "LA PLATA",
+            "fuerza_involucrada": "",
+            "policia_involucrado": "Ayala Ismael Alejandro, patrullero (victimario, no sabemos si está imputado)",
+            "cronica": "Patrullero atropella a una moto",
+            "link": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-57.95866469333193, -34.920360491755694]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Contador": "g93",
+            "Nombre": "PIMENTEL, Marcos",
+            "Edad": 41,
+            "Fecha": "12/7/2016",
+            "Barrio": "LA PLATA",
+            "Direccion": "LA PLATA",
+            "fuerza_involucrada": "Policía Provincial",
+            "policia_involucrado": "Ex suboficial Norberto Alfredo Espíndola.",
+            "cronica": "Espíndola y Pimentel discutieron porque chocaron con sus autos. La víctima subió a su vehículo y se fue. El policía lo siguió y dos cuadras más adelante le disparó en el pecho, matándolo en el acto.",
+            "link": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-57.95866469333193, -34.920360491755694]  
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Contador": "g94",
+            "Nombre": "CAMPOS, Hilda Emilia",
+            "Edad": "Sin datos",
+            "Fecha": "14/7/2016",
+            "Barrio": "LA PLATA",
+            "Direccion": "LA PLATA",
+            "fuerza_involucrada": "",
+            "policia_involucrado": "Victimarios: Saraubbi Silvana Soledad y Alicandro Rafael Enrique (no sabemos si están imputados)",
+            "cronica": "Sin datos",
+            "link": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-57.95866469333193, -34.920360491755694]  
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Contador": "g95",
+            "Nombre": "LUNA, Guillermo",
+            "Edad": 65,
+            "Fecha": "22/8/2016",
+            "Barrio": "GORINA - LA PLATA",
+            "Direccion": "Joaquín Gorina",
+            "fuerza_involucrada": "Policía Provincial",
+            "policia_involucrado": "Sergio Maydana, ex policía y ñoqui del intendente Garro de la Plata, y su pareja Flavia Silvana Rodríguez, policía de Gonnet.",
+            "cronica": "Un médico cirujano con varias causas por malapraxis y estafas, y su mujer cosmetóloga, fueron encontrados muertos en una camioneta, ella con tres disparos y él con dos.",
+            "link": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-58.03162089632288, -34.907160747481626]  
+        }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Contador": "g96",
+          "Nombre": "FAVRE, Laura Silvana",
+          "Edad": 42,
+          "Fecha": "22/8/2016",
+          "Barrio": "GORINA - LA PLATA",
+          "Direccion": "Joaquín Gorina",
+          "fuerza_involucrada": "Policía Provincial",
+          "policia_involucrado": "Sergio Maydana y Flavia Silvana Rodríguez, ambos policías.",
+          "cronica": "Un médico cirujano con varias causas por malapraxis y estafas, y su mujer cosmetóloga, fueron encontrados muertos en una camioneta. Hay sospechas de vínculos con el narcotráfico.",
+          "link": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-58.03162089632288, -34.907160747481626]  
+      }
+  
+  
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g101",
+        "Nombre": "BARBOZA, Iván Rodrigo",
+        "Edad": 26,
+        "Fecha": "6/3/2017",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Comisario retirado Aníbal Díaz.",
+        "cronica": "El comisario salía de un cajero automático en el barrio de San Carlos, cuando dos jóvenes en moto intentaron robarle. Disparó 8 veces su Glock .40 contra ambos cuando intentaban escapar. Iván murió en el lugar, con un disparo en la cabeza. Gerónimo Rojo murió horas más tarde.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g102",
+        "Nombre": "VARGAS, Nicolás",
+        "Edad": "19/18",
+        "Fecha": "2/4/2017",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Policía Rodrigo Laurent (sargento)",
+        "cronica": "El joven iba en moto con un amigo cuando empezaron a ser perseguidos por un patrullero de la Subcomisaría La Unión, en la zona Oeste de La Plata. El amigo se dejó caer de la moto y a Nicolás le dispararon en la cabeza.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g103",
+        "Nombre": "CAMPOS, Maximiliano Ariel",
+        "Edad": 25,
+        "Fecha": "17/8/2017",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Policía local Armando Fabián Banome.",
+        "cronica": "Estaba en la esquina de su casa con un amigo cuando alguien llamó a la policía porque había cuatro personas encapuchadas en la cuadra. Lo quisieron identificar, huyó y le dispararon al estómago.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g104",
+        "Nombre": "BARDALES Sangama, Brandy",
+        "Edad": 43,
+        "Fecha": "10/9/2017",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Policía provincial.",
+        "cronica": "Tercera mujer trans muerta en situación de detención en el año. Era migrante peruana y militante de OTRANS. La policía allanó la pensión donde vivía, y ella ingresó a la comisaría con convulsiones y vomitando sangre. Sus compañeras reclamaron el traslado.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g105",
+        "Nombre": "HERRERA, Carlos",
+        "Edad": 30,
+        "Fecha": "30/4/2018",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Policía del comando de patrulla (no identificada su identidad)",
+        "cronica": "Persecución.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g106",
+        "Nombre": "MARCHAN, Eduardo",
+        "Edad": 28,
+        "Fecha": "12/10/2018",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Emiliano Ezequiel Avila (victimario, no sabemos si está imputado)",
+        "cronica": "Sin datos.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g107",
+        "Nombre": "PEÑALBA, Ciro",
+        "Edad": 10,
+        "Fecha": "27/11/2018",
+        "Barrio": "TOLOSA - LA PLATA",
+        "Direccion": "Tolosa",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Ex policía bonaerense Juan Cruz Chirino.",
+        "cronica": "Mató a su hijastro a puñaladas, disparó en la cabeza a la madre, su pareja, que sobrevivió, y después de estar ocho horas atrincherado en la casa con sus tres hijos pequeños, se pegó un tiro.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.977526502751054, -34.895751585312986]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g108",
+        "Nombre": "GONZÁLEZ, Mario \"El Chino",
+        "Edad": 37,
+        "Fecha": "20/12/2018",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Oficial del Comando de Patrulla de La Plata Arturo Salazar.",
+        "cronica": "El policía disparó tres veces con su escopeta cargada con proyectiles antidisturbios a corta distancia contra un cuidacoches. Dos de las postas, a corta distancia, le causaron la muerte horas después.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g109",
+        "Nombre": "MARINCOVICH, Matias Jesús",
+        "Edad": 18,
+        "Fecha": "2/1/2019",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Fernando Baldello, comando de patrulla, capitán.",
+        "cronica": "Sin datos.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g110",
+        "Nombre": "GUTIÉRREZ, Laura Romina",
+        "Edad": 30,
+        "Fecha": "25/8/2019",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Danilo Acevedo.",
+        "cronica": "Femicidio.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  
+  },     {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g111",
+        "Nombre": "ACOSTA, Jonatan Ezequiel \"Pajarito\"",
+        "Edad": 24,
+        "Fecha": "3/9/2019",
+        "Barrio": "LA PLATA",
+        "Direccion": "LA PLATA",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Policía provincial.",
+        "cronica": "El muchacho trató de robar la moto del policía, que le disparó y lo mató.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.95866469333193, -34.920360491755694]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g112",
+        "Nombre": "DÍAS, Pedro Fernando",
+        "Edad": "Sin datos",
+        "Fecha": "21/9/2019",
+        "Barrio": "LA PLATA",
+        "Direccion": "Comisaría 8ª - Av. 7 2054",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Comisaría 8ª de La Plata.",
+        "cronica": "Informada por la Comisión Provincial por la Memoria sin indicar causa de la muerte.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.92544577775914, -34.932548865760175]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g113",
+        "Nombre": "COLMAN, Ian Isaac",
+        "Edad": 3,
+        "Fecha": "7/10/2019",
+        "Barrio": "LA PLATA - MELCHOR ROMERO",
+        "Direccion": "Melchor Romero",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Patrullero",
+        "cronica": "Accidente de tránsito con patrullero.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-58.029419936617224, -34.9341657490171]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g114",
+        "Nombre": "NUÑEZ GAUTO, Epifanio",
+        "Edad": 51,
+        "Fecha": "19/1/2020",
+        "Barrio": "MELCHOR ROMERO - LA PLATA",
+        "Direccion": "Melchor Romero",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Sizuk, Leandro Hernan (victimario, no sabemos si está imputado)",
+        "cronica": "Orden de allanamiento y/o detención. Uso del arma reglamentaria.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-58.03158344111805, -34.93439887899686]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g115",
+        "Nombre": "FERNÁNDEZ, Lucas Matias",
+        "Edad": 26,
+        "Fecha": "20/1/2020",
+        "Barrio": "LA PLATA - ARTURO SEGUÍ",
+        "Direccion": "Arturo Seguí",
+        "fuerza_involucrada": "Policía de la Ciudad",
+        "policia_involucrado": "Camila Pérez, oficial de la policía de la Ciudad y su marido, Fernando Ramírez, policía bonaerense de Berazategui.",
+        "cronica": "La mujer policía de la Ciudad, su marido de la Bonaerense y un hermano de ella llegaron en auto a la casa de Fernández, porque acusaban a un amigo de él de haber robado la bicicleta al hermano de la policía. Al no encontrar al responsable, huyeron disparando e hirieron a Lucas, a Galván y a un perro. Lucas murió camino al hospital.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-58.121511675442164, -34.88897609489986]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g116",
+        "Nombre": "MILEI, Damián",
+        "Edad": 33,
+        "Fecha": "25/4/2020",
+        "Barrio": "LOS HORNOS - LA PLATA",
+        "Direccion": "Los Hornos",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Comando de patrullas, uso del arma de fuego reglamentaria.",
+        "cronica": "Sin datos.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.97232135006606, -34.9603860750414]
+    }
+  },
+  {
+    "type": "Feature",
+        "properties": {
+        "Contador": "g117",
+        "Nombre": "SEGOVIA, Francisco",
+        "Edad": 52,
+        "Fecha": "25/4/2020",
+        "Barrio": "LOS HORNOS - LA PLATA",
+        "Direccion": "Los Hornos",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Uso del arma de fuego reglamentaria.",
+        "cronica": "Sin datos.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.97232135006606, -34.9603860750414]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g118",
+        "Nombre": "OBREGÓN, José Rodolfo",
+        "Edad": "Sin datos",
+        "Fecha": "4/7/2020",
+        "Barrio": "TOLOSA - LA PLATA",
+        "Direccion": "Tolosa",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Cristián Almiró, patrullero de la Policía Local.",
+        "cronica": "Accidente de tránsito con patrullero.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.977526502751054, -34.895751585312986]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g119",
+        "Nombre": "MANAVELLA, Pablo",
+        "Edad": 20,
+        "Fecha": "5/9/2020",
+        "Barrio": "VILLA ELISA - LA PLATA",
+        "Direccion": "Villa Elisa",
+        "fuerza_involucrada": "Policía Provincial",
+        "policia_involucrado": "Un oficial y una sargento del Comando Patrullas de Lanús.",
+        "cronica": "La pareja de policías vio cuando dos personas entraban a robar a una pizzería. Se identificaron y sacaron sus armas. Los dos jóvenes huyeron. Uno recibió un disparo que lo mató, el otro, de 18 años, fue herido y detenido.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-58.07517713745138, -34.853788529416114]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "Contador": "g120",
+        "Nombre": "RÍOS, Matias Ezequiel",
+        "Edad": 19,
+        "Fecha": "5/9/2020",
+        "Barrio": "VILLA ELVIRA - LA PLATA",
+        "Direccion": "Villa Elvira",
+        "fuerza_involucrada": "",
+        "policia_involucrado": "Comando de patrullas.",
+        "cronica": "Arma de fuego reglamentaria.",
+        "link": ""
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-57.91863360643518, -34.93714423226079]
+    } 
+  },
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": 121,
+  "Nombre": "COSTILLA, Néstor Ramón \"Lito",
+  "Edad": "g28",
+  "Fecha": "7/10/2020",
+  "Barrio": "LA PLATA - TOLOSA",
+  "Direccion": "Tolosa",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Policías Damián Antonio Aquino, Mauricio Rodríguez Medina y Sergio Ceferino Martínez (Policia Local)",
+  "cronica": "Lito, que trabajaba haciendo delivery en moto para una parrilla, volvía a la casa de su madre. Dos motos policíales lo persiguieron y forzaron a caer al piso. Después de caer, lo patearon. La versión del accidente de tránsito es refutada por la familia, comentan que los policías solían hostigarlo y le robaban la comida que llevaba.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.977526502751054, -34.895751585312986]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g122",
+  "Nombre": "SAUCEDO, Nazareno",
+  "Edad": 17,
+  "Fecha": "14/10/2020",
+  "Barrio": "LA PLATA",
+  "Direccion": "Instituto Almafuerte - Av. 520 8794",
+  "fuerza_involucrada": "Otras Fuerzas",
+  "policia_involucrado": "Personal del Instituto de Menores Almafuerte.",
+  "cronica": "Alojado en el Instituto Almafuerte, lo encontraron ahorcado.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-58.060498004187814, -34.960835139361784]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g123",
+  "Nombre": "STIRZ, Santiago",
+  "Edad": 34,
+  "Fecha": "15/12/2020",
+  "Barrio": "LA PLATA",
+  "Direccion": "Comisaría 4ª - Diagonal 73 2651",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Tres policías de la comisaría 4ª de La Plata.",
+  "cronica": "El joven, conocido músico local, iba en bicicleta cuando fue asaltado para robarle la mochila y la guitarra que llevaba. Le pegaron un tiro en la cabeza. La fiscalía investia a la comisaría 4ta por dejar \"la zona liberada\" a los asesinos.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.97168190895091, -34.921465789395526]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g124",
+  "Nombre": "N.N",
+  "Edad": 31,
+  "Fecha": "17/12/2020",
+  "Barrio": "EL PELIGRO - LA PLATA",
+  "Direccion": "El Peligro",
+  "fuerza_involucrada": "",
+  "policia_involucrado": "Comando de patrullas",
+  "cronica": "Persecución",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-58.16373807934657, -34.930367976147394]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g125",
+  "Nombre": "N.N. Masculino - Cañedo, Maximiliano Javier",
+  "Edad": 37,
+  "Fecha": "5/3/2021",
+  "Barrio": "Arana Subcomisaría ARANA - LA PLATA",
+  "Direccion": "637 entre 131 y 131 bis",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Policía provincial.",
+  "cronica": "La Comisión Provincial por la Memoria registra 25 muertes en comisarías de la provincia de Buenos Aires en 2021. Hemos identificado con nombre, fecha y lugar sólo ocho, el resto están consignados como N.N.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.892834274046535, -34.9965290056829]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g126",
+  "Nombre": "DE LUCCA, Cielo (MT)",
+  "Edad": "20 / 24",
+  "Fecha": "10/5/2021",
+  "Barrio": "LOS HORNOS - LA PLATA",
+  "Direccion": "Los Hornos",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Oficial Juan Ignacio Soto (UTOI)",
+  "cronica": "La joven mujer trans era vecina y amiga de la novia del policía, que mató a ambas con su arma reglamentaria, y escapó. Cuando lo estaban por detener, se suicidó.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.97232135006606, -34.9603860750414]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g127",
+  "Nombre": "SANDOVAL, Florencia",
+  "Edad": 23,
+  "Fecha": "10/5/2021",
+  "Barrio": "LOS HORNOS - LA PLATA",
+  "Direccion": "Los Hornos",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Oficial Juan Ignacio Soto (UTOI)",
+  "cronica": "El policía mató de un balazo a su novia y a una vecina, mujer trans, que intentó auxiliarla. Escapó, y cuando lo estaban por atrapar se suicidó.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.97232135006606, -34.9603860750414]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g128",
+  "Nombre": "N.N. Masculino - Antonio Silvio (o Cirilo)",
+  "Edad": 51,
+  "Fecha": "20/9/2021",
+  "Barrio": "LA PLATA",
+  "Direccion": "LA PLATA",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Policía provincial.",
+  "cronica": "La Comisión Provincial por la Memoria registra 25 muertes en comisarías de la provincia de Buenos Aires en 2021. Hemos identificado con nombre, fecha y lugar sólo ocho, el resto están consignados como N.N.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.95866469333193, -34.920360491755694]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "129",
+  "Nombre": "GUTIÉRREZ, Marta Susana",
+  "Edad": 74,
+  "Fecha": "21/11/2021",
+  "Barrio": "LA PLATA",
+  "Direccion": "LA PLATA",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Policía bonaerense retirado Martín Alberto Fallico Gutiérrez.",
+  "cronica": "Golpeó a su mamá en la cabeza, la decapitó con dos cuchillos, puso la cabeza en una bolsa de residuos, tapó el resto del cuerpo con una frazada, se bañó y fue a entregarse a la comisaría, donde dijo que la mató \"por orden de los marcianos\".",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.95866469333193, -34.920360491755694]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g130",
+  "Nombre": "GARCÍA, Nicolás Natanael",
+  "Edad": 17,
+  "Fecha": "30/1/2022",
+  "Barrio": "LA PLATA",
+  "Direccion": "LA PLATA",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Oficial Julio Andrés Ramos.",
+  "cronica": "El policía, fuera de servicio, hacía tareas de delivery. Dijo que lo quisieron asaltar y disparó tres veces contra el pibe, que estaba desarmado.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.95866469333193, -34.920360491755694]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g131",
+  "Nombre": "ROJAS, Cristian Eleno",
+  "Edad": 40,
+  "Fecha": "16/2/2022",
+  "Barrio": "GONNET - LA PLATA",
+  "Direccion": "Gonnet",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Policía provincial (comando patrulla)",
+  "cronica": "En plena persecución, los policías forzaron al conductor de un auto a estrellarse contra una casa. Rojas murió unas horas después. Informada por CPM.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-58.01858074185459, -34.88953341440573]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g132",
+  "Nombre": "SILVA, Lilia Mabel",
+  "Edad": 57,
+  "Fecha": "13/3/2022",
+  "Barrio": "VILLA ELVIRA - LA PLATA",
+  "Direccion": "Villa Elvira",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Policía provincial.",
+  "cronica": "La mujer estaba en su casa celebrando el cumpleaños de uno de sus hijos cuando cinco individuos, entre ellos un policía, a los que no se permitió ingresar, dispararon contra la casa. La mujer murió y uno de los invitados recibió un disparo en la pierna.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-34.93714423226079, -57.91863360643518]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g133",
+  "Nombre": "SALINAS, Cristian Alejandro",
+  "Edad": 26,
+  "Fecha": "13/6/2022",
+  "Barrio": "MELCHOR ROMERO - LA PLATA",
+  "Direccion": "Melchor Romero",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Policia provincial (DDI)",
+  "cronica": "El hombre tenía orden de captura porque se había evadido de una cárcel. La policía lo rodeó y lo acribillaron. Informada por CPM.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-58.03158344111805, -34.93439887899686]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g134",
+  "Nombre": "SALAS, Carolina Eugenia",
+  "Edad": 39,
+  "Fecha": "19/7/2022",
+  "Barrio": "LA PLATA",
+  "Direccion": "LA PLATA",
+  "fuerza_involucrada": "Policía Provincial",
+  "policia_involucrado": "Oficial de la policía Yanina Todisco y su pareja, José Alberto Olgiatti.",
+  "cronica": "La mujer policía y su pareja eran parte de una banda que estafaba con la venta de inmuebles. Una familia afectada ocupó la casa que creían haber comprado. Un grupo de personas fue a echarlos, y dispararon más de 13 veces. Uno de los disparos impactó en una bebé.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-57.95866469333193, -34.920360491755694]
+  }},
+  {
+  "type": "Feature",
+  "properties": {
+  "Contador": "g135",
+  "Nombre": "PERALTA GUARDIA, Néstor Domingo",
+  "Edad": 65,
+  "Fecha": "2/8/2022",
+  "Barrio": "LA PLATA - MELCHOR ROMERO",
+  "Direccion": "Melchor Romero",
+  "fuerza_involucrada": "",
+  "policia_involucrado": "Sin datos",
+  "cronica": "Problema de salud. Muere en un hospital.",
+  "link": ""
+  },
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-58.029419936617224, -34.9341657490171]
+  }}
+    ]
+  }

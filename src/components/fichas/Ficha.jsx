@@ -46,34 +46,74 @@ const Ficha = () => {
     return <div>Cargando...</div>;
   }
 
+  const { properties } = caso;
+
   return (
     <>
-      <div className={styles.data}>
-        <h2 className={styles.title}>
-          {tipoCaso === "gatillo"
-            ? "gatillo"
-            : tipoCaso === "dependencias"
-              ? "dependencias"
-              : tipoCaso === "reporte"
-                ? "Reporte"
-                : "Tipo Desconocido"}
-        </h2>
-        <ul>
-          <li className={styles.name}>{caso.properties.Nombre}</li>
-          <li className={styles.gender}>Género: {caso.properties.Género}</li>
-          <li className={styles.age}>Edad: {caso.properties.Edad}</li>
-          <li className={styles.number}>Ciudad: {caso.properties.Ciudad}</li>
-          <li className={styles.number}>
-            Circunstancias: {caso.properties.Circunstancias}
-          </li>
-        </ul>
-      </div>
-      <div className={styles.policeData}>
-        <li className={styles.number}>
-          Imputados: {caso.properties.Imputados}
-        </li>
-        <li className={styles.number}>Fuerza: {caso.properties.Cod_Fuerza}</li>
-      </div>
+      <section className={styles.ficha}>
+        <div className={styles.data}>
+          <h2 className={styles.title}>
+            {tipoCaso === "gatillo"
+              ? "Caso de gatillo fácil"
+              : tipoCaso === "dependencias"
+                ? "dependencia policial"
+                : tipoCaso === "reporte"
+                  ? "Reporte de violencia policial"
+                  : "Tipo Desconocido"}
+          </h2>
+          <ul>
+            {properties.Dependencia && (
+              <li className={styles.age}>{properties.Dependencia}</li>
+            )}
+            {properties.Nombre && (
+              <li className={styles.name}>{properties.Nombre}</li>
+            )}
+            {properties.Fecha && (
+              <li className={styles.gender}>Fecha: {properties.Fecha}</li>
+            )}
+            {properties.Organismo && (
+              <li className={styles.number}>
+                Depende de: {properties.Organismo}
+              </li>
+            )}
+            {properties.Edad && (
+              <li className={styles.age}>Edad: {properties.Edad}</li>
+            )}
+            {properties.Dirección && (
+              <li className={styles.age}>Dirección: {properties.Dirección}</li>
+            )}
+            {properties.Teléfono && (
+              <li className={styles.age}>Teléfono: {properties.Teléfono}</li>
+            )}
+            {properties.Barrio && (
+              <li className={styles.number}>Ciudad: {properties.Barrio}</li>
+            )}
+            {properties.cronica && (
+              <li className={styles.number}>
+                Circunstancias: {properties.cronica}
+              </li>
+            )}
+          </ul>
+        </div>
+        <div className={styles.policeData}>
+          {properties.fuerza_involucrada && (
+            <li className={styles.number}>
+              Fuerza: {properties.fuerza_involucrada}
+            </li>
+          )}
+          {properties.grado && (
+            <li className={styles.number}>{properties.grado}</li>
+          )}
+          {properties.policia_involucrado && (
+            <li className={styles.number}>
+              Imputados: {properties.policia_involucrado}
+            </li>
+          )}
+          {properties.autoridad && (
+            <li className={styles.number}>{properties.autoridad}</li>
+          )}
+        </div>
+      </section>
     </>
   );
 };
