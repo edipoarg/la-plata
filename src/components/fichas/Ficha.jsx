@@ -22,7 +22,7 @@ const Ficha = () => {
     const fetchCaso = async () => {
       try {
         // Obtener los datos del archivo JSON correspondiente al tipo de caso
-        const response = await fetch(`data/${tipoCaso}LaPlata.json`);
+        const response = await fetch(`data/${tipoCaso}Caba.json`);
         const data = await response.json();
 
         // Encontrar el caso por Contador
