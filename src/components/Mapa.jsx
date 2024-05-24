@@ -22,6 +22,7 @@ import {
   barriosCaba,
   laPlata,
   departamentosLaPlata,
+  reportes,
   gatillo,
 } from "../data/index";
 import {
@@ -33,10 +34,10 @@ import {
 } from "./Sources";
 
 // MARKERS IMPORTS
-import { dependenciasLaPlata } from "../data/index";
+import { dependenciasCaba } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
-/*import DependenciasCabaMarkers from "./dependenciasCabaMarkers/DependenciasCabaMarkers";*/
+import ReportesMarkers from "./reportesMarkers/ReportesMarkers";
 
 //Filtros Import
 import Filtros from "./filtros/Filtros";
@@ -48,14 +49,14 @@ const Mapa = () => {
   // PROPERTIES OF THE MAP
   const mapProps = {
     initialViewState: {
-      longitude: -57.954444,
-      latitude: -35.05,
+      longitude: 58.3816,
+      latitude: -34.6037,
       zoom: 1.5,
       minZoom: 1,
-      maxZoom: 18,
+      maxZoom: 25,
       maxBounds: [
-        [-58.41105, -35.28147], // Lower-left limit
-        [-57.52902, -34.69485], // Upper-right limit
+        [-58.59, -34.8], // Lower-left limit
+        [-58.31, -34.478], // Upper-right limit
       ],
     },
     style: {
@@ -81,6 +82,7 @@ const Mapa = () => {
     Dependencias: true,
     Casos: true,
     GatilloFacil: true,
+    Reportes: true,
   });
   const [filteredData, setFilteredData] = useState(cases);
 
@@ -189,7 +191,7 @@ const Mapa = () => {
           {/* Renderiza los marcadores de las dependencias */}
           {tipoFilters.Dependencias && (
             <DependenciasMarkers
-              dependencias={dependenciasLaPlata}
+              dependencias={dependenciasCaba}
               setPopupInfo={setPopupInfo}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
@@ -199,6 +201,15 @@ const Mapa = () => {
           {tipoFilters.GatilloFacil && (
             <GatilloMarkers
               gatillos={gatillo}
+              setPopupInfo={setPopupInfo}
+              setMarker={setSelectedMarkerId}
+              selected={selectedMarkerId}
+            />
+          )}
+
+          {tipoFilters.Reportes && (
+            <ReportesMarkers
+              reportesPin={reportes}
               setPopupInfo={setPopupInfo}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
