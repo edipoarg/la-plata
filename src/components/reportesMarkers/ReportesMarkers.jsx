@@ -9,8 +9,8 @@ const ReportesMarkers = ({
   setMarker,
   selected,
 }) => {
-  const renderMarker = (gatillo) => {
-    const { properties, geometry } = gatillo;
+  const renderMarker = (reportes) => {
+    const { properties, geometry } = reportes;
     const { Contador, Nombre, Ciudad, Edad, cronica, policia_involucrado } =
       properties;
     const { coordinates } = geometry;
