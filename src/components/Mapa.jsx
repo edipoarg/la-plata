@@ -22,6 +22,7 @@ import {
   barriosCaba,
   laPlata,
   departamentosLaPlata,
+  reportes,
   gatillo,
 } from "../data/index";
 import {
@@ -36,6 +37,7 @@ import {
 import { dependenciasCaba } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
+import ReportesMarkers from "./reportesMarkers/ReportesMarkers";
 
 //Filtros Import
 import Filtros from "./filtros/Filtros";
@@ -80,6 +82,7 @@ const Mapa = () => {
     Dependencias: true,
     Casos: true,
     GatilloFacil: true,
+    Reportes: true,
   });
   const [filteredData, setFilteredData] = useState(cases);
 
@@ -198,6 +201,15 @@ const Mapa = () => {
           {tipoFilters.GatilloFacil && (
             <GatilloMarkers
               gatillos={gatillo}
+              setPopupInfo={setPopupInfo}
+              setMarker={setSelectedMarkerId}
+              selected={selectedMarkerId}
+            />
+          )}
+
+          {tipoFilters.Reportes && (
+            <ReportesMarkers
+              reportesPin={reportes}
               setPopupInfo={setPopupInfo}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}

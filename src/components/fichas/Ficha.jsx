@@ -13,7 +13,7 @@ const Ficha = () => {
   } else if (Contador[0] === "g") {
     tipoCaso = "gatillo";
   } else if (Contador[0] === "r") {
-    tipoCaso = "reporte";
+    tipoCaso = "reportes";
   } else {
     tipoCaso = "no encontrado";
   }
@@ -57,7 +57,7 @@ const Ficha = () => {
               ? "Caso de gatillo fácil"
               : tipoCaso === "dependencias"
                 ? "dependencia policial"
-                : tipoCaso === "reporte"
+                : tipoCaso === "reportes"
                   ? "Reporte de violencia policial"
                   : "Tipo Desconocido"}
           </h2>
