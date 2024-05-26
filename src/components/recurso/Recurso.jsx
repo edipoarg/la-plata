@@ -84,12 +84,6 @@ const Recurso = () => {
           <Icons icon={dominio} className={styles.icon} iconSize="2.2rem" />
           <h3 className={styles.title}>{dominio}</h3>
         </div>
-
-        <div className={styles.menuContainer}>
-          {posts.map((post, index) => (
-            <SubMenuPost key={index} title={post.title} href={`#${post.id}`} />
-          ))}
-        </div>
       </div>
       <div className={styles.postContainer}>
         {posts.map((post, index) => (
