@@ -18,6 +18,14 @@ export default function Filtros({ currentFilter, handleFilterChange }) {
         </div>
 
         <div
+          className={`${styles.tipo3Ref} ${currentFilter === "reportes" ? styles.selected : ""}`}
+          onClick={() => handleFilterChange("reportes")}
+        >
+          <Icons icon="reportes" />
+          <h4 className={styles.tipoClass}> Reportes </h4>
+        </div>
+
+        <div
           className={`${styles.tipo3Ref} ${currentFilter === "gatillo" ? styles.selected : ""}`}
           onClick={() => handleFilterChange("gatillo")}
         >
