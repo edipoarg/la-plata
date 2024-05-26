@@ -10,9 +10,10 @@ const RecursoPost = ({
   Email,
   content,
   link,
+  id,
 }) => {
   return (
-    <div className={styles.post}>
+    <div className={styles.post} id={id}>
       <div className={styles.titleContainer}>
         <h4 className={styles.postTitle}>{title}</h4>
         {subtitle && <h5 className={styles.subtitle}>{subtitle}</h5>}
