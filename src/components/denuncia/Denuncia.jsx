@@ -1,6 +1,6 @@
 // QUEHACER eliminar este lint-disable y hacer que se haga algo con los archivos.
 // quedamos en que lo toma Frani (6/5/24)
-/* eslint-disable no-unused-vars */
+
 import { useState } from "react";
 import styles from "./Denuncia.module.css";
 import Airtable from "airtable";
