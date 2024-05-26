@@ -9,7 +9,6 @@ import institucionalesData from "./institucionales.json";
 import detencionData from "./detencion.json";
 import guiaData from "./guia.json";
 import styles from "./RecursoPost.module.css";
-import SubMenuPost from "./subMenuRecurso";
 import Icons from "../iconos/Icons";
 
 /** @typedef {{ title: string; content: string; }} Post */
