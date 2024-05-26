@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { loader as getURLs } from "./components/Loader.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Investigaciones from "./components/Investigaciones/Investigaciones.jsx";
@@ -36,7 +36,9 @@ const loader = async () => ({
   }),
 });
 
-const router = createBrowserRouter([
+// Not using BrowserRouter because of github pages.
+// https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing
+const router = createHashRouter([
   {
     path: "/",
     element: <Root />,
