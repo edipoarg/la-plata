@@ -3,17 +3,20 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import styles from "./Denuncia.module.css";
+import Airtable from "airtable";
+
+const base = new Airtable({
+  apiKey: import.meta.env.VITE_API_F_KEY,
+}).base(import.meta.env.VITE_BASE_ID);
 
 const Denuncia = () => {
   const [fecha, setFecha] = useState("");
   const [hora, setHora] = useState("");
-  const [lugar, setLugar] = useState("Cuentanos dónde fue");
-  const [descripcion, setDescripcion] = useState("Describe el hecho");
+  const [lugar, setLugar] = useState("");
+  const [descripcion, setDescripcion] = useState("");
   const [agresor, setAgresor] = useState("");
-  const [identificacion, setIdentificacion] = useState(
-    "Especifícanos cuál fue",
-  );
-  const [patente, setPatente] = useState("Puedes anotarlo aquí");
+  const [identificacion, setIdentificacion] = useState("");
+  const [patente, setPatente] = useState("");
   const [archivos, setArchivos] = useState(null);
   const [nombre, setNombre] = useState("");
   const [telefono, setTelefono] = useState("");
@@ -22,12 +25,81 @@ const Denuncia = () => {
   const [denunciarLegalmente, setDenunciarLegalmente] = useState(false);
   const [aceptoTerminos, setAceptoTerminos] = useState(false);
 
-  const handleFileChange = (event) => {
-    const file = event.target.files[0];
-    setArchivos(file);
+  const handleSubmit = async () => {
+    // Verificar campos obligatorios
+    if (
+      !fecha ||
+      !hora ||
+      !lugar ||
+      !descripcion ||
+      !nombre ||
+      !telefono ||
+      !email
+    ) {
+      alert("Por favor completa todos los campos obligatorios.");
+      return;
+    }
+
+    // Validar formato de correo electrónico
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert("Por favor ingresa un correo electrónico válido.");
+      return;
+    }
+
+    // Verificar términos y condiciones
+    if (!aceptoTerminos) {
+      alert("Por favor acepta los términos y condiciones.");
+      return;
+    }
+
+    // Crear el objeto de datos del registro
+    const recordData = {
+      Fecha: fecha,
+      Hora: hora,
+      Lugar: lugar,
+      Descripcion: descripcion,
+      Agresor: agresor,
+      Identificación: identificacion,
+      Patente: patente,
+      Archivos: archivos,
+      Nombre: nombre,
+      Teléfono: telefono,
+      Email: email,
+      Visibilizar: visibilizar,
+      Denunciar_legalmente: denunciarLegalmente,
+    };
+
+    // Intentar crear el registro usando la API de Airtable
+    try {
+      const response = await base("tblLbB2PWSaWbhWG0").create(recordData); // Utiliza 'create' en lugar de 'createRecords'
+      console.log("Record created successfully:", response);
+      alert("Denuncia enviada con éxito");
+      // Limpiar los campos del formulario
+      setFecha("");
+      setHora("");
+      setLugar("");
+      setDescripcion("");
+      setAgresor("");
+      setIdentificacion("");
+      setPatente("");
+      setArchivos(null);
+      setNombre("");
+      setTelefono("");
+      setEmail("");
+      setVisibilizar(false);
+      setDenunciarLegalmente(false);
+      setAceptoTerminos(false);
+    } catch (error) {
+      console.error("Error al crear el registro:", error);
+      // Mostrar mensaje de error
+      alert(
+        "Hubo un error al enviar la denuncia. Por favor intenta nuevamente más tarde.",
+      );
+    }
   };
 
-  const handleSubmit = () => {};
+  //  const handleSubmit = () => {};
 
   return (
     <>
@@ -43,6 +115,7 @@ const Denuncia = () => {
           <input
             type="date"
             value={fecha}
+            placeholder="Contanos cuándo fue"
             onChange={(e) => setFecha(e.target.value)}
           />
           <input
@@ -54,12 +127,14 @@ const Denuncia = () => {
           <input
             type="text"
             value={lugar}
+            placeholder="Especificá el lugar"
             onChange={(e) => setLugar(e.target.value)}
           />
 
           <h3>II. DESCRIPCIÓN DEL HECHO</h3>
           <textarea
             value={descripcion}
+            placeholder="Describí el hecho"
             onChange={(e) => setDescripcion(e.target.value)}
           />
 
@@ -105,7 +180,7 @@ const Denuncia = () => {
             type="text"
             value={patente}
             onChange={(e) => setPatente(e.target.value)}
-            placeholder="Podés anotarlo aquí"
+            placeholder="Podés anotarla aquí"
           />
           <h3>IV. INFORMACIÓN DE CONTACTO</h3>
           <input
