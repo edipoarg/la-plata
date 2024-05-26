@@ -20,7 +20,9 @@ background-color: #b9ff39;
 box-shadow: 4px 4px 0 1px #131313;
 
 }
-
+.nav{
+    display: none;
+}
 .nueva{
     padding: 2vh 0vw;
     margin: 0;
