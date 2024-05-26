@@ -4,11 +4,7 @@ import "./App.css";
 import Mapa from "./components/Mapa";
 
 const App = () => {
-  return (
-    <>
-      <Mapa></Mapa>
-    </>
-  );
+  return <Mapa />;
 };
 
 export default App;

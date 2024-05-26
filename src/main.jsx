@@ -1,11 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { loader as getURLs } from "./components/Loader.jsx";
-
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-
 import Investigaciones from "./components/Investigaciones/Investigaciones.jsx";
 import Denuncia from "./components/denuncia/Denuncia.jsx";
 import Denuncias from "./components/denuncias/Denuncias.jsx";
@@ -27,24 +25,25 @@ import Organizate from "./components/recurso/Organizate.jsx";
 
 const loader = async () => ({
   urls: await getURLs({
-    casos: "data/casos.json",
-    barriosCaba: "data/barriosCaba.json",
-    departamentos: "data/departamentos.json",
-    caba: "data/caba.json",
-    laPlata: "data/laPlata.json",
-    departamentosLaPlata: "data/departamentosLaPlata.json",
-    dependenciasCaba: "data/dependenciasCaba.json",
-    gatillo: "data/gatilloCaba.json",
+    casos: "/data/casos.json",
+    barriosCaba: "/data/barriosCaba.json",
+    departamentos: "/data/departamentos.json",
+    caba: "/data/caba.json",
+    laPlata: "/data/laPlata.json",
+    departamentosLaPlata: "/data/departamentosLaPlata.json",
+    dependenciasCaba: "/data/dependenciasCaba.json",
+    gatillo: "/data/gatilloCaba.json",
   }),
 });
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     children: [
       { path: "/", element: <App />, loader },
       { path: "/denuncias", element: <Denuncias />, loader },
+      { path: "/denuncia", element: <Denuncia /> },
       { path: "/recursos", element: <Recursos />, loader },
       { path: "/investigaciones", element: <Investigaciones />, loader },
       { path: "/jefatura", element: <Jefatura /> },
@@ -53,7 +52,6 @@ const router = createHashRouter([
       { path: "/menu", element: <Menu /> },
       { path: "/podcast", element: <Podcast /> },
       { path: "/gatillo-facil", element: <GatilloFacil /> },
-      { path: "/denuncia", element: <Denuncia /> },
       { path: "/recursos/:dominio", element: <Recurso /> },
       { path: "/organizate", element: <Organizate /> },
       { path: "/autorxs", element: <Autorxs /> },
