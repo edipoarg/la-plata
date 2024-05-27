@@ -4,10 +4,11 @@
 import { useState } from "react";
 import styles from "./Denuncia.module.css";
 import Airtable from "airtable";
+import constants from "../../../services/constants"; // Importa las variables de entorno desde constants.js
 
 const base = new Airtable({
-  apiKey: import.meta.env.VITE_API_F_KEY,
-}).base(import.meta.env.VITE_BASE_ID);
+  apiKey: constants.apikey,
+}).base(constants.baseId);
 
 const Denuncia = () => {
   const [fecha, setFecha] = useState("");
