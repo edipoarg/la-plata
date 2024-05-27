@@ -53,9 +53,8 @@ const Reportes = () => {
       <section className={styles.titleBox}>
         <img src={singularImg} alt="" className={styles.img} />
         <h2 className={styles.singularTitle}>Un caso singular</h2>
-        </section>
+      </section>
       <div className={styles.singularCaseContainer}>
-       
         <div className={styles.singularPart1}>
           <h3 className={styles.singularSubTitle}>
             Las balas del estado policial
