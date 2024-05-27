@@ -1,5 +1,6 @@
 import CaseCounter from "./CaseCounter";
 import styles from "./Reportes.module.css";
+import Icons from "../iconos/Icons";
 
 const Reportes = () => {
   const numeroReporte = 4; // Definimos numeroReporte como una constante con el valor 4
@@ -49,7 +50,6 @@ const Reportes = () => {
           </section>
         </section>
         <section className="reportCases">
-          <div className={styles.reportImage}></div>
           <CaseCounter />
         </section>
       </section>
@@ -92,6 +92,7 @@ const Reportes = () => {
         </div>
       </div>
       <div className={styles.singularPart2}>
+        <Icons icon="reportesAlert" className={styles.icons}></Icons>
         <h4 className={styles.singularTextBlack}>
           Díaz declaró que se abalanzaron sobre el automóvil, que intentaron
           abrir las puertas, que sentía las patadas y los golpes sobre el metal
@@ -121,6 +122,7 @@ const Reportes = () => {
         </h4>
       </div>
       <div className={styles.singularPart3}>
+        <Icons icon="securityCam" className={styles.icons}></Icons>
         <h4 className={styles.singularTextBlack}>
           Y sin embargo, del cúmulo de pruebas reunidas, de los testimonios
           recabados, de las filmaciones del momento del hecho o de las
@@ -221,7 +223,7 @@ const Reportes = () => {
             el PRO. A pesar de haber competido en las últimas elecciones, ambas
             fuerzas se aliaron con el objetivo de imponer una nueva
             gobernabilidad, basada en un dos principios fundamentales: llevar a
-            cabo un programa económico de tinte marcadamente antipopular, y
+            cabo un <b>programa económico de tinte marcadamente antipopular,</b>{" "}
             neutralizar cualquier intento de resistencia ante el ajuste y las
             reformas pro mercado. Para cumplir con el segundo postulado están
             desplegando una nueva política de seguridad, que criminaliza la
@@ -261,45 +263,56 @@ const Reportes = () => {
           </h4>
           <div className={styles.sistemPart2}>
             <img src={otrasImg} alt="" className={styles.otrasImg} />
-            <h4 className={styles.singularText}>
-              Al mismo tiempo, la ministra Bullrich desplegó una serie de
-              iniciativas encaminadas a golpear directamente a las
-              organizaciones populares, como la{" "}
-              <a
-                className={styles.link}
-                href="https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-949-2023-395587/texto"
-              >
-                Resolución 949/2023
-              </a>{" "}
-              que pretende cobrarle el costo de los operativos a quienes
-              catalizan la protesta; o la habilitación de la línea 134 para que
-              les manifestantes denuncien supuestas extorsiones, que luego
-              serían judicializadas. Y en el mismo sentido, el gobierno nacional
-              envió al Congreso diversas propuestas que buscan endurecer la
-              legislación represiva contra el derecho a manifestarse
-            </h4>
-            <h4 className={styles.singularText}>
-              Como es lógico, la mayor parte de las manifestaciones y
-              expresiones colectivas del descontento se desarrollan en la Ciudad
-              de Buenos, sede del poder político, judicial, mediático y
-              económico. Sin embargo, la Capital Federal cuenta con su propia
-              normativa, que difiere con la diseñada desde el Ejecutivo
-              Nacional. A continuación, presentamos la cronología de los
-              operativos represivos desplegados de manera coordinada por las
-              fuerzas de seguridad federales y porteñas desde la asunción del
-              nuevo gobierno de derechas, con el objetivo de encontrar patrones
-              y determinar su éxito y/o su fracaso
-            </h4>
+
+            <div>
+              <h4 className={styles.singularText}>
+                Al mismo tiempo, la ministra Bullrich desplegó una serie de
+                iniciativas encaminadas a golpear directamente a las
+                organizaciones populares, como la{" "}
+                <a
+                  className={styles.link}
+                  href="https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-949-2023-395587/texto"
+                >
+                  Resolución 949/2023
+                </a>{" "}
+                que pretende cobrarle el costo de los operativos a quienes
+                catalizan la protesta; o la habilitación de la línea 134 para
+                que les manifestantes denuncien supuestas extorsiones, que luego
+                serían judicializadas. Y en el mismo sentido, el gobierno
+                nacional envió al Congreso diversas propuestas que buscan
+                legislación represiva contra el derecho a manifestarse
+              </h4>
+              <h4 className={styles.singularText}>
+                Como es lógico, la mayor parte de las manifestaciones y
+                expresiones colectivas del descontento se desarrollan en la
+                Ciudad de Buenos, sede del poder político, judicial, mediático y
+                económico. Sin embargo, la Capital Federal cuenta con su propia
+                normativa, que difiere con la diseñada desde el Ejecutivo
+                Nacional. A continuación, presentamos la cronología de los
+                operativos represivos desplegados de manera coordinada por las
+                fuerzas de seguridad federales y porteñas desde la asunción del
+                nuevo gobierno de derechas, con el objetivo de encontrar
+                patrones y determinar su éxito y/o su fracaso
+              </h4>
+            </div>
           </div>
         </div>
       </div>
       <div>
-        <h2>Cronología de los operativos policiales contra la protesta.</h2>
+        <iframe
+          className={styles.timeline}
+          src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1CyVCS6vcIyl28B5ZU96CsE3ktTSOkOeG4aQ-8rm2nwo&font=Default&lang=en&initial_zoom=2&height=650"
+        ></iframe>
+        <a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1CyVCS6vcIyl28B5ZU96CsE3ktTSOkOeG4aQ-8rm2nwo&font=Default&lang=en&initial_zoom=2&height=650">
+          Ir
+        </a>
       </div>
       <div>
         <div className={styles.sistemPart3}>
+          <Icons icon="siren" className={styles.icons2}></Icons>
+
           <h2>Conclusiones provisorias:</h2>
-          <h4>
+          <h4 className={styles.singularTextBlack}>
             Como hemos visto a lo largo de la cronología, el ritmo y la magnitud
             de la protesta social durante los cinco meses que cubre este Reporte
             ha sido impresionante. Sin temor a equivocarnos, se trata del mayor
@@ -308,16 +321,20 @@ const Reportes = () => {
             operativos policiales desplegados por el Ministerio de Seguridad de
             la Nación, y sus estrategias de amedrentamiento.{" "}
           </h4>
-          <h4>El gobierno de ultraderecha se propone un doble objetivo:</h4>
-          <h4>
-            infundir el miedo en quienes se ven afectados por las agresivas
-            políticas del oficialismo, para disuadirlos y que no se movilicen;{" "}
-          </h4>
-          <h4>
-            golpear a las organizaciones populares, históricamente encargadas en
-            nuestro país de catalizar y encauzar la protesta.
-          </h4>
-          <h4>
+          <div className={styles.sistemObjetivos}>
+            <h4 className={styles.singularTextBlack}>
+              El gobierno de ultraderecha se propone un doble objetivo:
+            </h4>
+            <h4 className={styles.singularTextBlack}>
+              infundir el miedo en quienes se ven afectados por las agresivas
+              políticas del oficialismo, para disuadirlos y que no se movilicen;{" "}
+            </h4>
+            <h4 className={styles.singularTextBlack}>
+              golpear a las organizaciones populares, históricamente encargadas
+              en nuestro país de catalizar y encauzar la protesta.
+            </h4>
+          </div>
+          <h4 className={styles.singularTextBlack}>
             A partir del seguimiento realizado por el Archivo Histórico de la
             Represión en Argentina, concluimos que el primer propósito ha
             fracasado, al menos por ahora. Tras un primer momento en el que la
@@ -327,14 +344,14 @@ const Reportes = () => {
             aplicación del Protocolo antipiquetes se relajó, mientras las
             protestas crecieron en intensidad y volumen.
           </h4>
-          <h4>
+          <h4 className={styles.singularTextBlack}>
             Son múltiples los indicios que nos llevan a arriesgar este balance
             parcial. También son variadas las causas. Entre ellas, podríamos
             apuntar los cortocircuitos evidentes generados entre las autoridades
             de Seguridad nacionales y las de la Ciudad, y la poca sinergia entre
             las fuerzas federales y porteñas.{" "}
           </h4>
-          <h4>
+          <h4 className={styles.singularTextBlack}>
             Por otra parte, el costo de implementar casi diariamente semejante
             movilización policial no solo se mide financieramente, sino también
             en la distracción de efectivos que implica para su utilización en
@@ -343,18 +360,28 @@ const Reportes = () => {
             que participan de la protesta no pasó de ser una performance
             meramente intimidatoria.
           </h4>
-          <h4>
-            performance meramente intimidatoria. Por último, hay que tener en
-            cuenta también las negativas implicancias institucionales de violar
-            ciertos parámetros democráticos, aún si buena parte del sistema
-            político, de la casta empresarial y de la constelación mediática,
-            apoyan con entusiasmo la vocación estatal de disciplinamiento. Más
-            que la atención de la Comunidad Internacional, expresada en la carta
-            de preocupación que enviaron tres Relatores de la ONU, el síntoma de
-            ese relativo revés es la incapacidad de aprobar leyes en el
-            Parlamento y el naufragio del Pacto de Mayo.
+        </div>
+        <div className={styles.sistem4}>
+        <Icons icon="document" className={styles.icons}></Icons>
+
+          <h4 className={styles.singularText}>
+            Por último, hay que tener en cuenta también las negativas
+            implicancias institucionales de violar ciertos parámetros
+            democráticos, aún si buena parte del sistema político, de la casta
+            empresarial y de la constelación mediática, apoyan con entusiasmo la
+            vocación estatal de disciplinamiento. Más que la atención de la
+            Comunidad Internacional, expresada en la{" "}
+            <a
+              className={styles.link}
+              href="https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-949-2023-395587/texto"
+            >
+              carta de preocupación
+            </a>{" "}
+            que enviaron tres Relatores de la ONU, el síntoma de ese relativo
+            revés es la incapacidad de aprobar leyes en el Parlamento y el
+            naufragio del Pacto de Mayo.
           </h4>
-          <h4>
+          <h4 className={styles.singularText}>
             Donde quizás el gobierno sí haya logrado cierto éxito, aunque el
             desenlace en este rubro aún está por verse, es en su intento por
             maniatar a las estructuras organizacionales del campo popular. La
@@ -363,7 +390,7 @@ const Reportes = () => {
             la persecución. Es preciso crear las herramientas legales y
             narrativas necesarias para desarmar esta ofensiva disciplinadora.
           </h4>
-          <h4>
+          <h4 className={styles.singularText}>
             La casi totalidad de los eventos mapeados en este Reporte pertenecen
             al Área Metropolitana de Buenos Aires (AMBA), porque es allí donde
             se concentró la conflictividad durante los primeros cinco meses de
@@ -391,7 +418,7 @@ const Reportes = () => {
         </div>
       </section>
       <div className={styles.politicoContainer}>
-        <h4>
+        <h4 className={styles.singularTextBlack}>
           En el Tercer Reporte del Mapa de la Policía expusimos “la pesadilla de
           los detenidos en Alcaidías y Comisarías porteñas”. Desde entonces, y
           con especial énfasis durante el mes de abril, hubo{" "}
@@ -444,6 +471,8 @@ const Reportes = () => {
         </h4>
       </div>
       <div className={styles.politicoPart2}>
+      <Icons icon="run" className={styles.icons2}></Icons>
+
         <h4 className={styles.singularText}>
           La segunda iniciativa del oficialismo porteño consiste en poner a
           disposición de la justicia federal y nacional{" "}
@@ -476,6 +505,8 @@ const Reportes = () => {
         </h4>
       </div>
       <div className={styles.politicoPart3}>
+      <Icons icon="not" className={styles.icons2}></Icons>
+
         <h4 className={styles.singularText}>
           No está claro que estas medidas contribuyan a evitar la sobrepoblación
           de personas privadas de su libertad en comisarías o alcaidías, muchas
