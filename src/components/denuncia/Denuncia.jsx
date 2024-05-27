@@ -37,7 +37,7 @@ const Denuncia = () => {
           <h4>Un hecho de violencia policial</h4>
         </section>
 
-        <section className="styles.denunciaForm">
+        <section className={styles.denunciaForm}>
           <h3>I. LUGAR Y FECHA</h3>
           <h4>¿Cuándo fue?</h4>
           <input

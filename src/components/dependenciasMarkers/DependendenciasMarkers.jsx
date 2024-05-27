@@ -23,7 +23,7 @@ const DependenciasMarkers = ({
     const { coordinates } = geometry;
     const [latitude, longitude] = coordinates;
 
-    const dependenciasStyle = `${styles.dependencias} ${selected === Contador ? styles.selected : ""}`;
+    const dependenciasStyle = `${styles.dependencias} ${selected === Contador ? styles.selected : "selected"}`;
 
     return (
       <Marker

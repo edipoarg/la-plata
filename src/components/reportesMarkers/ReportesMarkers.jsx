@@ -16,7 +16,7 @@ const ReportesMarkers = ({
     const { coordinates } = geometry;
     const [longitude, latitude] = coordinates;
 
-    const reportesStyle = `${styles.reports} ${selected === Contador ? styles.selected : ""}`;
+    const reportesStyle = `${styles.reportes} ${selected === Contador ? styles.selected : "selected"}`;
 
     const safeNombre = Nombre || "sin datos";
     const safeCiudad = Ciudad || "sin datos";

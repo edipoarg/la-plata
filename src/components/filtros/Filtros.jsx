@@ -9,6 +9,8 @@ export default function Filtros({ currentFilter, handleFilterChange }) {
   return (
     <div>
       <div className={styles.filtroTipo}>
+      <h3 className={styles.title}>Filtros</h3>
+
         <div
           className={`${styles.tipo1Ref} ${currentFilter === "dependencias" ? styles.selected : ""}`}
           onClick={() => handleFilterChange("dependencias")}
