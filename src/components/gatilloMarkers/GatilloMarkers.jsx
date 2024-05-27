@@ -18,7 +18,7 @@ const GatilloMarkers = ({ gatillos, setPopupInfo, setMarker, selected }) => {
     const { coordinates } = geometry;
     const [longitude, latitude] = coordinates;
 
-    const gatilloStyle = `${styles.gatillo} ${selected === Contador ? styles.selected : ""}`;
+    const gatilloStyle = `${styles.gatillo} ${selected === Contador ? styles.selected : "selected"}`;
 
     return (
       <Marker

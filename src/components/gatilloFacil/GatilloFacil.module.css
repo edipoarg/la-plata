@@ -91,5 +91,21 @@
         width: 70vw;
     }
 
+    .gatilloContainer {
+   width: 90vw;
+   margin-left: 10vw;
+    }
 
+
+    .list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .item{
+width: 15vw;
+    }
+
+    .moreButton{
+    width: 3vw;
+    }
 }
