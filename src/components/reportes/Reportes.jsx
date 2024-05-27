@@ -163,25 +163,37 @@ const Reportes = () => {
           la fuerza, un criterio de intervención que tiene un importante
           componente político. Precisamente, Fidel Corbalán moría por la bala
           policial a dos días de la publicación en el Boletín Oficial de la
-          Resolución 125/2024 en la que la ministra de Seguridad de la Nación,
-          Patricia Bullrich, flexibilizaba el uso de las armas de fuego para las
-          fuerzas federales que, a partir de ese momento, pueden disparar sin
-          identificarse en determinadas circunstancias. Esa política de Estado
-          que legaliza el gatillo fácil permea también en los estrados
-          judiciales. Así, el pasado 6 de mayo, la Cámara de Casación revocó la
-          sentencia de Luis Chocobar, policía bonaerense que mató por la espalda
-          a un adolescente que había asaltado y herido a un turista en el barrio
-          de La Boca en 2017. Chocobar, en ese momento había sido recibido y
-          felicitado por Bullrich durante la gestión presidencial de Mauricio
-          Macri.
+          <a
+            className={styles.link}
+            href="https://www.boletinoficial.gob.ar/detalleAviso/primera/304736/20240314"
+          >
+            {" "}
+            Resolución 125/2024
+          </a>{" "}
+          en la que la ministra de Seguridad de la Nación, Patricia Bullrich,
+          flexibilizaba el uso de las armas de fuego para las fuerzas federales
+          que, a partir de ese momento, pueden disparar sin identificarse en
+          determinadas circunstancias. Esa política de Estado que legaliza el
+          gatillo fácil permea también en los estrados judiciales. Así, el
+          pasado 6 de mayo, la Cámara de Casación revocó la sentencia de Luis
+          Chocobar, policía bonaerense que mató por la espalda a un adolescente
+          que había asaltado y herido a un turista en el barrio de La Boca en
+          2017. Chocobar, en ese momento había sido recibido y felicitado por
+          Bullrich durante la gestión presidencial de Mauricio Macri.
         </h4>
         <h4 className={styles.singularTextBlack}>
           {" "}
           En la era libertaria, la ministra no solo festejó el fallo en sus
           redes sociales, también recibió en su despacho a otros agentes que
-          mataron en el ejercicio de sus funciones. En el video publicado en su
-          cuenta de Instagram escribió: “A lo largo y ancho del país hay muchos
-          Chocobar. Hoy los recibimos y reconocemos a cada uno de ellos”.{" "}
+          mataron en el ejercicio de sus funciones. En el{" "}
+          <a
+            className={styles.link}
+            href="https://www.instagram.com/reel/C6ulvPfAQZj/"
+          >
+            video publicado en su cuenta de Instagram
+          </a>{" "}
+          escribió: “A lo largo y ancho del país hay muchos Chocobar. Hoy los
+          recibimos y reconocemos a cada uno de ellos”.{" "}
         </h4>
       </div>
 
@@ -223,20 +235,49 @@ const Reportes = () => {
             Seguridad de la Nación Patricia Bullrich, candidata presidencial del
             partido de Macri. Su principal herramienta es el “Protocolo para el
             mantenimiento del orden público ante el corte circulación”, más
-            conocido como Protocolo antipiquetes, publicado en el Boletín
-            Oficial el 14 de diciembre, a solo cuatro días de iniciado el
-            mandato. Como explica un comunicado del Centro de Estudios Legales y
-            Sociales (CELS), la medida “establece que cualquier manifestación
-            pública que se realice con cortes de calles o rutas constituye la
-            comisión de un delito en flagrancia, lo que habilitará la actuación
-            de las fuerzas de seguridad para desalojar o dispersar la protesta y
-            para recabar información sobre sus participantes y organizaciones a
-            los fines de perseguirlos penalmente. Al suprimir el derecho a
-            elegir el modo y lugar de la protesta, anula por completo el derecho
-            a manifestarse”.
+            conocido como{" "}
+            <a
+              className={styles.link}
+              href="https://www.boletinoficial.gob.ar/detalleAviso/primera/300917/20231215?busqueda=1"
+            >
+              Protocolo antipiquetes,
+            </a>{" "}
+            publicado en el Boletín Oficial el 14 de diciembre, a solo cuatro
+            días de iniciado el mandato. Como explica{" "}
+            <a
+              className={styles.link}
+              href="https://www.cels.org.ar/web/2023/12/con-un-nuevo-protocolo-patricia-bullrich-quiere-impedir-la-protesta-social/"
+            >
+              un comunicado
+            </a>{" "}
+            del Centro de Estudios Legales y Sociales (CELS), la medida
+            “establece que cualquier manifestación pública que se realice con
+            cortes de calles o rutas constituye la comisión de un delito en
+            flagrancia, lo que habilitará la actuación de las fuerzas de
+            seguridad para desalojar o dispersar la protesta y para recabar
+            información sobre sus participantes y organizaciones a los fines de
+            perseguirlos penalmente. Al suprimir el derecho a elegir el modo y
+            lugar de la protesta, anula por completo el derecho a manifestarse”.
           </h4>
           <div className={styles.sistemPart2}>
             <img src={otrasImg} alt="" className={styles.otrasImg} />
+            <h4 className={styles.singularText}>
+              Al mismo tiempo, la ministra Bullrich desplegó una serie de
+              iniciativas encaminadas a golpear directamente a las
+              organizaciones populares, como la{" "}
+              <a
+                className={styles.link}
+                href="https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-949-2023-395587/texto"
+              >
+                Resolución 949/2023
+              </a>{" "}
+              que pretende cobrarle el costo de los operativos a quienes
+              catalizan la protesta; o la habilitación de la línea 134 para que
+              les manifestantes denuncien supuestas extorsiones, que luego
+              serían judicializadas. Y en el mismo sentido, el gobierno nacional
+              envió al Congreso diversas propuestas que buscan endurecer la
+              legislación represiva contra el derecho a manifestarse
+            </h4>
             <h4 className={styles.singularText}>
               Como es lógico, la mayor parte de las manifestaciones y
               expresiones colectivas del descontento se desarrollan en la Ciudad
@@ -247,7 +288,7 @@ const Reportes = () => {
               operativos represivos desplegados de manera coordinada por las
               fuerzas de seguridad federales y porteñas desde la asunción del
               nuevo gobierno de derechas, con el objetivo de encontrar patrones
-              y determinar su éxito y/o su fracaso.
+              y determinar su éxito y/o su fracaso
             </h4>
           </div>
         </div>
@@ -341,31 +382,55 @@ const Reportes = () => {
       {/* Análisis Político */}
       <section className={styles.headerBox}>
         <img src={politicoImg} alt="" className={styles.img} />
-        <h2 className={styles.singularTitle}>titulo3</h2>
+        <div className={styles.titleBox}>
+          <h2 className={styles.titleNumber}>3</h2>
+          <h2 className={styles.sistematicoTitle}>Autoboicot penitenciario</h2>
+          <h3 className={styles.sistematicoSubTitle}>
+            Propuestas contrapopuestas de (in)seguridad
+          </h3>
+        </div>
       </section>
       <div className={styles.politicoContainer}>
         <h4>
           En el Tercer Reporte del Mapa de la Policía expusimos “la pesadilla de
           los detenidos en Alcaidías y Comisarías porteñas”. Desde entonces, y
-          con especial énfasis durante el mes de abril, hubo una catarata de
-          fugas que fueron visibilizadas -con su habitual espectacularización-
-          por las redes sociales y los medios de comunicación. De esta manera,
-          los vecinos de la Ciudad tomaron consciencia de un problema que expone
-          al sentido común punitivista en toda su crudeza. A modo de respuesta,
-          el Gobierno de la Ciudad de Buenos Aires (GCBA) decretó el 6 de mayo
-          la emergencia edilicia, de infraestructura y condiciones de
-          alojamiento en comisarías e instituciones de encierro.
+          con especial énfasis durante el mes de abril, hubo{" "}
+          <a
+            className={styles.link}
+            href="https://www.ambito.com/informacion-general/la-fuga-presos-la-ciudad-preocupa-los-vecinos-y-expone-la-superpoblacion-las-comisarias-n5978348"
+          >
+            una catarata de fugas
+          </a>{" "}
+          que fueron visibilizadas -con su habitual espectacularización- por las
+          redes sociales y los medios de comunicación. De esta manera, los
+          vecinos de la Ciudad tomaron consciencia de un problema que expone al
+          sentido común punitivista en toda su crudeza. A modo de respuesta, el
+          Gobierno de la Ciudad de Buenos Aires (GCBA) decretó el 6 de mayo la
+          emergencia edilicia, de infraestructura y condiciones de alojamiento
+          en comisarías e instituciones de encierro.
         </h4>
         <h4 className={styles.singularTextBlack}>
-          A partir de ello, propuso crear 19 nuevos módulos de detención,
+          A partir de ello, propuso crear
+          <a
+            className={styles.link}
+            href="https://buenosaires.gob.ar/noticias/una-nueva-alcaidia-modulos-de-detencion-y-tobilleras-las-medidas-de-la-ciudad-por-la"
+          >
+            {" "}
+            19 nuevos módulos de detención,
+          </a>
           ubicados en los playones o estacionamientos de comisarías, con
           capacidad para alojar a 300 personas, y se capacitará a personal
-          policial en prácticas penitenciarias. Además, se construirá una nueva
-          alcaidía central con espacio para 1200 detenidos, cuya locación será
-          el sur porteño, entre Lugano y Soldati. Todo apunta a la conformación
-          de un sistema penitenciario propio de la Ciudad. A la par, apuran la
-          construcción de Marcos Paz para poder vender Devoto y hacerse de ese
-          negocio.
+          policial en prácticas penitenciarias. Además, se construirá{" "}
+          <a
+            className={styles.link}
+            href="https://buenosaires.gob.ar/noticias/una-nueva-alcaidia-modulos-de-detencion-y-tobilleras-las-medidas-de-la-ciudad-por-la"
+          >
+            una nueva alcaidía central
+          </a>{" "}
+          con espacio para 1200 detenidos, cuya locación será el sur porteño,
+          entre Lugano y Soldati. Todo apunta a la conformación de un sistema
+          penitenciario propio de la Ciudad. A la par, apuran la construcción de
+          Marcos Paz para poder vender Devoto y hacerse de ese negocio.
         </h4>
         <h4 className={styles.singularTextBlack}>
           No está mal que se amplíen o construyan nuevos espacios para que
@@ -377,17 +442,25 @@ const Reportes = () => {
           médica, entre otros estándares establecidos por la Constitución, la
           jurisprudencia de la Corte Suprema y los tribunales internacionales.
         </h4>
-        <h4 className={styles.singularTextBlack}>
+      </div>
+      <div className={styles.politicoPart2}>
+        <h4 className={styles.singularText}>
           La segunda iniciativa del oficialismo porteño consiste en poner a
-          disposición de la justicia federal y nacional 2000 tobilleras
-          electrónicas nuevas. Se trata, dicen las autoridades, de una modalidad
-          que permite descomprimir el sistema carcelario. Sin embargo, vale la
-          pena advertir que este procedimiento ha servido la mayoría de las
-          veces para ampliar aún más el alcance del sistema penal, incluyendo en
-          él a personas que, de no existir dichos grilletes posmodernos, no
-          habrían siquiera visto su libertad comprometida.
+          disposición de la justicia federal y nacional{" "}
+          <a
+            className={styles.link2}
+            href="https://elnumeral.com/2024/05/03/mas-carceles-tobilleras-y-deportacion-de-extranjeros-las-propuestas-de-jorge-macri/"
+          >
+            2000 tobilleras electrónicas
+          </a>{" "}
+          nuevas. Se trata, dicen las autoridades, de una modalidad que permite
+          descomprimir el sistema carcelario. Sin embargo, vale la pena advertir
+          que este procedimiento ha servido la mayoría de las veces para ampliar
+          aún más el alcance del sistema penal, incluyendo en él a personas que,
+          de no existir dichos grilletes posmodernos, no habrían siquiera visto
+          su libertad comprometida.
         </h4>
-        <h4 className={styles.singularTextBlack}>
+        <h4 className={styles.singularText}>
           {" "}
           El Jefe de Gobierno Jorge Macri propuso también la deportación de
           migrantes extranjeros “ilegales”, lo cual ya fue implementado por su
@@ -401,7 +474,9 @@ const Reportes = () => {
           personas se les sometió a una inminente expulsión, atada a la suerte
           de los escasos recursos legales que ofrecía la norma”.
         </h4>
-        <h4 className={styles.singularTextBlack}>
+      </div>
+      <div className={styles.politicoPart3}>
+        <h4 className={styles.singularText}>
           No está claro que estas medidas contribuyan a evitar la sobrepoblación
           de personas privadas de su libertad en comisarías o alcaidías, muchas
           veces incluso cumpliendo condena. Porque como dice un viejo refrán:
@@ -410,15 +485,39 @@ const Reportes = () => {
           política criminal del Estado que acompañe a disminuir la totalidad de
           personas privadas de su libertad. Pero el GCBA parece proponer todo lo
           contrario, aferrado al manual punitivo de la ultraderecha: introduce
-          la figura de la reiterancia -como se propone a nível nacional-, lo
-          cuál amplía al discrecionalidad de la prisión preventiva -medida por
-          la cual, casi el 60% de las personas se encuentran privadas de su
-          libertad-; instala que las personas en situación de calle poseen
-          antecedentes penales, preparando las condiciones para su encierro; y
-          le inician causas penales a los integrantes de movimientos sociales,
-          criminalizando la protesta.{" "}
+          la figura de la{" "}
+          <a
+            className={styles.link}
+            href="https://elnumeral.com/2024/05/03/mas-carceles-tobilleras-y-deportacion-de-extranjeros-las-propuestas-de-jorge-macri/"
+          >
+            reiterancia
+          </a>
+          <a
+            className={styles.link}
+            href="https://www.cels.org.ar/web/2024/05/reformas-penales-agravan-problemas/"
+          >
+            -como se propone a nível nacional-,
+          </a>{" "}
+          lo cuál amplía al discrecionalidad de la prisión preventiva{" "}
+          <a
+            className={styles.link}
+            href="https://www.ppn.gov.ar/index.php/institucional/noticias/3596-vigesimo-cuarto-reporte-mensual-sobre-alojamiento-en-alcaidias-y-comisarias-de-la-ciudad-de-buenos-aires"
+          >
+            -medida por la cual, casi el 60% de las personas se encuentran
+            privadas de su libertad-;
+          </a>{" "}
+          instala que las{" "}
+          <a
+            className={styles.link}
+            href="https://www.lanacion.com.ar/politica/diego-kravetz-dijo-que-la-mitad-de-las-personas-en-situacion-de-calle-tienen-antecedentes-penales-nid14042024/"
+          >
+            personas en situación de calle poseen antecedentes penales,
+          </a>{" "}
+          preparando las condiciones para su encierro; y le inician causas
+          penales a los integrantes de movimientos sociales, criminalizando la
+          protesta.{" "}
         </h4>
-        <h4 className={styles.singularTextBlack}>
+        <h4 className={styles.singularText}>
           Así las cosas, todo parece indicar que el aumento en las capacidades
           penitenciarias no mejorará las condiciones de detención, sino que
           abonará el incremento de la cantidad de personas con prisión

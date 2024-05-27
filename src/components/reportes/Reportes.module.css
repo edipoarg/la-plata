@@ -1,6 +1,5 @@
 .indexContainer {
     width: 100vw;
-    height: 100vh;
     background-color: white;
 }
 
@@ -63,6 +62,27 @@
     background-color: white;
     text-align: justify;
     padding: 2vh 10vw;
+}
+
+.link{
+    text-decoration-line: underline;
+    color: #9267bb;
+}
+
+.link2{
+    text-decoration-line: underline;
+    color: #2a8842;
+}
+
+.politicoPart2 {
+    background-color: #4e3764;
+    text-align: justify;
+    padding: 2vh 10vw;
+}
+.politicoPart3 {
+    background-color: #131313;
+    text-align: justify;
+    padding: 2vh 10vw 15vh 10vw;
 }
 
 .sistematicoContainer {
