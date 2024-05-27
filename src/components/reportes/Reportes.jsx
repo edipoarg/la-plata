@@ -11,6 +11,8 @@ const Reportes = () => {
   const tituloSistematico = "titulo SISTEMATICO";
   const tituloPolitico = "titulo politico";
   const subtituloPolitico = "subtitulo politico";
+  const singularImg =
+    "https://static.wixstatic.com/media/0f4ca0_568735806ee749b588aae9358978fc13~mv2.jpg/v1/fill/w_1190,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/gatillo-mayo-2024-x-panchopepe-PORTADA--WEB-CRISIS.jpg";
 
   return (
     <div className={styles.reportContainer}>
@@ -48,56 +50,68 @@ const Reportes = () => {
       </section>
 
       {/* Casos Singulares */}
+      <section className={styles.titleBox}>
+        <img src={singularImg} alt="" className={styles.img} />
+        <h2 className={styles.singularTitle}>Un caso singular</h2>
+        </section>
       <div className={styles.singularCaseContainer}>
-        <h2>Las balas del estado policial</h2>
-        <h4>
-          Fidel Ignacio Corbalán, de 18 años, recibió tres disparos de arma de
-          fuego aquella madrugada del 16 de marzo de 2024. Cayó al piso de
-          espaldas en la esquina de Balcarce y Pasaje San Lorenzo, en el barrio
-          de San Telmo, mientras a su alrededor un centenar de jóvenes y
-          adolescentes corrían y se dispersaban por el estruendo de las balas.
-          Marcelo Alejandro Díaz, inspector de la Comisaría Comunal 3B de la
-          Policía de la Ciudad había terminado un servicio adicional en el
-          Instituto Nacional de la Propiedad Industrial, a unas cuadras de
-          aquella esquina, y se dirigía a su casa en un auto particular, vestido
-          de civil. Cuando llegó a las inmediaciones, un número indeterminado de
-          jóvenes rodeó el vehículo y lo forzó a frenar. Según se supo por
-          testimonios, estaba recién concluida una fiesta a la que la mayoría
-          había asistido. Había jóvenes que conversaban sobre la calle o la
-          vereda, que hablaban por teléfono o bebían el resto de la cerveza que
-          les quedaba en el vaso. Algunos de ellos -entre los que se señala a
-          Fidel- en momentos previos a la llegada de Díaz, habían forzado la
-          cerradura de un auto estacionado e intentado forzar el baúl de otro,
-          aunque el dueño del vehículo - vecino del lugar- lo había impedido. El
-          momento en que el Renault Sandero de Díaz aparece en escena quedó
-          registrado en un video que forma parte de la prueba, en el marco de la
-          investigación penal. Díaz declaró que se abalanzaron sobre el
-          automóvil, que intentaron abrir las puertas, que sentía las patadas y
-          los golpes sobre el metal de su auto, que había dejado apenas unos
-          centímetros baja la ventanilla y que por ahí, con los dedos, una
-          persona había levantado el pestillo de seguridad e intentaba forzar su
-          entrada al vehículo. Hasta aquí, lo que declaró Díaz coincide en
-          líneas generales- con lo que muestran las imágenes.
-        </h4>
-        <h4>
-          Después, según el oficial, en medio de ese forcejeo, pudo ver que otro
-          de sus agresores que se encontraba delante, a la altura del espejo
-          retrovisor Fidel Corbalán- le apuntaba con un arma. El oficial ante la
-          Justicia que tuvo que sacar la reglamentaria y dispararle. Lo hizo por
-          ese breve espacio abierto de la ventanilla, el vidrio se vidrio se
-          mantuvo intacto. Su pistola marca Bersa, modelo “Thunder”,
-          semiautomática, calibre 9x19 mm emitió, al menos, tres disparos que
-          dieron de frente contra el cuerpo de Fidel. Falleció, según la
-          autopsia, por “múltiples lesiones de proyectil de arma de fuego y
-          hemorragia interna”. Esas mismas balas, que traspasaron al joven en el
-          hombro, el abdomen y el muslo izquierdo, hirieron a otros dos
-          adolescentes, de 17 y 15 años, que corrieron por sus vidas. Ambos
-          fueron llevados al Hospital Argerich, donde sus lesiones quedaron
-          registradas como “herida por proyectil de arma de fuego en muslo
-          izquierdo y fractura expuesta de fémur izquierdo”, y un “roce de
-          impacto de bala en el pie izquierdo”, respectivamente.
-        </h4>
-        <h4>
+       
+        <div className={styles.singularPart1}>
+          <h3 className={styles.singularSubTitle}>
+            Las balas del estado policial
+          </h3>
+          <h4 className={styles.singularText}>
+            Fidel Ignacio Corbalán, de 18 años, recibió tres disparos de arma de
+            fuego aquella madrugada del 16 de marzo de 2024. Cayó al piso de
+            espaldas en la esquina de Balcarce y Pasaje San Lorenzo, en el
+            barrio de San Telmo, mientras a su alrededor un centenar de jóvenes
+            y adolescentes corrían y se dispersaban por el estruendo de las
+            balas. Marcelo Alejandro Díaz, inspector de la Comisaría Comunal 3B
+            de la Policía de la Ciudad había terminado un servicio adicional en
+            el Instituto Nacional de la Propiedad Industrial, a unas cuadras de
+            aquella esquina, y se dirigía a su casa en un auto particular,
+            vestido de civil. Cuando llegó a las inmediaciones, un número
+            indeterminado de jóvenes rodeó el vehículo y lo forzó a frenar.
+            Según se supo por testimonios, estaba recién concluida una fiesta a
+            la que la mayoría había asistido. Había jóvenes que conversaban
+            sobre la calle o la vereda, que hablaban por teléfono o bebían el
+            resto de la cerveza que les quedaba en el vaso. Algunos de ellos
+            -entre los que se señala a Fidel- en momentos previos a la llegada
+            de Díaz, habían forzado la cerradura de un auto estacionado e
+            intentado forzar el baúl de otro, aunque el dueño del vehículo -
+            vecino del lugar- lo había impedido. El momento en que el Renault
+            Sandero de Díaz aparece en escena quedó registrado en un video que
+            forma parte de la prueba, en el marco de la investigación penal.
+            Díaz declaró que se abalanzaron sobre el automóvil, que intentaron
+            abrir las puertas, que sentía las patadas y los golpes sobre el
+            metal de su auto, que había dejado apenas unos centímetros baja la
+            ventanilla y que por ahí, con los dedos, una persona había levantado
+            el pestillo de seguridad e intentaba forzar su entrada al vehículo.
+            Hasta aquí, lo que declaró Díaz coincide en líneas generales- con lo
+            que muestran las imágenes.
+          </h4>
+          <h4 className={styles.singularText}>
+            Después, según el oficial, en medio de ese forcejeo, pudo ver que
+            otro de sus agresores que se encontraba delante, a la altura del
+            espejo retrovisor Fidel Corbalán- le apuntaba con un arma. El
+            oficial ante la Justicia que tuvo que sacar la reglamentaria y
+            dispararle. Lo hizo por ese breve espacio abierto de la ventanilla,
+            el vidrio se vidrio se mantuvo intacto. Su pistola marca Bersa,
+            modelo “Thunder”, semiautomática, calibre 9x19 mm emitió, al menos,
+            tres disparos que dieron de frente contra el cuerpo de Fidel.
+            Falleció, según la autopsia, por “múltiples lesiones de proyectil de
+            arma de fuego y hemorragia interna”. Esas mismas balas, que
+            traspasaron al joven en el hombro, el abdomen y el muslo izquierdo,
+            hirieron a otros dos adolescentes, de 17 y 15 años, que corrieron
+            por sus vidas. Ambos fueron llevados al Hospital Argerich, donde sus
+            lesiones quedaron registradas como “herida por proyectil de arma de
+            fuego en muslo izquierdo y fractura expuesta de fémur izquierdo”, y
+            un “roce de impacto de bala en el pie izquierdo”, respectivamente.
+          </h4>
+        </div>
+      </div>
+      <div className={styles.singularPart2}>
+        <h4 className={styles.singularTextBlack}>
           Y sin embargo, del cúmulo de pruebas reunidas, de los testimonios
           recabados, de las filmaciones del momento del hecho o de las
           circunstancias previas al asalto al oficial, no surge la existencia de
@@ -108,7 +122,7 @@ const Reportes = () => {
           en aquella filmación, Fidel tenía ambos brazos a los costados del
           cuerpo. No tuvo tiempo, siquiera, de correr.
         </h4>
-        <h4>
+        <h4 className={styles.singularTextBlack}>
           Con este motivo, el pasado 30 de abril, el Juzgado Nacional de Menores
           N° 6 decretó el procesamiento del inspector Marcelo Alejandro Díaz por
           el delito de homicidio agravado por el uso de un arma de fuego en
@@ -125,7 +139,7 @@ const Reportes = () => {
           Patrocinio Jurídico a Víctimas de Delitos del Ministerio Público de la
           Defensa de la Nación.{" "}
         </h4>
-        <h4>
+        <h4 className={styles.singularTextBlack}>
           El crimen de Fidel Corbalán pone en discusión el estado policial, es
           decir, la posibilidad de que los agentes en actividad o retirados
           tengan permiso de portación de armas las 24 horas, tanto dentro como
@@ -151,7 +165,7 @@ const Reportes = () => {
           felicitado por Bullrich durante la gestión presidencial de Mauricio
           Macri.
         </h4>
-        <h4>
+        <h4 className={styles.singularTextBlack}>
           {" "}
           En la era libertaria, la ministra no solo festejó el fallo en sus
           redes sociales, también recibió en su despacho a otros agentes que
