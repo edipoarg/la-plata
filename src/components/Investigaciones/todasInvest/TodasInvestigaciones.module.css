@@ -1,6 +1,5 @@
 .todasContainer{
-  position: fixed;
-  top: 100vh;
+  position: absolute;
   height: 250vh;
   width: 100vw;
     display: grid;
@@ -70,7 +69,7 @@ background-color: yellowgreen;
 
   }
 
-  subTitle{
+  .subTitle{
     padding-top: 8vh;
     padding-bottom: 2vh;
     font-size: 1.6rem;

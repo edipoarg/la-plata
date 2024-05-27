@@ -13,7 +13,7 @@ const Ficha = () => {
   } else if (Contador[0] === "g") {
     tipoCaso = "gatillo";
   } else if (Contador[0] === "r") {
-    tipoCaso = "reporte";
+    tipoCaso = "reportes";
   } else {
     tipoCaso = "no encontrado";
   }
@@ -22,7 +22,7 @@ const Ficha = () => {
     const fetchCaso = async () => {
       try {
         // Obtener los datos del archivo JSON correspondiente al tipo de caso
-        const response = await fetch(`data/${tipoCaso}LaPlata.json`);
+        const response = await fetch(`data/${tipoCaso}Caba.json`);
         const data = await response.json();
 
         // Encontrar el caso por Contador
@@ -57,7 +57,7 @@ const Ficha = () => {
               ? "Caso de gatillo fácil"
               : tipoCaso === "dependencias"
                 ? "dependencia policial"
-                : tipoCaso === "reporte"
+                : tipoCaso === "reportes"
                   ? "Reporte de violencia policial"
                   : "Tipo Desconocido"}
           </h2>

@@ -6,7 +6,7 @@ export default function Root() {
   return (
     <>
       <section className={styles.root}>
-        <Navbar /> {/* Navbar siempre se muestra */}
+        <Navbar />
         <Outlet />
       </section>
     </>

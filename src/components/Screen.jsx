@@ -18,6 +18,7 @@ const Screen = ({
   address,
   phone,
   age,
+  date,
   circs,
   caseId,
   autority,
@@ -29,6 +30,7 @@ const Screen = ({
         <section className={styles.ComisariaData}>
           <h3 className={styles.level}>{level}</h3>
           <h2 className={styles.title}>{truncateText(title, 32)}</h2>
+          <h4 className={styles.date}>{date}</h4>
           <h4 className={styles.address}>{address}</h4>
           <h4 className={styles.phone}>{phone}</h4>
           <h4 className={styles.age}>{age}</h4>
@@ -48,7 +50,7 @@ const Screen = ({
         <section className={styles.autoridadData}>
           {grade && <h3 className={styles.grade}>{grade}</h3>}
           {autority && (
-            <h2 className={styles.autority}>{truncateText(autority, 35)}</h2>
+            <h2 className={styles.autority}> {truncateText(autority, 35)} </h2>
           )}
         </section>
       )}
@@ -60,6 +62,7 @@ Screen.propTypes = {
   title: PropTypes.string,
   level: PropTypes.string,
   address: PropTypes.string,
+  date: PropTypes.string,
   phone: PropTypes.string,
   age: PropTypes.string,
   circs: PropTypes.string,

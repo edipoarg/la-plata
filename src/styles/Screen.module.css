@@ -46,7 +46,7 @@ margin-left: 5vw;
     font-size: 0.9rem;
 }
 
-.address{
+.address, .date{
     padding-top: 1vh;
     margin: 0;
     font-size: 0.9rem;

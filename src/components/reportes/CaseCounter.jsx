@@ -1,10 +1,10 @@
 import styles from "./CaseCounter.module.css";
 
 // Define las constantes para los números de casos en camelCase
-const numHechosVisualizados = 96;
-const numSesiones = 80432;
-const numPersonas = 8707;
-const numDenuncias = 236;
+const numHechosVisualizados = 110;
+const numSesiones = "100,1 mil";
+const numPersonas = 20690;
+const numDenuncias = 264;
 const numHechosVerificados = 107;
 
 const CaseCounter = () => {
@@ -20,7 +20,7 @@ const CaseCounter = () => {
       </div>
       <div className="contador-item">
         <h3>{numPersonas}</h3>
-        <p>Personas</p>
+        <p>Personas entraron al formulario</p>
       </div>
       <div className="contador-item">
         <h3>{numDenuncias}</h3>

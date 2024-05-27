@@ -1,16 +1,8 @@
-// PROGRAM IMPORTS
-import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Link } from "react-router-dom";
-/*import { Link as ScrollLink } from "react-scroll";*/
-
-// STYLES IMPORTS
-//*import mystyle from "./mystyle.json";(style anterior*/
-
-// COMPONENTS IMPORTS
 import LogoMapa from "./LogoMapa";
 import Screen from "./Screen";
 import styles from "../styles/Mapa.module.css";
@@ -22,6 +14,7 @@ import {
   barriosCaba,
   laPlata,
   departamentosLaPlata,
+  reportes,
   gatillo,
 } from "../data/index";
 import {
@@ -33,29 +26,37 @@ import {
 } from "./Sources";
 
 // MARKERS IMPORTS
-import { dependenciasLaPlata } from "../data/index";
+import { dependenciasCaba } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
-/*import DependenciasCabaMarkers from "./dependenciasCabaMarkers/DependenciasCabaMarkers";*/
+import ReportesMarkers from "./reportesMarkers/ReportesMarkers";
 
 //Filtros Import
 import Filtros from "./filtros/Filtros";
 
+/** @typedef {"reportes" | "dependencias" | "gatillo" | "all"} Filtro */
+
 const Mapa = () => {
-  const { urls } = useLoaderData();
-  const cases = urls.casos.cases.map((c) => ({ ...c, date: new Date(c.date) }));
+  /** @type {[Filtro, (f: Filtro) => void; ]} */
+  const [currentFilter, setCurrentFilter] = useState("all");
+
+  /** @type {(f: Filtro) => void; } */
+  const handleFilterChange = (newFilter) => {
+    if (newFilter === currentFilter) setCurrentFilter("all");
+    else setCurrentFilter(newFilter);
+  };
 
   // PROPERTIES OF THE MAP
   const mapProps = {
     initialViewState: {
-      longitude: -57.954444,
-      latitude: -35.05,
+      longitude: 58.3816,
+      latitude: -34.6037,
       zoom: 1.5,
       minZoom: 1,
-      maxZoom: 18,
+      maxZoom: 25,
       maxBounds: [
-        [-58.41105, -35.28147], // Lower-left limit
-        [-57.52902, -34.69485], // Upper-right limit
+        [-58.59, -34.8], // Lower-left limit
+        [-58.31, -34.478], // Upper-right limit
       ],
     },
     style: {
@@ -66,23 +67,6 @@ const Mapa = () => {
     //New Style (Full map data)
     mapStyle: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
   };
-
-  //FILTERS
-  //TODO: Make filters work
-
-  const handleTipoFilter = () => {
-    const filteredDataByType = cases.filter(
-      (event) => tipoFilters[event.tipoId],
-    );
-    setFilteredData(filteredDataByType);
-  };
-
-  const [tipoFilters, setTipoFilters] = useState({
-    Dependencias: true,
-    Casos: true,
-    GatilloFacil: true,
-  });
-  const [filteredData, setFilteredData] = useState(cases);
 
   //visibilidad Filtro
   //TODO: Remove this
@@ -109,17 +93,6 @@ const Mapa = () => {
   };
   const handleLeave = () => setSelectedFeatureId(null);
 
-  // VIOLENCIAS
-  useEffect(() => {
-    const newData = cases;
-
-    const filteredDataByType = newData.filter(
-      (event) => tipoFilters[event.tipoId],
-    );
-
-    setFilteredData(filteredDataByType);
-  }, [cases, tipoFilters]);
-
   return (
     <>
       <section id="MapaDev" className={styles.MapaDev}>
@@ -129,14 +102,11 @@ const Mapa = () => {
           </div>
         </Link>
 
-        {filtrosVisible && (
-          <Filtros
-            caseCount={filteredData.length}
-            handleTipoFilter={handleTipoFilter}
-            tipoFilters={tipoFilters}
-            setTipoFilters={setTipoFilters}
-          />
-        )}
+        <Filtros
+          currentFilter={currentFilter}
+          handleFilterChange={handleFilterChange}
+        />
+
         <div className={styles.botonFiltrosMain}>
           {/* FIXME: Why is this not a button? */}
           {/* Render different button content based on the state */}
@@ -166,6 +136,7 @@ const Mapa = () => {
           autority={popupInfo ? popupInfo.autority : null}
           grade={popupInfo ? popupInfo.grade : null}
           address={popupInfo ? popupInfo.address : null}
+          date={popupInfo ? popupInfo.date : null}
           phone={popupInfo ? popupInfo.phone : null}
           age={popupInfo ? popupInfo.age : null}
           circs={popupInfo ? popupInfo.circs : null}
@@ -187,18 +158,27 @@ const Mapa = () => {
           <DepartamentosLaPlataSource data={departamentosLaPlata} />
 
           {/* Renderiza los marcadores de las dependencias */}
-          {tipoFilters.Dependencias && (
+          {(currentFilter === "all" || currentFilter === "dependencias") && (
             <DependenciasMarkers
-              dependencias={dependenciasLaPlata}
+              dependencias={dependenciasCaba}
               setPopupInfo={setPopupInfo}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}
             />
           )}
 
-          {tipoFilters.GatilloFacil && (
+          {(currentFilter === "all" || currentFilter === "gatillo") && (
             <GatilloMarkers
               gatillos={gatillo}
+              setPopupInfo={setPopupInfo}
+              setMarker={setSelectedMarkerId}
+              selected={selectedMarkerId}
+            />
+          )}
+
+          {(currentFilter === "all" || currentFilter === "reportes") && (
+            <ReportesMarkers
+              reportesPin={reportes}
               setPopupInfo={setPopupInfo}
               setMarker={setSelectedMarkerId}
               selected={selectedMarkerId}

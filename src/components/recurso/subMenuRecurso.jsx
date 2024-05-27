@@ -1,14 +1,11 @@
-// TODO Ale tiene que arreglar este archivo
 /* eslint-disable react/prop-types */
 import styles from "./RecursoPost.module.css";
 
-const SubMenuPost = ({ title, onClick }) => {
+const SubMenuPost = ({ title, href }) => {
   return (
-    <>
-      <a className={styles.postMenu} onClick={onClick}>
-        <h4 className={styles.buttonTitle}>{title}</h4>
-      </a>
-    </>
+    <a className={styles.postMenu} href={href}>
+      <h4 className={styles.buttonTitle}>{title}</h4>
+    </a>
   );
 };
 

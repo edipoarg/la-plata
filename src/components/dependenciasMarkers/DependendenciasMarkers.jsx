@@ -21,9 +21,9 @@ const DependenciasMarkers = ({
       grado,
     } = properties;
     const { coordinates } = geometry;
-    const [longitude, latitude] = coordinates;
+    const [latitude, longitude] = coordinates;
 
-    const dependenciasStyle = `${styles.dependencias} ${selected === Contador ? styles.selected : ""}`;
+    const dependenciasStyle = `${styles.dependencias} ${selected === Contador ? styles.selected : "selected"}`;
 
     return (
       <Marker
