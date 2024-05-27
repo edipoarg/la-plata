@@ -13,7 +13,12 @@ const Reportes = () => {
   const subtituloPolitico = "subtitulo politico";
   const singularImg =
     "https://static.wixstatic.com/media/0f4ca0_568735806ee749b588aae9358978fc13~mv2.jpg/v1/fill/w_1190,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/gatillo-mayo-2024-x-panchopepe-PORTADA--WEB-CRISIS.jpg";
-
+  const sistematicoImg =
+    "https://static.wixstatic.com/media/0f4ca0_a9e3ab268e8d47ec9b7dfdb1d4de44b5~mv2.png/v1/fill/w_843,h_538,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/FOTO%202.png";
+  const politicoImg =
+    "https://static.wixstatic.com/media/0f4ca0_247700749b2a4ccd99714d5c8a48bcf7~mv2.png/v1/fill/w_843,h_538,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/FOTO%203.png";
+  const otrasImg =
+    "https://static.wixstatic.com/media/0f4ca0_f9d31c8352ae41d481dca01bd0666ad5~mv2.jpg/v1/fill/w_825,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_8782.jpg";
   return (
     <div className={styles.reportContainer}>
       {/* Parte Intro */}
@@ -50,11 +55,11 @@ const Reportes = () => {
       </section>
 
       {/* Casos Singulares */}
-      <section className={styles.titleBox}>
-        <img src={singularImg} alt="" className={styles.img} />
-        <h2 className={styles.singularTitle}>Un caso singular</h2>
-      </section>
+      <img src={singularImg} alt="" className={styles.singularImg} />
+
       <div className={styles.singularCaseContainer}>
+        <h2 className={styles.singularTitle}>Un caso singular</h2>
+
         <div className={styles.singularPart1}>
           <h3 className={styles.singularSubTitle}>
             Las balas del estado policial
@@ -71,6 +76,8 @@ const Reportes = () => {
             aquella esquina, y se dirigía a su casa en un auto particular,
             vestido de civil. Cuando llegó a las inmediaciones, un número
             indeterminado de jóvenes rodeó el vehículo y lo forzó a frenar.
+          </h4>
+          <h4 className={styles.singularText}>
             Según se supo por testimonios, estaba recién concluida una fiesta a
             la que la mayoría había asistido. Había jóvenes que conversaban
             sobre la calle o la vereda, que hablaban por teléfono o bebían el
@@ -81,35 +88,39 @@ const Reportes = () => {
             vecino del lugar- lo había impedido. El momento en que el Renault
             Sandero de Díaz aparece en escena quedó registrado en un video que
             forma parte de la prueba, en el marco de la investigación penal.
-            Díaz declaró que se abalanzaron sobre el automóvil, que intentaron
-            abrir las puertas, que sentía las patadas y los golpes sobre el
-            metal de su auto, que había dejado apenas unos centímetros baja la
-            ventanilla y que por ahí, con los dedos, una persona había levantado
-            el pestillo de seguridad e intentaba forzar su entrada al vehículo.
-            Hasta aquí, lo que declaró Díaz coincide en líneas generales- con lo
-            que muestran las imágenes.
-          </h4>
-          <h4 className={styles.singularText}>
-            Después, según el oficial, en medio de ese forcejeo, pudo ver que
-            otro de sus agresores que se encontraba delante, a la altura del
-            espejo retrovisor Fidel Corbalán- le apuntaba con un arma. El
-            oficial ante la Justicia que tuvo que sacar la reglamentaria y
-            dispararle. Lo hizo por ese breve espacio abierto de la ventanilla,
-            el vidrio se vidrio se mantuvo intacto. Su pistola marca Bersa,
-            modelo “Thunder”, semiautomática, calibre 9x19 mm emitió, al menos,
-            tres disparos que dieron de frente contra el cuerpo de Fidel.
-            Falleció, según la autopsia, por “múltiples lesiones de proyectil de
-            arma de fuego y hemorragia interna”. Esas mismas balas, que
-            traspasaron al joven en el hombro, el abdomen y el muslo izquierdo,
-            hirieron a otros dos adolescentes, de 17 y 15 años, que corrieron
-            por sus vidas. Ambos fueron llevados al Hospital Argerich, donde sus
-            lesiones quedaron registradas como “herida por proyectil de arma de
-            fuego en muslo izquierdo y fractura expuesta de fémur izquierdo”, y
-            un “roce de impacto de bala en el pie izquierdo”, respectivamente.
           </h4>
         </div>
       </div>
       <div className={styles.singularPart2}>
+        <h4 className={styles.singularTextBlack}>
+          Díaz declaró que se abalanzaron sobre el automóvil, que intentaron
+          abrir las puertas, que sentía las patadas y los golpes sobre el metal
+          de su auto, que había dejado apenas unos centímetros baja la
+          ventanilla y que por ahí, con los dedos, una persona había levantado
+          el pestillo de seguridad e intentaba forzar su entrada al vehículo.
+          Hasta aquí, lo que declaró Díaz coincide en líneas generales- con lo
+          que muestran las imágenes.
+        </h4>
+        <h4 className={styles.singularTextBlack}>
+          Después, según el oficial, en medio de ese forcejeo, pudo ver que otro
+          otro de sus agresores que se encontraba delante, a la altura espejo
+          retrovisor Fidel Corbalán- le apuntaba con un arma. El oficial ante la
+          Justicia que tuvo que sacar la reglamentaria y dispararle. Lo hizo por
+          ese breve espacio abierto de la ventanilla, el vidrio se vidrio se
+          mantuvo intacto. Su pistola marca Bersa, modelo “Thunder”,
+          semiautomática, calibre 9x19 mm emitió, al menos, tres disparos que
+          dieron de frente contra el cuerpo de Fidel. Falleció, según la
+          autopsia, por “múltiples lesiones de proyectil de arma de fuego y
+          hemorragia interna”. Esas mismas balas, que traspasaron al joven en el
+          hombro, el abdomen y el muslo izquierdo, hirieron a otros dos
+          adolescentes, de 17 y 15 años, que corrieron por sus vidas. Ambos
+          fueron llevados al Hospital Argerich, donde sus lesiones quedaron
+          registradas como “herida por proyectil de arma de fuego en muslo
+          izquierdo y fractura expuesta de fémur izquierdo”, y un “roce de
+          impacto de bala en el pie izquierdo”, respectivamente.
+        </h4>
+      </div>
+      <div className={styles.singularPart3}>
         <h4 className={styles.singularTextBlack}>
           Y sin embargo, del cúmulo de pruebas reunidas, de los testimonios
           recabados, de las filmaciones del momento del hecho o de las
@@ -175,10 +186,21 @@ const Reportes = () => {
       </div>
 
       {/* Caso de Violencia Sistématica */}
-      <div className={styles.sistematicContainer}>
+      <section className={styles.headerBox}>
+        <div className={styles.titleBox}>
+          <h2 className={styles.titleNumber}>2</h2>
+          <h2 className={styles.sistematicoTitle}>
+            Análisis de una práctica sistemática
+          </h2>
+          <h3 className={styles.sistematicoSubTitle}>
+            La represión a la protesta del nuevo gobierno de ultraderecha
+          </h3>
+        </div>
+        <img src={sistematicoImg} alt="" className={styles.img} />
+      </section>
+      <div className={styles.sistematicoContainer}>
         <div>
-          <h2>La represión a la protesta del nuevo gobierno de ultraderecha</h2>
-          <h4>
+          <h4 className={styles.singularTextBlack}>
             Javier Milei asumió el comando del estado nacional el 10 de
             diciembre de 2023, al mismo tiempo que Jorge Macri se hacía cargo de
             la Ciudad de Buenos Aires. Ellos representan a las dos corrientes
@@ -195,39 +217,46 @@ const Reportes = () => {
             desconociendo los consensos democráticos establecidos luego de la
             última dictadura militar.
           </h4>
-          <h4>
+
+          <h4 className={styles.singularTextBlack}>
             La encargada de articular esta avanzada represiva es la ministra de
             Seguridad de la Nación Patricia Bullrich, candidata presidencial del
             partido de Macri. Su principal herramienta es el “Protocolo para el
-            mantenimiento del orden público ante el corte de vías de
-            circulación”, más conocido como Protocolo antipiquetes, publicado en
-            el Boletín Oficial el 14 de diciembre, a solo cuatro días de
-            iniciado el mandato. Como explica un comunicado del Centro de
-            Estudios Legales y Sociales (CELS), la medida “establece que
-            cualquier manifestación pública que se realice con cortes de calles
-            o rutas constituye la comisión de un delito en flagrancia, lo que
-            habilitará la actuación de las fuerzas de seguridad para desalojar o
-            dispersar la protesta y para recabar información sobre sus
-            participantes y organizaciones a los fines de perseguirlos
-            penalmente. Al suprimir el derecho a elegir el modo y lugar de la
-            protesta, anula por completo el derecho a manifestarse”.
+            mantenimiento del orden público ante el corte circulación”, más
+            conocido como Protocolo antipiquetes, publicado en el Boletín
+            Oficial el 14 de diciembre, a solo cuatro días de iniciado el
+            mandato. Como explica un comunicado del Centro de Estudios Legales y
+            Sociales (CELS), la medida “establece que cualquier manifestación
+            pública que se realice con cortes de calles o rutas constituye la
+            comisión de un delito en flagrancia, lo que habilitará la actuación
+            de las fuerzas de seguridad para desalojar o dispersar la protesta y
+            para recabar información sobre sus participantes y organizaciones a
+            los fines de perseguirlos penalmente. Al suprimir el derecho a
+            elegir el modo y lugar de la protesta, anula por completo el derecho
+            a manifestarse”.
           </h4>
-          <h4>
-            Como es lógico, la mayor parte de las manifestaciones y expresiones
-            colectivas del descontento se desarrollan en la Ciudad de Buenos,
-            sede del poder político, judicial, mediático y económico. Sin
-            embargo, la Capital Federal cuenta con su propia normativa, que
-            difiere con la diseñada desde el Ejecutivo Nacional. A continuación,
-            presentamos la cronología de los operativos represivos desplegados
-            de manera coordinada por las fuerzas de seguridad federales y
-            porteñas desde la asunción del nuevo gobierno de derechas, con el
-            objetivo de encontrar patrones y determinar su éxito y/o su fracaso.
-          </h4>
+          <div className={styles.sistemPart2}>
+            <img src={otrasImg} alt="" className={styles.otrasImg} />
+            <h4 className={styles.singularText}>
+              Como es lógico, la mayor parte de las manifestaciones y
+              expresiones colectivas del descontento se desarrollan en la Ciudad
+              de Buenos, sede del poder político, judicial, mediático y
+              económico. Sin embargo, la Capital Federal cuenta con su propia
+              normativa, que difiere con la diseñada desde el Ejecutivo
+              Nacional. A continuación, presentamos la cronología de los
+              operativos represivos desplegados de manera coordinada por las
+              fuerzas de seguridad federales y porteñas desde la asunción del
+              nuevo gobierno de derechas, con el objetivo de encontrar patrones
+              y determinar su éxito y/o su fracaso.
+            </h4>
+          </div>
         </div>
-        <div>
-          <h2>Cronología de los operativos policiales contra la protesta.</h2>
-        </div>
-        <div>
+      </div>
+      <div>
+        <h2>Cronología de los operativos policiales contra la protesta.</h2>
+      </div>
+      <div>
+        <div className={styles.sistemPart3}>
           <h2>Conclusiones provisorias:</h2>
           <h4>
             Como hemos visto a lo largo de la cronología, el ritmo y la magnitud
@@ -310,8 +339,92 @@ const Reportes = () => {
       </div>
 
       {/* Análisis Político */}
-      <div className={styles.politicContainer}>
-        {/* Detalles del análisis político */}
+      <section className={styles.headerBox}>
+        <img src={politicoImg} alt="" className={styles.img} />
+        <h2 className={styles.singularTitle}>titulo3</h2>
+      </section>
+      <div className={styles.politicoContainer}>
+        <h4>
+          En el Tercer Reporte del Mapa de la Policía expusimos “la pesadilla de
+          los detenidos en Alcaidías y Comisarías porteñas”. Desde entonces, y
+          con especial énfasis durante el mes de abril, hubo una catarata de
+          fugas que fueron visibilizadas -con su habitual espectacularización-
+          por las redes sociales y los medios de comunicación. De esta manera,
+          los vecinos de la Ciudad tomaron consciencia de un problema que expone
+          al sentido común punitivista en toda su crudeza. A modo de respuesta,
+          el Gobierno de la Ciudad de Buenos Aires (GCBA) decretó el 6 de mayo
+          la emergencia edilicia, de infraestructura y condiciones de
+          alojamiento en comisarías e instituciones de encierro.
+        </h4>
+        <h4 className={styles.singularTextBlack}>
+          A partir de ello, propuso crear 19 nuevos módulos de detención,
+          ubicados en los playones o estacionamientos de comisarías, con
+          capacidad para alojar a 300 personas, y se capacitará a personal
+          policial en prácticas penitenciarias. Además, se construirá una nueva
+          alcaidía central con espacio para 1200 detenidos, cuya locación será
+          el sur porteño, entre Lugano y Soldati. Todo apunta a la conformación
+          de un sistema penitenciario propio de la Ciudad. A la par, apuran la
+          construcción de Marcos Paz para poder vender Devoto y hacerse de ese
+          negocio.
+        </h4>
+        <h4 className={styles.singularTextBlack}>
+          No está mal que se amplíen o construyan nuevos espacios para que
+          quienes hoy están privados de su libertad mejoren las condiciones de
+          detención. Pero la responsabilidad del Estado en establecimientos de
+          encierro no termina en disponer un lugar donde pasar la noche. Quienes
+          hoy cumplen su condena en una alcaidía o comisaría de la Ciudad deben
+          tener una alimentación digna, acceder a trabajo, educación, atención
+          médica, entre otros estándares establecidos por la Constitución, la
+          jurisprudencia de la Corte Suprema y los tribunales internacionales.
+        </h4>
+        <h4 className={styles.singularTextBlack}>
+          La segunda iniciativa del oficialismo porteño consiste en poner a
+          disposición de la justicia federal y nacional 2000 tobilleras
+          electrónicas nuevas. Se trata, dicen las autoridades, de una modalidad
+          que permite descomprimir el sistema carcelario. Sin embargo, vale la
+          pena advertir que este procedimiento ha servido la mayoría de las
+          veces para ampliar aún más el alcance del sistema penal, incluyendo en
+          él a personas que, de no existir dichos grilletes posmodernos, no
+          habrían siquiera visto su libertad comprometida.
+        </h4>
+        <h4 className={styles.singularTextBlack}>
+          {" "}
+          El Jefe de Gobierno Jorge Macri propuso también la deportación de
+          migrantes extranjeros “ilegales”, lo cual ya fue implementado por su
+          primo Mauricio Macri durante su mandato en la Presidencia de la
+          Nación, a través del DNU 70/2017, luego derogado en marzo de 2021.
+          Según distintos informes publicados por el CELS, dicha normativa viola
+          principios esenciales como el derecho a migrar, a la regularización
+          migratoria, a la no discriminación y el derecho al debido proceso en
+          todos los trámites y procedimientos migratorios. Durante su vigencia,
+          “la aplicación del DNU separó a madres de sus hijes, y a miles de
+          personas se les sometió a una inminente expulsión, atada a la suerte
+          de los escasos recursos legales que ofrecía la norma”.
+        </h4>
+        <h4 className={styles.singularTextBlack}>
+          No está claro que estas medidas contribuyan a evitar la sobrepoblación
+          de personas privadas de su libertad en comisarías o alcaidías, muchas
+          veces incluso cumpliendo condena. Porque como dice un viejo refrán:
+          “cárcel que se abre, cárcel que se llena”. Para que realmente las
+          nuevas plazas ayuden a aliviar la sobrepoblación, es necesario una
+          política criminal del Estado que acompañe a disminuir la totalidad de
+          personas privadas de su libertad. Pero el GCBA parece proponer todo lo
+          contrario, aferrado al manual punitivo de la ultraderecha: introduce
+          la figura de la reiterancia -como se propone a nível nacional-, lo
+          cuál amplía al discrecionalidad de la prisión preventiva -medida por
+          la cual, casi el 60% de las personas se encuentran privadas de su
+          libertad-; instala que las personas en situación de calle poseen
+          antecedentes penales, preparando las condiciones para su encierro; y
+          le inician causas penales a los integrantes de movimientos sociales,
+          criminalizando la protesta.{" "}
+        </h4>
+        <h4 className={styles.singularTextBlack}>
+          Así las cosas, todo parece indicar que el aumento en las capacidades
+          penitenciarias no mejorará las condiciones de detención, sino que
+          abonará el incremento de la cantidad de personas con prisión
+          preventiva, de acuerdo a una política criminal cada vez más agresiva
+          con la ciudadanía.
+        </h4>
       </div>
 
       {/* Contador de Casos */}

@@ -56,18 +56,65 @@
 .singularCaseContainer {
     background-color: white;
     text-align: justify;
+    padding: 0vh 10vw;
+}
+
+.politicoContainer {
+    background-color: white;
+    text-align: justify;
     padding: 2vh 10vw;
 }
 
-.titleBox {
+.sistematicoContainer {
+    background-color: white;
+    text-align: justify;
+    padding: 2vh 10vw;
+}
+
+.sistemPart2{
+background-color: #131313;
+border-radius: 14px;
+padding: 5vh 4vw;
+}
+.headerBox {
+    background-color: #232128;
+    height: 35vh;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
+.titleBox {
+    color: #2a8842;
+    padding: 4vh 7vw ;
+}
+
+.titleNumber{
+    margin: 0;
+    border: solid 1px;
+    border-radius: 180px;
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+}
+
+.sistematicoTitle{
+    padding: 1vh 0vw;
+
+margin: 0;
+color: #2a8842;
+}
+.sistematicoSubTitle{
+    padding: 1vh 0vw;
+   margin: 0; 
+   font-size: 1rem;
+   color: white;
+}
+
+
 .singularTitle {
     font-size: 2rem;
     margin: 0;
-    padding: 3vh 5vw 5vh 5vw;
+    padding: 8vh 5vw 4vh 5vw;
 }
 
 .singularPart1 {
@@ -79,13 +126,34 @@
 .singularSubTitle {
     font-size: 1.6rem;
     margin: 0;
-    padding: 2vh 20vw 2vh 0vw;
+    padding: 2vh 22vw 2vh 0vw;
     color: #b9ff39;
 }
 
 .img {
-    max-width: 75vw;
+    max-width: 55vw;
+    object-fit: cover;
+    height: 35vh;
 }
+
+.singularImg {
+    max-width: 97vw;
+    height: 35vh;
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin deformarse */
+
+}
+
+.otrasImg{
+width: 70vw;
+object-fit: cover; /* Ajusta la imagen dentro del contenedor sin deformarse */
+}
+
+.sistemPart3{
+    background-color: #2a8842;
+    text-align: justify;
+    padding: 10vh 5vw;
+}
+
 
 .singularText {
     margin: 0;
@@ -100,10 +168,17 @@
 }
 
 .singularPart2 {
+    background-color: white;
+    padding: 7vh 10vw 5vh 10vw;
+    text-align: justify;
+}
+
+.singularPart3 {
     background-color: #b9ff39;
     padding: 15vh 10vw 5vh 10vw;
     text-align: justify;
 }
+
 
 @media (min-width: 768px) {
     .indexContainer {
