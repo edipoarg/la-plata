@@ -9,7 +9,7 @@ import Denuncia from "./components/denuncia/Denuncia.jsx";
 import Denuncias from "./components/denuncias/Denuncias.jsx";
 import Recursos from "./components/recursos/Recursos.jsx";
 import Jefatura from "./components/jefatura/Jefatura.jsx";
-import ReportesSoon from "./components/reportes/ReportesSoon.jsx";
+import Reportes from "./components/reportes/Reportes.jsx";
 import Nosotrxs from "./components/us/Nosotrxs.jsx";
 import Menu from "./components/menu/Menu.jsx";
 import GatilloFacil from "./components/gatilloFacil/GatilloFacil.jsx";
@@ -19,9 +19,9 @@ import Autorxs from "./components/Investigaciones/autorxs/Autorxs.jsx";
 import FichaAutorxs from "./components/Investigaciones/autorxs/FichaAutorxs.jsx";
 import Investigacion from "./components/Investigaciones/investigacion/Investigacion.jsx";
 import Root from "./routes/Root.jsx";
-import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
 import Ficha from "./components/fichas/Ficha.jsx";
 import Organizate from "./components/recurso/Organizate.jsx";
+import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
 
 const loader = async () => ({
   urls: await getURLs({
@@ -49,7 +49,7 @@ const router = createHashRouter([
       { path: "/recursos", element: <Recursos />, loader },
       { path: "/investigaciones", element: <Investigaciones />, loader },
       { path: "/jefatura", element: <Jefatura /> },
-      { path: "/reportes", element: <ReportesSoon /> },
+      { path: "/reportes", element: <Reportes /> },
       { path: "/nosotrxs", element: <Nosotrxs /> },
       { path: "/menu", element: <Menu /> },
       { path: "/podcast", element: <Podcast /> },
@@ -59,7 +59,7 @@ const router = createHashRouter([
       { path: "/autorxs", element: <Autorxs /> },
       { path: "/:enlaceVer", element: <FichaAutorxs /> },
       { path: "/investigacion/:dominio", element: <Investigacion /> },
-      { path: "/investigaciones/lista", element: <TodasInvestigaciones /> },
+      { path: "/lista", element: <TodasInvestigaciones /> },
       { path: "/ficha/:Contador", element: <Ficha /> },
     ],
   },

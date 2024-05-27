@@ -11,12 +11,18 @@ const ReportesMarkers = ({
 }) => {
   const renderMarker = (reportes) => {
     const { properties, geometry } = reportes;
-    const { Contador, Nombre, Ciudad, Edad, cronica, policia_involucrado } =
+    const { Contador, Nombre, Ciudad, Fecha, cronica, policia_involucrado } =
       properties;
     const { coordinates } = geometry;
     const [longitude, latitude] = coordinates;
 
-    const reportesStyle = `${styles.reports} ${selected === Contador ? styles.selected : ""}`;
+    const reportesStyle = `${styles.reportes} ${selected === Contador ? styles.selected : "selected"}`;
+
+    const safeNombre = Nombre || "sin datos";
+    const safeCiudad = Ciudad || "sin datos";
+    const safeCronica = cronica || "sin datos";
+    const safePolicia = policia_involucrado || "sin datos";
+    const safeFecha = Fecha || "sin datos";
 
     return (
       <Marker
@@ -32,12 +38,12 @@ const ReportesMarkers = ({
               lat: latitude,
               lng: longitude,
             },
-            title: `${Nombre}`,
-            age: `${Edad}`,
-            circs: `${cronica}`,
-            description: `Nombre: ${Nombre}, Ciudad: ${Ciudad}`,
+            title: `${safeNombre}`,
+            date: `${safeFecha}`,
+            circs: `${safeCronica}`,
+            description: `Nombre: ${safeNombre}, Ciudad: ${safeCiudad}`,
             caseId: `${Contador}`, // Este será el ID para el enlace
-            autority: `${policia_involucrado}`,
+            autority: `${safePolicia}`,
           });
         }}
       >

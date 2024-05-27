@@ -1,8 +1,8 @@
 
-.gatillo {
+.reportes {
     width: 15px;
     height: 15px;
-    color: #db8821;
+    color: #2cb54d;
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 
-.gatillo:hover {
+.reportes:hover {
     width: 15px;
     height: 15px;
     color: white;
@@ -22,3 +22,13 @@
     transform: translate(-20%, -20%);
 }
 
+.selected {
+    width: 15px;
+    height: 15px;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transform: translate(-20%, -20%);
+}

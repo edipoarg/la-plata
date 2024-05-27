@@ -113,10 +113,7 @@ const Investigaciones = () => {
                     <div></div>
                   </section>
                 </Link>
-                <Link
-                  to="/investigaciones/lista"
-                  className={styles.todasLinkContainer}
-                >
+                <Link to="/lista" className={styles.todasLinkContainer}>
                   <section
                     style={Temas.investTema}
                     className={styles.todasLink}

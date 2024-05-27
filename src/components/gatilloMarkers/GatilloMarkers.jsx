@@ -6,12 +6,19 @@ import Icons from "../iconos/Icons";
 const GatilloMarkers = ({ gatillos, setPopupInfo, setMarker, selected }) => {
   const renderMarker = (gatillo) => {
     const { properties, geometry } = gatillo;
-    const { Contador, Nombre, Ciudad, Edad, cronica, policia_involucrado } =
-      properties;
+    const {
+      Contador,
+      Nombre,
+      Ciudad,
+      Edad,
+      Fecha,
+      cronica,
+      policia_involucrado,
+    } = properties;
     const { coordinates } = geometry;
     const [longitude, latitude] = coordinates;
 
-    const gatilloStyle = `${styles.gatillo} ${selected === Contador ? styles.selected : ""}`;
+    const gatilloStyle = `${styles.gatillo} ${selected === Contador ? styles.selected : "selected"}`;
 
     return (
       <Marker
@@ -28,7 +35,8 @@ const GatilloMarkers = ({ gatillos, setPopupInfo, setMarker, selected }) => {
               lng: longitude,
             },
             title: `${Nombre}`,
-            age: `${Edad}`,
+            age: `${Fecha}`,
+            date: `${Edad}`,
             circs: `${cronica}`,
             description: `Nombre: ${Nombre}, Ciudad: ${Ciudad}`,
             caseId: `${Contador}`, // Este será el ID para el enlace
