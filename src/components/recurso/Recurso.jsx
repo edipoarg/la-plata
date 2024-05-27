@@ -87,7 +87,7 @@ const Recurso = () => {
 
         <div className={styles.menuContainer}>
           {posts.map((post, index) => (
-            <SubMenuPost key={index} title={post.title} href={`#${post.id}`} />
+            <SubMenuPost key={index} title={post.title} href={post.id} />
           ))}
         </div>
       </div>
