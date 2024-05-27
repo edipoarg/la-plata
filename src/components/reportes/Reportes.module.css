@@ -24,14 +24,15 @@
     width: 50vw;
 }
 
-.icons{
+.icons {
     width: 10vw;
     font-size: 3rem;
     margin: 0;
     margin: auto;
     padding: 2vh 0vw;
 }
-.icons2{
+
+.icons2 {
     color: white;
     width: 10vw;
     font-size: 3rem;
@@ -39,6 +40,7 @@
     margin: auto;
     padding: 2vh 0vw;
 }
+
 .reportItem {
     background-color: #b9ff39;
     border-radius: 14px;
@@ -278,17 +280,22 @@
             padding: 6vh 10vw 6vh 20vw;
         }
 
-        .headerBox{
+        .headerBox {
             height: 50vh;
         }
 
-        .sistematicoTitle{
+        .sistematicoTitle {
             font-size: 3rem;
         }
-        .politicoTitle{
+
+        .politicoTitle {
             font-size: 3rem;
         }
-.singularText, .singularTextBlack{font-size: 1.3rem;}
+
+        .singularText,
+        .singularTextBlack {
+            font-size: 1.3rem;
+        }
 
         .titleNumber {
             border: solid 2px;
@@ -342,6 +349,7 @@
         .sistemPart2 {
             padding: 5vh 4vw;
         }
+
         .sistemPart3 {
             padding: 6vh 15vw;
         }
@@ -350,14 +358,12 @@
             padding: 6vh 15vw;
         }
 
+        .sistemObjetivos {
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+            padding: 2vh 5vw;
+        }
 
-       .sistemObjetivos{
-
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-        padding: 2vh 5vw;
-
-       }
         .img {
             max-width: 90vw;
             object-fit: cover;

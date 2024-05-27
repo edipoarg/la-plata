@@ -362,7 +362,7 @@ const Reportes = () => {
           </h4>
         </div>
         <div className={styles.sistem4}>
-        <Icons icon="document" className={styles.icons}></Icons>
+          <Icons icon="document" className={styles.icons}></Icons>
 
           <h4 className={styles.singularText}>
             Por último, hay que tener en cuenta también las negativas
@@ -471,7 +471,7 @@ const Reportes = () => {
         </h4>
       </div>
       <div className={styles.politicoPart2}>
-      <Icons icon="run" className={styles.icons2}></Icons>
+        <Icons icon="run" className={styles.icons2}></Icons>
 
         <h4 className={styles.singularText}>
           La segunda iniciativa del oficialismo porteño consiste en poner a
@@ -505,7 +505,7 @@ const Reportes = () => {
         </h4>
       </div>
       <div className={styles.politicoPart3}>
-      <Icons icon="not" className={styles.icons2}></Icons>
+        <Icons icon="not" className={styles.icons2}></Icons>
 
         <h4 className={styles.singularText}>
           No está claro que estas medidas contribuyan a evitar la sobrepoblación
