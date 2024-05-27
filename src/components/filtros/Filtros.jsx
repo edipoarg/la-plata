@@ -9,12 +9,22 @@ export default function Filtros({ currentFilter, handleFilterChange }) {
   return (
     <div>
       <div className={styles.filtroTipo}>
+        <h3 className={styles.title}>Filtros</h3>
+
         <div
           className={`${styles.tipo1Ref} ${currentFilter === "dependencias" ? styles.selected : ""}`}
           onClick={() => handleFilterChange("dependencias")}
         >
           <Icons icon="mapa" />
           <h4 className={styles.tipoClass}>Comisarías </h4>
+        </div>
+
+        <div
+          className={`${styles.tipo3Ref} ${currentFilter === "reportes" ? styles.selected : ""}`}
+          onClick={() => handleFilterChange("reportes")}
+        >
+          <Icons icon="reportes" />
+          <h4 className={styles.tipoClass}> Reportes </h4>
         </div>
 
         <div

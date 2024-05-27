@@ -1,18 +1,15 @@
-
-.indexContainer{
+.indexContainer {
     width: 100vw;
     height: 100vh;
     background-color: white;
-
 }
 
-.reportData{
+.reportData {
     height: 40vh;
     padding: 5vh 10vw;
-    
 }
 
-.reportMenu{
+.reportMenu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 1vh 2vw;
@@ -21,69 +18,119 @@
     gap: 1vw;
 }
 
-.subMenu{
+.subMenu {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 5vh;
     width: 50vw;
-
 }
 
-.reportItem{
+.reportItem {
     background-color: #b9ff39;
     border-radius: 14px;
     padding-left: 3vw;
     height: 30vh;
 }
 
-.Button{
+.Button {
     background-color: #b9ff39;
     width: 20vw;
     padding: 1vh 2vw;
     border-radius: 14px;
     text-align: center;
-    }
-.reportItem:hover, .metodologiaButton:hover{
-    background-color: #131313;
-    color: #b9ff39;
- 
 }
 
-.reportImage{
+.reportItem:hover,
+.metodologiaButton:hover {
+    background-color: #131313;
+    color: #b9ff39;
+}
+
+.reportImage {
     height: 40vh;
     border: solid 1px;
     border-radius: 14px;
     margin: 5vh 3vw;
 }
 
-@media (min-width: 768px) {
+.singularCaseContainer {
+    background-color: white;
+    text-align: justify;
+    padding: 2vh 10vw;
+}
 
-    .indexContainer{
-        width: 80vw;
-        margin-left: 8vw;
+.titleBox {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.singularTitle {
+    font-size: 2rem;
+    margin: 0;
+    padding: 3vh 5vw 5vh 5vw;
+}
+
+.singularPart1 {
+    background-color: #131313;
+    border-radius: 14px;
+    padding: 5vh 10vw;
+}
+
+.singularSubTitle {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 2vh 20vw 2vh 0vw;
+    color: #b9ff39;
+}
+
+.img {
+    max-width: 75vw;
+}
+
+.singularText {
+    margin: 0;
+    color: aliceblue;
+    padding: 1vh 0vw;
+}
+
+.singularTextBlack {
+    margin: 0;
+    color: #131313;
+    padding: 1vh 0vw;
+}
+
+.singularPart2 {
+    background-color: #b9ff39;
+    padding: 15vh 10vw 5vh 10vw;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .indexContainer {
+        width: 90vw;
+        right: 0px;
         height: 100vh;
         background-color: white;
         display: grid;
         grid-template-columns: 1fr 1fr;
-    
     }
-    .subMenu{
+
+    .subMenu {
         height: 10vh;
         width: 15vw;
     }
 
-    .reportData{
+    .reportData {
         height: 40vh;
         padding: 5vh 5vw;
-        
     }
 
-    .reportItem{
+    .reportItem {
         padding-left: 1vw;
         padding-right: 1vw;
     }
-    
-    .Button{
+
+    .Button {
         background-color: #b9ff39;
         width: 5vw;
         padding: 1vh 1vw;

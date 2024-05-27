@@ -5,6 +5,10 @@
   right: 0;
 }
 
+.title{
+  margin: 0;
+  font-size: 0.8rem
+}
 
 .filtrosBox {
   display: grid;
@@ -146,7 +150,7 @@
 
   .filtroTipo {
     width: 7vw;
-    height: 35vh;
+    height: 45vh;
     align-content: center;
     position: fixed;
     right: 14px;

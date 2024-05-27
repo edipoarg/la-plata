@@ -87,6 +87,7 @@ margin: 0vh 5vw;
   
   .slogan{
     text-align: center;
+    margin: 0;
   }
   
   .thinLine{
@@ -106,17 +107,13 @@ margin: 0vh 5vw;
   
   
   @media (min-width: 768px) {
-
-    .nosotrxsContainer{
-      background-color: #9fff39;
-  
-    }
   
     .nosotrxsContainer{
       border: solid 1px;
       border-color: #131313;
       background-color: #9fff39;
-  
+    width: 90vw;
+    margin-left: 10vw;
     }
       
         
@@ -138,7 +135,7 @@ margin: 0vh 5vw;
         padding-left: 10vw;
       }   
       .bajadaNosotrxs{
-        width: 40vw;
+        width: 30vw;
    padding: 4vh 7vw;
    font-size: 1rem;
    box-shadow: 5px 5px 0 3px ;
@@ -176,7 +173,9 @@ margin: 0vh 5vw;
         font-size: 0.8rem;
         position: absolute;
         top: 85vh;
-        right: 15vw;
+        right: 5vw;
       }
       
   }
+
+  
