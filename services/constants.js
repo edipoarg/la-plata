@@ -1,9 +1,9 @@
-const apikey = process.env.VITE_API_F_KEY;
-const baseId = process.env.VITE_BASE_ID;
+const apiKey = import.meta.env.VITE_API_F_KEY;
+const baseId = import.meta.env.VITE_BASE_ID;
 
 const constants = {
-  apikey,
-  baseId,
+  apiKey: `${apiKey}`,
+  baseId: `${baseId}`,
 };
 
 export default constants;
