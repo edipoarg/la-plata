@@ -37,7 +37,7 @@ const Investigaciones = () => {
           <section className={styles.investigaciones}>
             <section className={styles.investNovedades}>
               <Link to="/investigacion/bonaerense-mira">
-                <section className={styles.notaPrincipal}>
+                <article className={styles.notaPrincipal}>
                   <img
                     src={fotoNotaPrincipal}
                     alt=""
@@ -65,7 +65,7 @@ const Investigaciones = () => {
                       {fechaNotaPrincipal}
                     </h6>
                   </section>
-                </section>
+                </article>
               </Link>
             </section>
 
