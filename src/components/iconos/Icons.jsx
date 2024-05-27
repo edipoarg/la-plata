@@ -5,6 +5,7 @@ import {
   TbZoomExclamation,
   TbShoppingBagX,
   TbHandStop,
+  TbMessageReport,
 } from "react-icons/tb";
 import {
   HiOutlineMusicalNote,
@@ -12,7 +13,7 @@ import {
   HiUserGroup,
 } from "react-icons/hi2";
 import { BsMegaphone, BsDiagram3 } from "react-icons/bs";
-import { GiGunshot, GiNotebook } from "react-icons/gi";
+import { GiGunshot, GiNotebook, GiCctvCamera, GiRun } from "react-icons/gi";
 import { IoAppsOutline } from "react-icons/io5";
 import { SiMaildotru } from "react-icons/si";
 import { GrDocumentExcel } from "react-icons/gr";
@@ -22,6 +23,8 @@ import { FaMapMarker } from "react-icons/fa";
 import { VscDebugBreakpointUnsupported } from "react-icons/vsc";
 import { GoPersonFill } from "react-icons/go";
 import PropTypes from "prop-types";
+import { RiAlarmWarningLine, RiForbid2Line } from "react-icons/ri";
+import { PiReadCvLogoBold } from "react-icons/pi";
 
 const iconComponents = {
   mapa: <TbZoomExclamation />,
@@ -56,6 +59,14 @@ const iconComponents = {
   dependencia: <FaMapMarker />,
   casosGatillo: <VscDebugBreakpointUnsupported />,
   casosViolencia: <TbAlertTriangle />,
+
+  /*Reportes*/
+  reportesAlert: <TbMessageReport />,
+  securityCam: <GiCctvCamera />,
+  siren: <RiAlarmWarningLine />,
+  document: <PiReadCvLogoBold />,
+  run: <GiRun />,
+  not: <RiForbid2Line />,
 };
 
 const Icons = ({ icon, className, iconSize }) => {

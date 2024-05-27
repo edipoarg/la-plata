@@ -24,6 +24,21 @@
     width: 50vw;
 }
 
+.icons{
+    width: 10vw;
+    font-size: 3rem;
+    margin: 0;
+    margin: auto;
+    padding: 2vh 0vw;
+}
+.icons2{
+    color: white;
+    width: 10vw;
+    font-size: 3rem;
+    margin: 0;
+    margin: auto;
+    padding: 2vh 0vw;
+}
 .reportItem {
     background-color: #b9ff39;
     border-radius: 14px;
@@ -64,12 +79,12 @@
     padding: 2vh 10vw;
 }
 
-.link{
+.link {
     text-decoration-line: underline;
     color: #9267bb;
 }
 
-.link2{
+.link2 {
     text-decoration-line: underline;
     color: #2a8842;
 }
@@ -79,6 +94,7 @@
     text-align: justify;
     padding: 2vh 10vw;
 }
+
 .politicoPart3 {
     background-color: #131313;
     text-align: justify;
@@ -91,11 +107,19 @@
     padding: 2vh 10vw;
 }
 
-.sistemPart2{
-background-color: #131313;
-border-radius: 14px;
-padding: 5vh 4vw;
+.timeline {
+    width: 85vw;
+    height: 60vh;
+    padding: 5vh 5vh;
+    border: 0px;
 }
+
+.sistemPart2 {
+    background-color: #131313;
+    border-radius: 14px;
+    padding: 5vh 4vw;
+}
+
 .headerBox {
     background-color: #232128;
     height: 35vh;
@@ -105,10 +129,10 @@ padding: 5vh 4vw;
 
 .titleBox {
     color: #2a8842;
-    padding: 4vh 7vw ;
+    padding: 4vh 7vw;
 }
 
-.titleNumber{
+.titleNumber {
     margin: 0;
     border: solid 1px;
     border-radius: 180px;
@@ -117,19 +141,18 @@ padding: 5vh 4vw;
     text-align: center;
 }
 
-.sistematicoTitle{
+.sistematicoTitle {
     padding: 1vh 0vw;
-
-margin: 0;
-color: #2a8842;
-}
-.sistematicoSubTitle{
-    padding: 1vh 0vw;
-   margin: 0; 
-   font-size: 1rem;
-   color: white;
+    margin: 0;
+    color: #2a8842;
 }
 
+.sistematicoSubTitle {
+    padding: 1vh 0vw;
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+}
 
 .singularTitle {
     font-size: 2rem;
@@ -159,21 +182,34 @@ color: #2a8842;
 .singularImg {
     max-width: 97vw;
     height: 35vh;
-    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin deformarse */
-
+    object-fit: cover;
+    /* Ajusta la imagen dentro del contenedor sin deformarse */
 }
 
-.otrasImg{
-width: 70vw;
-object-fit: cover; /* Ajusta la imagen dentro del contenedor sin deformarse */
+.otrasImg {
+    width: 70vw;
+    object-fit: cover;
+    /* Ajusta la imagen dentro del contenedor sin deformarse */
 }
 
-.sistemPart3{
+.sistemPart3 {
     background-color: #2a8842;
     text-align: justify;
     padding: 10vh 5vw;
 }
 
+.sistem4 {
+    background-color: #131313;
+    color: white;
+    padding: 10vh 5vw;
+    text-align: justify;
+}
+
+.sistemObjetivos {
+    border: solid 1px;
+    border-radius: 14px;
+    padding: 2vh 10vw;
+}
 
 .singularText {
     margin: 0;
@@ -198,7 +234,6 @@ object-fit: cover; /* Ajusta la imagen dentro del contenedor sin deformarse */
     padding: 15vh 10vw 5vh 10vw;
     text-align: justify;
 }
-
 
 @media (min-width: 768px) {
     .indexContainer {
@@ -230,5 +265,115 @@ object-fit: cover; /* Ajusta la imagen dentro del contenedor sin deformarse */
         width: 5vw;
         padding: 1vh 1vw;
         border-radius: 14px;
+    }
+
+    @media (min-width: 768px) {
+        .reportContainer {
+            position: absolute;
+            width: 90vw;
+            right: 0px;
+        }
+
+        .titleBox {
+            padding: 6vh 10vw 6vh 20vw;
+        }
+
+        .headerBox{
+            height: 50vh;
+        }
+
+        .sistematicoTitle{
+            font-size: 3rem;
+        }
+        .politicoTitle{
+            font-size: 3rem;
+        }
+.singularText, .singularTextBlack{font-size: 1.3rem;}
+
+        .titleNumber {
+            border: solid 2px;
+            width: 2vw;
+            height: 2vw;
+        }
+
+        .singularCaseContainer {
+            padding: 0vh 15vw;
+        }
+
+        .singularPart1 {
+            padding: 6vh 5vw;
+        }
+
+        .singularPart2 {
+            padding: 6vh 15vw;
+        }
+
+        .singularPart3 {
+            padding: 6vh 15vw;
+        }
+
+        .sistemPart2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .politicoContainer {
+            padding: 6vh 15vw;
+        }
+
+        .politicoPart2 {
+            padding: 6vh 15vw;
+        }
+
+        .politicoPart3 {
+            padding: 6vh 15vw 15vh 15vw;
+        }
+
+        .sistematicoContainer {
+            padding: 6vh 15vw;
+        }
+
+        .timeline {
+            width: 85vw;
+            height: 80vh;
+            padding: 5vh 5vh;
+        }
+
+        .sistemPart2 {
+            padding: 5vh 4vw;
+        }
+        .sistemPart3 {
+            padding: 6vh 15vw;
+        }
+
+        .sistem4 {
+            padding: 6vh 15vw;
+        }
+
+
+       .sistemObjetivos{
+
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        padding: 2vh 5vw;
+
+       }
+        .img {
+            max-width: 90vw;
+            object-fit: cover;
+            height: 50vh;
+        }
+
+        .singularImg {
+            width: 90vw;
+            height: 80vh;
+            object-fit: cover;
+        }
+
+        .otrasImg {
+            width: 20vw;
+            height: 60vh;
+            object-fit: cover;
+        }
     }
 }
