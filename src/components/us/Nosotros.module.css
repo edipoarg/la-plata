@@ -13,7 +13,7 @@
   .header{
     display: grid;
     grid-template-columns: 1fr;
-    height: 14vh;  
+    height: 12vh;  
   }
 
   .box{
@@ -28,7 +28,7 @@ background-color: #9fff39;
 border-radius: 14px;
 color: #231534;
 padding: 4vh 7vw;
-font-size: 1rem;
+font-size: 0.8rem;
 margin: 0;
 border: solid 2px;
 box-shadow: 5px 5px 0 3px ;
@@ -81,7 +81,7 @@ margin: 0vh 5vw;
   padding: 1vh 1vw;
   font-size: 0.7rem;
   position: absolute;
-  top: 72vh;
+  bottom: 35vh;
   left: 20vw;
   }
   
@@ -100,8 +100,11 @@ margin: 0vh 5vw;
   }
   
   .develop{
+    margin: 0;
     margin: auto;
     font-size: 0.7rem;
+    position: relative;
+    bottom: 5vh;
   }
   
   
@@ -127,8 +130,8 @@ margin: 0vh 5vw;
   padding: 1vh 1vw;
   font-size: 0.7rem;
   position: absolute;
-  top: 55vh;
   left: 10vw;
+
       }
       .box{
         height: 12vh;
