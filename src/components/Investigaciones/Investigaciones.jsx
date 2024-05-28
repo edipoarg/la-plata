@@ -74,6 +74,7 @@ const Investigaciones = () => {
                 style={Temas.reportesTema}
                 className={styles.ultimoReporteContainer}
               >
+                {/* QUE ONDA ESTO */}
                 <img src="" alt="" className={styles.fotoUltimoReporte} />
                 <section className={styles.datosReporte}>
                   <h4 className={styles.fechaUltimoReporte}>

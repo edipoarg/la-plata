@@ -45,7 +45,7 @@
 }
 
 .typeMenu {
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-self: left;
     gap: 1vw;
@@ -207,6 +207,10 @@
     height: 50vh;
     margin-top: 1vh;
     width: 95%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
 
 
@@ -217,7 +221,6 @@
     border-radius: 14px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: auto;
     justify-content: center;
 }
 
@@ -250,10 +253,6 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1vw;
-    margin: auto;
-    padding-top: 1vh;
-    height: 13vh;
-
 }
 
 .podcastContainer {
@@ -263,15 +262,33 @@
 .podcast {
     padding-left: 2vw;
     border-radius: 14px;
-    margin-top: 1vh;
     height: 15vh;
-
 }
 
 .tituloPodcast {
     padding: 2vh 1vw;
     font-size: 1rem;
     margin: 0;
+}
+
+.podcastContainer {
+    box-sizing: border-box;
+    border: solid 1px #b9ff39;
+    width: 100%;
+}
+
+.podcast {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.podcast>h2 {
+    font-size: 1.6rem;
+}
+
+.bajadaPodcast {
+    display: block;
 }
 
 .play {
@@ -485,30 +502,26 @@
         left: 62vw;
         width: 25vw;
         height: 80vh;
-        display: grid;
-        grid-template-columns: 1fr;
+        padding: 5vh;
     }
 
     .investMore {
         gap: 2vh;
         max-width: 25vw;
-        margin: auto;
-        padding-top: 2vh;
+        padding-top: unset;
+        margin: unset;
+        height: unset;
     }
 
 
     .ultimoReporteContainer {
-        width: 20vw;
-        max-width: 100%;
+        box-sizing: border-box;
+        margin: unset;
         height: 25vh;
         max-height: 60vh;
         padding: 0;
         border-radius: 1px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: auto;
-        justify-content: center;
     }
 
 
@@ -520,13 +533,8 @@
         border-radius: 14px;
         width: 10vw;
         margin: auto;
-        height: 14vh;
-        margin-top: 1vh;
     }
 
-    .podcastContainer {
-        border: solid 1px #b9ff39;
 
-    }
 
 }
