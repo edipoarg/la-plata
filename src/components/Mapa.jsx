@@ -96,7 +96,7 @@ const Mapa = () => {
   return (
     <>
       <section id="MapaDev" className={styles.MapaDev}>
-        <Link>
+        <Link to="/denuncia">
           <div className={styles.emergButton}>
             <h4 className={styles.emerg}>DENUNCIÁ</h4>
           </div>

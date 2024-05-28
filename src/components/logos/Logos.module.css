@@ -1,6 +1,6 @@
 .logosList {
     position: absolute;
-    top: 82vh;
+    bottom: 15vh;
     left: 8vw;
 }
 
@@ -12,7 +12,7 @@
 @media (min-width: 720px) {
     .logosList {
         position: absolute;
-        top: 82vh;
+        bottom: 5vh;
         left: 8vw;
         border: solid 2px;
         border-radius: 45px;

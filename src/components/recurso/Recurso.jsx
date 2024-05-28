@@ -10,6 +10,7 @@ import detencionData from "./detencion.json";
 import guiaData from "./guia.json";
 import styles from "./RecursoPost.module.css";
 import Icons from "../iconos/Icons";
+import SubMenuPost from "./SubMenuPost";
 
 /** @typedef {{ title: string; content: string; }} Post */
 /** @typedef {Post & { id: string; }} PostWithId */
@@ -82,6 +83,12 @@ const Recurso = () => {
         <div>
           <Icons icon={dominio} className={styles.icon} iconSize="2.2rem" />
           <h3 className={styles.title}>{dominio}</h3>
+        </div>
+
+        <div className={styles.menuContainer}>
+          {posts.map((post, index) => (
+            <SubMenuPost key={index} title={post.title} href={post.id} />
+          ))}
         </div>
       </div>
       <div className={styles.postContainer}>

@@ -5,7 +5,7 @@ import LogoMapaSmall from "../LogoMapaSmall";
 const listaDeLogos = [
   {
     image:
-      "https://static.wixstatic.com/media/0f4ca0_d747ae680b0746b29da1b1b6af4fa3a3~mv2.png/v1/fill/w_329,h_111,al_c,lg_1,q_85,enc_auto/cels.png",
+      "https://static.wixstatic.com/media/0f4ca0_50d891e12601428797aaae22e2cf62e2~mv2.png/v1/fill/w_709,h_258,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/CELS.png",
     link: "https://violenciapolicial.org.ar/",
     name: "cels",
   },
@@ -15,30 +15,62 @@ const listaDeLogos = [
     link: "https://revistacrisis.com.ar/",
     name: "crisis",
   },
+
   {
     image:
-      "https://static.wixstatic.com/media/0f4ca0_cbbcb1c232cc4b4bb2b25a790578bc20~mv2.png/v1/fill/w_288,h_279,al_c,lg_1,q_85,enc_auto/correpi.png",
+      "https://static.wixstatic.com/media/0f4ca0_8f89dfe097bc4e83b57cf850b0838a11~mv2.png/v1/fill/w_688,h_275,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Vicki%20Freire%201.png",
+    link: "https://www.legislatura.gob.ar/legislador/freirevictoria",
+    name: "viki",
+  },
+  {
+    image:
+      "https://static.wixstatic.com/media/0f4ca0_398fde56198244a296fa90ac1d6590f9~mv2.png/v1/fill/w_456,h_456,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/CORREPI.png",
     link: "https://www.correpi.org/",
     name: "correpi",
   },
   {
     image:
-      "https://static.wixstatic.com/media/0f4ca0_1d45cf506977405bb89e3771316891e9~mv2.png/v1/fill/w_335,h_125,al_c,lg_1,q_85,enc_auto/mte.png",
+      "https://static.wixstatic.com/media/0f4ca0_51f61bc8190d47d2b1e7550dc4c4fc7a~mv2.png/v1/fill/w_405,h_405,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MTE.png",
     link: "https://mteargentina.org.ar/",
     name: "mte",
   },
   {
     image:
-      "https://static.wixstatic.com/media/0f4ca0_b8be17973f924afda3560a3a807e5bb9~mv2.png/v1/fill/w_364,h_71,al_c,lg_1,q_85,enc_auto/nuestraAmerica.png",
-    link: "enlace2",
+      "https://static.wixstatic.com/media/0f4ca0_ae9203d7f561461f93c6d0b287d559cb~mv2.png/v1/fill/w_753,h_183,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/NUESTRAMERICA.png",
+    link: "https://movimientonuestraamerica.wordpress.com/about/",
     name: "nuestra america",
   },
 
-  { image: "puntoDeFuga.png", link: "enlace2", name: "punto de fuga" },
-  { image: "puntoDeFuga.png", link: "enlace2", name: "la tribu" },
-  { image: "puntoDeFuga.png", link: "enlace2", name: "grito del sur" },
-  { image: "puntoDeFuga.png", link: "enlace2", name: "emergentes derecho" },
-  { image: "puntoDeFuga.png", link: "enlace2", name: "acvi" },
+  {
+    image:
+      "https://static.wixstatic.com/media/0f4ca0_4b35270f3c4642f688433525db4f373b~mv2.png/v1/crop/x_0,y_166,w_945,h_614/fill/w_716,h_465,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PUNTO%20DE%20FUGA.png",
+    link: "https://www.instagram.com/puntodefuga.nm/",
+    name: "punto de fuga",
+  },
+  {
+    image:
+      "https://static.wixstatic.com/media/0f4ca0_ae963933b86b429d80e223224ef22aed~mv2.png/v1/crop/x_0,y_0,w_1442,h_936/fill/w_716,h_465,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LA%20TRIBU%20radio.png",
+    link: "https://fmlatribu.com/",
+    name: "la tribu",
+  },
+  {
+    image:
+      "https://static.wixstatic.com/media/0f4ca0_9d95a54f8e12467d8cf96ba59051be55~mv2.png/v1/fill/w_873,h_318,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/El%20grtio%20del%20sur.png",
+    link: "https://elgritodelsur.com.ar/",
+    name: "grito del sur",
+  },
+  {
+    image:
+      "https://static.wixstatic.com/media/0f4ca0_6d2e4028de77422e8f09a67434f37b25~mv2.png/v1/fill/w_520,h_293,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/EMERGENTES.png",
+    link: "https://www.instagram.com/emergente.pp",
+    name: "emergentes derecho",
+  },
+  {
+    image:
+      "https://static.wixstatic.com/media/0f4ca0_a4b9777e03a44fe2a879df7abe398a10~mv2.png/v1/fill/w_490,h_432,al_c,lg_1,q_85,enc_auto/ACVI.png",
+    link: "https://www.acvi.org.ar/",
+    name: "acvi",
+  },
 ];
 
 const Nosotrxs = () => {

@@ -1,28 +1,24 @@
-.filtros {
-  width: 100vw;
-  height: 90vh;
+.filtroTipo {
+  z-index: 2000;
   position: fixed;
-  right: 0;
-}
-
-.title{
-  margin: 0;
-  font-size: 0.8rem
-}
-
-.filtrosBox {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-}
-
-.boxes {
+  right: 5px;
+  top: 110px;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 3px;
-  padding-left: 5px;
-  z-index: 1000;
-  position: fixed;
-  right: 0;
+  margin-top: 5px;
+  border-radius: 20px;
+  padding: 2px 2px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 14px;
+  backdrop-filter: blur(11.2px);
+  -webkit-backdrop-filter: blur(11.2px);
+  gap: 3vh;
+}
+
+.title {
+  margin: 0;
+  font-size: 0.8rem
 }
 
 .tipo2Ref,
@@ -44,92 +40,14 @@
   color: black;
 }
 
-.display {
-  color: black;
-  border-radius: 20px;
-  text-align: left;
-  padding-left: 5vw;
-  height: 11vh;
-  width: 15vh;
-}
-
 .selected {
   background-color: green;
   /* Cambia el color de fondo para el filtro seleccionado */
   color: black;
 }
 
-.cantCasos {
-  font-size: 2rem;
-  text-align: left;
-}
-
-.filtroTipo {
-  z-index: 2000;
-  position: fixed;
-  right: 5px;
-  top: 110px;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-top: 5px;
-  border-radius: 20px;
-  padding: 2px 2px;
-  justify-content: center;
-  text-align: center;
-  width: 9vw;
-  border-radius: 14px;
-  backdrop-filter: blur(11.2px);
-  -webkit-backdrop-filter: blur(11.2px);
-  gap: 3vh;
-}
-
 .tipoClass {
   font-size: 0px;
-}
-
-.gap2 {
-  height: 25vh;
-}
-
-.tipos {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 7px 5px;
-  justify-items: center;
-}
-
-.tipo1Icon {
-  background-color: rgb(252, 252, 114);
-  width: 23px;
-  height: 23px;
-  border-radius: 5px;
-  padding-left: 4px;
-}
-
-.tipo2Icon {
-  background-color: rgb(255, 166, 0);
-  width: 23px;
-  height: 23px;
-  border-radius: 5px;
-  padding-left: 4px;
-}
-
-.tipo3Icon {
-  background-color: rgb(251, 55, 25);
-  width: 23px;
-  height: 23px;
-  border-radius: 5px;
-  padding-left: 4px;
-}
-
-.componente {
-  color: black;
-  border-radius: 20px;
-  padding: 10px;
-  box-shadow:
-    -2px -2px 16px WHITE,
-    2px 2px 16px #c9c9c9;
-  margin-top: 15px;
 }
 
 /*== Responsive==*/
@@ -143,30 +61,19 @@
 
 /*  PC  */
 @media (min-width: 1200px) {
-  .filtrosBox {
-    display: grid;
-    grid-template-columns: 1fr 10fr;
-  }
 
   .filtroTipo {
     width: 7vw;
-    height: 45vh;
     align-content: center;
     position: fixed;
     right: 14px;
-    display: grid;
-    grid-template-columns: 1fr;
     border-radius: 20px;
-    padding: 0;
+    padding: 1vh 0;
     justify-content: center;
     text-align: center;
     border: solid 1px;
     z-index: 1000;
     margin-top: 12vh;
-  }
-
-  .filtros {
-    height: 90vh;
   }
 
   .tipoClass {
@@ -186,10 +93,5 @@
     width: 8vh;
     margin: auto;
     padding-top: 8px;
-  }
-
-  .filtroTipo {
-    grid-template-columns: 1fr;
-    width: 7vw;
   }
 }
