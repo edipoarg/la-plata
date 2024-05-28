@@ -1,7 +1,8 @@
 /* Navbar.module.css */
 
 .Boton {
-  border: none;  /* Elimina el borde */
+  border: none;
+  /* Elimina el borde */
   padding: 0;
   font: inherit;
   cursor: pointer;
@@ -33,11 +34,11 @@
   text-justify: center;
   justify-items: center;
   justify-self: center;
-  color:  #2a8842;
+  color: #2a8842;
 
 }
 
-/* Media query para tablet */
+/* Media query para tablet / PC */
 @media (min-width: 768px) {
   .Navbar {
     position: fixed;
@@ -53,17 +54,16 @@
     text-justify: center;
     justify-items: center;
     justify-self: center;
-    
+
   }
 
-  .Button{
-    color:  #2a8842;
+  .Button {
+    color: #2a8842;
     padding-top: 5vh;
   }
 
-  .Button:hover{
+  .Button:hover {
     color: white;
   }
 
 }
-
