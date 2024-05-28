@@ -1,10 +1,14 @@
+.container {
+    background-color: #f6f6f6;
+    padding: 0 6vw;
+    padding-bottom: 10vh;
+}
+
 .autorxsContainer {
     background-color: #f6f6f6;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     /* Diseño de columnas para pantallas normales */
-    margin: auto;
-    padding: 0 6vw;
+    grid-template-columns: 1fr 1fr;
 }
 
 .autorContainer {
@@ -12,18 +16,14 @@
     color: #ba7aff;
     border-radius: 14px;
     margin: 2px;
-    /* Ajusta el margen según tus necesidades */
     padding: 10px;
-    /* Ajusta el relleno según tus necesidades */
     box-shadow:
         inset 0 0 10px rgba(0, 0, 0, 0.5);
-    /* Sombra oscura */
 }
 
 .titleContainer {
     height: 10vh;
     padding: 8vh 10vw 3vh 14vw;
-    background-color: #f6f6f6;
 }
 
 .title {
@@ -41,15 +41,11 @@
     border: solid 1px;
     display: block;
     margin-top: 2vh;
-    /* Ajusta el margen superior según tus necesidades */
     text-align: center;
     text-decoration: none;
     color: #b9ff39;
-    /* Ajusta el color del texto según tus necesidades */
     background-color: #232128;
-    /* Color azul para el fondo del enlace */
     padding: 8px 12px;
-    /* Ajusta el relleno según tus necesidades */
     border-radius: 14px;
     margin-bottom: 2vh;
 }
@@ -57,9 +53,7 @@
 .verEnlace:hover {
     box-shadow: 0px 0px 0 0px;
     color: #232128;
-    /* Ajusta el color del texto según tus necesidades */
     background-color: #b9ff39;
-    /* Color azul para el fondo del enlace */
 }
 
 .autorImagen {
@@ -85,32 +79,31 @@
         position: absolute;
         display: grid;
         grid-template-columns: 1fr 3fr;
-        width: 85vw;
-        right: 10vw;
+        width: 95vw;
     }
 
     .autorxsContainer {
+        /* Diseño de columnas para tablet / pc */
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        /* Diseño de columnas para tablet */
         margin-left: 0vw;
+        margin-top: 6vh;
+        /* Lo mismo que la altura de la navbar */
     }
 
     .autorContainer {
+        width: 14vw;
         background-color: #232128;
         color: #b9ff39;
         border-radius: 14px;
         margin: 2px;
-        /* Ajusta el margen según tus necesidades */
         padding: 10px;
-        /* Ajusta el relleno según tus necesidades */
         box-shadow:
             inset 0 0 10px rgba(0, 0, 0, 0.5);
-        /* Sombra oscura */
     }
 
     .titleContainer {
-        height: 100%;
-        padding: 10vh 0vw 0 14vw;
+        height: 100vh;
+        padding: 7vh 4vw 0vw 8vw;
         background-color: #f6f6f6;
     }
 
@@ -123,7 +116,6 @@
     /* Estilos para el nombre del autor */
     .autorNombre {
         margin-top: 10px;
-        /* Ajusta el margen superior según tus necesidades */
     }
 
     .autorImagen {
@@ -134,7 +126,6 @@
     .autorImagen {
         width: 8vw;
         height: 8vw;
-        /* Ajusta el ancho según tus necesidades */
         border-radius: 14px;
         object-fit: cover;
         filter: grayscale(100%);
@@ -146,6 +137,5 @@
 
     .verEnlace:hover {
         background-color: #b9ff39;
-        /* Cambia el color de fondo al pasar el mouse sobre el enlace */
     }
 }

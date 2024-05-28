@@ -9,7 +9,7 @@ const FichaAutorxs = () => {
   useEffect(() => {
     const fetchAutor = async () => {
       try {
-        const response = await fetch("../src/data/autorxs.json");
+        const response = await fetch("/data/autorxs.json");
         const data = await response.json();
 
         // Buscar el autor por el enlaceVer
