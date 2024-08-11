@@ -123,20 +123,18 @@ const Mapa = () => {
   return (
     <>
       <section id="MapaDev" className={styles.MapaDev}>
-        <Link>
+        <Link to="/denuncia">
           <div className={styles.emergButton}>
             <h4 className={styles.emerg}>DENUNCIÁ</h4>
           </div>
         </Link>
 
-        {filtrosVisible && (
-          <Filtros
-            caseCount={filteredData.length}
-            handleTipoFilter={handleTipoFilter}
-            tipoFilters={tipoFilters}
-            setTipoFilters={setTipoFilters}
-          />
-        )}
+        <Filtros
+          caseCount={filteredData.length}
+          handleTipoFilter={handleTipoFilter}
+          tipoFilters={tipoFilters}
+          setTipoFilters={setTipoFilters}
+        />
         <div className={styles.botonFiltrosMain}>
           {/* FIXME: Why is this not a button? */}
           {/* Render different button content based on the state */}

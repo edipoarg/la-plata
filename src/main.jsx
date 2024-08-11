@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { loader as getURLs } from "./components/Loader.jsx";
-
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
@@ -24,6 +23,8 @@ import Root from "./routes/Root.jsx";
 import TodasInvestigaciones from "./components/Investigaciones/todasInvest/TodasInvestigaciones.jsx";
 import Ficha from "./components/fichas/Ficha.jsx";
 import Organizate from "./components/recurso/Organizate.jsx";
+import Nota14 from "./components/Investigaciones/todasInvest/Nota14.jsx";
+
 
 const loader = async () => ({
   urls: await getURLs({
@@ -60,7 +61,7 @@ const router = createHashRouter([
       { path: "/autorxs", element: <Autorxs /> },
       { path: "/:enlaceVer", element: <FichaAutorxs /> },
       { path: "/investigacion/:dominio", element: <Investigacion /> },
-      { path: "/investigaciones/lista", element: <TodasInvestigaciones /> },
+      { path: "/investigaciones", element: <Nota14 /> },
       { path: "/ficha/:Contador", element: <Ficha /> },
     ],
   },
