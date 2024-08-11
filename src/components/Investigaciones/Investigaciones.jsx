@@ -73,17 +73,14 @@ const Investigaciones = () => {
             </section>
 
             <section className={styles.investCol2}>
-              <Link to="/reportes" className={styles.ultimoReporteContainer}>
-                <img src="" alt="" className={styles.fotoUltimoReporte} />
+              <Link
+                to="https://perycia.com/"
+                className={styles.ultimoReporteContainer}
+              >
                 <section className={styles.datosReporte}>
-                  <h4 className={styles.fechaUltimoReporte}>
-                    {fechaUltimoReporte}
-                  </h4>
-                  <h2 className={styles.tituloUltimoReporte}>
-                    {numeroReporte} Reporte
-                  </h2>
+                  <h2 className={styles.tituloUltimoReporte}> PERYCIA</h2>
                   <h4 className={styles.subtituloUltimoReporte}>
-                    de violencia policial
+                    notas periodísticas
                   </h4>
                 </section>
               </Link>
