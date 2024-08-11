@@ -7,7 +7,7 @@ const GatilloFacil = () => {
   const [cases, setCases] = useState([]);
 
   useEffect(() => {
-    fetch("/data/gatilloCaba.json")
+    fetch("/data/gatilloLaPlata.json")
       .then((response) => response.json())
       .then((data) => setCases(data.features))
       .catch((error) => console.error("Error fetching the data:", error));
