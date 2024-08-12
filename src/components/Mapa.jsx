@@ -1,6 +1,5 @@
 // PROGRAM IMPORTS
-import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -36,14 +35,15 @@ import {
 import { dependenciasLaPlata } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
-/*import DependenciasCabaMarkers from "./dependenciasCabaMarkers/DependenciasCabaMarkers";*/
-
-//Filtros Import
 import Filtros from "./filtros/Filtros";
 
 const Mapa = () => {
-  const { urls } = useLoaderData();
-  const cases = urls.casos.cases.map((c) => ({ ...c, date: new Date(c.date) }));
+  const [currentFilter, setCurrentFilter] = useState("all");
+
+  const handleFilterChange = (newFilter) => {
+    if (newFilter === currentFilter) setCurrentFilter("all");
+    else setCurrentFilter(newFilter);
+  };
 
   // PROPERTIES OF THE MAP
   const mapProps = {
@@ -66,23 +66,6 @@ const Mapa = () => {
     //New Style (Full map data)
     mapStyle: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
   };
-
-  //FILTERS
-  //TODO: Make filters work
-
-  const handleTipoFilter = () => {
-    const filteredDataByType = cases.filter(
-      (event) => tipoFilters[event.tipoId],
-    );
-    setFilteredData(filteredDataByType);
-  };
-
-  const [tipoFilters, setTipoFilters] = useState({
-    Dependencias: true,
-    Casos: true,
-    GatilloFacil: true,
-  });
-  const [filteredData, setFilteredData] = useState(cases);
 
   //visibilidad Filtro
   //TODO: Remove this
@@ -109,17 +92,6 @@ const Mapa = () => {
   };
   const handleLeave = () => setSelectedFeatureId(null);
 
-  // VIOLENCIAS
-  useEffect(() => {
-    const newData = cases;
-
-    const filteredDataByType = newData.filter(
-      (event) => tipoFilters[event.tipoId],
-    );
-
-    setFilteredData(filteredDataByType);
-  }, [cases, tipoFilters]);
-
   return (
     <>
       <section id="MapaDev" className={styles.MapaDev}>
@@ -130,10 +102,8 @@ const Mapa = () => {
         </Link>
 
         <Filtros
-          caseCount={filteredData.length}
-          handleTipoFilter={handleTipoFilter}
-          tipoFilters={tipoFilters}
-          setTipoFilters={setTipoFilters}
+          currentFilter={currentFilter}
+          handleFilterChange={handleFilterChange}
         />
         <div className={styles.botonFiltrosMain}>
           {/* FIXME: Why is this not a button? */}
@@ -185,7 +155,7 @@ const Mapa = () => {
           <DepartamentosLaPlataSource data={departamentosLaPlata} />
 
           {/* Renderiza los marcadores de las dependencias */}
-          {tipoFilters.Dependencias && (
+          {(currentFilter === "dependencias" || currentFilter === "all") && (
             <DependenciasMarkers
               dependencias={dependenciasLaPlata}
               setPopupInfo={setPopupInfo}
@@ -194,7 +164,7 @@ const Mapa = () => {
             />
           )}
 
-          {tipoFilters.GatilloFacil && (
+          {(currentFilter === "gatillo" || currentFilter === "all") && (
             <GatilloMarkers
               gatillos={gatillo}
               setPopupInfo={setPopupInfo}
