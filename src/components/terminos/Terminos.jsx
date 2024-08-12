@@ -6,8 +6,7 @@ const Terminos = () => {
       <h5 className={styles.header}>
         Autorizo de manera voluntaria, previa, explícita, informada e inequívoca
         al Mapa de la Policía para tratar mis datos personales de acuerdo con su
-        Política de Tratamiento de Datos Personales. Ver Política de Tratamiento
-        de Datos Personales.
+        Política de Tratamiento de Datos Personales.
       </h5>
 
       <h3 className={styles.header}>Objetivo</h3>
@@ -116,7 +115,7 @@ const Terminos = () => {
         El Mapa de la Policía se reserva el derecho de modificar esta Política
         de Tratamiento de Datos Personales en cualquier momento. Cualquier
         cambio será informado y publicado oportunamente en la página
-        mapadelapolicia.com.
+        mapadelapolicialaplata.com.
       </h5>
     </div>
   );

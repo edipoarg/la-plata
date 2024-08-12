@@ -13,7 +13,6 @@
   width: 90vw;
   background-color: yellowgreen;
   background-color: black;
-  /* Reemplaza #color-expediente con el color que desees para expediente */
 }
 
 .dataContainer {
@@ -38,13 +37,11 @@
   margin: 0;
 }
 
-/* TodasInvestigaciones.module.css */
 .linkInvestigacion {
   border-radius: 14px;
   width: 90%;
   justify-self: left;
   background-color: black;
-  /* Reemplaza #color-expediente con el color que desees para expediente */
   color: white;
   height: 50vh;
   margin: 2vh auto;
@@ -81,7 +78,6 @@ p {
   color: #2a8842;
 }
 
-/* Media query para tablet */
 @media (min-width: 768px) {
 
   .NotaContainer {
@@ -103,7 +99,6 @@ p {
     width: 70%;
     justify-self: left;
     background-color: black;
-    /* Reemplaza #color-expediente con el color que desees para expediente */
     color: white;
     height: 50vh;
     margin: 2vh auto;
