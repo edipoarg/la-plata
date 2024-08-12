@@ -3,6 +3,7 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import styles from "./Denuncia.module.css";
+import { Link } from "react-router-dom";
 
 const Denuncia = () => {
   const [fecha, setFecha] = useState("");
@@ -147,6 +148,7 @@ const Denuncia = () => {
 
           <div>
             <label>Acepto los términos y condiciones</label>
+            <Link to="./terminos">Leer</Link>
             <input
               type="checkbox"
               checked={aceptoTerminos}
