@@ -1,6 +1,5 @@
 // PROGRAM IMPORTS
-import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useState } from "react";
 import MapGL, { NavigationControl } from "react-map-gl/maplibre";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -36,14 +35,15 @@ import {
 import { dependenciasLaPlata } from "../data/index";
 import DependenciasMarkers from "./dependenciasMarkers/DependendenciasMarkers";
 import GatilloMarkers from "./gatilloMarkers/GatilloMarkers";
-/*import DependenciasCabaMarkers from "./dependenciasCabaMarkers/DependenciasCabaMarkers";*/
-
-//Filtros Import
 import Filtros from "./filtros/Filtros";
 
 const Mapa = () => {
-  const { urls } = useLoaderData();
-  const cases = urls.casos.cases.map((c) => ({ ...c, date: new Date(c.date) }));
+  const [currentFilter, setCurrentFilter] = useState("all");
+
+  const handleFilterChange = (newFilter) => {
+    if (newFilter === currentFilter) setCurrentFilter("all");
+    else setCurrentFilter(newFilter);
+  };
 
   // PROPERTIES OF THE MAP
   const mapProps = {
@@ -67,35 +67,6 @@ const Mapa = () => {
     mapStyle: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
   };
 
-  //FILTERS
-  //TODO: Make filters work
-
-  const handleTipoFilter = () => {
-    const filteredDataByType = cases.filter(
-      (event) => tipoFilters[event.tipoId],
-    );
-    setFilteredData(filteredDataByType);
-  };
-
-  const [tipoFilters, setTipoFilters] = useState({
-    Dependencias: true,
-    Casos: true,
-    GatilloFacil: true,
-  });
-  const [filteredData, setFilteredData] = useState(cases);
-
-  //visibilidad Filtro
-  //TODO: Remove this
-  const [filtrosVisible, setFiltrosVisible] = useState(true);
-  const toggleFiltrosVisibility = () => {
-    setFiltrosVisible(!filtrosVisible);
-  };
-  const [isCloseButtonClicked, setIsCloseButtonClicked] = useState(false);
-  const handleClickCloseButton = () => {
-    // Toggle the state when the button is clicked
-    setIsCloseButtonClicked(!isCloseButtonClicked);
-  };
-
   //Seleccion
   const [setSelectedFeatureId] = useState(null);
   const [selectedMarkerId, setSelectedMarkerId] = useState(null);
@@ -109,55 +80,19 @@ const Mapa = () => {
   };
   const handleLeave = () => setSelectedFeatureId(null);
 
-  // VIOLENCIAS
-  useEffect(() => {
-    const newData = cases;
-
-    const filteredDataByType = newData.filter(
-      (event) => tipoFilters[event.tipoId],
-    );
-
-    setFilteredData(filteredDataByType);
-  }, [cases, tipoFilters]);
-
   return (
     <>
       <section id="MapaDev" className={styles.MapaDev}>
-        <Link>
+        <Link to="/denuncia">
           <div className={styles.emergButton}>
             <h4 className={styles.emerg}>DENUNCIÁ</h4>
           </div>
         </Link>
 
-        {filtrosVisible && (
-          <Filtros
-            caseCount={filteredData.length}
-            handleTipoFilter={handleTipoFilter}
-            tipoFilters={tipoFilters}
-            setTipoFilters={setTipoFilters}
-          />
-        )}
-        <div className={styles.botonFiltrosMain}>
-          {/* FIXME: Why is this not a button? */}
-          {/* Render different button content based on the state */}
-          <a
-            aria-label="Hide"
-            onClick={() => {
-              handleClickCloseButton();
-              toggleFiltrosVisibility();
-            }}
-            href="#"
-            className={`${styles.closeButton} ${styles["simple-button"]} ${isCloseButtonClicked ? styles["transformed-button"] : ""}`}
-          >
-            {isCloseButtonClicked ? (
-              <div>
-                <h5 className={styles.botonFiltrosMap}>FILTROS</h5>
-              </div>
-            ) : (
-              <>X</>
-            )}
-          </a>
-        </div>
+        <Filtros
+          currentFilter={currentFilter}
+          handleFilterChange={handleFilterChange}
+        />
         <Screen
           title={
             popupInfo ? popupInfo.title : "Elegí una dependencia o un caso"
@@ -187,7 +122,7 @@ const Mapa = () => {
           <DepartamentosLaPlataSource data={departamentosLaPlata} />
 
           {/* Renderiza los marcadores de las dependencias */}
-          {tipoFilters.Dependencias && (
+          {(currentFilter === "dependencias" || currentFilter === "all") && (
             <DependenciasMarkers
               dependencias={dependenciasLaPlata}
               setPopupInfo={setPopupInfo}
@@ -196,7 +131,7 @@ const Mapa = () => {
             />
           )}
 
-          {tipoFilters.GatilloFacil && (
+          {(currentFilter === "gatillo" || currentFilter === "all") && (
             <GatilloMarkers
               gatillos={gatillo}
               setPopupInfo={setPopupInfo}

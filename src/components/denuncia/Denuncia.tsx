@@ -45,6 +45,7 @@ const getEmptyRequiredFieldsError = (
   }
   return null;
 };
+import { Link } from "react-router-dom";
 
 const Denuncia = () => {
   const [isSending, setIsSending] = useState<boolean>(false);
@@ -284,6 +285,7 @@ const Denuncia = () => {
 
           <div>
             <label>Acepto los términos y condiciones</label>
+            <Link to="./terminos">Leer</Link>
             <input
               type="checkbox"
               checked={aceptoTerminos}
