@@ -6,7 +6,7 @@ const menuItems = [
   { path: "/", icon: "mapa" },
   { path: "/denuncia", icon: "denuncias" },
   { path: "/recursos", icon: "recursos" },
-  { path: "/investigaciones", icon: "investigaciones" },
+  { path: "/investigacion", icon: "investigaciones" },
   { path: "/reportes", icon: "reportes" },
   { path: "/gatillo-facil", icon: "gatillo" },
   { path: "/jefatura", icon: "jefatura" },
