@@ -1,11 +1,10 @@
-/* GatilloFacil.module.css */
 .gatilloContainer {
     position: fixed;
     width: 100vw;
     min-height: 100vh;
     background-color: #db8821;
     padding: 4vh 4vw;
-    overflow-y: auto; /* Permite el desplazamiento vertical */
+    overflow-y: auto;
     box-sizing: border-box;
 }
 
@@ -83,7 +82,6 @@
     background-color: #db8821;
 }
 
-/*  PC SCREEN */
 @media (min-width: 1080px) {
 
     .header {

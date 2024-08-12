@@ -12,7 +12,7 @@ const Investigacion = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/data/investigaciones.json`); // Ajusta la ruta según tu estructura
+        const response = await fetch(`/data/investigaciones.json`);
         const data = await response.json();
         const investigacionSeleccionada = data.find(
           (item) => item.dominio === dominio,

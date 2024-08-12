@@ -67,18 +67,6 @@ const Mapa = () => {
     mapStyle: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
   };
 
-  //visibilidad Filtro
-  //TODO: Remove this
-  const [filtrosVisible, setFiltrosVisible] = useState(true);
-  const toggleFiltrosVisibility = () => {
-    setFiltrosVisible(!filtrosVisible);
-  };
-  const [isCloseButtonClicked, setIsCloseButtonClicked] = useState(false);
-  const handleClickCloseButton = () => {
-    // Toggle the state when the button is clicked
-    setIsCloseButtonClicked(!isCloseButtonClicked);
-  };
-
   //Seleccion
   const [setSelectedFeatureId] = useState(null);
   const [selectedMarkerId, setSelectedMarkerId] = useState(null);
@@ -105,27 +93,6 @@ const Mapa = () => {
           currentFilter={currentFilter}
           handleFilterChange={handleFilterChange}
         />
-        <div className={styles.botonFiltrosMain}>
-          {/* FIXME: Why is this not a button? */}
-          {/* Render different button content based on the state */}
-          <a
-            aria-label="Hide"
-            onClick={() => {
-              handleClickCloseButton();
-              toggleFiltrosVisibility();
-            }}
-            href="#"
-            className={`${styles.closeButton} ${styles["simple-button"]} ${isCloseButtonClicked ? styles["transformed-button"] : ""}`}
-          >
-            {isCloseButtonClicked ? (
-              <div>
-                <h5 className={styles.botonFiltrosMap}>FILTROS</h5>
-              </div>
-            ) : (
-              <>X</>
-            )}
-          </a>
-        </div>
         <Screen
           title={
             popupInfo ? popupInfo.title : "Elegí una dependencia o un caso"
