@@ -4,7 +4,7 @@ import Icons from "../iconos/Icons";
 import Mapa from "../Mapa";
 
 const tituloNotaPrincipal =
-  "La bonaerense en la mira: de una internación psiquiátrica a un doble demicidio";
+  "La bonaerense en la mira: de una internación psiquiátrica a un doble femicidio";
 const fotoNotaPrincipal =
   "https://static.wixstatic.com/media/0f4ca0_8720002caf4347e986b0913169d7bfdc~mv2.jpg/v1/fill/w_1211,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Crisis_salud_Mental_Mapa3.jpg";
 const fechaNotaPrincipal = "29/03/2022";
