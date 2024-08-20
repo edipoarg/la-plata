@@ -15,20 +15,6 @@ export const DepsSource = ({ data }) => (
   </Source>
 );
 
-export const BarriosCabaSource = ({ data }) => (
-  <Source id="barriosCaba-source" type="geojson" data={data}>
-    <Layer
-      id="barriosCaba-layer"
-      type="fill" // Capa de relleno para representar polígonos
-      paint={{
-        "fill-color": "#232128",
-        "fill-opacity": 1,
-        "fill-outline-color": "#2cb34c",
-      }}
-    />
-  </Source>
-);
-
 export const CabaSource = ({ data }) => (
   <Source id="caba-source" type="geojson" data={data}>
     <Layer
@@ -75,7 +61,6 @@ const SourcePropTypes = {
 };
 
 DepsSource.propTypes = SourcePropTypes;
-BarriosCabaSource.propTypes = SourcePropTypes;
 CabaSource.propTypes = SourcePropTypes;
 LaPlataSource.propTypes = SourcePropTypes;
 DepartamentosLaPlataSource.propTypes = SourcePropTypes;
