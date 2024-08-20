@@ -18,7 +18,6 @@ import styles from "../styles/Mapa.module.css";
 import {
   departamentos,
   caba,
-  barriosCaba,
   laPlata,
   departamentosLaPlata,
   gatillo,
@@ -26,7 +25,6 @@ import {
 import {
   DepsSource,
   CabaSource,
-  BarriosCabaSource,
   LaPlataSource,
   DepartamentosLaPlataSource,
 } from "./Sources";
@@ -116,8 +114,6 @@ const Mapa = () => {
         >
           <NavigationControl position="top-right" />
           <DepsSource data={departamentos} />
-          <BarriosCabaSource data={barriosCaba} />
-          <CabaSource data={caba} />
           <LaPlataSource data={laPlata} />
           <DepartamentosLaPlataSource data={departamentosLaPlata} />
 
