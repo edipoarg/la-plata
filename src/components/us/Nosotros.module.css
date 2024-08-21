@@ -27,6 +27,20 @@
     transition: background-color 0.3s ease, color 0.3s ease; /* Animación suave */
 }
 
+.logos {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  img {
+    width: 20vw;
+    height: auto;
+    filter: invert();
+    opacity: 0.7;
+  }
+  
+
 .redsocial:hover {
     background-color: #333; /* Fondo al hacer hover */
     color: #fff; /* Color del icono al hacer hover */
