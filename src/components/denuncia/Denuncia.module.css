@@ -1,21 +1,156 @@
-.denunciaContainer{
-    width: 100vw;
-    /* From https://css.glass */
-    backdrop-filter: blur(7.6px);
-    -webkit-backdrop-filter: blur(7.6px);
-    padding-top: 3vh;
-    padding-left: 10vw;
-    z-index: 500;
-    color: #131313;
+.denunciaContainer {
+    padding-top: 5vh;
+    margin: 0 auto;
+    border-radius: 8px;
     background-color: #e6ebef;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-input{
+.header {
+    background-color: #2cb54d;
+    border-radius: 14px;
+    display: flex;
+    padding: 5vh 5vw;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+    gap: 10vw;
+    align-content: center;
+}
+
+.icon {
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+}
+
+.denunciaForm {
+    background-color: #e6ebef;
+    border-radius: 14px;
+    padding: 5vh 6vw;
+}
+
+.part {
+    margin: 0;
+    font-size: 2rem;
+    padding: 3vh 0vw;
+    color: #8d919a;
+}
+
+.question {
+    margin: 0;
+    padding: 1vh 3vw;
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.textBox {
+    width: 90%;
+    min-height: 18vh;
+    border-radius: 12px;
+    padding: 2vh 4vw;
+    background-color: #ffffff;
+    font-size: 1rem;
+}
+
+input,
+.drop {
     color: #8d919a;
     background-color: #e6ebef;
-    border-color: rgba( 1, 1, 1, 0);
+    border-color: rgba(1, 1, 1, 0);
     border-radius: 28px;
     padding: 5px 5px 5px 15px;
     box-shadow: 3px 2px 5px #b6bac3, -3px -3px 5px #ffffff;
+    margin-top: 2vh;
+    font-size: 1rem;
+    margin-right: 2vw;
+    min-height: 5vh;
+    margin-bottom: 5vh;
+}
 
+.short {
+    min-width: 30vw;
+}
+
+.long {
+    min-width: 70vw;
+}
+
+.adjunto {
+    box-shadow: none;
+    color: #222;
+    font-size: 1rem;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    padding: 0;
+    box-shadow: none;
+}
+
+.label {
+    display: flex;
+}
+
+.option {
+    margin: 0;
+    max-width: 60%;
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.link {
+    font-size: 1.5rem;
+    color: #2cb54d;
+    text-decoration: underline;
+}
+
+.acepto {
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.boton {
+    margin-bottom: 10vh;
+    background-color: #2cb54d;
+    color: #222;
+    border: solid 2px #222;
+    border-radius: 14px;
+    min-width: 40vw;
+    min-height: 10vh;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+    .denunciaContainer {
+        padding-right: 10vw;
+        padding-left: 20vw;
+        max-width: 80%;
+        padding-top: 5vh;
+        margin: 0 auto;
+        border-radius: 8px;
+        background-color: #e6ebef;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .long {
+        min-width: 40vw;
+    }
 }

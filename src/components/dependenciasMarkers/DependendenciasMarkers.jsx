@@ -21,7 +21,7 @@ const DependenciasMarkers = ({
       grado,
     } = properties;
     const { coordinates } = geometry;
-    const [longitude, latitude] = coordinates;
+    const [latitude, longitude] = coordinates;
 
     const dependenciasStyle = `${styles.dependencias} ${selected === Contador ? styles.selected : ""}`;
 
@@ -36,8 +36,8 @@ const DependenciasMarkers = ({
           setMarker(Nombre);
           setPopupInfo({
             coords: {
-              lat: latitude,
               lng: longitude,
+              lat: latitude,
             },
             title: Nombre,
             level: Dependencia,

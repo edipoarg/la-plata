@@ -58,7 +58,10 @@ const Investigaciones = () => {
                   </section>
                 </article>
               </Link>
-              <Link to="/lista" className={styles.todasLinkContainer}>
+              <Link
+                to="https://mapadelapolicia.com/#/investigaciones"
+                className={styles.todasLinkContainer}
+              >
                 <section className={styles.todasLink}>
                   <Icons
                     icon={"flecha"}

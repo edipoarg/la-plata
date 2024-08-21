@@ -13,12 +13,12 @@ const ReportesSoon = () => {
             iconSize="2rem"
           />
           <h3 className={styles.title}>Próximamente</h3>
-          <h4 className={styles.subTitle}>Reportes de violenzia polizial</h4>
+          <h4 className={styles.subTitle}>Reportes de violencia policial</h4>
         </section>
         <section className={styles.report}>
           <h3 className={styles.subTitle}>Si sufriste</h3>
-          <h4 className={styles.title}>Violenzia polizial</h4>
-          <h4 className={styles.subTitle}>denunzia aqui</h4>
+          <h4 className={styles.title}>Violencia policial</h4>
+          <h4 className={styles.subTitle}>denuncia aqui</h4>
           <Link to="/denuncia">
             <h4 className={styles.button}>Ir</h4>
           </Link>

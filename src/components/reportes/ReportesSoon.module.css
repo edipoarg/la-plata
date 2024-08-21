@@ -13,7 +13,7 @@
 }
 
 .report{
-    padding: 5vh 2vw;
+    padding: 5vh 10vw;
     margin: auto;
     height: 20vh;
     gap: 1vw;
@@ -35,22 +35,25 @@
     font-size: 1rem;
 }
 
+.button
+{border: solid 1px ;
+border-radius: 14px;
+max-width: 15vw;
+text-align: center;
+padding: 1vh 0vw;}
+
 
 @media (min-width: 768px) {
 
-    .indexContainer{
+    .soonContainer{
         width: 80vw;
-        margin-left: 8vw;
         height: 100vh;
-        background-color: white;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        padding-left: 15vw;
+        
     
     }
 
-    .report{
-        width: 50vw;
-    }
+  
 
  
     .subMenu{

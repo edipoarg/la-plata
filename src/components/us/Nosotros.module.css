@@ -1,23 +1,81 @@
-
-.nosotrxs{
-    background-color: white;
-    height: 100vh;
-}
-
-.decoNosotrxs{
-    height: 25vh;
+.nosotrxs {
     background-color: #b9ff39;
+    color: #333;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5vh 5vw;
+}
+.socialMedia {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
-.titulosNosotrxs{
-    padding-left: 10vw;
-    padding-top: 10vh;
+.redsocial {
+    border: 1px solid #333; /* Borde de 1px */
+    border-radius: 50%; /* Hacer los botones redondos */
+    padding: 0.5rem; /* Espacio interno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #333; /* Color del icono */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animación suave */
 }
 
-.bajadaNosotrxs{
-    padding-left: 10vw;
+.redsocial:hover {
+    background-color: #333; /* Fondo al hacer hover */
+    color: #fff; /* Color del icono al hacer hover */
 }
 
-.logos{
-    padding-left: 10vw;
+@media (min-width: 768px) {
+    .nosotrxs {
+        padding: 5vh 15vw;
+        margin-left: 15vw; /* Ajuste en versión escritorio para la navbar */
+    }
+}
+
+
+.titulosNosotrxs {
+    margin-bottom: 2rem;
+}
+
+.titulosNosotrxs h1 {
+    font-size: 6rem;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.titulosNosotrxs h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.bajadaNosotrxs {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logos img {
+    max-width: 150px;
+    max-height: 80px;
+    object-fit: contain;
 }
