@@ -28,13 +28,11 @@ import Terminos from "./components/terminos/Terminos.jsx";
 const loader = async () => ({
   urls: await getURLs({
     casos: "data/casos.json",
-    barriosCaba: "data/barriosCaba.json",
     departamentos: "data/departamentos.json",
     caba: "data/caba.json",
     laPlata: "data/laPlata.json",
     departamentosLaPlata: "data/departamentosLaPlata.json",
     dependenciasLaPlata: "data/dependenciasLaPlata.json",
-    dependenciasCaba: "data/dependenciasCaba.json",
     gatillo: "data/gatilloLaPlata.json",
   }),
 });
