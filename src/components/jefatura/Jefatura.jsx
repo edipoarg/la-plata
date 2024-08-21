@@ -1,29 +1,39 @@
-import Styles from "./Jefatura.module.css";
-
-const jefeGbierno = "Jorge Ma";
+import { useState, useEffect } from "react";
+import styles from "./Jefatura.module.css";
+import jerarquiaData from "../../data/jerarquia.json";
+import Icons from "../iconos/Icons";
 
 const Jefatura = () => {
+  const [jerarquia, setJerarquia] = useState([]);
+
+  useEffect(() => {
+    // Filtra las entradas que tienen un nombre válido
+    const jerarquiaFiltrada = jerarquiaData.filter(
+      (persona) => persona.Nombre && persona.Nombre.trim() !== "",
+    );
+    setJerarquia(jerarquiaFiltrada);
+  }, []);
+
   return (
-    <>
-      <section>
-        <h3>Jefatura</h3>
-        <section className={Styles.jefaturaGobierno}>
-          <h4 className={Styles.institution}>Jefatura de gobierno</h4>
-          <h4 className={Styles.autoridad}>{jefeGbierno}</h4>
-        </section>
-        <section>
-          <h3>Jefatura</h3>
-          <h4>Ministerio de seguridad</h4>
-          <h3>Diego Kravetz</h3>
-        </section>
-        <section>
-          <h3>Jefatura</h3>
-          <h4>JEFATURA DE LA POLICIA DE LA CIUDAD DE BUENOS AIRES</h4>
-          <h3>Gabriel Oska</h3>
-        </section>
-        Gabriel Oscar Berard
+    <div className={styles.container}>
+      <section className={styles.header}>
+        <h1 className={styles.title}>Jefatura de la Fuerza</h1>
+        <Icons icon="jefatura" className={styles.icon} iconSize="4rem" />
       </section>
-    </>
+      <ul className={styles.list}>
+        {jerarquia.map((persona, index) => (
+          <li key={index} className={styles.listItem}>
+            <h2 className={styles.nombre}>{persona.Nombre}</h2>
+            <p className={styles.grado}>
+              <strong></strong> {persona.autoridad}
+            </p>
+            <p className={styles.autoridad}>
+              <strong></strong> {persona.grado}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 

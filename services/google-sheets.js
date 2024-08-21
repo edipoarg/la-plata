@@ -77,15 +77,15 @@ export const fetchTSV = async (url = constants.tsvUrl) => {
     for (let p in r) {
       f[desc[p].replace("caso.", "")] = r[p];
     }
-    const [latitude, longitude] = f.coordenadas.split(",").map(parseFloat);
+    const [longitude, latitude] = f.coordenadas.split(",").map(parseFloat);
     const event = {
       id: parseInt(f.id),
       title: f.titulo,
       date: newDate(f.fecha),
       source: f.fuente,
       coords: {
-        latitude,
         longitude,
+        latitude,
       },
       provincia: f.provincia,
       tipoId: mapChomp(f["tipo.id"]),

@@ -11,47 +11,6 @@
   [
   {
     "type": "Feature",
-    "properties": {
-    "Contador": "d01",
-    "Dependencia": "Superintendencia",
-    "Organismo": "",
-    "Nombre": "SEGURIDAD REGIONAL CAPITAL",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "",
-    "grado": "COMISARIO GENERAL",
-    "autoridad": "REY ALEJANDRO NICOLAS",
-    "cargo": "SUPERINTENDENTE",
-    "AGRUP": "CDO",
-    "Teléfono": "",
-    "autoridad_anterior": ""
-    },
-    "geometry": {
-    "type": "Point",
-    "coordinates": [0,0]
-  }},
-  {
-    "type": "Feature",
-    "properties": {
-    "Contador": "d02",
-    "Dependencia": "",
-    "Organismo": "",
-    "Nombre": "P.D.S.LA PLATA",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "",
-    "grado": "COMISARIO MAYOR",
-    "autoridad": "GOMEZ SERGIO ARIEL",
-    "cargo": "JEFE",
-    "AGRUP": "CDO",
-    "Teléfono": "",
-    "autoridad_anterior": ""
-},    "geometry": {
-    "type": "Point",
-    "coordinates": [0,0]
-  }},
-  {
-    "type": "Feature",
     "properties": {    "Contador": "d03",
     "Dependencia": "",
     "Organismo": "",
@@ -71,44 +30,6 @@
       -34.90386810279678,
       -57.958248279799164
     ]
-  }},
-  {
-    "type": "Feature",
-    "properties": {    "Contador": "d04",
-    "Dependencia": "",
-    "Organismo": "",
-    "Nombre": "BASE Comando Patrulla LA PLATA NORTE",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "",
-    "grado": "COMISARIO INSPECTOR",
-    "autoridad": "BRUZZO CARLOS SANTIAGO",
-    "cargo": "JEFE",
-    "AGRUP": "CDO",
-    "Teléfono": "",
-    "autoridad_anterior": ""
-},    "geometry": {
-    "type": "Point",
-    "coordinates": [0,0]
-  }},
-  {
-    "type": "Feature",
-    "properties": {    "Contador": "d05",
-    "Dependencia": "",
-    "Organismo": "",
-    "Nombre": "BASE Comando Patrulla LA PLATA SUR",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "",
-    "grado": "",
-    "autoridad": "",
-    "cargo": "",
-    "AGRUP": "",
-    "Teléfono": "",
-    "autoridad_anterior": ""
-},    "geometry": {
-    "type": "Point",
-    "coordinates": [0,0]
   }},
   {
     "type": "Feature",
@@ -266,23 +187,26 @@
   }},
   {
     "type": "Feature",
-    "properties": {    "Contador": "d13",
-    "Dependencia": "Comisaría",
-    "Organismo": "Ministerio de Seguridad",
-    "Nombre": "7MA",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "",
-    "grado": "SUBCOMISARIO",
-    "autoridad": "MARTINEZ CRISTIAN ADRIAN",
-    "cargo": "JEFE",
-    "AGRUP": "CDO",
-    "Teléfono": "",
-    "autoridad_anterior": "COMISARIO SOLER JUAN SEBASTIAN"
-},    "geometry": {
-    "type": "Point",
-    "coordinates": "[-34.989132, -58.091457}"
-  }},
+    "properties": {
+      "Contador": "d13",
+      "Dependencia": "Comisaría",
+      "Organismo": "Ministerio de Seguridad",
+      "Nombre": "7MA",
+      "Partido": "La Plata",
+      "Barrio": "",
+      "Dirección": "",
+      "grado": "SUBCOMISARIO",
+      "autoridad": "MARTINEZ CRISTIAN ADRIAN",
+      "cargo": "JEFE",
+      "AGRUP": "CDO",
+      "Teléfono": "",
+      "autoridad_anterior": "COMISARIO SOLER JUAN SEBASTIAN"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-34.989132, -58.091457]
+    }
+  },
   {
     "type": "Feature",
     "properties": {    "Contador": "d14",
@@ -593,44 +517,6 @@
   }},
   {
     "type": "Feature",
-    "properties": {    "Contador": "d28",
-    "Dependencia": "",
-    "Organismo": "",
-    "Nombre": "SEC.LOGISTICA LA PLATA",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "",
-    "grado": "OFICIAL PRINCIPAL",
-    "autoridad": "MEYER MALENA SOLEDAD",
-    "cargo": "JEFE",
-    "AGRUP": "ADM",
-    "Teléfono": "",
-    "autoridad_anterior": ""
-},    "geometry": {
-    "type": "Point",
-    "coordinates": [0,0]
-  }},
-  {
-    "type": "Feature",
-    "properties": {    "Contador": "d29",
-    "Dependencia": "",
-    "Organismo": "",
-    "Nombre": "SEC.APOYO SEG.URBANA LA PLATA",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "",
-    "grado": "OFICIAL PRINCIPAL",
-    "autoridad": "FALLESEN JUAN IGNACIO",
-    "cargo": "JEFE",
-    "AGRUP": "CDO",
-    "Teléfono": "",
-    "autoridad_anterior": ""
-},    "geometry": {
-    "type": "Point",
-    "coordinates": [0,0]
-  }},
-  {
-    "type": "Feature",
     "properties": {    "Contador": "d30",
     "Dependencia": "Comisaría",
     "Organismo": "",
@@ -650,44 +536,6 @@
       -34.90346584008434,
       -57.95100261164728
     ]
-  }},
-  {
-    "type": "Feature",
-    "properties": {    "Contador": "d31",
-    "Dependencia": "",
-    "Organismo": "",
-    "Nombre": "SUBESTACIÓN POLICÍA DEPARTAMENTAL DE SEGURIDAD LA PLATA NORTE",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "483 y 186 colonia Urquiza, Melchor Romero, Provincia de Buenos Aires",
-    "grado": "COMISARIO INSPECTOR",
-    "autoridad": "BOGADO DANIEL AURELIANO",
-    "cargo": "JEFE",
-    "AGRUP": "CDO",
-    "Teléfono": "",
-    "autoridad_anterior": ""
-},    "geometry": {
-    "type": "Point",
-    "coordinates": [0,0]
-  }},
-  {
-    "type": "Feature",
-    "properties": {    "Contador": "d32",
-    "Dependencia": "",
-    "Organismo": "",
-    "Nombre": "SUBESTACION DE POLICIA DPTAL. DE SEGURIDAD LA PLATA SUR",
-    "Partido": "La Plata",
-    "Barrio": "",
-    "Dirección": "",
-    "grado": "COMISARIO INSPECTOR",
-    "autoridad": "KRANENBORG GUSTAVO MIGUEL",
-    "cargo": "JEFE",
-    "AGRUP": "CDO",
-    "Teléfono": "",
-    "autoridad_anterior": ""
-},    "geometry": {
-    "type": "Point",
-    "coordinates": [0,0]
   }},
   {
     "type": "Feature",
