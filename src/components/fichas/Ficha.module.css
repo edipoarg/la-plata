@@ -1,37 +1,56 @@
-
-.ficha{
+.ficha {
     height: 90vh;
 }
-.data{
+
+.data, .policeData {
     margin: auto;
-    margin-top: 10vh;
-    max-width: 60vw;
     padding: 5vh 10vw;
-    border: solid 2px green;
     background-color: #231c26;
     color: white;
-    height: 65vh;
+   
 }
 
-.policeData{
-    background-color: #231c26;
+.data {
+    margin-top: 10vh;
+    max-width: 60vw;
+    min-height: 30vh;
+    padding-top: 10vh;
+    border: solid 2px green;
+    box-shadow:     -5vh 6vh 15vh rgba(0, 0, 0, 0.4),
+     0px 4px 8px rgba(255, 255, 255, 0.1),
+    inset -5vh 6vh 15vh rgba(0, 0, 0, 0.4);
+}
+
+.policeData {
     color: green;
-    width: 15vw;
-    position: absolute;
-    left: 70vw;
-    top: 15vh;
-    height: 50vh;    
-    padding: 5vh 5vw;
+    margin-top: 2vh;
+    max-width: 60vw;
+    min-height: 20vh;
+    font-size: 1.5rem;
+    box-shadow: -5vh 6vh 15vh rgba(0, 0, 0, 0.4); 
 }
 
-.name{
+.name {
+    font-size: 3rem;
+    color: rgb(195, 130, 238);
+}
+
+.age {
     font-size: 1.5rem;
-    color: violet;
 }
 
 @media (min-width: 768px) {
-
-    .data{
+    .data {
         width: 30vw;
+        min-height: 70vh;
+    }
+
+    .policeData {
+        width: 15vw;
+        position: absolute;
+        left: 70vw;
+        top: 15vh;
+        height: 50vh;
+        padding: 5vh 5vw;
     }
 }
