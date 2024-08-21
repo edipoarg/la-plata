@@ -17,14 +17,12 @@ import styles from "../styles/Mapa.module.css";
 // GEOJSON IMPORTS
 import {
   departamentos,
-  caba,
   laPlata,
   departamentosLaPlata,
   gatillo,
 } from "../data/index";
 import {
   DepsSource,
-  CabaSource,
   LaPlataSource,
   DepartamentosLaPlataSource,
 } from "./Sources";
