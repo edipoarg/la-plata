@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Denuncia.module.css";
 import Airtable from "airtable";
+import Icons from "../iconos/Icons";
 import constants from "../../../services/constants";
 import {
   storage,
@@ -157,42 +158,51 @@ const Denuncia = () => {
     <>
       <div className={`${styles.spinnerContainer} ${styles.active}`}></div>
       <section className={styles.denunciaContainer}>
-        <section className={styles.denunciaTitles}>
-          <h2>Quiero Denunciar</h2>
-          <h4>Un hecho de violencia policial</h4>
+        <section className={styles.header}>
+          <Icons icon="denuncias" className={styles.icon} iconSize="4rem" />
+
+          <section className={styles.denunciaTitles}>
+            <h2 className={styles.title}>Quiero Denunciar</h2>
+            <h4 className={styles.subtitle}>Un hecho de violencia policial</h4>
+          </section>
         </section>
 
         <section className={styles.denunciaForm}>
-          <h3>I. LUGAR Y FECHA</h3>
-          <h4>¿Cuándo fue?</h4>
+          <h3 className={styles.part}>I. LUGAR Y FECHA</h3>
+          <h4 className={styles.question}>¿Cuándo fue?</h4>
           <input
+            className={styles.short}
             type="date"
             value={fecha}
             placeholder="Contanos cuándo fue"
             onChange={(e) => setFecha(e.target.value)}
           />
           <input
+            className={styles.short}
+
             type="time"
             value={hora}
             onChange={(e) => setHora(e.target.value)}
           />
-          <h4>¿Dónde fue?</h4>
+          <h4 className={styles.question}>¿Dónde fue?</h4>
           <input
+            className={styles.long}
+
             type="text"
             value={lugar}
             placeholder="Especificá el lugar"
             onChange={(e) => setLugar(e.target.value)}
           />
 
-          <h3>II. DESCRIPCIÓN DEL HECHO</h3>
-          <textarea
+          <h3 className={styles.part}>II. DESCRIPCIÓN DEL HECHO</h3>
+          <textarea className={styles.textBox}
             value={descripcion}
             placeholder="Describí el hecho"
             onChange={(e) => setDescripcion(e.target.value)}
           />
 
-          <h3>III. DATOS DEL AGRESOR</h3>
-          <select value={agresor} onChange={(e) => setAgresor(e.target.value)}>
+          <h3 className={styles.part}>III. DATOS DEL AGRESOR</h3>
+          <select className={styles.drop} value={agresor} onChange={(e) => setAgresor(e.target.value)}>
             <option value="">Selecciona una opción</option>
             <option value="Policía de la Ciudad">Policía de la Ciudad</option>
             <option value="(DOU) Operaciones Urbanas de Contención">
@@ -220,44 +230,54 @@ const Denuncia = () => {
             />
           )}
 
-          <h5>Si identificaste a los policías implicados</h5>
+          <h5 className={styles.question}>Si identificaste a los policías implicados</h5>
           <input
+            className={styles.long}
+
             type="text"
             value={identificacion}
             onChange={(e) => setIdentificacion(e.target.value)}
             placeholder="Podés consignarlo aquí"
           />
 
-          <h5>Si identificaste la patente de algún patrullero o moto</h5>
+          <h5 className={styles.question}>Si identificaste la patente de algún patrullero o moto</h5>
           <input
+            className={styles.long}
+
             type="text"
             value={patente}
             onChange={(e) => setPatente(e.target.value)}
             placeholder="Podés anotarla aquí"
           />
 
-          <h3>IV. INFORMACIÓN DE CONTACTO</h3>
+          <h3 className={styles.part}>IV. INFORMACIÓN DE CONTACTO</h3>
           <input
+            className={styles.long}
+
             type="text"
             placeholder="Nombre"
             value={nombre}
             onChange={(e) => setNombre(e.target.value)}
           />
-          <input
+          <input className={styles.long}
+
             type="text"
             placeholder="Teléfono"
             value={telefono}
             onChange={(e) => setTelefono(e.target.value)}
           />
           <input
+            className={styles.long}
+
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
 
-          <h3>V. ARCHIVO ADJUNTO</h3>
+          <h3 className={styles.part}>V. ARCHIVO ADJUNTO</h3>
           <input
+            className={styles.adjunto}
             type="file"
             multiple={true}
             onChange={(e) => {
@@ -265,35 +285,38 @@ const Denuncia = () => {
             }}
           />
 
-          <h3>Marque las opciones deseadas</h3>
-          <label>
-            <input
-              type="checkbox"
-              checked={visibilizar}
-              onChange={() => setVisibilizar(!visibilizar)}
-            />
-            Quiero visibilizar la situación de violencia institucional
-          </label>
-          <label>
-            <input
-              type="checkbox"
-              checked={denunciarLegalmente}
-              onChange={() => setDenunciarLegalmente(!denunciarLegalmente)}
-            />
-            Quiero denunciar legalmente
-          </label>
-
-          <div>
-            <label>Acepto los términos y condiciones</label>
-            <Link to="./terminos">Leer</Link>
+          <h3 className={styles.part}>Marque las opciones deseadas</h3>
+          <div className={styles.opciones}>
+            <label className={styles.label}>
+              <input className={styles.checkbox}
+                type="checkbox"
+                checked={visibilizar}
+                onChange={() => setVisibilizar(!visibilizar)}
+              />
+              <h3 className={styles.option}>Quiero visibilizar la situación de violencia institucional</h3>
+            </label>
+            <label className={styles.label}>
+              <input
+                className={styles.checkbox}
+                type="checkbox"
+                checked={denunciarLegalmente}
+                onChange={() => setDenunciarLegalmente(!denunciarLegalmente)}
+              />
+              <h3 className={styles.option}> Quiero denunciar legalmente</h3>
+            </label>
+          </div>
+          <div >
             <input
               type="checkbox"
               checked={aceptoTerminos}
               onChange={() => setAceptoTerminos(!aceptoTerminos)}
             />
+            <label className={styles.acepto}>Acepto los términos y condiciones</label>
+            <Link className={styles.link} to="./terminos"> Leer</Link>
+
           </div>
 
-          <button type="button" onClick={handleSubmit} disabled={isSending}>
+          <button className={styles.boton} type="button" onClick={handleSubmit} disabled={isSending}>
             Enviar
           </button>
         </section>
