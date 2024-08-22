@@ -34,16 +34,15 @@ const Nota14 = () => {
           internación, recibió el alta definitiva con la condición de continuar
           un tratamiento psicológico. En el expediente del fuero de Familia no
           hay constancias que acrediten el seguimiento. Dos años después del
-          episodio, con la idea de ser "policía como en las películas", Miño
-          llenó los formularios de ingreso. Según tres policías consultados por
-          El Mapa de la Policía, el examen psicológico incorpora 3 tests: en
-          primer lugar un test de identificación de imágenes, luego un examen
-          que consiste en representar una situación específica a través de un
-          dibujo (un hombre bajo la lluvia, por ejemplo), y finalmente una
-          entrevista con un/a profesional de la psicología. Ese año, Miño se
-          incorporó a la Policía. De esto se desprende que no tuvo mayores
-          inconvenientes para superarlos o que nadie advirtió que tenía esos
-          antecedentes.{" "}
+          episodio, con la idea de ser policía como en las películas, Miño llenó
+          los formularios de ingreso. Según tres policías consultados por El
+          Mapa de la Policía, el examen psicológico incorpora 3 tests: en primer
+          lugar un test de identificación de imágenes, luego un examen que
+          consiste en representar una situación específica a través de un dibujo
+          (un hombre bajo la lluvia, por ejemplo), y finalmente una entrevista
+          con un/a profesional de la psicología. Ese año, Miño se incorporó a la
+          Policía. De esto se desprende que no tuvo mayores inconvenientes para
+          superarlos o que nadie advirtió que tenía esos antecedentes.{" "}
         </h6>
         <h3 className={styles.subTitle}>
           Los hechos: matar a quemarropas, herir de gravedad y escapar
