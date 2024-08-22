@@ -4,465 +4,244 @@ const Nota14 = () => {
   return (
     <>
       <div className={styles.NotaContainer}>
-        <p>
-          En la fría madrugada del 29 agosto de 2019, una mujer travesti de 45
-          años, peruana, a la que llamaremos Roxana, conversa con un taxista
-          estacionado en doble fila al 1200 de la calle Pavón, en el barrio
-          porteño de Constitución. El hombre —pongámosle Oscar—, un cliente y
-          dealer habitué de la zona, la invita a dar una vuelta en el vehículo y
-          ella acepta, tentada también por el convite de un poco de cocaína.
-        </p>
-        <p>
-          Mientras terminan de ponerse de acuerdo, ven que se acerca un
-          Chevrolet Corsa. Como el taxi impide el paso, Roxana y Oscar apuran
-          los planes. Ella se sube en el asiento de atrás y el tachero arranca,
-          pero solo avanzan unos metros. Del Corsa se bajan tres hombres y dan
-          la voz de alto: son policías de la brigada de la Comisaría Comunal 1.
-        </p>
-        <p>
-          Luego de hacerlos descender, los revisan y encuentran 53 envoltorios
-          con un total de 6,10 gramos de cocaína: dos estaban en el asiento
-          trasero y el resto en el baúl.
-        </p>
-        <p>Pero esa es la versión de Roxana. </p>
-        <p>
-          El relato policial, y el que va a permitir iniciar un proceso judicial
-          que se extenderá durante dos años y acumulará fojas y fojas con
-          fotografías, declaraciones, oficios, trámites a embajadas, exámenes de
-          laboratorio y estudios médicos, es sutilmente distinto.
-        </p>
-        <p>
-          Los tres oficiales, que vestían de civil y se movían en un auto sin
-          identificar, declaran que esa noche conducían por calle Pavón cuando
-          se vieron obligados a detener la marcha porque un taxi estacionado en
-          doble fila les impedía la circulación. En ese momento, notan que junto
-          al vehículo “se encontraba parado al lado de la puerta del acompañante
-          un travesti el cual conversaba gesticulando, no llegando a observar si
-          realizaban un intercambio o pasamano”.{" "}
-        </p>
-        <p>
-          Agregan que “al percatarse el travestido” de su presencia,
-          “rápidamente aborda el vehículo en el asiento trasero”, lo que los
-          oficiales interpretan como “una actitud evasiva”. Entonces, proceden
-          con el operativo de requisa y posterior detención.{" "}
-        </p>
-        <p>
-          Con los hechos antes descriptos se arma la causa penal 44393/2019-0,
-          en la que se acusa a Roxana por tenencia de estupefacientes para
-          comercialización, que a falta de pruebas el fiscal Paulo Gaspani luego
-          acotará a tenencia.
-        </p>
-        <p>
-          En 2020 se añade otro hecho, ocurrido en la madrugada del 6 de febrero
-          de 2020 y que de nuevo tendrá sostén en el relato de los integrantes
-          de la brigada de la Comunal 1: un oficial de esa dependencia declara
-          el secuestro de 19 envoltorios con 2,09 gramos de cocaína, encontrados
-          en una persiana de un comercio de calle Pavón al 1200. Dice que Roxana
-          estaba a punto de entregarlo a un cartonero, pero que la operación se
-          interrumpió cuando la mujer se percató de la presencia policial.
-        </p>
-        <p>
-          Ella declarará otra cosa: que era otra compañera la que tenía esa
-          droga, que ella estaba en el bar “copeteando” y que no vio cuando
-          encontraron la droga. Dice también que el cartonero apareció de la
-          nada y que lo agarraron porque ya tenía un pedido de captura. Sobre el
-          policía que la detiene, cuenta: “Es un gordito de cabello paradito y
-          yo siento que me hostiga”.{" "}
-        </p>
-        <p>Ninguna de sus declaraciones será tenida en cuenta. </p>
-        <p>
-          En mayo de 2021, Roxana acepta los cargos que el fiscal le imputa por
-          esos dos hechos, para finalizar el proceso con un juicio abreviado y
-          una condena a un año de prisión domiciliaria. El beneficio se concede
-          por su grave estado de salud, es HIV positivo y padece insuficiencia
-          renal severa, y por el contexto de crisis sanitaria por la pandemia de
-          covid-19.
-        </p>
-        <p>
-          Hasta acá, la historia de Roxana no es novedosa. Y es que en
-          Argentina, entre 2002 y 2017 hasta la actualidad, la tasa de personas
-          alojadas en cárceles por infracción a la Ley de Drogas creció un 252%.
-          Y si miramos solo a la población trans, vemos que, entre 2015 y 2017,
-          su presencia en las prisiones se multiplicó. Además, si en 2015 solo
-          el 30% de esa población estaba presa por algún delito vinculado a
-          estupefacientes, en 2017 la proporción trepó al 70%
-        </p>
-        <p>
-          La información, elaborada en base a datos del Sistema Nacional de
-          Ejecución de la Pena (SNEEP), es parte de un informe del Centro de
-          Estudios Legales y Sociales (CELS), irónicamente titulado “La guerra
-          contra el narcotráfico”, que da cuenta de la ineficacia de un enfoque
-          que se concentra en perseguir a personas pobres, “cuya detención no
-          incide en la desarticulación del negocio ni de las redes de
-          ilegalidades que se propagan para su desarrollo”.{" "}
-        </p>
-        <p>
-          Y sigue: “Donde sí tiene consecuencias la guerra contra el
-          narcotráfico es en las vidas de miles de personas que son perseguidas
-          por la policía e ingresadas en el sistema penal”. Las trabajadoras
-          sexuales, que en CABA se mueven entre Constitución, Once y Palermo
-          conocen bien de qué se trata.{" "}
-        </p>
-        <h6 className={styles.span}>
-          En Argentina, de principios de los 2000 hasta la actualidad, la tasa
-          de personas alojadas en cárceles por infracción a la Ley de Drogas
-          creció un 252%. Y si miramos sólo a la población trans, vemos que
-          entre 2015 y 2017 su presencia en las prisiones se multiplicó.
+        <h6 className={styles.singularText}>
+          El 18 de abril de 2010, Nazareno Miño se encerró en su habitación
+          luego de una pelea con su madre y empezó a cortarse las muñecas con un
+          cuchillo. Tuvo que intervenir su padre, Julio César. Forcejearon hasta
+          que Julio se lastimó la mano. El joven tenía 24 años y era el mayor de
+          tres hermanos. Desde niño le había tocado cuidarlos, fundamentalmente
+          de su padre, que cuando tomaba alcohol golpeaba a su madre, Patricia.
+          Años después, frente a una psicóloga del Estado, Nazareno recordaría
+          que ella se desquitaba con él y eso le generaba rencor e impotencia.
+          Una vez escuchó a su papá regocijarse de cómo le pegaba a su mamá.
+          Automáticamente se le abalanzó encima para “golpearlo con furia”.
         </h6>
-        <h3 className={styles.subTile}>
-          “y yo no veo que eso le hagan a otra gente”
+        <h3 className={styles.span}>
+          {" "}
+          Al día siguiente del intento de suicidio, Patricia fue a la Comisaría
+          del Barrio Aeropuerto, en la periferia sur de La Plata, y rogó que
+          internaran a su hijo. Intervino el Tribunal de familia N°1 a cargo del
+          juez José Luis Bombelli, y le encomendó una entrevista con personal de
+          salud mental del Hospital Neuropsiquiátrico Alejandro Korn. Miño se
+          resistió a ir. Finalmente lo llevaron por la fuerza.
         </h3>
-        <p>
-          Corre el mes de octubre de 2023. La militancia progresista está
-          abocada en intentar frenar lo que será un triunfo arrollador del
-          ultraderechista Javier Milei, actual presidente de la Nación. Pero en
-          la sede de la Asociación de Mujeres Meretrices de la Argentina en
-          Acción por Nuestros Derechos (AMMAR), en el barrio porteño de
-          Constitución, se palpita otra cosa. Se trata del sindicato que
-          representa a las trabajadoras sexuales. Esa tarde soleada pero fresca
-          de primavera, la vieja casa chorizo pintada de rojo se convierte en
-          consultorio oftalmológico.
-        </p>
-        <p>
-          Cuando golpeo la puerta me recibe una chica trans. Le digo que busco a
-          Georgina Orellano, la secretaria general del sindicato, y me manda
-          para el fondo.{" "}
-        </p>
-        <p>
-          En la entrada hay un pequeño salón dispuesto como sala de espera:
-          sentadas en dos filas enfrentadas, una decena de mujeres travestis
-          trans charlan entre sí; otras están con la vista clavada en sus
-          teléfonos. En la habitación que sigue hay dos aparatos sofisticados y
-          brillantes. Las chicas apoyan la quijada y los técnicos colocan
-          distintos lentes, calibran manijas y rueditas, y anotan en una
-          planilla.
-        </p>
-        <p>
-          Al fondo, sentada en una mesa, con una minifalda ajustada, medias
-          transparentes y botas está Georgina, que recibe a las chicas en la
-          mesa de la cocina para indicarles cuándo tienen que volver para
-          retirar los anteojos. Cuando termina con una de ellas, aprovecho para
-          presentarme. Me dice que me siente frente a ella, que Yokhari Márquez
-          —la responsable del área social de AMMAR, con quien pacté la
-          entrevista— está un poco retrasada, pero que enseguida llega.{" "}
-        </p>
-        <p>
-          Mientras espero, me presenta a Natalí, una mujer trans colombiana de
-          casi 50 años. Natalí me cuenta que está súper ansiosa, a la espera de
-          la visita de su mamá, a quien no ve desde hace unos 8 años debido a
-          una causa judicial por drogas que le impide regularizar su situación
-          migratoria y salir del país. “Es lo único bueno que me va a pasar en
-          años”, dice.{" "}
-        </p>
-        <p>
-          Cuando llegó al país no encontró el paraíso. Dice que a pesar de la
-          Ley de Cupo Laboral travesti trans, la falta de documentación y de
-          estudios, hacen que la única salida sea la calle. “Nos ven riendo y
-          pensarán ‘qué fácil es esa vida’. Pero no es fácil. Tenemos que vivir,
-          primero que nada, el insulto de la gente. Porque pasan y nos gritan
-          ‘zorra’, nos escupen, nos tiran huevos, piedras; me han pegado, me han
-          robado, me han cortado”, describe Natalí. Pero además, el
-          hostigamiento policial. “Es todos los días lo mismo. Lo primero que
-          hago es maquillarme pensando en qué policía me voy a encontrar, porque
-          todos los días tienen turnos distintos. Ayer me peleé con una
-          femenina. Le dije: ‘No venga a ser tan prepotente, si usted me habla
-          educadamente yo me voy‘”.
-        </p>
-        <p>
-          Otras veces, los encara “aunque sé que no lo debo hacer, pero me saca
-          la rabia. Porque yo sé que la chica no está haciendo nada. Le digo al
-          policía, ‘¿le encontró algo que la comprometa?‘, y me dicen ‘no, pero
-          lo vimos en la cámara’. Y le digo, ‘la cámara no ha visto ni mierda,
-          ustedes por joder, por tocarla, por llamar la atención, para que la
-          gente diga: Ah, cómo trabaja‘”.
-        </p>
-        <p>
-          Yokhari Márquez Ortiz, dirigenta del área social del sindicato de
-          trabajadoras sexuales, coincide. Y explica que eso es lo que viven
-          todas, todos los días. “Si yo estoy en la calle y venís y me das un
-          abrazo, o me das la mano, la cámara dice que te estoy dando algo”,
-          ejemplifica en referencia al rol del Centro de Monitoreo Urbano (CMU)
-          de la Policía de la Ciudad. Y continúa: “Entonces vienen y me hacen la
-          detención arbitraria, me desnudan en la calle, me quitan lo poquito
-          que tengo. Porque para ellos no podemos tener más de veinte mil pesos
-          en la cartera. Entonces nos dicen: ‘¿de dónde sacó esa plata?’, y
-          tenemos que ir a la comisaría a rendir de dónde sacamos esa plata”.
-        </p>
-        “Eso nos hacen —subraya Yokhari— y yo no veo que eso le hagan a otra
-        gente. No puedo caminar libremente por mi barrio, donde vivo y ejerzo mi
-        trabajo. Cuando los policías hacen sus razias arbitrarias a las primeras
-        que van a raziar (sic) es a las chicas trabajadoras sexuales, al
-        colectivo migrante trans, a las personas en situación de calle, y a las
-        personas por portación de rostro y de vestimenta”, dice y caracteriza
-        con claridad la política criminal del Gobierno de la Ciudad. Agrega:
-        “Esa gente ves tú en las comisarías y en los patrulleros. No ves gente
-        que para ellos no son sospechosos. No ves gente blanca, con buena ropa,
-        con buen coche. Capaz esos son los que nos envenenan y abastecen de
-        droga a todo el país, pero como son de ese prototipo que para la Ciudad
-        y la policía encajan, no les dicen nada. Entonces, van hacia nosotras”.
-        <h6 className={styles.span}>
-          “Entonces vienen y me hacen la detención arbitraria, me desnudan en la
-          calle, me quitan lo poquito que tengo. Porque para ellos no podemos
-          tener más de veinte mil pesos en la cartera. Entonces nos dicen: ‘¿de
-          dónde sacó esa plata?’, y tenemos que ir a la comisaría a rendir de
-          dónde sacamos”
+        <h6 className={styles.singularText}>
+          Nazareno ingresó al consultorio con la cabeza gacha y llorando. Sólo
+          levantó la mirada para dirigirse a su madre: —¡No te hagas la madre!
+          ¡Nunca lo fuiste! ¡No quiero joder más a nadie! — y manifestó que en
+          su casa nadie lo escuchaba. Patricia se defendió: —¡No sale, no come,
+          no habla con nadie y además me atacó! Luego de 48 horas de
+          internación, recibió el alta definitiva con la condición de continuar
+          un tratamiento psicológico. En el expediente del fuero de Familia no
+          hay constancias que acrediten el seguimiento. Dos años después del
+          episodio, con la idea de ser "policía como en las películas", Miño
+          llenó los formularios de ingreso. Según tres policías consultados por
+          El Mapa de la Policía, el examen psicológico incorpora 3 tests: en
+          primer lugar un test de identificación de imágenes, luego un examen
+          que consiste en representar una situación específica a través de un
+          dibujo (un hombre bajo la lluvia, por ejemplo), y finalmente una
+          entrevista con un/a profesional de la psicología. Ese año, Miño se
+          incorporó a la Policía. De esto se desprende que no tuvo mayores
+          inconvenientes para superarlos o que nadie advirtió que tenía esos
+          antecedentes.{" "}
         </h6>
-        <h3 className={styles.subTile}>monitoreo y armado de causas penales</h3>
-        <p>
-          Pablo Ibarra trabaja en la Secretaría de Violencia Institucional del
-          Ministerio Público de la Defensa de la Ciudad Autónoma de Buenos
-          Aires. Dice: “Si sos trans y estás en Constitución, ya está.
-          Básicamente, estás condenada a recibir en algún momento de tu jornada,
-          en algún momento de la semana, algún tipo de hostigamiento policial”.
-        </p>
-        <p>
-          A partir de su testimonio es posible conocer detalles del modo
-          particular en que se da la persecución a manos de la Policía de la
-          Ciudad. Como había señalado Yokhari de AMMAR, el inicio de los casos
-          que involucran a personas trans, trabajadoras sexuales, se dan a
-          partir de la intervención del Centro de Monitoreo Urbano.
-        </p>
-        <p>
-          “Monitoreo Urbano avisa al policía (la mayoría de las veces,
-          refiriéndose a un travestido), y el policía va, detecta y revisa medio
-          arbitrariamente”. La persona “puede tener una bolsita, puede no tener
-          una bolsita, puede tener plata, puede no tener plata, pero siempre se
-          come algún tipo de secuencia”, indica. Para él, eso da cuenta de que
-          la discriminación estereotipada previa es transversal: “Hay prejuicio
-          por parte de la policía de calle, de los agentes del CMU y —-también—
-          de las propias fiscalías”.
-        </p>
-        <p>
-          La comisaría que tiene jurisdicción en Constitución y que actúa en la
-          mayoría de estos casos es la Vecinal 1C. Algo característico de esa
-          dependencia, y que AMMAR denuncia desde hace años, es la constante
-          rotación de sus autoridades, lo que obstaculiza el trabajo de
-          concientización que llevan adelante.
-          <p>
-            En relación a denuncias por la intervención de las brigadas (como
-            las que actuaron en la causa de Roxana), Ibarra dice que no son la
-            mayoría de los casos que llegan fiscalía pero lo que se observa es
-            la brutalidad: las trabajadoras sexuales han consignado desde
-            requisas vejatorias hasta robo de pertenencias, y también, que les
-            plantan drogas.{" "}
-          </p>
-          <p>
-            El abogado explica que esto se vincula al marco gris de actuación en
-            el que se maneja la policía ya que si bien intervienen por orden
-            judicial y, a priori, no tienen asignadas tareas de prevención, el
-            estado policial, que habilita a todos los agentes de la Policía de
-            la Ciudad a intervenir cuando están fuera de servicio, ampara esas
-            actuaciones.{" "}
-          </p>
-          <p>
-            Al cierre de esta investigación, se conoció que a partir de una
-            denuncia de AMMAR -que acompañó la cartera de Ibarra-, la fiscalía
-            especializada en Violencia Institucional de Ciudad ordenó el
-            traslado preventivo de los agentes de la comisaría 1C, Rocío
-            Maldonado y Orlando Silvero, por distintos hechos de maltrato físico
-            y psicológico contra trabajadoras sexuales travesti trans. La
-            secretaría también había pedido que una serie de hechos similares
-            ocurridos en Constitución se investigaran en una sola causa, por su
-            carácter sistemático.
-          </p>
-          <p></p>Las autoras Laura Malacalza y Sofía Caravelos, en un artículo
-          que se menciona en detalle más adelante, añadieron otra constante
-          clave en estos casos que es moneda corriente en la Ciudad de Buenos
-          Aires: la intervención de los grupos de vecinos en alerta cuyas
-          denuncias sirven como puntapié de muchas causas y de la construcción
-          de estigmas sociales. Cada tanto, además, esos relatos son tomados
-          como insumo para el show televisivo y los canales montan guardias para
-          mostrar la marginalidad.
-        </p>
-        <h6 className={styles.span}>
-          La comisaría que tiene jurisdicción en Constitución y que actúa en la
-          mayoría de estos casos es la Vecinal 1C. Algo característico de esa
-          dependencia, y que AMMAR denuncia desde hace años, es la constante
-          rotación de sus autoridades, lo que obstaculiza el trabajo de
-          concientización que llevan adelante.
-        </h6>
-        <h3 className={styles.subTile}>
-          cambios legales sin políticas inclusivas
+        <h3 className={styles.subTitle}>
+          Los hechos: matar a quemarropas, herir de gravedad y escapar
         </h3>
-        <p>
-          Una de las pocas personas que en el ámbito judicial recogió el guante
-          de lo que hace años denuncian las organizaciones de Derechos Humanos
-          como AMMAR es Karina Andrade, a cargo del Juzgado en lo Penal
-          Contravencional y de Faltas n° 15. A la magistrada le tocó intervenir
-          para evaluar el “acuerdo de avenimiento” (juicio abreviado) al que
-          había llegado Roxana con el fiscal Paulo Gaspani y en el que había
-          aceptado una condena por dos hechos de tenencia de estupefacientes.
-        </p>
-        <p>
-          Luego de analizar lo actuado, conocer a la acusada y preguntarle sobre
-          sus condiciones de vida, elaboró un extenso escrito en el que decidió
-          rechazar el acuerdo. Para la jueza, la causa era resultado más de los
-          prejuicios de los agentes que intervinieron. “La acusada se presentó
-          para manifestar que aceptaba su condena, y renunciaba a su derecho de
-          ir a juicio, en un proceso penal que no tuvo hacia ella un trato
-          digno, pese a que lleva aproximadamente dos años de duración. Frente a
-          esta situación, resulta cuestionable que se encuentre en una posición
-          de igualdad y libertad para ejercer sus derechos o decir cuanto
-          quisiera o pensara”, explicó.
-        </p>
-        <p>
-          Entre otros, Andrade citó un informe de la CIDH (Comisión
-          Interamericana de Derechos Humanos), que afirma que las personas trans
-          enfrentan “pobreza, exclusión social y altas tasas de inaccesibilidad
-          a la vivienda”, lo que las presiona a trabajar en “economías
-          informales altamente criminalizadas, como el trabajo sexual o el sexo
-          por supervivencia”.{" "}
-        </p>
-        <p>
-          Al respecto, las estadísticas sobre la población trans en Buenos Aires
-          son elocuentes. “La revolución de las mariposas”, un informe elaborado
-          en 2017 en base a una encuesta en barrios de CABA, revela que solo una
-          pequeña porción de las mujeres trans accede a un trabajo formal (9%).
-          Las que viven de trabajos precarios e informales son el 15% y las que
-          acceden a alguna ayuda estatal, el 3,6%. “Para el resto, más del 70%,
-          la prostitución sigue siendo la principal fuente de ingresos”, señala
-          el estudio. A lo que se suma la persecución policial y penal. “Las
-          mujeres trans son perfiladas por la policía como peligrosas,
-          haciéndolas más vulnerables al abuso policial, a la criminalización y
-          a ser encarceladas”, indicó la jueza. Además cuestionó que en los dos
-          años de proceso judicial no se respetó la identidad autopercibida de
-          la acusada, tal como obliga la ley de Identidad de Género (26.743)
-          sancionada en 2012. Y puso en duda la calificación legal de tenencia
-          de estupefacientes, así como la legalidad de todo el procedimiento
-          policial que inició la causa: estar conversando con otra persona que
-          está dentro de un automóvil o abordar un taxi no son motivos fundados
-          para iniciar un proceso de detención y requisa por la presunta
-          comisión de un delito. En esa línea, también desestimó la existencia
-          de una “actitud evasiva” por parte de Roxana y el taxista, al
-          considerar que los policías estaban vestidos de civil, en un auto sin
-          identificar, por lo que difícilmente podían ser reconocidos como
-          miembros de una fuerza de seguridad.
-        </p>
-        <p>
-          En los últimos años hubo cambios legales que impactaron en la
-          población trans migrante. Al respecto, Laurana Malacalza (actual
-          subsecretaria de Políticas contra las Violencias por Razones de Género
-          bonaerense) y Sofía Caravelos, publicaron en 2019 un artículo en la
-          Revista Cuestiones Criminales (UNQUI). Allí plantearon una hipótesis
-          centrada en el territorio bonaerense pero que puede extenderse a la
-          CABA: si bien la derogación de los códigos contravencionales, junto a
-          la sanción de la Ley de Identidad de Género (2012) y la de Migraciones
-          (2004), tallaron la imagen de un país más amable para recibir a este
-          colectivo, distintos factores se conjugaron para que esto no se
-          traduzca en mayor acceso a derechos.{" "}
-        </p>
-        <p>
-          En ese marco —analizan las autoras— fue clave la desfederalización de
-          la Ley de Drogas, o sea, la transferencia de delitos menores como
-          tenencia o menudeo del ámbito federal al provincial. Lo explican así:
-          “La combinación de cambios legales, sin acompañamiento de políticas
-          públicas inclusivas y la persistencia de estereotipos estigmatizantes
-          y discriminatorios ha derivado en una reformulación de las lógicas y
-          prácticas de criminalización hacia las mujeres trans y travestis. Sus
-          cuerpos son concebidos como objeto de transacciones comerciales, tanto
-          de tipo sexual como vinculada a la venta de estupefacientes,
-          dimensiones que retornan hacia el colectivo trans y travesti a través
-          de un recrudecimiento de los mecanismos represivos y su virtual
-          expulsión del espacio público”. Y siguen: “En este sentido, las
-          figuras legales que se les aplican se trasladan desde el ámbito
-          contravencional al penal. Advertimos entonces la imputación de delitos
-          cada vez más graves, con penas cada vez más altas, en un contexto de
-          uso indiscriminado de la prisión preventiva en la provincia de Buenos
-          Aires. Esto sin dudas, explica el creciente aumento de personas trans
-          y travestis encarceladas”.
-        </p>
-        <p>
-          En Ciudad de Buenos Aires, la desfederalización se aplicó, a pesar de
-          las advertencias de las organizaciones, en enero de 2019 (en Provincia
-          fue en 2004). En el ya citado informe del CELS sobre drogas se señalan
-          los primeros efectos de la implementación: un aumento abrupto de
-          causas por Drogas en la Justicia local (una suba del 54% en solo 9
-          meses) y un recrudecimiento de la persecución a los consumidores (que
-          representaron el 72% del total de las causas).
-        </p>
-        <p>
-          Ocho de cada diez de esas causas “fueron iniciadas por la policía de
-          la Ciudad” y, del total, el 74% fueron archivadas porque prevaleció el
-          criterio de que es inconstitucional penar el consumo. “Es decir que la
-          actividad de la Policía de la Ciudad se centró en casos irrelevantes
-          que luego fueron desechados por el sistema judicial. Pero esta
-          política de persecución callejera opera como una medida de control
-          poblacional que perjudica a grupos específicos”, entre ellos, el trans
-          migrante.{" "}
-        </p>
-        <h6 className={styles.span}>
-          La combinación de cambios legales, sin acompañamiento de políticas
-          públicas inclusivas y la persistencia de estereotipos estigmatizantes
-          y discriminatorios ha derivado en una reformulación de las lógicas y
-          prácticas de criminalización hacia las mujeres trans y travestis.
+        <h6 className={styles.singularText}>
+          El 28 de junio de 2023, Nazareno Miño ya tenía 37 años y era efectivo
+          de la Dirección de Control Tecnológico Operativo de la policía
+          provincial. Esa noche, cerca de las nueve, ingresó al terreno de las
+          hermanas Victoria y Castorina Díaz, en la localidad platense de Arturo
+          Seguí. La casa permanecía oscura y silenciosa. Miño llevaba puesto el
+          uniforme y la 9mm reglamentaria cuando empezó a discutir con Victoria,
+          su ex pareja. Ella vivía en el fondo con los dos hijos que tenían en
+          común. —¡Vamos a arreglar las cosas ahora, todo esto es por tu culpa!
+          ¿Vos sabes todo el quilombo que armaste ahora? —le gritó Miño a
+          Victoria. Su expareja le pidió a gritos que se calmara, según el
+          relato que Ezequiel haría unos meses más tarde en el expediente
+          judicial. Ezequiel era el nuevo novio de Victoria. Ante los
+          funcionarios judiciales, repitió lo que había escuchado desde la casa
+          de adelante -que está a diez metros de distancia, aproximadamente-,
+          donde permaneció mientras duró el ataque. Lo acompañaban Castorina, la
+          hermana de Victoria, y Alcides, el esposo de Castorina. “Vicky me
+          contó que una vez fue a buscar a los hijos a la casa de él, y éste la
+          agarró del cuello. A Sebastian le molestaba que Vicky esté en pareja,
+          la trataba de puta” contó durante la reconstrucción judicial. Miño le
+          decía a Victoria que “lo había arruinado todo” producto de haber
+          iniciado una nueva relación. —¡Tu hermana es una hija de puta!— le
+          reprochó Miño -refiriéndose a Castorina- según la declaración de una
+          vecina, que también escuchó la pelea. Le disparó tres veces: dos a la
+          altura de la cabeza y una en la pierna. Cuando Castorina escuchó las
+          detonaciones cruzó el patio corriendo en dirección a la casa de su
+          hermana, con la ilusión de calmarlo: —Sebastian abrime, ¡¿qué está
+          pasando ahí adentro?! Miño abrió la puerta, la golpeó y le propinó un
+          disparo. —¡Lo tengo que matar!— gritó Alcides, antes de seguir a su
+          esposa Castorina y cruzar el patio con una maza en la mano. Miño lo
+          esperaba con la puerta cerrada. Cuando Alcides la abrió, lo recibió
+          con otro balazo. En total gatilló cinco veces, según la autopsia de
+          las hermanas y el parte médico de Alcides. La tercera víctima quedó
+          herida de gravedad en la cabeza. Unas semanas después, testificaría
+          que no recordaba nada de ese momento. —¿Alguien más va a venir? ¿Quién
+          más falta?— vociferaba Miño. La madre de sus hijos y su ex cuñada
+          murieron en el acto. Miño vió que los niños, de 7 y 10 años, corrían
+          entre llantos a la casa de la vecina que los llamaba con desesperación
+          y les gritó: —¡Ustedes se van conmigo! Miño se escapó con ellos y 20
+          minutos después se entregó en la Comisaría N°12 de Villa Elisa. “Me
+          mandé una cagada, no doy más”, le dijo al agente que lo atendió. El
+          oficial revisó a los nenes y constató que estuvieran ilesos. Quedó
+          detenido con prisión preventiva en la Alcaidía Departamental La Plata
+          Roberto Pettinato. Tres meses y una semana más tarde, durante la
+          pericia psicológica del 5 de octubre de 2023, dijo no recordar nada de
+          lo que había pasado. En principio se mostró “hermético”, con la cabeza
+          gacha y evadiendo la mirada, según consignó el informe de la psicóloga
+          Verónica Silvia Acevedo. Finalmente, contó el episodio de la
+          internación en el hospital neuropsiquiátrico. Entonces, dijo que había
+          durado dos semanas y no 48 horas, tal como figura en el expediente
+          judicial. Respecto de su ingreso a la fuerza, aseguró que había sido
+          en 2013 y no en 2012, como indica su legajo. La perito psicóloga
+          concluyó que en Miño predominaba un esfuerzo por “sepultar” ciertas
+          vivencias, ideas y sentimientos, como mecanismo de defensa.
         </h6>
-        <h3 className={styles.subTile}> no todas son soldaditxs narco </h3>
-        <p>
-          A principios de marzo de 2024, Georgina Orellano publicó un posteo en
-          sus redes sociales desde la esquina en la que trabaja desde hace 17
-          años. “En menos de dos meses (de gobierno de Javier Milei), dos
-          compañeras trans perdieron su vida en medio de peleas callejeras,
-          conflictos por territorios, por dinero, por sobrevivir, por intentar
-          ganarse el mango para pagar un techo en una pieza de un conventillo,
-          por intentar ayudar a su familia, por intentar sostener las tres
-          comidas diarias”. Hacía referencia a lo que ocurre alrededor del
-          “pasamano”, la venta de estupefacientes a baja escala, o incluso del
-          comercio de “mentiritas”: Geniol picado, o algún otro analgésico de
-          bajo costo, que simula ser cocaína. “El costo de vida se encareció
-          tanto que salir a trabajar, pagar transporte, gastar en morfi y ganar
-          una miseria ya no es conveniente, y frente a esas injusticias sociales
-          aparecen estrategias de supervivencia que no son nuevas en los barrios
-          pero que en los últimos meses son casi la única salida”. Se refirió,
-          entonces, de forma crítica a los análisis rápidos que enseguida ponen
-          etiquetas y hablan de quienes echan mano del rebusque como “soldaditos
-          de los narcos”.
-        </p>
-        <p>
-          El posteo de Orellano coincide con una demanda histórica impulsada por
-          las organizaciones sociales que exige que la investigación penal
-          escale en la cadena de responsabilidades y no se quede en el simple
-          menudeo. En 2019, OTrans confeccionó un informe sobre la persecución
-          que sufre el colectivo trans migrante, que fue retomado por el fiscal
-          Franco Picardi, titular de la Fiscalía Nacional en lo Criminal y
-          Correccional Federal N° 5, para fundamentar al menos dos decisiones
-          judiciales, en el marco de causas por menudeo. En ambas, el fiscal
-          pidió la absolución de las imputadas, trans y migrantes, por su
-          situación de vulnerabilidad.{" "}
-        </p>
-        <p>
-          “Mientras solo el 3% de la población total privada de la libertad en
-          el Servicio Penitenciario Bonaerense (SPB) es extranjera, la población
-          de mujeres trans y travestis extranjeras representa el 85% de la
-          población total de mujeres trans y travestis privadas de su libertad”,
-          precisaba el informe. Picardi complementaba: “En el caso de las
-          mujeres trans y travestis migrantes privadas de libertad en el SPB, el
-          100% está presa por estupefacientes”.{" "}
-        </p>
-        <p>
-          Claudia Vázquez Haro, presidenta de OTrans, es categórica: “Las
-          travestis no son narcotraficantes, son excluidas”. Y añade un eje
-          clave: la edad. “Son personas a las que les plantan drogas, o son
-          compañeras que la mayoría supera los 30 años, cuando como promedio las
-          travestis no superamos los 35 años de edad por muertes con causas
-          evitables”. Vázquez Haro dice: “Imaginate una travesti mayor de 25
-          años, con problemas de consumo problemático, enfermedades crónicas,
-          situación de prostitución, que se ve obligada a sobrevivir drogada
-          para tener sexo con hombres o varios hombres en una noche, o en su
-          defecto, es la que tiene que vender al menudeo porque al otro día no
-          tiene para comer”.
-        </p>
-        <p>
-          En suma, “todas van presas y nunca va preso el narcotraficante que
-          tiene íntima relación con un sector del poder político, con un sector
-          del poder judicial y de la policía”. En el contexto actual, bajo la
-          gestión de Javier Milei, dice que la situación se ha complejizado.
-          “Aumentan las detenciones arbitrarias, aumentan los malos tratos, que
-          en CABA siempre han sido un problema, y aumenta la violencia en la vía
-          pública”. En ese marco, el cierre del INADI y la resolución de la
-          ministra de Seguridad de la Nación, Patricia Bullrich, de prohibir a
-          las fuerzas de Seguridad el uso del lenguaje inclusivo “son elementos
-          que dan cuenta de que estamos en un momento de mucha preocupación”.
-        </p>
+        <h3 className={styles.span}>
+          —Colapsé. Sólo veo el arma en mi mano— dijo durante la sesión. En el
+          legajo policial de Miño no hay registro de la internación en el
+          hospital neuropsiquiátrico Alejandro Korn, dos años antes de
+          incorporarse a la Fuerza. La información, que figuraba en el
+          expediente abierto en el Tribunal de familia N°1 luego del intento de
+          suicidio, nunca se entrecruzó con su solicitud de ingreso. Una
+          desinteligencia fatal.
+        </h3>
+        <h6 className={styles.singularText}>
+          Sin embargo, de haberse relevado el antecedente psiquiátrico, ¿hubiera
+          sido excluyente para que Miño se alistara en la fuerza de seguridad?
+          —No, no te los piden. Sólo te piden los antecedentes penales— responde
+          a El Mapa de la Policía uno de los agentes de la fuerza provincial
+          consultados. El Mapa de la policía desconoce si la institución
+          policial estaba al tanto de los antecedentes psiquiátricos de Miño. En
+          todo caso, nos preguntamos si aún a sabiendas de esa información,
+          permitieron su ingreso, permanencia, y portación del arma
+          reglamentaria. Lo que sí aparece en el legajo policial de Miño
+          -aportado por el Ministerio de Seguridad en la causa judicial- son los
+          ocho pedidos de licencias que le fueron otorgadas. Cinco son por
+          enfermedad. Pero las otras tres responden a la categoría F41 (“Otros
+          trastornos de ansiedad”) que pueden ser “trastornos neuróticos,
+          trastornos relacionados con el stress y trastornos somatomorfos”,
+          según la “Clasificación Internacional de Enfermedades 10° CIE 10°
+          REVISIÓN” de la Organización Mundial de la Salud. Esas tres licencias,
+          sin embargo, tampoco alcanzaron para activar los anticuerpos de la
+          institución: Miño siguió portando su arma regular. En su foja
+          profesional, además de los trastornos relacionados con su salud
+          mental, existieron otras señales que nadie atendió. La acusación de un
+          vecino, en mayo de 2017, por agresiones y amenazas, o la denuncia del
+          4 de febrero de 2020 por violencia de género realizada por la propia
+          Victoria. Respecto de la segunda, el Juzgado especializado N°3 a cargo
+          de Graciela Inés Barcos se limitó a emitir una notificación a Miño de
+          “cese de hostigamiento”. No pidió otras medidas cautelares, como por
+          ejemplo, la “perimetral”. Si bien esa clase de estrategias no siempre
+          impiden que la violencia ocurra -los acusados suelen romperlas-, al
+          menos comprometen una acción estatal y no depositan la responsabilidad
+          en la “esfera privada”: dejar al lobo a cargo del corral. ¿Iba Miño a
+          modificar su conducta a partir de una notificación de “cese de
+          hostigamiento”? ¿Era Victoria, entonces, quien debía resguardarse de
+          la agresión?
+        </h6>
+        <h3 className={styles.subTitle}>
+          Los femicidios cometidos por agentes policiales: ¿son casos de
+          violencia institucional?
+        </h3>
+        <h6 className={styles.singularText}>
+          Dos días después del doble femicidio de Victoria y Castorina, la causa
+          judicial pasó de la fiscalía de turno de Ana Medina, a una
+          especializada en Violencia Familiar y de Género, a cargo de Mariana
+          Ruffino. La fiscal pidió medidas usuales para esos casos: el historial
+          de sumarios iniciados contra Miño, el historial de medidas de
+          protección anteriores al femicidio, las internaciones anteriores del
+          agresor, el historial de licencias médicas, su legajo policial e
+          información sobre el alta y la baja del arma reglamentaria. El 3 de
+          septiembre de 2023, la abogada Sofía Caravelos y el abogado Matías
+          Busso se presentaron en la investigación como representantes de las
+          hijas de Castorina Díaz. Aceptados como querellantes en la causa,
+          querían saber por qué el caso no había sido incorporado al Registro de
+          Violencia Institucional (R.I.V) del Ministerio Público Fiscal. —Miño
+          no cometió el femicidio (estando) en funciones— respondió una empleada
+          judicial. La fiscal Ruffino no participó de la conversación. Idéntica
+          respuesta obtuvo la Comisión Provincial por la Memoria (CPM), que
+          históricamente se presenta en casos de violencia institucional por su
+          legitimación como Mecanismo Local de Prevención de la Tortura e
+          integrante del Sistema Nacional de Prevención de la Tortura. La
+          denuncia tomada en la Comisaría N°12 de Villa Elisa, cuando Miño se
+          entregó tras el doble crimen, reza que estaba de “franco de servicio”
+          y que llevaba puesto su uniforme. Los abogados de la familia pidieron
+          varias veces el cambio de carátula incorporando el agravante previsto
+          en el Código Penal, dispuesto para aquellos casos en que los femicidas
+          pertenezcan a esa fuerza: “se impondrá reclusión perpetua o prisión
+          perpetua, pudiendo aplicarse lo dispuesto en el artículo 52, al que
+          matare: Abusando de su función o cargo, cuando fuere miembro
+          integrante de las fuerzas de seguridad, policiales o del servicio
+          penitenciario”, dice el artículo 80, en su inciso 9. En su momento, la
+          fiscal Ana María Medina a cargo de la Fiscalía de turno que tomó la
+          investigación aclaró que la fiscal especializada tendría competencias
+          para modificar el criterio de la investigación en caso de considerarlo
+          un hecho de violencia institucional. Sin embargo, Mariana Ruffino,
+          responsable de la Fiscalía Especializada en Violencia Familiar y de
+          Género que finalmente siguió el caso, decidió no hacerlo. Además del
+          cambio de carátula, la querella presentó dos escritos pidiendo
+          información esencial. En el primero, solicitaba que la Auditoría
+          General de Asuntos Internos del Ministerio de Seguridad enviara los
+          sumarios digitalizados completos iniciados por denuncias de violencia
+          de género; que la Dirección de Sanidad del mismo organismo informara
+          sobre la intervención llevada a cabo a partir de la internación de
+          Miño y de sus licencias vinculadas a la salud mental; y por último,
+          que la Superintendencia de Institutos de Formación Policial de ese
+          Ministerio detallara los “procedimientos periódicos de evaluación para
+          la portación de arma a los que haya sido sometido el Sr. Miño
+          Nazareno”. Las dependencias señaladas no respondieron, alegando que el
+          pedido era demasiado general y que no tenían competencia sobre algunos
+          de esos temas. Tampoco lo hicieron luego de la segunda presentación,
+          idéntica a la anterior pero dirigida a cada oficina en forma
+          particular. “El Departamento Judicial de La Plata tiene el número más
+          alto de homicidios dolosos en relación a otros partidos de la
+          provincia de Buenos Aires, y en particular, de femicidios”, destaca la
+          abogada querellante Sofía Caravelos. Se refiere a las cifras del
+          informe de Femicidios 2023, presentado por el Ministerio Público
+          Fiscal el 8 de marzo. “Es un dato que hay que leer a la luz de otras
+          cosas. Existe una justicia completamente colapsada, con más de un
+          millón de causas iniciadas por año”, agrega Caravelos. En efecto, el
+          mismo informe alerta que durante 2023 se iniciaron, en la provincia de
+          Buenos Aires, 1.060.602 procesos penales, de los cuales el 13,4%
+          corresponden a casos de violencia familiar y/o de género. A su vez
+          asegura que el departamento judicial La Plata concentra el número más
+          alto de femicidios de toda la Provincia, alcanzando un porcentaje de
+          13,7%. Paralelamente, se corresponde con el quinto departamento con
+          mayor tasa de femicidios en todo el territorio bonaerense, 1,78. “Este
+          contexto de hiperinflación de las conflictividades y de su
+          judicialización, de la relación histórica entre el Ministerio Público
+          y la policía y la pertenencia social del imputado y la víctima, hacen
+          que sólo se repare en lo punitivo y no en desentrañar otro elemento
+          que permita pensar en términos de políticas públicas de otro tipo”,
+          agrega la letrada. En suma: la justicia actúa desde una lógica
+          racista, punitivista, machista y clasista.{" "}
+        </h6>
+        <h3 className={styles.span}>
+          “La policía bonaerense no fue apartada de la investigación de esta
+          causa. Se trata de pruebas y testimonios recabados por esa institución
+          que llegan a la Fiscalía como información ya procesada. No existe, en
+          este sentido, una policía judicial auxiliar que pueda abordar este
+          tipo de casos”, se queja Matías Busso, otro abogado de la familia
+          Díaz.{" "}
+        </h3>
+        <h6 className={styles.singularText}>
+          “Nosotros insistimos en la recalificación de la causa para que queden
+          claras las responsabilidades no sólo del imputado, sino también del
+          Estado. El Poder Judicial penal no se ocupa de observar cómo la
+          sistematicidad de los casos puede aportar datos para la producción de
+          políticas públicas que eviten, justamente, que esto vuelva a ocurrir”.
+          ¿Cómo contiene la institución a policías que atraviesan episodios de
+          conmoción psicológica como el de Miño? ¿Cuántas alarmas deben sonar al
+          interior de la institución para que se le impida llevar un arma en la
+          cintura? En el caso de Miño fueron muchas: ninguna funcionó.
+        </h6>
       </div>
     </>
   );
