@@ -204,13 +204,6 @@ const Denuncia = () => {
           <h3 className={styles.part}>III. DATOS DEL AGRESOR</h3>
           <select className={styles.drop} value={agresor} onChange={(e) => setAgresor(e.target.value)}>
             <option value="">Selecciona una opción</option>
-            <option value="Policía de la Ciudad">Policía de la Ciudad</option>
-            <option value="(DOU) Operaciones Urbanas de Contención">
-              (DOU) Operaciones Urbanas de Contención
-            </option>
-            <option value="Agentes de Prevención CABA">
-              Agentes de Prevención CABA
-            </option>
             <option value="Espacio Público">Espacio Público</option>
             <option value="Policía Federal">Policía Federal</option>
             <option value="Prefectura">Prefectura</option>
